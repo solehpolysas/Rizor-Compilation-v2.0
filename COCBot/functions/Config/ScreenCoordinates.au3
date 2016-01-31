@@ -23,7 +23,11 @@ Global $aIsMaintenance[4]    = [350, 271 + $midOffsetY, 0x33B5E5, 20] ; COC mess
 Global $aReloadButton[4]     = [443, 408 + $midOffsetY, 0x282828, 10] ; Reload Coc Button after Out of Sync, 860x780
 
 Global $aAttackButton[2]     = [ 60, 614 + $bottomOffsetY]               ; Attack Button, Main Screen
-Global $aFindMatchButton[4]  = [140, 540 + $bottomOffsetY, 0xD84400, 10] ; Find Multiplayer Match Button, Attack Screen 860x780
+;Rizor patch Shield
+Global $aFindMatchButton[4]  = [195, 480+$bottomOffsetY, 0xF0B028, 10] ; Find Multiplayer Match Button, Attack Screen 860x780 without shield
+Global $aFindMatchButton2[4] = [195, 480+$bottomOffsetY, 0xD84D00, 10] ; Find Multiplayer Match Button, Attack Screen 860x780 with shield
+;Global $aFindMatchButton[4]  = [140, 540 + $bottomOffsetY, 0xD84400, 10] ; Find Multiplayer Match Button, Attack Screen 860x780
+;Rizor Patch Shield Bottom
 Global $aIsAttackShield[4]   = [250, 415 + $midOffsetY, 0xE8E8E0, 10] ; Attack window, white shield verification window
 Global $aAway[2]             = [  1,  40]               ; Away click, moved from 1,1 to prevent scroll window from top
 ;Global $aBreakShield[4]     = [513, 416, 0x5DAC10, 50] ; Break Shield Button, Attack Screen ;the 0x5DAC10 color value matches open grass use with caution

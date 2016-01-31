@@ -51,6 +51,20 @@ Local $x = 255, $y = 150
 			GUICtrlSetState(-1, $GUI_DISABLE)
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 	$y += 22
+;Noyax
+ 		$chkDBAttMilk = GUICtrlCreateCheckbox( "Milking with", $x, $y, -1, -1)
+ 			$txtTip = "Use Gobelins Power to try Milking."
+ 			GUICtrlSetTip(-1, $txtTip)
+ 			GUICtrlSetState(-1, $GUI_CHECKED)
+ 			GUICtrlSetOnEvent(-1, "chkDBAttMilk")
+ 		$txtDBAttMilk = GUICtrlCreateInput("90", $x + 80, $y + 3, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+ 			$txtTip = "Number of troops used for milking attack"
+ 			GUICtrlSetTip(-1, $txtTip)
+ 			GUICtrlSetLimit(-1, 5)
+ 			_GUICtrlEdit_SetReadOnly(-1, False)
+ 		$lblDBAttMilkDB = GUICtrlCreateLabel("Gobs", $x + 108, $y + 3)
+ 		$y += 15
+ ;Noyax bottom
 ; Semi-DeadBase bottom
 
 

@@ -18,15 +18,25 @@ Func ClanLevel()
 
 	If _Sleep($iDelayClanLevel1) Then Return
 
+	;Verify if exist and active Clan Icon (2 swords) in mainscreen
+	If Not _ColorCheck(_GetPixelColor(19, 474 + $midOffsetY , true), Hex(0xE2A539, 6), 15) Then
+		SetLog("Please join a Clan ...", $COLOR_GREEN)
+		$iClanLevel = 0
+		Return
+	EndIf
+
 	If $debugSetlog = 1 Then SetLog("Click $aOpenChat", $COLOR_GREEN)
 	If IsMainPage()  Then    ClickP($aOpenChat, 1, 0, "#0468") ; clicking clan tab
 
-	; WaitforPixel($iLeft, $iTop, $iRight, $iBottom, $firstColor, $iColorVariation, $maxDelay = 10)
-	; Wait until find the Info "i" icon , max 5 seconds
-;	If WaitforPixel(308, 47, 309, 48, Hex(0x706c50, 6), 5, $iDelayClanLevel1) Then
+	 ; WaitforPixel($iLeft, $iTop, $iRight, $iBottom, $firstColor, $iColorVariation, $maxDelay = 10)
+	 ; Wait until find the Blackzone near the "i" icon , max 5 seconds
+	If WaitforPixel(299, 22, 300, 23, Hex(0x000000, 6), 5, $iDelayClanLevel1) Then
+		If _Sleep($iDelayDonateCC2) Then Return
+		If IsMainChatOpenPage() Then  Click (222,22) ; Click on Clan Chat Tab , confirm Clan Chat intead of Global Chat
+		If _Sleep($iDelayDonateCC2) Then Return
 		If $debugSetlog = 1 Then SetLog("Click $aClanTab", $COLOR_GREEN)
 		If IsMainChatOpenPage() Then ClickP($aClanTab, 1, 0, "#0469") ; click Clan Tab
-;	EndIf
+	EndIf
 
 	If $debugSetlog = 1 Then SetLog("Wait until find the Info icon , max 5 seconds", $COLOR_GREEN)
 

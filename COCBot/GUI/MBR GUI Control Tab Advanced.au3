@@ -59,7 +59,6 @@ Func chkSnipeWhileTrain()
 		GUICtrlSetState($txtminArmyCapacityTHSnipe, $GUI_ENABLE)
 		GUICtrlSetState($lblSWTTiles, $GUI_ENABLE)
 		GUICtrlSetState($txtSWTTiles, $GUI_ENABLE)
-		GUICtrlSetState($chkSWTGreedy, $GUI_ENABLE)
 	Else
 		$iChkSnipeWhileTrain = 0
 		GUICtrlSetState($lblSearchlimit, $GUI_DISABLE)
@@ -68,7 +67,6 @@ Func chkSnipeWhileTrain()
 		GUICtrlSetState($txtminArmyCapacityTHSnipe, $GUI_DISABLE)
 		GUICtrlSetState($lblSWTTiles, $GUI_DISABLE)
 		GUICtrlSetState($txtSWTTiles, $GUI_DISABLE)
-		GUICtrlSetState($chkSWTGreedy, $GUI_DISABLE)
 	EndIf
 	GUICtrlSetState($ChkSnipeWhileTrain, $GUI_ENABLE)
 
@@ -110,15 +108,6 @@ Func chkSnipeMode()
 	If GUICtrlRead($chkTrophyMode) = $GUI_CHECKED Then
 		$OptTrophyMode = 1
 		GUICtrlSetState($txtTHaddtiles, $GUI_ENABLE)
-		GUICtrlSetState($cmbTSMeetGE, $GUI_ENABLE)
-		GUICtrlSetState($txtTSMinGold, $GUI_ENABLE)
-		GUICtrlSetState($picTSMinGold, $GUI_ENABLE)
-		GUICtrlSetState($txtTSMinElixir, $GUI_ENABLE)
-		GUICtrlSetState($picTSMinElixir, $GUI_ENABLE)
-		GUICtrlSetState($txtTSMinGoldPlusElixir, $GUI_ENABLE)
-		GUICtrlSetState($picTSMinGPEGold, $GUI_ENABLE)
-		GUICtrlSetState($lblTSMinGPE, $GUI_ENABLE)
-		GUICtrlSetState($picTSMinGPEElixir, $GUI_ENABLE)
 		GUICtrlSetState($cmbAttackTHType, $GUI_ENABLE)
 		GUICtrlSetState($cmbAttackbottomType, $GUI_ENABLE)
 		GUICtrlSetState($chkUseClastleTH, $GUI_ENABLE)
@@ -127,25 +116,24 @@ Func chkSnipeMode()
 		GUICtrlSetState($chkUseRSpellsTH, $GUI_ENABLE)
 		GUICtrlSetState($chkUseHSpellsTH, $GUI_ENABLE)
 		GUICtrlSetState($chkUseLSpellsTH, $GUI_ENABLE)
-		GUICtrlSetState($chkDrillZapTH, $GUI_ENABLE)
-		GUICtrlSetState($chkTSMeetDE, $GUI_ENABLE)
-		GUICtrlSetState($lblTsSearchMode, $GUI_ENABLE)
-		GUICtrlSetState($cmbTsSearchMode, $GUI_ENABLE)
+;Noyax top
+		GUICtrlSetState($cmbTHsnMeetGE, $GUI_ENABLE)
 		GUICtrlSetState($chkAttIfDB, $GUI_ENABLE)
 		GUICtrlSetState($txtAttIfDB, $GUI_ENABLE)
-		GUICtrlSetState($chkGreedy, $GUI_ENABLE)
+		GUICtrlSetState($txtTHsnMinGold, $GUI_ENABLE)
+		GUICtrlSetState($txtTHsnMinElixir, $GUI_ENABLE)
+		GUICtrlSetState($txtTHsnMinGoldPlusElixir, $GUI_ENABLE)
+		GUICtrlSetState($txtTHSnMinDarkElixir, $GUI_ENABLE)
+; Noyax bottom
+		;noyax add Ancient begin greed filter filter with DB
+		chkAttIfDB()
+		;noyax add Ancient end greed filter filter with DB
+		;noyax add Ancient begin snipe live/dead filter
+		GUICtrlSetState($cmbTSSearchMode, $GUI_ENABLE)
+		;noyax add Ancient end snipe live/dead filter
 	Else
 		$OptTrophyMode = 0
 		GUICtrlSetState($txtTHaddtiles, $GUI_DISABLE)
-		GUICtrlSetState($cmbTSMeetGE, $GUI_DISABLE)
-		GUICtrlSetState($txtTSMinGold, $GUI_DISABLE)
-		GUICtrlSetState($picTSMinGold, $GUI_DISABLE)
-		GUICtrlSetState($txtTSMinElixir, $GUI_DISABLE)
-		GUICtrlSetState($picTSMinElixir, $GUI_DISABLE)
-		GUICtrlSetState($txtTSMinGoldPlusElixir, $GUI_DISABLE)
-		GUICtrlSetState($picTSMinGPEGold, $GUI_DISABLE)
-		GUICtrlSetState($lblTSMinGPE, $GUI_DISABLE)
-		GUICtrlSetState($picTSMinGPEElixir, $GUI_DISABLE)
 		GUICtrlSetState($cmbAttackTHType, $GUI_DISABLE)
 		GUICtrlSetState($cmbAttackbottomType, $GUI_DISABLE)
 		GUICtrlSetState($chkUseClastleTH, $GUI_DISABLE)
@@ -154,16 +142,47 @@ Func chkSnipeMode()
 		GUICtrlSetState($chkUseRSpellsTH, $GUI_DISABLE)
 		GUICtrlSetState($chkUseHSpellsTH, $GUI_DISABLE)
 		GUICtrlSetState($chkUseLSpellsTH, $GUI_DISABLE)
-	    GUICtrlSetState($chkDrillZapTH, $GUI_DISABLE)
-		GUICtrlSetState($chkTSMeetDE, $GUI_DISABLE)
-		GUICtrlSetState($lblTsSearchMode, $GUI_DISABLE)
-		GUICtrlSetState($cmbTsSearchMode, $GUI_DISABLE)
+; Noyax top
+		GUICtrlSetState($cmbTHsnMeetGE, $GUI_DISABLE)
 		GUICtrlSetState($chkAttIfDB, $GUI_DISABLE)
 		GUICtrlSetState($txtAttIfDB, $GUI_DISABLE)
-		GUICtrlSetState($chkGreedy, $GUI_DISABLE)
+		GUICtrlSetState($txtTHsnMinGold, $GUI_DISABLE)
+		GUICtrlSetState($txtTHsnMinElixir, $GUI_DISABLE)
+		GUICtrlSetState($txtTHsnMinGoldPlusElixir, $GUI_DISABLE)
+		GUICtrlSetState($txtTHSnMinDarkElixir, $GUI_DISABLE)
+; Noyax bottom
+		;noyax add Ancient begin greed filter filter with DB
+		GUICtrlSetState($chkAttIfDBMeetGE, $GUI_DISABLE)
+		;noyax add Ancient end greed filter filter with DB
+		;noyax add Ancient begin snipe live/dead filter
+		GUICtrlSetState($cmbTSSearchMode, $GUI_DISABLE)
+		;noyax add Ancient end snipe live/dead filter
 	EndIf
 EndFunc   ;==>chkSnipeMode
 
+;noyax top
+Func cmbTHsnGoldElixir()
+	If _GUICtrlComboBox_GetCurSel($cmbTHsnMeetGE) < 2 Then
+		GUICtrlSetState($txtTHsnMinGold, $GUI_SHOW)
+		GUICtrlSetState($picTHsnMinGold, $GUI_SHOW)
+		GUICtrlSetState($txtTHsnMinElixir, $GUI_SHOW)
+		GUICtrlSetState($picTHsnMinElixir, $GUI_SHOW)
+		GUICtrlSetState($txtTHsnMinGoldPlusElixir, $GUI_HIDE)
+		GUICtrlSetState($picTHsnMinGPEGold, $GUI_HIDE)
+		GUICtrlSetState($lblTHsnMinGPE, $GUI_HIDE)
+		GUICtrlSetState($picTHsnMinGPEElixir, $GUI_HIDE)
+	Else
+		GUICtrlSetState($txtTHsnMinGold, $GUI_HIDE)
+		GUICtrlSetState($picTHsnMinGold, $GUI_HIDE)
+		GUICtrlSetState($txtTHsnMinElixir, $GUI_HIDE)
+		GUICtrlSetState($picTHsnMinElixir, $GUI_HIDE)
+		GUICtrlSetState($txtTHsnMinGoldPlusElixir, $GUI_SHOW)
+		GUICtrlSetState($picTHsnMinGPEGold, $GUI_SHOW)
+		GUICtrlSetState($lblTHsnMinGPE, $GUI_SHOW)
+		GUICtrlSetState($picTHsnMinGPEElixir, $GUI_SHOW)
+	EndIf
+EndFunc   ;==>cmbTHsnGoldElixir
+;noyax bottom
 
 Func LoadThSnipeAttacks()
 	Dim $FileSearch, $NewFile
@@ -194,32 +213,14 @@ Func btnTestTHcsv()
 	AttackTHParseCSV(True) ; launch attach th parse CSV only for test in log
 EndFunc
 
-Func cmbTSMeetGE()
-	If _GUICtrlComboBox_GetCurSel($cmbTSMeetGE) < 2 Then
-		GUICtrlSetState($txtTSMinGold, $GUI_SHOW)
-		GUICtrlSetState($picTSMinGold, $GUI_SHOW)
-		GUICtrlSetState($txtTSMinElixir, $GUI_SHOW)
-		GUICtrlSetState($picTSMinElixir, $GUI_SHOW)
-		GUICtrlSetState($txtTSMinGoldPlusElixir, $GUI_HIDE)
-		GUICtrlSetState($picTSMinGPEGold, $GUI_HIDE)
-		GUICtrlSetState($lblTSMinGPE, $GUI_HIDE)
-		GUICtrlSetState($picTSMinGPEElixir, $GUI_HIDE)
-	Else
-		GUICtrlSetState($txtTSMinGold, $GUI_HIDE)
-		GUICtrlSetState($picTSMinGold, $GUI_HIDE)
-		GUICtrlSetState($txtTSMinElixir, $GUI_HIDE)
-		GUICtrlSetState($picTSMinElixir, $GUI_HIDE)
-		GUICtrlSetState($txtTSMinGoldPlusElixir, $GUI_SHOW)
-		GUICtrlSetState($picTSMinGPEGold, $GUI_SHOW)
-		GUICtrlSetState($lblTSMinGPE, $GUI_SHOW)
-		GUICtrlSetState($picTSMinGPEElixir, $GUI_SHOW)
+;noyax add Ancient begin greed filter filter with DB
+Func chkAttIfDB()
+	If GUICtrlRead($chkAttIfDB) = $GUI_CHECKED Then
+		GUICtrlSetState($chkAttIfDBMeetGE, $GUI_ENABLE)
+	ElseIf GUICtrlRead($chkAttIfDB) = $GUI_UNCHECKED Then
+		GUICtrlSetState($chkAttIfDBMeetGE, $GUI_UNCHECKED)
+		GUICtrlSetState($chkAttIfDBMeetGE, $GUI_DISABLE)
+		$iOptAttIfDBMeetGE = 0
 	EndIf
-EndFunc   ;==>cmbTSGoldElixir
-
-Func chkTSMeetDE()
-	If GUICtrlRead($chkTSMeetDE) = $GUI_CHECKED Then
-		_GUICtrlEdit_SetReadOnly($txtTSMinDarkElixir, False)
-	Else
-		_GUICtrlEdit_SetReadOnly($txtTSMinDarkElixir, True)
-	EndIf
-EndFunc   ;==>chkTSMeetDE
+EndFunc
+;noyax add Ancient end greed filter filter with DB

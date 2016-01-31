@@ -24,7 +24,7 @@ Func DropTrophy()
 
 	If Number($iTrophyCurrent) > Number($itxtMaxTrophyNeedCheck) Then
 		If $iChkTrophyAtkDead = 1 Then
-			If ($CurCamp >= ($TotalCamp * 70 / 100)) Then
+			If ($CurCamp >= ($TotalCamp * 30 / 100)) Then
 
 				While Number($iTrophyCurrent) > Number($itxtMaxTrophyNeedCheck)
 					$iTrophyCurrent = getTrophyMainScreen($aTrophies[0], $aTrophies[1])
@@ -172,7 +172,7 @@ Func DropTrophy()
 					EndIf
 				WEnd
 			Else
-				Setlog("Drop Trophies: Army is < 70% capacity")
+				Setlog("Drop Trophies: Army is < 30% capacity")
 				Setlog("You have selected the option to attack dead bases while dropping trophies")
 			EndIf
 

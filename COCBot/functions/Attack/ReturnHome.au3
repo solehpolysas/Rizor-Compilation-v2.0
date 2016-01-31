@@ -28,13 +28,17 @@ Func ReturnHome($TakeSS = 1, $GoldChangeCheck = True) ;Return main screen
 
 	     If not(IsReturnHomeBattlePage(True,False) ) Then ; if already in return home battle page do not wait and try to activate Hero Ability and close battle
 		   SetLog("Checking if the battle has finished", $COLOR_BLUE)
-		   While GoldElixirChangeEBO()
+;noyax top; quit if collectors not exposed
+			If ($countCollectorexposed/$countFindPixCloser*100) < $NbPercentExposed And $PercentExposed = 1 then 
+				setlog("skip countdown")
+				If _Sleep(4000) Then Return
+			Else
+;noyax bottom
+			While GoldElixirChangeEBO()
 			   If _Sleep($iDelayReturnHome1) Then Return
-		   WEnd
-
-			DrillZapTH() ; Zap Drill Before End Battle Rizor
-			DEDropSmartSpell()
-
+			WEnd
+			EndIf ;Noyax
+			
 		   ;If Heroes were not activated: Hero Ability activation before End of Battle to restore health
 		   If ($checkKPower = True Or $checkQPower = True) And $iActivateKQCondition = "Auto" Then
 			   ;_CaptureRegion()

@@ -57,10 +57,6 @@ Func VillageReport($bBypass = False, $bSuppressLog = False)
 		$i += 1
 		If _Sleep($iDelayVillageReport1) Then Return
 		If $i >= 20 Then ExitLoop
-	  WEnd
-
-#cs	; DE Smart Zap
-	GUICtrlSetData($lblSmartZap, _NumberFormat($smartZapGain))
-#ce GUICtrlSetData($lblLightningUsed, _NumberFormat($NumLTSpellsUsed))
+	WEnd
 
 EndFunc   ;==>VillageReport

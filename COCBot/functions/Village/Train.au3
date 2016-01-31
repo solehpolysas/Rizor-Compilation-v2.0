@@ -107,12 +107,13 @@ Func Train()
 
 	checkArmyCamp()
 
-;Rizor Skipping Train Army
-	If $fullArmy = True Then
-		setlog("Skipping Train Army", $COLOR_RED)
-		Return True
+; noyax top, don't waste time before attackink in milking mode
+	If $fullArmy= True And $chkDBAttMilk = True then
+		setlog("Don't waste time, go to attack", $COLOR_PURPLE)
+		return
 	EndIf
-;Rizor Skipping Train Army
+;noyax bottom
+
 	checkAttackDisable($iTaBChkIdle) ; Check for Take-A-Break after opening train page
 
 	; CHECK IF NEED TO MAKE TROOPS
@@ -197,7 +198,7 @@ Func Train()
 		$BarrackDarkStatus[0] = False
 		$BarrackDarkStatus[1] = False
 		SetLog("Your Army Camps are now Full", $COLOR_RED)
-		If ($pEnabled = 1 or $pEnabled2 = 1) And $ichkAlertPBCampFull = 1 Then PushMsg("CampFull")
+		If $pEnabled = 1 And $ichkAlertPBCampFull = 1 Then PushMsg("CampFull")
 	EndIf
 
 	;If is fullArmy or FirstStart or we are using the Barracks modes is not necessary count the donations , the $Cur will add the correct troops to make
@@ -220,7 +221,6 @@ Func Train()
 	; ########################################  2nd Stage : Calculating of Troops to Make ##############################################
 
 	If $debugSetlog = 1 Then SetLog("Total ArmyCamp :" & $TotalCamp, $COLOR_PURPLE)
-
 	If $fullarmy = True Then
 		SetLog("Calculating Troops before Training new Army.", $COLOR_BLUE)
 		$anotherTroops = 0
@@ -450,7 +450,7 @@ Func Train()
 		While isBarrack()
 			$brrNum += 1
 			_CaptureRegion()
-			If $FirstStart Then
+			If $FirstStart And $MilkAtt = 0 Then ;Noyax don't waste time in first start with milking mode
 				If _Sleep($iDelayTrain2) Then Return
 				$icount = 0
 				If _ColorCheck(_GetPixelColor(187, 212, True), Hex(0xD30005, 6), 10) Then ; check if the existe more then 6 slots troops on train bar
@@ -470,6 +470,7 @@ Func Train()
 				WEnd
 				If $debugSetlog = 1 And $icount = 100 Then SetLog("Train warning 6", $COLOR_PURPLE)
 			EndIf
+
 			If _Sleep($iDelayTrain2) Then ExitLoop
 			If Not (IsTrainPage()) Then Return ; exit from train if no train page
 			Switch $barrackTroop[$brrNum - 1]
@@ -523,7 +524,7 @@ Func Train()
 		While isBarrack() And $isNormalBuild
 			$brrNum += 1
 			If $debugSetlog = 1 Then SetLog("====== Checking available Barrack: " & $brrNum & " ======", $COLOR_PURPLE)
-			If ($fullarmy = True) Or ($FirstStart = False) Then ;Rizor
+			If ($fullarmy = True) Or $FirstStart = False Then
 				;CLICK REMOVE TROOPS
 				If _Sleep($iDelayTrain2) Then Return
 				$icount = 0
@@ -1022,6 +1023,7 @@ Func Train()
 
 	If _Sleep($iDelayTrain4) Then Return
 	BrewSpells() ; Create Spells
+
 
 	If _Sleep($iDelayTrain4) Then Return
 	ClickP($aAway, 2, $iDelayTrain5, "#0504"); Click away twice with 250ms delay

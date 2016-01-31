@@ -14,9 +14,9 @@
 ; Example .......: No
 ; ===============================================================================================================================
 Func Collect()
-	If $RunState = False Then Return
+	if $RunState = False Then Return
 
-	ClickP($aAway, 1, 0, "#0332") ;Click Away
+	ClickP($aAway,1,0,"#0332") ;Click Away
 
 	If $iChkCollect = 0 Then Return
 
@@ -35,13 +35,13 @@ Func Collect()
 	SetLog("Collecting Resources", $COLOR_BLUE)
 	If _Sleep($iDelayCollect2) Then Return
 
-	If $listResourceLocation <> "" Then
-		Local $ResourceLocations = StringSplit($listResourceLocation, "|")
-		For $i = 1 To $ResourceLocations[0]
-			If $ResourceLocations[$i] <> "" Then
-				$pixel = StringSplit($ResourceLocations[$i], ";")
-				If isInsideDiamondXY($pixel[1], $pixel[2]) Then
-					If IsMainPage() Then click($pixel[1], $pixel[2], 1, 0, "#0331")
+	if $listResourceLocation <> "" then
+		local $ResourceLocations = StringSplit($listResourceLocation,"|")
+		for $i=1 to $ResourceLocations[0]
+			if $ResourceLocations[$i] <> "" then
+				$pixel = StringSplit($ResourceLocations[$i],";")
+				If isInsideDiamondXY($pixel[1],$pixel[2]) Then
+				   if IsMainPage() Then click($pixel[1],$pixel[2],1,0,"#0331")
 				Else
 					SetLog("Error in Mines/Collector locations found, finding positions again", $COLOR_RED)
 					IniDelete($building, "other", "listResource")
@@ -52,28 +52,26 @@ Func Collect()
 					ExitLoop
 				EndIf
 				If _Sleep($iDelayCollect2) Then Return
-			EndIf
-		Next
-	EndIf
+			endif
+		next
+	endif
 
-	checkAttackDisable($iTaBChkIdle) ; Early Take-A-Break detection
+	checkAttackDisable($iTaBChkIdle)  ; Early Take-A-Break detection
 
 	While 1
 		If _Sleep($iDelayCollect1) Or $RunState = False Then ExitLoop
-		_CaptureRegion()
+		_CaptureRegion(0,0,780)
 		If _ImageSearch(@ScriptDir & "\images\collect.png", 1, $collx, $colly, 20) Then
-			If isInsideDiamondXY($collx, $colly) Then
-				If IsMainPage() Then Click($collx, $colly, 1, 0, "#0330") ;Click collector
-				If _Sleep($iDelayCollect1) Then Return
-			EndIf
-			ClickP($aAway, 1, 0, "#0329") ;Click Away
-		ElseIf $i >= 20 Then
+			If IsMainPage() Then Click($collx, $colly,1,0,"#0330") ;Click collector
+			If _Sleep($iDelayCollect1) Then Return
+			ClickP($aAway,1,0,"#0329") ;Click Away
+		Elseif $i >= 20 Then
 			ExitLoop
 		EndIf
 		$i += 1
 	WEnd
 	If _Sleep($iDelayCollect3) Then Return
-	checkMainScreen(False) ; check if errors during function
+	checkMainScreen(False)  ; check if errors during function
 
 	VillageReport(True, True)
 	$tempCounter = 0

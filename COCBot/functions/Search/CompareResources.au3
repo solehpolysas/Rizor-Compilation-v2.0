@@ -45,6 +45,7 @@ Func CompareResources($pMode) ;Compares resources and returns true if conditions
 			$THLO = 1
 	EndSwitch
 
+
 	$SearchTHLResult = 0
 	;   Local $YourTHNumHere
 	;   For $i = 0 To 4
@@ -117,10 +118,6 @@ Func CompareResources($pMode) ;Compares resources and returns true if conditions
 		EndIf
 
 		If $iChkMeetTHO[$pMode] = 1 Then
-			If $THLO <> 1 Then Return False
-		EndIf
-
-		If $iChkMeetTHO[$pMode] = 1 And $iChkMeetTH[$pMode] <> 1 Then
 			If $THLO <> 1 Then Return False
 		EndIf
 

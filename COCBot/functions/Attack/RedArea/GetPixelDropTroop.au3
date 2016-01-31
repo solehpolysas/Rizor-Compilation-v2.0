@@ -36,6 +36,11 @@ Func GetPixelDropTroop($troop, $number, $slotsPerEdge)
 		$newPixelBottomRight = GetVectorPixelToDeploy($newPixelBottomRight, 0, $slotsPerEdge)
 
 	EndIf
+		setlog("c'est là que ca se passe: slotsperedge = " & $slotsPerEdge)
+		setlog("$newPixelTopLeft = " & $newPixelTopLeft)
+		setlog("$newPixelBottomLeft = " & $newPixelBottomLeft)
+		setlog("$newPixelTopRight = " & $newPixelTopRight)
+		setlog("$newPixelBottomRight = " & $newPixelBottomRight)
 	Local $edgesPixelToDrop[4] = [$newPixelBottomRight, $newPixelTopLeft, $newPixelBottomLeft, $newPixelTopRight]
 	Return $edgesPixelToDrop
 EndFunc   ;==>GetPixelDropTroop

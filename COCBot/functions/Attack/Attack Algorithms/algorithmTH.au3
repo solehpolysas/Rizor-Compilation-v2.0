@@ -13,7 +13,7 @@
 ; Example .......: No
 ; ================================================================
 
-Global $Greed
+
 Func AttackTHGrid($troopKind, $iNbOfSpots = 1, $iAtEachSpot = 1, $Sleep = Random(800, 900, 1), $waveNb = 0)
 	#cs ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		$troopKind : The Type of Troop
@@ -30,7 +30,7 @@ Func AttackTHGrid($troopKind, $iNbOfSpots = 1, $iAtEachSpot = 1, $Sleep = Random
 	Local $plural = 0
 	Local $waveName = "first"
 	Local $NumTroopDeployed = 0
-
+	
 	If _Sleep(5) Then Return
 	If $Restart = True Then Return
 	If CheckOneStar(0, False, True) Then Return
@@ -110,7 +110,10 @@ Func AttackTHGrid($troopKind, $iNbOfSpots = 1, $iAtEachSpot = 1, $Sleep = Random
 
 	; All Barracks Troops
 	If $troopKind >= $eBarb And $troopKind <= $eLava Then
-		$troopNb = $iNbOfSpots * $iAtEachSpot
+		$troopNb = $iNbOfSpots * $iAtEachSpot ;noyax
+;		$iNbOfSpots = 1	;noyax
+;		$iAtEachSpot = 4	;noyax
+;		$troopNb = 4	;noyax
 		If $troopNb > 1 Then $plural = 1
 		$name = NameOfTroop($troopKind, $plural)
 
@@ -232,6 +235,10 @@ Func SwitchDeployBtmTH($iAtEachSpot, $iNbOfSpots)
 			DeployBtmTHFewZooms($iAtEachSpot, $iNbOfSpots)
 		Case 2
 			DeployBtmTHOnSides($iAtEachSpot, $iNbOfSpots)
+		;Noyax add Ancient begin snipe deploy bottom
+		Case 3
+			DeployTHNormal($iAtEachSpot, $iNbOfSpots)
+		;Noyax add Ancient end snipe deploy bottom
 	EndSwitch
 
 EndFunc   ;==>SwitchDeployBtmTH
@@ -405,7 +412,7 @@ EndFunc   ;==>CastSpell
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-Func CheckOneStar($DelayInSec = 0, $Log = True, $CheckHeroes = True, $Greed = True)
+Func CheckOneStar($DelayInSec = 0, $Log = True, $CheckHeroes = True)
 
 	For $i = 0 To $DelayInSec
 
@@ -415,8 +422,6 @@ Func CheckOneStar($DelayInSec = 0, $Log = True, $CheckHeroes = True, $Greed = Tr
 		;check for one star
 		If _ColorCheck(_GetPixelColor($aWonOneStar[0], $aWonOneStar[1], True), Hex($aWonOneStar[2], 6), $aWonOneStar[3]) Then ;exit if 1 star
 			If $Log = True Then SetLog("Townhall has been destroyed!", $COLOR_ORANGE)
-			Greedy()
-			_Sleep(1000)
 			If $Restart = True Then Return True
 
 			;Activate King and Queen powers to restore health before exit if they are deployed
@@ -457,41 +462,4 @@ Func CheckOneStar($DelayInSec = 0, $Log = True, $CheckHeroes = True, $Greed = Tr
 	Return False ; Continue
 
 EndFunc   ;==>CheckOneStar
-
-Func Greedy()
-
-;	If $isSnipeWhileTrain = True And $greedOneTime <> 1 And $ichkSWTGreedy = 1 Then
-	If $isSnipeWhileTrain = True And $ichkSWTGreedy = 1 Then
-		SetLog("Greedy mode: Activated")
-		If checkDeadBase() Then
-			SetLog("Greedy mode: Attacking...")
-			$iMatchMode = $DB
-;			$greedOneTime = 1 ; reset back to zero in mybot.run.au3 @ top Func runBot()
-			PrepareAttack($iMatchMode)
-			If $Restart = True Then Return
-			Attack()
-			If $Restart = True Then Return
-			Return
-		Else
-			SetLog("Greedy mode: Not a Dead Village")
-		EndIf
-	Else
-;		If $greedOneTime <> 1 And $ichkGreedy = 1 And $isSnipeWhileTrain = False Then
-		If $ichkGreedy = 1 And $isSnipeWhileTrain = False Then
-			SetLog("Greedy mode: Activated")
-			If checkDeadBase() Then
-				SetLog("Greedy mode: Attacking...")
-				$iMatchMode = $DB
-;				$greedOneTime = 1 ; reset back to zero in mybot.run.au3 @ top Func runBot()
-				PrepareAttack($iMatchMode)
-				If $Restart = True Then Return
-				Attack()
-				If $Restart = True Then Return
-				Return
-			Else
-				SetLog("Greedy mode: Not a Dead Village")
-			EndIf
-		EndIf
-	EndIf
-EndFunc
 

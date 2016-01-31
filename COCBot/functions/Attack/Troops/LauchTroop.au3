@@ -4,9 +4,9 @@
 ; Syntax ........: LauchTroop($troopKind, $nbSides, $waveNb, $maxWaveNb, $slotsPerEdge = 0)
 ; Syntax ........: LaunchTroop2($listInfoDeploy, $CC, $King, $Queen, $Warden)
 ; Syntax ........: LaunchTroop3($listInfoDeploy, $CC, $King, $Queen, $Warden)
-; Parameters ....: 
-; Return values .: 
-; Author ........: 
+; Parameters ....:
+; Return values .:
+; Author ........:
 ; Modified ......: Noyax37 (01/2016)
 ; Remarks .......: This file is part of MyBot, previously known as ClashGameBot. Copyright 2015
 ;                  MyBot is distributed under the terms of the GNU GPL
@@ -52,6 +52,17 @@ Func LaunchTroop2($listInfoDeploy, $CC, $King, $Queen, $Warden)
 	If $debugSetlog =1 Then SetLog("LaunchTroop2 with CC " & $CC & ", K " & $King & ", Q " & $Queen & ", W " & $Warden , $COLOR_PURPLE)
 	Local $listListInfoDeployTroopPixel[0]
 
+;Noyax based on Jarrick
+	If $MilkAtt = 1 And ($iChkSmartAttack[$iMatchMode][0] = 1 Or $iChkSmartAttack[$iMatchMode][1] = 1 Or $iChkSmartAttack[$iMatchMode][2] = 1) Then
+		If UBound($PixelNearCollector) = 0 Then
+			Setlog ("There are no any collectors or mines close to the RedLine... skip dead base")
+			$Restart = True
+			$Is_ClientSyncError = True
+			Return
+		EndIf
+	EndIf
+;noyax bottom
+
 	If ($iChkRedArea[$iMatchMode] = 1) Then
 		For $i = 0 To UBound($listInfoDeploy) - 1
 			Local $troop = -1
@@ -69,7 +80,32 @@ Func LaunchTroop2($listInfoDeploy, $CC, $King, $Queen, $Warden)
 					If $atkTroops[$j][0] = $troopKind Then
 						$troop = $j
 						If $MilkAtt = 1 and $troopKind = $eGobl then ;Noyax if gobs set max troops to $NbTrpMilk
-							$troopNb = $NbTrpMilk / $maxWaveNb ;Noyax
+							local $needGobsForColl = UBound($PixelNearCollector) * Number($DBUseGobsForCollector)
+
+							If $atkTroops[$j][1]> ($needGobsForColl + $iTSGoblReserve) Then ;Noyax + Ancient
+								$troopNb = Ceiling($needGobsForColl / $maxWaveNb) ;Noyax + Ancient
+							ElseIf $atkTroops[$j][1]> $iTSGoblReserve Then  ;Noyax + Ancient
+								$troopNb = Ceiling(($atkTroops[$j][1] - $iTSGoblReserve) / $maxWaveNb) ;Noyax + Ancient
+							EndIf ;Noyax
+							SetLog("Use only " & $troopNb & " Goblins for attack " & UBound($PixelNearCollector) & " collectors")
+						;Noyax add Ancient begin archer milking
+						ElseIf $MilkAtt = 1 and $troopKind = $eArch then
+							local $needArchsForColl = UBound($PixelNearCollector) * Number($DBUseArchForCollector)
+							If $atkTroops[$j][1]> ($needArchsForColl + $iTSArchReserve) Then
+								$troopNb = Ceiling($needArchsForColl / $maxWaveNb)
+							ElseIf $atkTroops[$j][1]> $iTSArchReserve Then ;Noyax
+								$troopNb = Ceiling(($atkTroops[$j][1]-$iTSArchReserve) / $maxWaveNb)
+							EndIf
+						;Noyax add Ancient end archer milking
+						;Noyax add Rizor begin Barbarian milking
+						ElseIf $MilkAtt = 1 and $troopKind = $eBarb then
+							local $needBarbForColl = UBound($PixelNearCollector) * Number($DBUseBarbForCollector)
+							If $atkTroops[$j][1]> ($needBarbForColl + $iTSArchReserve) Then
+								$troopNb = Ceiling($needBarbForColl / $maxWaveNb)
+							ElseIf $atkTroops[$j][1]> $iTSBarbReserve Then ;Noyax
+								$troopNb = Ceiling(($atkTroops[$j][1]-$iTSBarbReserve) / $maxWaveNb)
+							EndIf
+						;Noyax add Rizor end Barbarian milking
 						Else ;Noyax
 							$troopNb = Ceiling($atkTroops[$j][1] / $maxWaveNb)
 						EndIf ;Noyax
@@ -104,6 +140,14 @@ Func LaunchTroop2($listInfoDeploy, $CC, $King, $Queen, $Warden)
 		If ( ($iChkSmartAttack[$iMatchMode][0] = 1 Or $iChkSmartAttack[$iMatchMode][1] = 1 Or $iChkSmartAttack[$iMatchMode][2] = 1) And UBound($PixelNearCollector) = 0) Then
 				SetLog("Error, no pixel found near collector => Normal attack near red line")
 		EndIf
+;noyax top quit if collectors not exposed
+;		setlog("exposés: " & $countCollectorexposed)
+;		setlog("% exposés: " & Round($countCollectorexposed/$countFindPixCloser*100,2))
+;		if ($countCollectorexposed/$countFindPixCloser*100) < $NbPercentExposed And $PercentExposed = 1 then
+;			setlog("skip base")
+;			return
+;		EndIf
+;noyax bottom
 		If ($iCmbSmartDeploy[$iMatchMode] = 0) Then
 			For $numWave = 0 To UBound($listListInfoDeployTroopPixel) - 1
 				Local $listInfoDeployTroopPixel = $listListInfoDeployTroopPixel[$numWave]

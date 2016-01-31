@@ -1,0 +1,155 @@
+2016-01-22 06:32:51 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-22 06:32:51 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-22 06:32:51 : =================== Bot Start ====================
+2016-01-22 06:32:51 : -------------------------  Current Profile: 02 --------------------------
+2016-01-22 06:32:51 : Trying to locate Main Screen
+2016-01-22 06:32:52 : Main Screen Located
+2016-01-22 06:32:53 : Detecting your Buildings..
+2016-01-22 06:32:55 : Finding your Clan Level, wait..
+2016-01-22 06:32:56 : Found Clan Level: 5
+2016-01-22 06:32:58 : Detecting your Village Theme
+2016-01-22 06:32:58 : Normal Theme detected
+2016-01-22 06:32:59 : Language setting is English: Correct.
+2016-01-22 06:33:00 : Trying to locate Main Screen
+2016-01-22 06:33:00 : Main Screen Located
+2016-01-22 06:33:04 : Village Report
+2016-01-22 06:33:04 : No. of Free/Total Builders: 0/5
+2016-01-22 06:33:04 :  [T]: 960
+2016-01-22 06:33:04 :  [G]: 6 256 678 [E]: 4 897 860 [D]: 165 814 [GEM]: 159
+2016-01-22 06:33:06 : Training Troops & Spells
+2016-01-22 06:33:07 : Checking Army Camp...
+2016-01-22 06:33:14 : Total Army Camp capacity: 220/220 (100%)
+2016-01-22 06:33:16 :  - No. of Archers: 124
+2016-01-22 06:33:16 :  - No. of Goblins: 90
+2016-01-22 06:33:16 :  - No. of Minions: 3
+2016-01-22 06:33:16 :  - Barbarian King available
+2016-01-22 06:33:16 :  - Archer Queen available
+2016-01-22 06:33:17 : Barracks and Spell factory status: 
+2016-01-22 06:33:17 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-22 06:33:17 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-01-22 06:33:17 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 06:33:17 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 06:33:17 : Skipping Train Army
+2016-01-22 06:33:20 : Waiting for Main Screen
+2016-01-22 06:33:30 : Skipping Collect Resources
+2016-01-22 06:33:30 : Skipping Clear Tombstones
+2016-01-22 06:33:30 : Skipping ReArming Village
+2016-01-22 06:33:30 : Skipping Laboratory Upgrades
+2016-01-22 06:33:30 : Skipping Building Upgrades
+2016-01-22 06:33:30 : Skipping Upgrade Walls
+2016-01-22 06:33:30 : Skipping Donate Troops
+2016-01-22 06:33:31 : Going to Attack...
+2016-01-22 06:33:37 : ============== Searching For Dead Base ===============
+2016-01-22 06:33:37 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 06:33:37 : Meet: Gold and Elixir
+2016-01-22 06:33:37 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 06:33:37 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]: 0 for: Dead Base
+2016-01-22 06:33:37 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 06:33:38 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-01-22 06:33:38 : ==================================================
+2016-01-22 06:33:44 :   1> [G]:  92356 [E]:  97563 [D]:   41 [T]:32 [TH]: 8, In
+2016-01-22 06:33:44 :       Not a Dead Base
+2016-01-22 06:33:53 :   2> [G]:  80436 [E]:  40322 [D]:  908 [T]:29 [TH]: 9, Out
+2016-01-22 06:33:53 :       TH Outside Found! 
+2016-01-22 06:33:54 : ================ Search Complete =================
+2016-01-22 06:33:54 : Initiating attack for: TH Snipe
+2016-01-22 06:33:59 : -*-Archers 124
+2016-01-22 06:33:59 : -*-Goblins 90
+2016-01-22 06:33:59 : -*-Minions 3
+2016-01-22 06:33:59 : -*-King 
+2016-01-22 06:33:59 : -*-Queen 
+2016-01-22 06:33:59 : -*-Poison Spells 2
+2016-01-22 06:34:02 : -*-CC Spell(Poison) 1
+2016-01-22 06:34:02 :  ====== Start Attack ====== 
+2016-01-22 06:34:04 : Sniping TH with Minion                
+2016-01-22 06:34:04 :                                       
+2016-01-22 06:34:05 :                                       
+2016-01-22 06:34:05 : Dropping Only wave of 4 Minions
+2016-01-22 06:34:06 : Deployment of 3 Minions was Successful!
+2016-01-22 06:34:06 :                                       
+2016-01-22 06:34:06 : Dropping Only wave of 4 Goblins
+2016-01-22 06:34:08 : Deployment of 4 Goblins was Successful!
+2016-01-22 06:34:08 :                                       
+2016-01-22 06:34:08 :                                       
+2016-01-22 06:34:08 : Dropping Only wave of 4 Archers
+2016-01-22 06:34:09 : Deployment of 4 Archers was Successful!
+2016-01-22 06:34:09 :                                       
+2016-01-22 06:34:09 : Wait for 30 Second                    
+2016-01-22 06:34:20 : Townhall has been destroyed!
+2016-01-22 06:34:24 :                                       
+2016-01-22 06:34:24 : Wait few sec before close attack
+2016-01-22 06:34:30 : Returning Home
+2016-01-22 06:34:34 : Loot: [G]: 15 373 [E]: 7 350 [DE]: 172 [T]: 9
+2016-01-22 06:34:34 : Bonus Percentage: 4%
+2016-01-22 06:34:35 : Bonus [G]: 104 out of 2 600 [E]: 104 out of 2 600
+2016-01-22 06:34:35 : Your league level is: Silver III
+2016-01-22 06:34:35 : Stars earned: 1
+2016-01-22 06:34:46 : Trying to locate Main Screen
+2016-01-22 06:34:46 : Main Screen Located
+2016-01-22 06:34:49 : Village Report
+2016-01-22 06:34:50 : No. of Free/Total Builders: 0/5
+2016-01-22 06:34:50 :  [T]: 969
+2016-01-22 06:34:50 :  [G]: 6 270 655 [E]: 4 905 314 [D]: 165 986 [GEM]: 159
+2016-01-22 06:34:52 : Training Troops & Spells
+2016-01-22 06:34:53 : Checking Army Camp...
+2016-01-22 06:34:54 : Total Army Camp capacity: 220/220 (100%)
+2016-01-22 06:34:56 :  - No. of Archers: 126
+2016-01-22 06:34:56 :  - No. of Goblins: 90
+2016-01-22 06:34:56 :  - No. of Minions: 2
+2016-01-22 06:34:56 :  - Barbarian King available
+2016-01-22 06:34:56 :  - Archer Queen available
+2016-01-22 06:34:56 : Barracks and Spell factory status: 
+2016-01-22 06:34:56 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-22 06:34:56 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-01-22 06:34:56 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 06:34:56 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 06:34:56 : Skipping Train Army
+2016-01-22 06:35:00 : Waiting for Main Screen
+2016-01-22 06:35:10 : Skipping Collect Resources
+2016-01-22 06:35:10 : Skipping Clear Tombstones
+2016-01-22 06:35:10 : Skipping ReArming Village
+2016-01-22 06:35:10 : Skipping Laboratory Upgrades
+2016-01-22 06:35:10 : Skipping Building Upgrades
+2016-01-22 06:35:10 : Skipping Upgrade Walls
+2016-01-22 06:35:10 : Skipping Donate Troops
+2016-01-22 06:35:10 : Going to Attack...
+2016-01-22 06:35:17 : ============== Searching For Dead Base ===============
+2016-01-22 06:35:17 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 06:35:17 : Meet: Gold and Elixir
+2016-01-22 06:35:17 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 06:35:17 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]: 0 for: Dead Base
+2016-01-22 06:35:17 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 06:35:17 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-01-22 06:35:17 : ==================================================
+2016-01-22 06:35:24 :   1> [G]: 181064 [E]: 170195 [D]: 2342 [T]:29 [TH]:10, In
+2016-01-22 06:35:25 :       Not a Dead Base
+2016-01-22 06:35:29 :   2> [G]:  39244 [E]:  43034 [D]:  155 [T]:28 [TH]: 8, Out
+2016-01-22 06:35:38 :   3> [G]: 201043 [E]: 314229 [D]:  470 [T]:22 [TH]: 9, Out
+2016-01-22 06:35:38 :       TH Outside Found! 
+2016-01-22 06:35:39 : ================ Search Complete =================
+2016-01-22 06:35:39 : Initiating attack for: TH Snipe
+2016-01-22 06:35:45 : -*-Archers 126
+2016-01-22 06:35:45 : -*-Goblins 90
+2016-01-22 06:35:45 : -*-Minions 2
+2016-01-22 06:35:45 : -*-King 
+2016-01-22 06:35:45 : -*-Queen 
+2016-01-22 06:35:45 : -*-Poison Spells 2
+2016-01-22 06:35:47 : -*-CC Spell(Poison) 1
+2016-01-22 06:35:47 :  ====== Start Attack ====== 
+2016-01-22 06:35:50 : Sniping TH with Minion                
+2016-01-22 06:35:50 :                                       
+2016-01-22 06:35:50 :                                       
+2016-01-22 06:35:50 : Dropping Only wave of 4 Minions
+2016-01-22 06:35:51 : Deployment of 2 Minions was Successful!
+2016-01-22 06:35:51 :                                       
+2016-01-22 06:35:51 : Dropping Only wave of 4 Goblins
+2016-01-22 06:35:53 : Deployment of 4 Goblins was Successful!
+2016-01-22 06:35:53 :                                       
+2016-01-22 06:35:53 :                                       
+2016-01-22 06:35:53 : Dropping Only wave of 4 Archers
+2016-01-22 06:35:54 : Deployment of 4 Archers was Successful!
+2016-01-22 06:35:55 :                                       
+2016-01-22 06:35:55 : Wait for 30 Second                    
+2016-01-22 06:36:07 : Townhall has been destroyed!
+2016-01-22 06:36:10 :                                       
+2016-01-22 06:36:10 : Wait few sec before close attack

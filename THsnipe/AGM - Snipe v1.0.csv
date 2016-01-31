@@ -1,0 +1,21 @@
+TROOP |S1|S2|Q1|Q2|DEL1 |DEL2 |LOG_TEXT                              |NOTES,
+Text  |  |  |  |  |     |     |Sniping TH with AGM Rizor             |,
+King  |  |  |  |  |   50|  100|                                      |deploys king
+Queen |  |  |  |  |   50|  100|                                      |deploys queen
+Mini  | 2| 3| 4| 4|   50|  100|                                      |deploys minions
+Gobl  | 2| 3| 4| 4|   50|  100|                                      |deploys goblins,
+Barb  | 2| 3| 4| 4|   50|  100|                                      |deploys barbarians
+Arch  | 2| 3| 4| 4|   50|  100|                                      |deploys archers
+Text  |  |  |  |  |     |     |Wait for 30 Second                    |,
+WAIT  |  |  |  |  |     |30000|                                      |,
+Text  |  |  |  |  |     |     |TH Not Destroy??                      |,
+Text  |  |  |  |  |     |     |We Try Again                          |,
+Mini  | 2| 3| 4| 4|   50|  100|                                      |deploys minions
+Gobl  | 2| 3| 4| 4|   50|  100|                                      |deploys goblins,
+Barb  | 2| 3| 4| 4|   50|  100|                                      |deploys barbarians
+Arch  | 2| 3| 4| 4|   50|  100|                                      |deploys archers
+Text  |  |  |  |  |     |     |Wait for 25 Second                    |,
+WAIT  |  |  |  |  |     |25000|                                      |,
+Text  |  |  |  |  |     |     |Still Not Destroy?                    |,
+Text  |  |  |  |  |     |     |Lets Surrender                        |,
+Text  |  |  |  |  |     |     |Go Find New Base!                     |,

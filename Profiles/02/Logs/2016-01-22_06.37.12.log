@@ -1,0 +1,101 @@
+2016-01-22 06:37:13 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-22 06:37:13 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-22 06:37:13 : =================== Bot Start ====================
+2016-01-22 06:37:13 : -------------------------  Current Profile: 02 --------------------------
+2016-01-22 06:37:13 : Trying to locate Main Screen
+2016-01-22 06:37:16 : Please wait for CoC restart......
+2016-01-22 06:37:16 : Waiting for Main Screen
+2016-01-22 06:37:23 : Main Screen Located
+2016-01-22 06:37:25 : Detecting your Buildings..
+2016-01-22 06:37:26 : Finding your Clan Level, wait..
+2016-01-22 06:37:31 : Found Clan Level: 5
+2016-01-22 06:37:33 : Detecting your Village Theme
+2016-01-22 06:37:33 : Default Theme detected
+2016-01-22 06:37:34 : Language setting is English: Correct.
+2016-01-22 06:37:35 : Trying to locate Main Screen
+2016-01-22 06:37:36 : Main Screen Located
+2016-01-22 06:37:39 : Village Report
+2016-01-22 06:37:39 : No. of Free/Total Builders: 0/5
+2016-01-22 06:37:39 :  [T]: 976
+2016-01-22 06:37:39 :  [G]: 6 268 509 [E]: 4 934 619 [D]: 166 043 [GEM]: 159
+2016-01-22 06:37:42 : Training Troops & Spells
+2016-01-22 06:37:42 : Checking Army Camp...
+2016-01-22 06:37:44 : Total Army Camp capacity: 220/220 (100%)
+2016-01-22 06:37:50 :  - No. of Archers: 128
+2016-01-22 06:37:50 :  - No. of Goblins: 92
+2016-01-22 06:37:50 :  - Barbarian King available
+2016-01-22 06:37:50 :  - Archer Queen available
+2016-01-22 06:37:50 : Barracks and Spell factory status: 
+2016-01-22 06:37:50 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-22 06:37:50 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-01-22 06:37:50 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 06:37:50 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 06:37:50 : Skipping Train Army
+2016-01-22 06:37:54 : Waiting for Main Screen
+2016-01-22 06:38:04 : Skipping Collect Resources
+2016-01-22 06:38:04 : Skipping Clear Tombstones
+2016-01-22 06:38:04 : Skipping ReArming Village
+2016-01-22 06:38:04 : Skipping Laboratory Upgrades
+2016-01-22 06:38:04 : Skipping Building Upgrades
+2016-01-22 06:38:04 : Skipping Upgrade Walls
+2016-01-22 06:38:04 : Skipping Donate Troops
+2016-01-22 06:38:04 : Going to Attack...
+2016-01-22 06:38:11 : ============== Searching For Dead Base ===============
+2016-01-22 06:38:11 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 06:38:11 : Meet: Gold and Elixir
+2016-01-22 06:38:11 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 06:38:11 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]: 0 for: Dead Base
+2016-01-22 06:38:11 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 06:38:11 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-01-22 06:38:11 : ==================================================
+2016-01-22 06:38:17 :   1> [G]: 225620 [E]: 350410 [D]: 1985 [T]:25 [TH]: 9, In
+2016-01-22 06:38:17 :       Not a Dead Base
+2016-01-22 06:38:26 :   2> [G]:  14359 [E]: 267258 [D]: 1190 [T]:32 [TH]: 8, In
+2016-01-22 06:38:34 :   3> [G]:  24687 [E]: 153731 [D]:  830 [T]:31 [TH]: 8, In
+2016-01-22 06:38:43 :   4> [G]:  51979 [E]:  30359 [D]:  189 [T]:34 [TH]: 8, Out
+2016-01-22 06:38:43 :       TH Outside Found! 
+2016-01-22 06:38:44 : ================ Search Complete =================
+2016-01-22 06:38:44 : Initiating attack for: TH Snipe
+2016-01-22 06:38:49 : -*-Archers 128
+2016-01-22 06:38:49 : -*-Goblins 92
+2016-01-22 06:38:49 : -*-King 
+2016-01-22 06:38:49 : -*-Queen 
+2016-01-22 06:38:49 : -*-Poison Spells 2
+2016-01-22 06:38:52 : -*-CC Spell(Poison) 1
+2016-01-22 06:38:52 :  ====== Start Attack ====== 
+2016-01-22 06:38:54 : Sniping TH with Minion                
+2016-01-22 06:38:54 :                                       
+2016-01-22 06:38:55 :                                       
+2016-01-22 06:38:55 :                                       
+2016-01-22 06:38:55 : Dropping Only wave of 4 Goblins
+2016-01-22 06:38:56 : Deployment of 4 Goblins was Successful!
+2016-01-22 06:38:56 :                                       
+2016-01-22 06:38:56 :                                       
+2016-01-22 06:38:57 : Dropping Only wave of 4 Archers
+2016-01-22 06:38:58 : Deployment of 4 Archers was Successful!
+2016-01-22 06:38:58 :                                       
+2016-01-22 06:38:58 : Wait for 30 Second                    
+2016-01-22 06:39:11 : Townhall has been destroyed!
+2016-01-22 06:39:15 :                                       
+2016-01-22 06:39:15 : Semi-DeadBase Gold Level  = 0
+2016-01-22 06:39:15 : Semi-DeadBase Elixir Level = 16
+2016-01-22 06:39:15 : Attacking!!.....
+2016-01-22 06:39:15 : Initiating attack for: Dead Base
+2016-01-22 06:39:20 : -*-Archers 124
+2016-01-22 06:39:20 : -*-Goblins 88
+2016-01-22 06:39:20 : -*-King 
+2016-01-22 06:39:20 : -*-Queen 
+2016-01-22 06:39:20 : -*-Poison Spells 2
+2016-01-22 06:39:23 : -*-CC Spell(Poison) 1
+2016-01-22 06:39:23 :  ====== Start Attack ====== 
+2016-01-22 06:39:25 : Attacking four finger fight style
+2016-01-22 06:39:26 : Dropping only wave of 124 Archers
+2016-01-22 06:39:29 : Dropping first wave of 44 Goblins
+2016-01-22 06:39:31 : Dropping second wave of 44 Goblins
+2016-01-22 06:39:33 : Dropping left over troops
+2016-01-22 06:39:34 : Checking remaining unused troops for: Dead Base
+2016-01-22 06:39:38 : -*-King 
+2016-01-22 06:39:38 : -*-Queen 
+2016-01-22 06:39:39 : -*-Poison Spells 2
+2016-01-22 06:39:41 : -*-CC Spell(Poison) 1
+2016-01-22 06:39:50 : Checking remaining unused troops for: Dead Base

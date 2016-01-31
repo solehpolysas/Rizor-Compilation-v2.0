@@ -1,0 +1,118 @@
+2016-01-13 18:21:31 : Unsupported BlueStacks screen size of 832 x 755 !
+2016-01-13 18:21:31 : BlueStacks window resized to 866 x 805
+2016-01-13 18:21:32 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-13 18:21:32 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-13 18:21:32 : =================== Bot Start ====================
+2016-01-13 18:21:32 : -------------------------  Current Profile: 06 --------------------------
+2016-01-13 18:21:32 : Trying to locate Main Screen
+2016-01-13 18:21:33 : Zooming Out
+2016-01-13 18:21:37 : Main Screen Located
+2016-01-13 18:21:38 : Detecting your Buildings..
+2016-01-13 18:21:39 : Finding your Clan Level, wait..
+2016-01-13 18:21:46 : Found Clan Level: 5
+2016-01-13 18:21:48 : Detecting your Village Theme
+2016-01-13 18:21:48 : Normal Theme detected
+2016-01-13 18:21:49 : Language setting is English: Correct.
+2016-01-13 18:21:50 : Trying to locate Main Screen
+2016-01-13 18:21:51 : Main Screen Located
+2016-01-13 18:21:54 : Village Report
+2016-01-13 18:21:54 : No. of Free/Total Builders: 1/3
+2016-01-13 18:21:54 :  [T]: 902
+2016-01-13 18:21:54 :  [G]: 231 657 [E]: 386 680 [GEM]: 370
+2016-01-13 18:21:57 : Training Troops & Spells
+2016-01-13 18:21:58 : Checking Army Camp...
+2016-01-13 18:21:59 : Total Army Camp capacity: 130/130 (100%)
+2016-01-13 18:22:05 :  - No. of Barbarians: 45
+2016-01-13 18:22:05 :  - No. of Archers: 45
+2016-01-13 18:22:05 :  - No. of Giants: 8
+2016-01-13 18:22:06 : Barracks and Spell factory status: 
+2016-01-13 18:22:06 : - Barracks detected: 3 | Available: 3 | Upgrading: 0
+2016-01-13 18:22:06 : - Dark Barracks detected: 0 | Available: 0 | Upgrading: 0
+2016-01-13 18:22:06 : - Spell factory detected: 0 | Available: 0 | Upgrading: 0
+2016-01-13 18:22:06 : - Dark Spell factory detected: 0 | Available: 0 | Upgrading: 0
+2016-01-13 18:22:07 : Your Army Camps are now Full
+2016-01-13 18:22:07 : Calculating Troops before Training new Army.
+2016-01-13 18:22:07 : Remove previous training troops and start to train
+2016-01-13 18:22:07 : Build troops before attacking.
+2016-01-13 18:22:34 : Requesting Clan Castle Troops
+2016-01-13 18:22:42 : Skipping Collect Resources
+2016-01-13 18:22:42 : Skipping Clear Tombstones
+2016-01-13 18:22:42 : Skipping ReArming Village
+2016-01-13 18:22:42 : Skipping Laboratory Upgrades
+2016-01-13 18:22:42 : Skipping Building Upgrades
+2016-01-13 18:22:42 : Skipping Upgrade Walls
+2016-01-13 18:22:42 : Skipping Donate Troops
+2016-01-13 18:22:42 : Going to Attack...
+2016-01-13 18:22:49 : ============== Searching For Dead Base ===============
+2016-01-13 18:22:49 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-13 18:22:49 : Meet: Gold and Elixir, Max TH 4-6
+2016-01-13 18:22:49 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-13 18:22:49 : Aim: [G]: 110000 [E]:      9 [D]:    0 [T]: 0 [TH]:4-6 for: Dead Base
+2016-01-13 18:22:49 : ==================================================
+2016-01-13 18:22:51 :   1> [G]:  38193 [E]:  47286 [D]:  N/A [T]:19 [TH]:4-6, In
+2016-01-13 18:22:55 :   2> [G]:  37147 [E]: 178018 [D]:   17 [T]:34 [TH]: 8, In
+2016-01-13 18:22:59 :   3> [G]:  15526 [E]:  20106 [D]:  N/A [T]:23 [TH]:4-6, In
+2016-01-13 18:23:03 :   4> [G]:  18445 [E]:  34868 [D]:  N/A [T]:30 [TH]:4-6, In
+2016-01-13 18:23:07 :   5> [G]: 102852 [E]:  36006 [D]:  N/A [T]:19 [TH]:4-6, In
+2016-01-13 18:23:12 :   6> [G]: 110000 [E]:  52000 [D]:  N/A [T]:33 [TH]:4-6, In
+2016-01-13 18:23:12 :       Dead Base Found! 
+2016-01-13 18:23:14 : ================ Search Complete =================
+2016-01-13 18:23:14 : Initiating attack for: Dead Base
+2016-01-13 18:23:19 : -*-Barbarians 45
+2016-01-13 18:23:19 : -*-Archers 45
+2016-01-13 18:23:19 : -*-Giants 8
+2016-01-13 18:23:19 :  ====== Start Attack ====== 
+2016-01-13 18:23:21 : Attacking on a single side
+2016-01-13 18:23:21 : Calculating Smart Attack Strategy
+2016-01-13 18:23:22 : Calculated  (in 1.2 seconds) :
+2016-01-13 18:23:27 : Dropping 8  of Giants => on each side (side : 1)
+2016-01-13 18:23:28 : Dropping 23  of Barbarians => on each side (side : 1)
+2016-01-13 18:23:30 : Dropping 23  of Archers => on each side (side : 1)
+2016-01-13 18:23:33 : Dropping 23  of Barbarians => on each side (side : 1)
+2016-01-13 18:23:35 : Dropping 23  of Archers => on each side (side : 1)
+2016-01-13 18:23:40 : Dropping left over troops
+2016-01-13 18:23:40 : Checking remaining unused troops for: Dead Base
+2016-01-13 18:23:53 : Checking remaining unused troops for: Dead Base
+2016-01-13 18:24:07 : Finished Attacking, waiting for the battle to end
+2016-01-13 18:24:07 : Checking if the battle has finished
+2016-01-13 18:24:08 : detected [G]: 20000 [E]: 24002 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:08 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:11 : detected [G]: 20000 [E]: 19060 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:11 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:14 : detected [G]: 20000 [E]: 16000 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:14 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:16 : detected [G]: 20000 [E]: 15494 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:16 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:19 : detected [G]: 20000 [E]: 14456 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:19 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:21 : detected [G]: 20000 [E]: 13578 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:21 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:24 : detected [G]: 20000 [E]: 10753 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:24 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:26 : detected [G]: 20000 [E]: 8000 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:28 : detected [G]: 20000 [E]: 8000 [DE]:  |  Exit in 17 sec.
+2016-01-13 18:24:29 : detected [G]: 20000 [E]: 7122 [DE]:  |  Exit in 16 sec.
+2016-01-13 18:24:29 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:31 : detected [G]: 20000 [E]: 1632 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:31 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:34 : detected [G]: 11831 [E]: 0 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:34 : Gold & Elixir & DE change detected, waiting...
+2016-01-13 18:24:36 : detected [G]: 0 [E]: 0 [DE]:  |  Exit in 18 sec.
+2016-01-13 18:24:36 : Gold & Elixir & DE = 0, end battle 
+2016-01-13 18:24:37 : Gold & Elixir & DE = 0, end battle 
+2016-01-13 18:24:38 : Returning Home
+2016-01-13 18:24:43 : Loot: [G]: 110 000 [E]: 52 000 [T]: 33
+2016-01-13 18:24:43 : Bonus Percentage: 100%
+2016-01-13 18:24:43 : Bonus [G]: 2 600 [E]: 2 600
+2016-01-13 18:24:44 : Your league level is: Silver III
+2016-01-13 18:24:44 : Stars earned: 3
+2016-01-13 18:24:52 : Trying to locate Main Screen
+2016-01-13 18:24:53 : Main Screen Located
+2016-01-13 18:24:56 : Village Report
+2016-01-13 18:24:56 : No. of Free/Total Builders: 1/3
+2016-01-13 18:24:56 :  [T]: 935
+2016-01-13 18:24:57 :  [G]: 342 757 [E]: 425 980 [GEM]: 370
+2016-01-13 18:24:59 : Training Troops & Spells
+2016-01-13 18:25:00 : Checking Army Camp...
+2016-01-13 18:25:01 : Total Army Camp capacity: 18/130 (13%)
+2016-01-13 18:25:03 :  - No. of Archers: 18

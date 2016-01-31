@@ -1,0 +1,289 @@
+2016-01-12 23:35:29 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-12 23:35:29 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-12 23:35:29 : =================== Bot Start ====================
+2016-01-12 23:35:29 : -------------------------  Current Profile: 06 --------------------------
+2016-01-12 23:35:29 : Trying to locate Main Screen
+2016-01-12 23:35:31 : Unsupported BlueStacks screen size of 832 x 755 !
+2016-01-12 23:35:31 : BlueStacks window resized to 866 x 805
+2016-01-12 23:35:33 : Please wait for CoC restart......
+2016-01-12 23:35:33 : Waiting for Main Screen
+2016-01-12 23:35:40 : Main Screen Located
+2016-01-12 23:35:42 : Detecting your Buildings..
+2016-01-12 23:35:43 : Finding your Clan Level, wait..
+2016-01-12 23:35:48 : Found Clan Level: 5
+2016-01-12 23:35:50 : Detecting your Village Theme
+2016-01-12 23:35:50 : Normal Theme detected
+2016-01-12 23:35:51 : Language setting is English: Correct.
+2016-01-12 23:35:53 : Trying to locate Main Screen
+2016-01-12 23:35:53 : Main Screen Located
+2016-01-12 23:35:56 : Village Report
+2016-01-12 23:35:56 : No. of Free/Total Builders: 1/3
+2016-01-12 23:35:56 :  [T]: 850
+2016-01-12 23:35:56 :  [G]: 432 461 [E]: 121 641 [GEM]: 370
+2016-01-12 23:35:59 : Training Troops & Spells
+2016-01-12 23:35:59 : Checking Army Camp...
+2016-01-12 23:36:01 : Total Army Camp capacity: 130/130 (100%)
+2016-01-12 23:36:07 :  - No. of Barbarians: 45
+2016-01-12 23:36:07 :  - No. of Archers: 45
+2016-01-12 23:36:07 :  - No. of Giants: 8
+2016-01-12 23:36:07 : Barracks and Spell factory status: 
+2016-01-12 23:36:07 : - Barracks detected: 3 | Available: 3 | Upgrading: 0
+2016-01-12 23:36:07 : - Dark Barracks detected: 0 | Available: 0 | Upgrading: 0
+2016-01-12 23:36:07 : - Spell factory detected: 0 | Available: 0 | Upgrading: 0
+2016-01-12 23:36:07 : - Dark Spell factory detected: 0 | Available: 0 | Upgrading: 0
+2016-01-12 23:36:08 : Your Army Camps are now Full
+2016-01-12 23:36:08 : Calculating Troops before Training new Army.
+2016-01-12 23:36:08 : Remove previous training troops and start to train
+2016-01-12 23:36:08 : Build troops before attacking.
+2016-01-12 23:36:37 : Skipping Collect Resources
+2016-01-12 23:36:37 : Skipping Clear Tombstones
+2016-01-12 23:36:37 : Skipping ReArming Village
+2016-01-12 23:36:37 : Skipping Laboratory Upgrades
+2016-01-12 23:36:37 : Skipping Building Upgrades
+2016-01-12 23:36:37 : Skipping Upgrade Walls
+2016-01-12 23:36:37 : Skipping Donate Troops
+2016-01-12 23:36:37 : Going to Attack...
+2016-01-12 23:36:44 : ============== Searching For Dead Base ===============
+2016-01-12 23:36:44 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 23:36:44 : Meet: Gold or Elixir, Max TH 4-6
+2016-01-12 23:36:44 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 23:36:44 : Aim: [G]: 110000 [E]: 110000 [D]:    0 [T]: 0 [TH]:4-6 for: Dead Base
+2016-01-12 23:36:44 : ==================================================
+2016-01-12 23:36:45 :   1> [G]:  15492 [E]:   6340 [D]:  N/A [T]:28 [TH]:4-6, In
+2016-01-12 23:36:51 :   2> [G]:   2874 [E]:  18281 [D]:  N/A [T]:23 [TH]:4-6, In
+2016-01-12 23:36:55 :   3> [G]:   6887 [E]:  23905 [D]:  N/A [T]:17 [TH]:4-6, In
+2016-01-12 23:37:01 :   4> [G]:   2373 [E]:   2083 [D]:  N/A [T]:24 [TH]:4-6, In
+2016-01-12 23:37:05 :   5> [G]:   5057 [E]:    253 [D]:  N/A [T]:28 [TH]:4-6, In
+2016-01-12 23:37:11 :   6> [G]:  55751 [E]:  29670 [D]:  N/A [T]:30 [TH]:4-6, In
+2016-01-12 23:37:16 :   7> [G]:  15660 [E]:  33752 [D]:  N/A [T]:37 [TH]:4-6, In
+2016-01-12 23:37:21 :   8> [G]:  20936 [E]:  10042 [D]:  N/A [T]:30 [TH]:4-6, In
+2016-01-12 23:37:30 :   9> [G]:  73121 [E]: 130555 [D]:  N/A [T]:30 [TH]:4-6, In
+2016-01-12 23:37:30 :       Not a Dead Base
+2016-01-12 23:37:34 :  10> [G]:   1551 [E]:   1895 [D]:  N/A [T]:13 [TH]:4-6, In
+2016-01-12 23:37:38 :  11> [G]:   4280 [E]:  47925 [D]:  N/A [T]:33 [TH]:4-6, In
+2016-01-12 23:37:42 :  12> [G]:   1423 [E]:   1134 [D]:  N/A [T]:15 [TH]:4-6, In
+2016-01-12 23:37:46 :  13> [G]:  57361 [E]:  43805 [D]:  338 [T]:40 [TH]: 7, Out
+2016-01-12 23:37:52 :  14> [G]:  40481 [E]:  51861 [D]:    0 [T]:29 [TH]: 7, Out
+2016-01-12 23:37:56 :  15> [G]:   2036 [E]:  93273 [D]:  N/A [T]:40 [TH]:4-6, In
+2016-01-12 23:38:01 :  16> [G]: 197612 [E]:  66320 [D]:  N/A [T]:36 [TH]:4-6, In
+2016-01-12 23:38:01 :       Dead Base Found! 
+2016-01-12 23:38:02 : ================ Search Complete =================
+2016-01-12 23:38:02 : Initiating attack for: Dead Base
+2016-01-12 23:38:07 : -*-Barbarians 45
+2016-01-12 23:38:07 : -*-Archers 45
+2016-01-12 23:38:07 : -*-Giants 8
+2016-01-12 23:38:07 :  ====== Start Attack ====== 
+2016-01-12 23:38:09 : Attacking on a single side
+2016-01-12 23:38:09 : Calculating Smart Attack Strategy
+2016-01-12 23:38:11 : Calculated  (in 1.32 seconds) :
+2016-01-12 23:38:15 : Dropping 8  of Giants => on each side (side : 1)
+2016-01-12 23:38:16 : Dropping 23  of Barbarians => on each side (side : 1)
+2016-01-12 23:38:19 : Dropping 23  of Archers => on each side (side : 1)
+2016-01-12 23:38:23 : Dropping 23  of Barbarians => on each side (side : 1)
+2016-01-12 23:38:26 : Dropping 23  of Archers => on each side (side : 1)
+2016-01-12 23:38:32 : Dropping left over troops
+2016-01-12 23:38:32 : Checking remaining unused troops for: Dead Base
+2016-01-12 23:38:46 : Checking remaining unused troops for: Dead Base
+2016-01-12 23:38:59 : Finished Attacking, waiting for the battle to end
+2016-01-12 23:38:59 : Checking if the battle has finished
+2016-01-12 23:39:01 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in 18 sec.
+2016-01-12 23:39:02 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in 17 sec.
+2016-01-12 23:39:03 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in 16 sec.
+2016-01-12 23:39:05 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in 14 sec.
+2016-01-12 23:39:06 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in 13 sec.
+2016-01-12 23:39:07 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in 12 sec.
+2016-01-12 23:39:08 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in 11 sec.
+2016-01-12 23:39:10 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  9 sec.
+2016-01-12 23:39:11 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  8 sec.
+2016-01-12 23:39:12 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  7 sec.
+2016-01-12 23:39:14 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  6 sec.
+2016-01-12 23:39:15 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  4 sec.
+2016-01-12 23:39:16 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  3 sec.
+2016-01-12 23:39:18 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  2 sec.
+2016-01-12 23:39:19 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  0 sec.
+2016-01-12 23:39:20 : detected [G]: 197612 [E]: 1690 [DE]:  |  Exit in  0 sec.
+2016-01-12 23:39:20 : Gold & Elixir & DE no change detected, exit
+2016-01-12 23:39:20 : Returning Home
+2016-01-12 23:39:25 : Loot: [G]: 0 [E]: 64 630 [T]: -12
+2016-01-12 23:39:25 : Stars earned: 0
+2016-01-12 23:39:33 : Trying to locate Main Screen
+2016-01-12 23:39:34 : Main Screen Located
+2016-01-12 23:39:37 : Village Report
+2016-01-12 23:39:37 : No. of Free/Total Builders: 1/3
+2016-01-12 23:39:37 :  [T]: 838
+2016-01-12 23:39:37 :  [G]: 428 461 [E]: 173 971 [GEM]: 370
+2016-01-12 23:39:39 : Training Troops & Spells
+2016-01-12 23:39:40 : Checking Army Camp...
+2016-01-12 23:39:42 : Total Army Camp capacity: 21/130 (16%)
+2016-01-12 23:39:43 :  - No. of Archers: 21
+2016-01-12 23:40:05 : Collecting Resources
+2016-01-12 23:40:20 : Checking if Village needs Rearming..
+2016-01-12 23:40:29 : Checking Upgrade Walls
+2016-01-12 23:40:31 : Upgrading Wall using Gold
+2016-01-12 23:40:32 : Searching for Wall(s) level: 4. Using Mask: Core of Base
+2016-01-12 23:41:03 : Found: 4 possible Wall position(s).
+2016-01-12 23:41:03 : Checking if found positions are a Wall and of desired level.
+2016-01-12 23:41:07 : Position No: 1 is a Wall Level: 4.
+2016-01-12 23:41:12 : Upgrade complete
+2016-01-12 23:41:17 : ====== Waiting for full army ======
+2016-01-12 23:41:30 : Training Troops & Spells
+2016-01-12 23:41:31 : Checking Army Camp...
+2016-01-12 23:41:32 : Total Army Camp capacity: 34/130 (26%)
+2016-01-12 23:41:33 :  - No. of Archers: 34
+2016-01-12 23:41:44 : Time Idle: 00:00:27
+2016-01-12 23:41:45 : ====== Waiting for full army ======
+2016-01-12 23:41:58 : Training Troops & Spells
+2016-01-12 23:41:59 : Checking Army Camp...
+2016-01-12 23:42:00 : Total Army Camp capacity: 38/130 (29%)
+2016-01-12 23:42:01 :  - No. of Archers: 38
+2016-01-12 23:42:11 : Time Idle: 00:00:54
+2016-01-12 23:42:12 : ====== Waiting for full army ======
+2016-01-12 23:42:25 : Training Troops & Spells
+2016-01-12 23:42:25 : Checking Army Camp...
+2016-01-12 23:42:27 : Total Army Camp capacity: 41/130 (31%)
+2016-01-12 23:42:28 :  - No. of Archers: 41
+2016-01-12 23:42:38 : Time Idle: 00:01:20
+2016-01-12 23:42:38 : ====== Waiting for full army ======
+2016-01-12 23:42:51 : Training Troops & Spells
+2016-01-12 23:42:52 : Checking Army Camp...
+2016-01-12 23:42:54 : Total Army Camp capacity: 45/130 (34%)
+2016-01-12 23:42:55 :  - No. of Archers: 45
+2016-01-12 23:43:06 : Time Idle: 00:01:48
+2016-01-12 23:43:06 : ====== Waiting for full army ======
+2016-01-12 23:43:19 : Training Troops & Spells
+2016-01-12 23:43:20 : Checking Army Camp...
+2016-01-12 23:43:21 : Total Army Camp capacity: 45/130 (34%)
+2016-01-12 23:43:23 :  - No. of Archers: 45
+2016-01-12 23:43:34 : Time Idle: 00:02:15
+2016-01-12 23:43:34 : ====== Waiting for full army ======
+2016-01-12 23:43:47 : Training Troops & Spells
+2016-01-12 23:43:48 : Checking Army Camp...
+2016-01-12 23:43:49 : Total Army Camp capacity: 45/130 (34%)
+2016-01-12 23:43:50 :  - No. of Archers: 45
+2016-01-12 23:44:01 : Time Idle: 00:02:43
+2016-01-12 23:44:01 : ====== Waiting for full army ======
+2016-01-12 23:44:15 : Training Troops & Spells
+2016-01-12 23:44:15 : Checking Army Camp...
+2016-01-12 23:44:17 : Total Army Camp capacity: 45/130 (34%)
+2016-01-12 23:44:18 :  - No. of Archers: 45
+2016-01-12 23:44:29 : Time Idle: 00:03:10
+2016-01-12 23:44:29 : ====== Waiting for full army ======
+2016-01-12 23:44:42 : Training Troops & Spells
+2016-01-12 23:44:43 : Checking Army Camp...
+2016-01-12 23:44:44 : Total Army Camp capacity: 45/130 (34%)
+2016-01-12 23:44:46 :  - No. of Archers: 45
+2016-01-12 23:44:56 : Time Idle: 00:03:37
+2016-01-12 23:44:57 : ====== Waiting for full army ======
+2016-01-12 23:45:10 : Training Troops & Spells
+2016-01-12 23:45:11 : Checking Army Camp...
+2016-01-12 23:45:12 : Total Army Camp capacity: 60/130 (46%)
+2016-01-12 23:45:14 :  - No. of Archers: 45
+2016-01-12 23:45:14 :  - No. of Giants: 3
+2016-01-12 23:45:25 : Time Idle: 00:04:05
+2016-01-12 23:45:25 : ====== Waiting for full army ======
+2016-01-12 23:45:38 : Training Troops & Spells
+2016-01-12 23:45:39 : Checking Army Camp...
+2016-01-12 23:45:40 : Total Army Camp capacity: 60/130 (46%)
+2016-01-12 23:45:42 :  - No. of Archers: 45
+2016-01-12 23:45:42 :  - No. of Giants: 3
+2016-01-12 23:45:53 : Time Idle: 00:04:33
+2016-01-12 23:45:53 : ====== Waiting for full army ======
+2016-01-12 23:46:06 : Training Troops & Spells
+2016-01-12 23:46:07 : Checking Army Camp...
+2016-01-12 23:46:08 : Total Army Camp capacity: 60/130 (46%)
+2016-01-12 23:46:10 :  - No. of Archers: 45
+2016-01-12 23:46:10 :  - No. of Giants: 3
+2016-01-12 23:46:21 : Time Idle: 00:05:01
+2016-01-12 23:46:21 : ====== Waiting for full army ======
+2016-01-12 23:46:34 : Collecting Resources
+2016-01-12 23:46:46 : Training Troops & Spells
+2016-01-12 23:46:47 : Checking Army Camp...
+2016-01-12 23:46:48 : Total Army Camp capacity: 65/130 (50%)
+2016-01-12 23:46:50 :  - No. of Archers: 45
+2016-01-12 23:46:50 :  - No. of Giants: 4
+2016-01-12 23:47:01 : Time Idle: 00:05:41
+2016-01-12 23:47:01 : ====== Waiting for full army ======
+2016-01-12 23:47:14 : Training Troops & Spells
+2016-01-12 23:47:15 : Checking Army Camp...
+2016-01-12 23:47:16 : Total Army Camp capacity: 78/130 (60%)
+2016-01-12 23:47:18 :  - No. of Barbarians: 3
+2016-01-12 23:47:18 :  - No. of Archers: 45
+2016-01-12 23:47:18 :  - No. of Giants: 6
+2016-01-12 23:47:30 : Time Idle: 00:06:09
+2016-01-12 23:47:30 : ====== Waiting for full army ======
+2016-01-12 23:47:43 : Training Troops & Spells
+2016-01-12 23:47:44 : Checking Army Camp...
+2016-01-12 23:47:45 : Total Army Camp capacity: 81/130 (62%)
+2016-01-12 23:47:47 :  - No. of Barbarians: 6
+2016-01-12 23:47:47 :  - No. of Archers: 45
+2016-01-12 23:47:47 :  - No. of Giants: 6
+2016-01-12 23:47:58 : Time Idle: 00:06:37
+2016-01-12 23:47:58 : ====== Waiting for full army ======
+2016-01-12 23:48:12 : Training Troops & Spells
+2016-01-12 23:48:12 : Checking Army Camp...
+2016-01-12 23:48:14 : Total Army Camp capacity: 87/130 (66%)
+2016-01-12 23:48:15 :  - No. of Barbarians: 12
+2016-01-12 23:48:16 :  - No. of Archers: 45
+2016-01-12 23:48:16 :  - No. of Giants: 6
+2016-01-12 23:48:27 : Time Idle: 00:07:06
+2016-01-12 23:48:27 : ====== Waiting for full army ======
+2016-01-12 23:48:40 : Training Troops & Spells
+2016-01-12 23:48:41 : Checking Army Camp...
+2016-01-12 23:48:42 : Total Army Camp capacity: 90/130 (69%)
+2016-01-12 23:48:44 :  - No. of Barbarians: 15
+2016-01-12 23:48:44 :  - No. of Archers: 45
+2016-01-12 23:48:44 :  - No. of Giants: 6
+2016-01-12 23:48:56 : Time Idle: 00:07:34
+2016-01-12 23:48:56 : ====== Waiting for full army ======
+2016-01-12 23:49:09 : Training Troops & Spells
+2016-01-12 23:49:10 : Checking Army Camp...
+2016-01-12 23:49:11 : Total Army Camp capacity: 95/130 (73%)
+2016-01-12 23:49:13 :  - No. of Barbarians: 20
+2016-01-12 23:49:13 :  - No. of Archers: 45
+2016-01-12 23:49:13 :  - No. of Giants: 6
+2016-01-12 23:49:24 : Time Idle: 00:08:02
+2016-01-12 23:49:24 : ====== Waiting for full army ======
+2016-01-12 23:49:37 : Training Troops & Spells
+2016-01-12 23:49:38 : Checking Army Camp...
+2016-01-12 23:49:40 : Total Army Camp capacity: 99/130 (76%)
+2016-01-12 23:49:41 :  - No. of Barbarians: 24
+2016-01-12 23:49:41 :  - No. of Archers: 45
+2016-01-12 23:49:41 :  - No. of Giants: 6
+2016-01-12 23:49:53 : Time Idle: 00:08:31
+2016-01-12 23:49:53 : ====== Waiting for full army ======
+2016-01-12 23:50:06 : Training Troops & Spells
+2016-01-12 23:50:07 : Checking Army Camp...
+2016-01-12 23:50:08 : Total Army Camp capacity: 103/130 (79%)
+2016-01-12 23:50:10 :  - No. of Barbarians: 28
+2016-01-12 23:50:10 :  - No. of Archers: 45
+2016-01-12 23:50:10 :  - No. of Giants: 6
+2016-01-12 23:50:21 : Time Idle: 00:08:59
+2016-01-12 23:50:21 : ====== Waiting for full army ======
+2016-01-12 23:50:35 : Training Troops & Spells
+2016-01-12 23:50:35 : Checking Army Camp...
+2016-01-12 23:50:37 : Total Army Camp capacity: 108/130 (83%)
+2016-01-12 23:50:38 :  - No. of Barbarians: 33
+2016-01-12 23:50:38 :  - No. of Archers: 45
+2016-01-12 23:50:39 :  - No. of Giants: 6
+2016-01-12 23:50:50 : Time Idle: 00:09:28
+2016-01-12 23:50:50 : ====== Waiting for full army ======
+2016-01-12 23:51:03 : Training Troops & Spells
+2016-01-12 23:51:04 : Checking Army Camp...
+2016-01-12 23:51:06 : Total Army Camp capacity: 110/130 (84%)
+2016-01-12 23:51:07 :  - No. of Barbarians: 35
+2016-01-12 23:51:07 :  - No. of Archers: 45
+2016-01-12 23:51:07 :  - No. of Giants: 6
+2016-01-12 23:51:19 : Time Idle: 00:09:56
+2016-01-12 23:51:19 : ====== Waiting for full army ======
+2016-01-12 23:51:32 : Training Troops & Spells
+2016-01-12 23:51:33 : Checking Army Camp...
+2016-01-12 23:51:34 : Total Army Camp capacity: 114/130 (87%)
+2016-01-12 23:51:36 :  - No. of Barbarians: 39
+2016-01-12 23:51:36 :  - No. of Archers: 45
+2016-01-12 23:51:36 :  - No. of Giants: 6
+2016-01-12 23:51:47 : Time Idle: 00:10:24
+2016-01-12 23:51:48 : ====== Waiting for full army ======
+2016-01-12 23:52:01 : Collecting Resources
+2016-01-12 23:52:13 : Training Troops & Spells
+2016-01-12 23:52:14 : Checking Army Camp...
+2016-01-12 23:52:15 : Bot was Paused!

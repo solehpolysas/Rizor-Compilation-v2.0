@@ -1,0 +1,755 @@
+2016-01-22 05:16:29 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-22 05:16:29 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-22 05:16:29 : =================== Bot Start ====================
+2016-01-22 05:16:29 : -------------------------  Current Profile: 02 --------------------------
+2016-01-22 05:16:29 : Trying to locate Main Screen
+2016-01-22 05:16:30 : Main Screen Located
+2016-01-22 05:16:31 : Detecting your Buildings..
+2016-01-22 05:16:33 : Finding your Clan Level, wait..
+2016-01-22 05:16:38 : Found Clan Level: 5
+2016-01-22 05:16:40 : Detecting your Village Theme
+2016-01-22 05:16:40 : Normal Theme detected
+2016-01-22 05:16:41 : Language setting is English: Correct.
+2016-01-22 05:16:42 : Trying to locate Main Screen
+2016-01-22 05:16:43 : Main Screen Located
+2016-01-22 05:16:46 : Village Report
+2016-01-22 05:16:46 : No. of Free/Total Builders: 0/5
+2016-01-22 05:16:46 :  [T]: 793
+2016-01-22 05:16:47 :  [G]: 5 908 564 [E]: 4 562 781 [D]: 164 938 [GEM]: 159
+2016-01-22 05:16:49 : Training Troops & Spells
+2016-01-22 05:16:50 : Checking Army Camp...
+2016-01-22 05:16:51 : Total Army Camp capacity: 220/220 (100%)
+2016-01-22 05:16:57 :  - No. of Archers: 104
+2016-01-22 05:16:57 :  - No. of Goblins: 82
+2016-01-22 05:16:57 :  - No. of Minions: 17
+2016-01-22 05:16:57 :  - Barbarian King available
+2016-01-22 05:16:57 :  - Archer Queen available
+2016-01-22 05:16:58 : Barracks and Spell factory status: 
+2016-01-22 05:16:58 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-22 05:16:58 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-01-22 05:16:58 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 05:16:58 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 05:16:58 : Don't waste time, go to attack
+2016-01-22 05:17:01 : Waiting for Main Screen
+2016-01-22 05:17:11 : Skipping Collect Resources
+2016-01-22 05:17:11 : Skipping Clear Tombstones
+2016-01-22 05:17:11 : Skipping ReArming Village
+2016-01-22 05:17:11 : Skipping Laboratory Upgrades
+2016-01-22 05:17:11 : Skipping Building Upgrades
+2016-01-22 05:17:11 : Skipping Upgrade Walls
+2016-01-22 05:17:11 : Skipping Donate Troops
+2016-01-22 05:17:12 : Going to Attack...
+2016-01-22 05:17:18 : ============== Searching For Dead Base ===============
+2016-01-22 05:17:18 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:17:18 : Meet: Gold and Elixir
+2016-01-22 05:17:18 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:17:18 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]: 0 for: Dead Base
+2016-01-22 05:17:18 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:17:18 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:17:18 : ==================================================
+2016-01-22 05:17:28 :   1> [G]: 445645 [E]: 442514 [D]: 1086 [T]:29 [TH]: 9, In
+2016-01-22 05:17:28 :       Not a Dead Base
+2016-01-22 05:17:37 :   2> [G]:  39024 [E]:  55827 [D]:  280 [T]:40 [TH]: 9, Out
+2016-01-22 05:17:47 :   3> [G]:  39522 [E]: 180232 [D]: 2512 [T]:44 [TH]: 9, In
+2016-01-22 05:17:52 :   4> [G]:  59799 [E]:  47595 [D]:  331 [T]:46 [TH]: 9, Out
+2016-01-22 05:18:03 :   5> [G]: 195712 [E]: 241975 [D]:  680 [T]:40 [TH]: 8, In
+2016-01-22 05:18:03 :       Not a Dead Base
+2016-01-22 05:18:08 :   6> [G]:  53664 [E]:  31800 [D]:  219 [T]:47 [TH]: 9, Out
+2016-01-22 05:18:13 :   7> [G]:  18640 [E]:   3777 [D]:  884 [T]:44 [TH]: 8, Out
+2016-01-22 05:18:22 :   8> [G]: 165411 [E]: 164389 [D]: 1940 [T]:18 [TH]: 9, In
+2016-01-22 05:18:22 :       Not a Dead Base
+2016-01-22 05:18:32 :   9> [G]: 250002 [E]: 321351 [D]:  727 [T]:49 [TH]:10, In
+2016-01-22 05:18:32 :       Not a Dead Base
+2016-01-22 05:18:39 :  10> [G]:  36698 [E]:  44759 [D]:   67 [T]:46 [TH]: 8, Out
+2016-01-22 05:18:45 :  11> [G]:  23319 [E]:  10971 [D]: 1072 [T]:47 [TH]: 9, In
+2016-01-22 05:18:54 :  12> [G]: 202806 [E]: 130180 [D]:  642 [T]:33 [TH]: 9, Out
+2016-01-22 05:18:54 :       TH Outside Found! 
+2016-01-22 05:18:55 : ================ Search Complete =================
+2016-01-22 05:18:55 : Initiating attack for: TH Snipe
+2016-01-22 05:19:01 : -*-Archers 104
+2016-01-22 05:19:01 : -*-Goblins 82
+2016-01-22 05:19:01 : -*-Minions 17
+2016-01-22 05:19:01 : -*-King 
+2016-01-22 05:19:01 : -*-Queen 
+2016-01-22 05:19:01 : -*-Poison Spells 2
+2016-01-22 05:19:03 : -*-CC Spell(Poison) 1
+2016-01-22 05:19:03 :  ====== Start Attack ====== 
+2016-01-22 05:19:06 : Sniping TH with Minion                
+2016-01-22 05:19:06 :                                       
+2016-01-22 05:19:06 :                                       
+2016-01-22 05:19:06 : Dropping Only wave of 4 Minions
+2016-01-22 05:19:07 : Deployment of 4 Minions was Successful!
+2016-01-22 05:19:07 :                                       
+2016-01-22 05:19:08 : Dropping Only wave of 4 Goblins
+2016-01-22 05:19:09 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:19:09 :                                       
+2016-01-22 05:19:09 :                                       
+2016-01-22 05:19:09 : Dropping Only wave of 4 Archers
+2016-01-22 05:19:11 : Deployment of 4 Archers was Successful!
+2016-01-22 05:19:11 :                                       
+2016-01-22 05:19:11 : Wait for 30 Second                    
+2016-01-22 05:19:21 : Townhall has been destroyed!
+2016-01-22 05:19:22 : Greedy mode: Activated
+2016-01-22 05:19:26 : Greedy mode: Not a Dead Village
+2016-01-22 05:19:29 :                                       
+2016-01-22 05:19:29 : Semi-DeadBase Gold Level  = 5
+2016-01-22 05:19:29 : Semi-DeadBase Elixir Level = 4
+2016-01-22 05:19:29 : Attacking!!.....
+2016-01-22 05:19:29 : Initiating attack for: Dead Base
+2016-01-22 05:19:34 : -*-Archers 100
+2016-01-22 05:19:34 : -*-Goblins 78
+2016-01-22 05:19:34 : -*-Minions 13
+2016-01-22 05:19:34 : -*-King 
+2016-01-22 05:19:34 : -*-Queen 
+2016-01-22 05:19:35 : -*-Poison Spells 2
+2016-01-22 05:19:37 : -*-CC Spell(Poison) 1
+2016-01-22 05:19:37 :  ====== Start Attack ====== 
+2016-01-22 05:19:39 : Attacking four finger fight style
+2016-01-22 05:19:40 : Dropping only wave of 100 Archers
+2016-01-22 05:19:43 : Dropping first wave of 39 Goblins
+2016-01-22 05:19:44 : Dropping only wave of 13 Minions
+2016-01-22 05:19:45 : Dropping second wave of 39 Goblins
+2016-01-22 05:19:48 : Dropping left over troops
+2016-01-22 05:19:48 : Checking remaining unused troops for: Dead Base
+2016-01-22 05:19:53 : -*-Minions 3
+2016-01-22 05:19:53 : -*-King 
+2016-01-22 05:19:53 : -*-Queen 
+2016-01-22 05:19:53 : -*-Poison Spells 2
+2016-01-22 05:19:56 : -*-CC Spell(Poison) 1
+2016-01-22 05:20:01 : Dropping last wave of 3 Minions
+2016-01-22 05:20:05 : Checking remaining unused troops for: Dead Base
+2016-01-22 05:20:10 : -*-Minions 1
+2016-01-22 05:20:10 : -*-King 
+2016-01-22 05:20:10 : -*-Queen 
+2016-01-22 05:20:10 : -*-Poison Spells 2
+2016-01-22 05:20:13 : -*-CC Spell(Poison) 1
+2016-01-22 05:20:19 : Dropping last wave of 1 Minions
+2016-01-22 05:20:23 : Finished Attacking, waiting for the battle to end
+2016-01-22 05:20:23 : Checking if the battle has finished
+2016-01-22 05:20:25 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in 18 sec.
+2016-01-22 05:20:27 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in 16 sec.
+2016-01-22 05:20:29 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in 14 sec.
+2016-01-22 05:20:31 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in 12 sec.
+2016-01-22 05:20:33 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in 10 sec.
+2016-01-22 05:20:34 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in  9 sec.
+2016-01-22 05:20:36 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in  7 sec.
+2016-01-22 05:20:38 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in  5 sec.
+2016-01-22 05:20:40 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in  3 sec.
+2016-01-22 05:20:42 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in  1 sec.
+2016-01-22 05:20:44 : detected [G]: 25535 [E]: 19563 [DE]: 333 |  Exit in  0 sec.
+2016-01-22 05:20:44 : Gold & Elixir & DE no change detected, exit
+2016-01-22 05:20:44 : Returning Home
+2016-01-22 05:20:49 : Loot: [G]: 177 271 [E]: 110 617 [DE]: 309 [T]: 11
+2016-01-22 05:20:49 : Bonus Percentage: 72%
+2016-01-22 05:20:50 : Bonus [G]: 936 out of 1 300 [E]: 936 out of 1 300
+2016-01-22 05:20:50 : Your league level is: Bronze I
+2016-01-22 05:20:50 : Stars earned: 1
+2016-01-22 05:21:01 : Trying to locate Main Screen
+2016-01-22 05:21:01 : Main Screen Located
+2016-01-22 05:21:04 : Village Report
+2016-01-22 05:21:04 : No. of Free/Total Builders: 0/5
+2016-01-22 05:21:04 :  [T]: 804
+2016-01-22 05:21:05 :  [G]: 6 077 771 [E]: 4 674 334 [D]: 165 247 [GEM]: 159
+2016-01-22 05:21:07 : Training Troops & Spells
+2016-01-22 05:21:08 : Checking Army Camp...
+2016-01-22 05:21:09 : Total Army Camp capacity: 44/220 (20%)
+2016-01-22 05:21:11 :  - No. of Archers: 18
+2016-01-22 05:21:11 :  - No. of Goblins: 16
+2016-01-22 05:21:11 :  - No. of Minions: 5
+2016-01-22 05:21:11 :  - Barbarian King available
+2016-01-22 05:21:11 :  - Archer Queen available
+2016-01-22 05:21:11 : Barracks and Spell factory status: 
+2016-01-22 05:21:11 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-22 05:21:11 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-01-22 05:21:11 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 05:21:11 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-22 05:22:02 : Collecting Resources
+2016-01-22 05:22:14 : Checking if Village needs Rearming..
+2016-01-22 05:22:31 : ====== Waiting for full army ======
+2016-01-22 05:22:44 : Training Troops & Spells
+2016-01-22 05:22:45 : Checking Army Camp...
+2016-01-22 05:22:47 : Total Army Camp capacity: 61/220 (27%)
+2016-01-22 05:22:48 :  - No. of Archers: 26
+2016-01-22 05:22:48 :  - No. of Goblins: 21
+2016-01-22 05:22:48 :  - No. of Minions: 7
+2016-01-22 05:22:48 :  - Barbarian King available
+2016-01-22 05:22:48 :  - Archer Queen available
+2016-01-22 05:23:07 : Time Idle: 00:00:35
+2016-01-22 05:23:07 : army Capacity below 30%, not enough for Snipe While Train
+2016-01-22 05:23:07 : ====== Waiting for full army ======
+2016-01-22 05:23:21 : Training Troops & Spells
+2016-01-22 05:23:21 : Checking Army Camp...
+2016-01-22 05:23:23 : Total Army Camp capacity: 68/220 (30%)
+2016-01-22 05:23:24 :  - No. of Archers: 29
+2016-01-22 05:23:24 :  - No. of Goblins: 23
+2016-01-22 05:23:25 :  - No. of Minions: 8
+2016-01-22 05:23:25 :  - Barbarian King available
+2016-01-22 05:23:25 :  - Archer Queen available
+2016-01-22 05:23:43 : Time Idle: 00:01:11
+2016-01-22 05:23:43 : ***[Trying TH snipe while training army]***
+2016-01-22 05:23:43 : Going to Attack...
+2016-01-22 05:23:50 : ============== Searching For Dead Base ===============
+2016-01-22 05:23:50 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:23:50 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:23:50 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:23:50 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:23:50 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:23:50 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:23:50 : ==================================================
+2016-01-22 05:23:51 :   1> [G]: 451063 [E]: 354755 [D]: 1012 [T]:31 [TH]: 9, Out
+2016-01-22 05:24:02 :   2> [G]:  20221 [E]:  18924 [D]:   35 [T]:43 [TH]: 7, In
+2016-01-22 05:24:08 :   3> [G]:  48917 [E]:  51913 [D]:   64 [T]:45 [TH]: 8, In
+2016-01-22 05:24:19 :   4> [G]: 241677 [E]: 249691 [D]:   14 [T]:42 [TH]: 8, In
+2016-01-22 05:24:27 :   5> [G]:  64661 [E]:  60466 [D]:  228 [T]:48 [TH]: 9, Out
+2016-01-22 05:24:36 :   6> [G]:  34076 [E]: 351455 [D]: 2535 [T]:34 [TH]: 9, In
+2016-01-22 05:24:45 :   7> [G]:   6498 [E]: 242122 [D]:  823 [T]:42 [TH]: 8, In
+2016-01-22 05:24:51 :   8> [G]:  19259 [E]:  17952 [D]:  121 [T]:43 [TH]: 7, Out
+2016-01-22 05:24:56 :   9> [G]:  62730 [E]:  51241 [D]:  417 [T]:49 [TH]: 9, Out
+2016-01-22 05:25:01 :  10> [G]:  84498 [E]:  24787 [D]:  577 [T]:45 [TH]: 8, Out
+2016-01-22 05:25:07 :  11> [G]:  57506 [E]:  55337 [D]:  909 [T]:47 [TH]: 9, In
+2016-01-22 05:25:16 :  12> [G]:  72837 [E]: 167585 [D]:  207 [T]:43 [TH]: 8, Out
+2016-01-22 05:25:16 :       TH Outside Found! 
+2016-01-22 05:25:17 : ================ Search Complete =================
+2016-01-22 05:25:17 : Initiating attack for: TH Snipe
+2016-01-22 05:25:22 : -*-Archers 30
+2016-01-22 05:25:22 : -*-Goblins 25
+2016-01-22 05:25:22 : -*-Minions 8
+2016-01-22 05:25:22 : -*-King 
+2016-01-22 05:25:22 : -*-Queen 
+2016-01-22 05:25:22 : -*-Poison Spells 2
+2016-01-22 05:25:25 : -*-CC Spell(Poison) 1
+2016-01-22 05:25:25 :  ====== Start Attack ====== 
+2016-01-22 05:25:27 : Sniping TH with Minion                
+2016-01-22 05:25:27 :                                       
+2016-01-22 05:25:27 :                                       
+2016-01-22 05:25:28 : Dropping Only wave of 4 Minions
+2016-01-22 05:25:29 : Deployment of 4 Minions was Successful!
+2016-01-22 05:25:29 :                                       
+2016-01-22 05:25:29 : Dropping Only wave of 4 Goblins
+2016-01-22 05:25:30 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:25:31 :                                       
+2016-01-22 05:25:31 :                                       
+2016-01-22 05:25:31 : Dropping Only wave of 4 Archers
+2016-01-22 05:25:32 : Deployment of 4 Archers was Successful!
+2016-01-22 05:25:32 :                                       
+2016-01-22 05:25:32 : Wait for 30 Second                    
+2016-01-22 05:26:02 : Townhall has been destroyed!
+2016-01-22 05:26:06 :                                       
+2016-01-22 05:26:06 : Wait few sec before close attack
+2016-01-22 05:26:13 : Returning Home
+2016-01-22 05:26:17 : Loot: [G]: 2 866 [E]: 40 564 [DE]: 23 [T]: 14
+2016-01-22 05:26:17 : Bonus Percentage: 6%
+2016-01-22 05:26:18 : Bonus [G]: 156 out of 2 600 [E]: 156 out of 2 600
+2016-01-22 05:26:18 : Your league level is: Silver III
+2016-01-22 05:26:18 : Stars earned: 1
+2016-01-22 05:26:24 : ***[End trying TH snipe while training army]***
+2016-01-22 05:26:25 : ====== Waiting for full army ======
+2016-01-22 05:26:38 : Training Troops & Spells
+2016-01-22 05:26:39 : Checking Army Camp...
+2016-01-22 05:26:40 : Total Army Camp capacity: 86/220 (39%)
+2016-01-22 05:26:42 :  - No. of Archers: 39
+2016-01-22 05:26:42 :  - No. of Goblins: 31
+2016-01-22 05:26:42 :  - No. of Minions: 8
+2016-01-22 05:26:42 :  - Barbarian King available
+2016-01-22 05:26:42 :  - Archer Queen available
+2016-01-22 05:27:00 : Time Idle: 00:01:47
+2016-01-22 05:27:00 : ***[Trying TH snipe while training army]***
+2016-01-22 05:27:00 : Going to Attack...
+2016-01-22 05:27:07 : ============== Searching For Dead Base ===============
+2016-01-22 05:27:07 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:27:07 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:27:07 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:27:07 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:27:07 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:27:07 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:27:07 : ==================================================
+2016-01-22 05:27:14 :   1> [G]: 163366 [E]: 229682 [D]:  928 [T]:37 [TH]: 8, Out
+2016-01-22 05:27:14 :       TH Outside Found! 
+2016-01-22 05:27:16 : ================ Search Complete =================
+2016-01-22 05:27:16 : Initiating attack for: TH Snipe
+2016-01-22 05:27:21 : -*-Archers 41
+2016-01-22 05:27:21 : -*-Goblins 32
+2016-01-22 05:27:21 : -*-Minions 8
+2016-01-22 05:27:21 : -*-King 
+2016-01-22 05:27:21 : -*-Queen 
+2016-01-22 05:27:21 : -*-Poison Spells 2
+2016-01-22 05:27:24 : -*-CC Spell(Poison) 1
+2016-01-22 05:27:24 :  ====== Start Attack ====== 
+2016-01-22 05:27:26 : Sniping TH with Minion                
+2016-01-22 05:27:26 :                                       
+2016-01-22 05:27:26 :                                       
+2016-01-22 05:27:26 : Dropping Only wave of 4 Minions
+2016-01-22 05:27:28 : Deployment of 4 Minions was Successful!
+2016-01-22 05:27:28 :                                       
+2016-01-22 05:27:28 : Dropping Only wave of 4 Goblins
+2016-01-22 05:27:29 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:27:29 :                                       
+2016-01-22 05:27:29 :                                       
+2016-01-22 05:27:30 : Dropping Only wave of 4 Archers
+2016-01-22 05:27:31 : Deployment of 4 Archers was Successful!
+2016-01-22 05:27:31 :                                       
+2016-01-22 05:27:31 : Wait for 30 Second                    
+2016-01-22 05:27:40 : Townhall has been destroyed!
+2016-01-22 05:27:44 :                                       
+2016-01-22 05:27:44 : Wait few sec before close attack
+2016-01-22 05:27:52 : Returning Home
+2016-01-22 05:27:57 : Loot: [G]: 31 000 [E]: 47 580 [DE]: 143 [T]: 12
+2016-01-22 05:27:57 : Bonus Percentage: 8%
+2016-01-22 05:27:57 : Bonus [G]: 208 out of 2 600 [E]: 208 out of 2 600
+2016-01-22 05:27:58 : Your league level is: Silver III
+2016-01-22 05:27:58 : Stars earned: 1
+2016-01-22 05:28:06 : ***[End trying TH snipe while training army]***
+2016-01-22 05:28:07 : ====== Waiting for full army ======
+2016-01-22 05:28:20 : Training Troops & Spells
+2016-01-22 05:28:21 : Checking Army Camp...
+2016-01-22 05:28:22 : Total Army Camp capacity: 87/220 (39%)
+2016-01-22 05:28:24 :  - No. of Archers: 42
+2016-01-22 05:28:24 :  - No. of Goblins: 33
+2016-01-22 05:28:24 :  - No. of Minions: 6
+2016-01-22 05:28:24 :  - Barbarian King available
+2016-01-22 05:28:24 :  - Archer Queen available
+2016-01-22 05:28:42 : Time Idle: 00:02:22
+2016-01-22 05:28:42 : ***[Trying TH snipe while training army]***
+2016-01-22 05:28:42 : Going to Attack...
+2016-01-22 05:28:49 : ============== Searching For Dead Base ===============
+2016-01-22 05:28:49 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:28:49 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:28:49 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:28:49 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:28:49 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:28:49 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:28:49 : ==================================================
+2016-01-22 05:28:56 :   1> [G]: 166737 [E]: 110792 [D]:  785 [T]:36 [TH]: 9, Out
+2016-01-22 05:28:56 :       TH Outside Found! 
+2016-01-22 05:28:58 : ================ Search Complete =================
+2016-01-22 05:28:58 : Initiating attack for: TH Snipe
+2016-01-22 05:29:03 : -*-Archers 44
+2016-01-22 05:29:03 : -*-Goblins 34
+2016-01-22 05:29:03 : -*-Minions 6
+2016-01-22 05:29:03 : -*-King 
+2016-01-22 05:29:03 : -*-Queen 
+2016-01-22 05:29:03 : -*-Poison Spells 2
+2016-01-22 05:29:05 : -*-CC Spell(Poison) 1
+2016-01-22 05:29:05 :  ====== Start Attack ====== 
+2016-01-22 05:29:08 : Sniping TH with Minion                
+2016-01-22 05:29:08 :                                       
+2016-01-22 05:29:08 :                                       
+2016-01-22 05:29:08 : Dropping Only wave of 4 Minions
+2016-01-22 05:29:09 : Deployment of 4 Minions was Successful!
+2016-01-22 05:29:09 :                                       
+2016-01-22 05:29:10 : Dropping Only wave of 4 Goblins
+2016-01-22 05:29:11 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:29:11 :                                       
+2016-01-22 05:29:11 :                                       
+2016-01-22 05:29:11 : Dropping Only wave of 4 Archers
+2016-01-22 05:29:13 : Deployment of 4 Archers was Successful!
+2016-01-22 05:29:13 :                                       
+2016-01-22 05:29:13 : Wait for 30 Second                    
+2016-01-22 05:29:25 : Townhall has been destroyed!
+2016-01-22 05:29:29 :                                       
+2016-01-22 05:29:29 : Wait few sec before close attack
+2016-01-22 05:29:36 : Returning Home
+2016-01-22 05:29:40 : Loot: [G]: 0 [E]: 7 368 [T]: 12
+2016-01-22 05:29:40 : Bonus Percentage: 8%
+2016-01-22 05:29:41 : Bonus [G]: 208 out of 2 600 [E]: 208 out of 2 600
+2016-01-22 05:29:42 : Your league level is: Silver III
+2016-01-22 05:29:42 : Stars earned: 1
+2016-01-22 05:29:50 : ***[End trying TH snipe while training army]***
+2016-01-22 05:29:50 : ====== Waiting for full army ======
+2016-01-22 05:30:04 : Training Troops & Spells
+2016-01-22 05:30:04 : Checking Army Camp...
+2016-01-22 05:30:06 : Total Army Camp capacity: 89/220 (40%)
+2016-01-22 05:30:07 :  - No. of Archers: 46
+2016-01-22 05:30:07 :  - No. of Goblins: 35
+2016-01-22 05:30:08 :  - No. of Minions: 4
+2016-01-22 05:30:08 :  - Barbarian King available
+2016-01-22 05:30:08 :  - Archer Queen available
+2016-01-22 05:30:08 : Don't waste time, go to attack
+2016-01-22 05:30:11 : Waiting for Main Screen
+2016-01-22 05:30:13 : Time Idle: 00:02:45
+2016-01-22 05:30:13 : ***[Trying TH snipe while training army]***
+2016-01-22 05:30:13 : Going to Attack...
+2016-01-22 05:30:20 : ============== Searching For Dead Base ===============
+2016-01-22 05:30:20 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:30:20 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:30:20 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:30:20 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:30:20 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:30:20 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:30:20 : ==================================================
+2016-01-22 05:30:28 :   1> [G]: 402162 [E]: 372263 [D]: 3033 [T]:25 [TH]:10, In
+2016-01-22 05:30:34 :   2> [G]:  98659 [E]:  26148 [D]:  428 [T]:35 [TH]: 8, Out
+2016-01-22 05:30:46 :   3> [G]: 156370 [E]:  52295 [D]:  817 [T]:36 [TH]: 9, Out
+2016-01-22 05:30:47 :       TH Outside Found! 
+2016-01-22 05:30:48 : ================ Search Complete =================
+2016-01-22 05:30:48 : Initiating attack for: TH Snipe
+2016-01-22 05:30:53 : -*-Archers 46
+2016-01-22 05:30:53 : -*-Goblins 35
+2016-01-22 05:30:53 : -*-Minions 4
+2016-01-22 05:30:53 : -*-King 
+2016-01-22 05:30:53 : -*-Queen 
+2016-01-22 05:30:53 : -*-Poison Spells 2
+2016-01-22 05:30:56 : -*-CC Spell(Poison) 1
+2016-01-22 05:30:56 :  ====== Start Attack ====== 
+2016-01-22 05:30:58 : Sniping TH with Minion                
+2016-01-22 05:30:58 :                                       
+2016-01-22 05:30:58 :                                       
+2016-01-22 05:30:58 : Dropping Only wave of 4 Minions
+2016-01-22 05:31:00 : Deployment of 4 Minions was Successful!
+2016-01-22 05:31:00 :                                       
+2016-01-22 05:31:00 : Dropping Only wave of 4 Goblins
+2016-01-22 05:31:01 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:31:01 :                                       
+2016-01-22 05:31:02 :                                       
+2016-01-22 05:31:02 : Dropping Only wave of 4 Archers
+2016-01-22 05:31:03 : Deployment of 4 Archers was Successful!
+2016-01-22 05:31:03 :                                       
+2016-01-22 05:31:03 : Wait for 30 Second                    
+2016-01-22 05:31:13 : Townhall has been destroyed!
+2016-01-22 05:31:17 :                                       
+2016-01-22 05:31:17 : Wait few sec before close attack
+2016-01-22 05:31:23 : Returning Home
+2016-01-22 05:31:28 : Loot: [G]: 732 [E]: 5 986 [DE]: 1 [T]: 12
+2016-01-22 05:31:28 : Bonus Percentage: 4%
+2016-01-22 05:31:28 : Bonus [G]: 104 out of 2 600 [E]: 104 out of 2 600
+2016-01-22 05:31:29 : Your league level is: Silver III
+2016-01-22 05:31:29 : Stars earned: 1
+2016-01-22 05:31:37 : ***[End trying TH snipe while training army]***
+2016-01-22 05:31:38 : ====== Waiting for full army ======
+2016-01-22 05:31:51 : Training Troops & Spells
+2016-01-22 05:31:52 : Checking Army Camp...
+2016-01-22 05:31:53 : Total Army Camp capacity: 90/220 (40%)
+2016-01-22 05:31:55 :  - No. of Archers: 49
+2016-01-22 05:31:55 :  - No. of Goblins: 37
+2016-01-22 05:31:55 :  - No. of Minions: 2
+2016-01-22 05:31:55 :  - Barbarian King available
+2016-01-22 05:31:55 :  - Archer Queen available
+2016-01-22 05:31:55 : Don't waste time, go to attack
+2016-01-22 05:31:58 : Waiting for Main Screen
+2016-01-22 05:32:01 : Time Idle: 00:03:08
+2016-01-22 05:32:01 : ***[Trying TH snipe while training army]***
+2016-01-22 05:32:01 : Going to Attack...
+2016-01-22 05:32:07 : ============== Searching For Dead Base ===============
+2016-01-22 05:32:07 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:32:07 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:32:07 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:32:07 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:32:07 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:32:07 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:32:07 : ==================================================
+2016-01-22 05:32:13 :   1> [G]:  56101 [E]: 199241 [D]:  134 [T]:33 [TH]: 8, In
+2016-01-22 05:32:24 :   2> [G]: 107261 [E]:  60610 [D]:  664 [T]:35 [TH]: 8, In
+2016-01-22 05:32:33 :   3> [G]: 107271 [E]:  99677 [D]:  724 [T]:28 [TH]: 9, Out
+2016-01-22 05:32:33 :       TH Outside Found! 
+2016-01-22 05:32:34 : ================ Search Complete =================
+2016-01-22 05:32:34 : Initiating attack for: TH Snipe
+2016-01-22 05:32:40 : -*-Archers 50
+2016-01-22 05:32:40 : -*-Goblins 37
+2016-01-22 05:32:40 : -*-Minions 2
+2016-01-22 05:32:40 : -*-King 
+2016-01-22 05:32:40 : -*-Queen 
+2016-01-22 05:32:40 : -*-Poison Spells 2
+2016-01-22 05:32:42 : -*-CC Spell(Poison) 1
+2016-01-22 05:32:42 :  ====== Start Attack ====== 
+2016-01-22 05:32:45 : Sniping TH with Minion                
+2016-01-22 05:32:45 :                                       
+2016-01-22 05:32:45 :                                       
+2016-01-22 05:32:45 : Dropping Only wave of 4 Minions
+2016-01-22 05:32:46 : Deployment of 2 Minions was Successful!
+2016-01-22 05:32:46 :                                       
+2016-01-22 05:32:46 : Dropping Only wave of 4 Goblins
+2016-01-22 05:32:48 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:32:48 :                                       
+2016-01-22 05:32:48 :                                       
+2016-01-22 05:32:48 : Dropping Only wave of 4 Archers
+2016-01-22 05:32:49 : Deployment of 4 Archers was Successful!
+2016-01-22 05:32:50 :                                       
+2016-01-22 05:32:50 : Wait for 30 Second                    
+2016-01-22 05:33:02 : Townhall has been destroyed!
+2016-01-22 05:33:05 :                                       
+2016-01-22 05:33:05 : Wait few sec before close attack
+2016-01-22 05:33:14 : Returning Home
+2016-01-22 05:33:19 : Loot: [G]: 11 111 [E]: 15 973 [DE]: 58 [T]: 9
+2016-01-22 05:33:19 : Bonus Percentage: 4%
+2016-01-22 05:33:19 : Bonus [G]: 104 out of 2 600 [E]: 104 out of 2 600
+2016-01-22 05:33:20 : Your league level is: Silver III
+2016-01-22 05:33:20 : Stars earned: 1
+2016-01-22 05:33:26 : ***[End trying TH snipe while training army]***
+2016-01-22 05:33:26 : ====== Waiting for full army ======
+2016-01-22 05:33:40 : Training Troops & Spells
+2016-01-22 05:33:40 : Checking Army Camp...
+2016-01-22 05:33:42 : Total Army Camp capacity: 96/220 (43%)
+2016-01-22 05:33:43 :  - No. of Archers: 53
+2016-01-22 05:33:43 :  - No. of Goblins: 39
+2016-01-22 05:33:44 :  - No. of Minions: 2
+2016-01-22 05:33:44 :  - Barbarian King available
+2016-01-22 05:33:44 :  - Archer Queen available
+2016-01-22 05:33:44 : Don't waste time, go to attack
+2016-01-22 05:33:47 : Waiting for Main Screen
+2016-01-22 05:33:49 : Time Idle: 00:03:30
+2016-01-22 05:33:49 : ***[Trying TH snipe while training army]***
+2016-01-22 05:33:49 : Going to Attack...
+2016-01-22 05:33:56 : ============== Searching For Dead Base ===============
+2016-01-22 05:33:56 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:33:56 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:33:56 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:33:56 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:33:56 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:33:56 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:33:56 : ==================================================
+2016-01-22 05:34:02 :   1> [G]: 259141 [E]: 250956 [D]: 1243 [T]:32 [TH]: 8, In
+2016-01-22 05:34:15 :   2> [G]: 158446 [E]: 247180 [D]: 1254 [T]:31 [TH]: 9, In
+2016-01-22 05:34:21 :   3> [G]:  46512 [E]:  66138 [D]:  344 [T]:41 [TH]: 8, Out
+2016-01-22 05:34:25 :   4> [G]:  77091 [E]:  72190 [D]:  816 [T]:40 [TH]: 8, Out
+2016-01-22 05:34:36 :   5> [G]: 106430 [E]: 233093 [D]:  983 [T]:39 [TH]: 8, In
+2016-01-22 05:34:45 :   6> [G]:  62496 [E]: 289144 [D]:  963 [T]:41 [TH]: 9, Out
+2016-01-22 05:34:45 :       TH Outside Found! 
+2016-01-22 05:34:46 : ================ Search Complete =================
+2016-01-22 05:34:46 : Initiating attack for: TH Snipe
+2016-01-22 05:34:51 : -*-Archers 54
+2016-01-22 05:34:51 : -*-Goblins 39
+2016-01-22 05:34:51 : -*-Minions 2
+2016-01-22 05:34:52 : -*-King 
+2016-01-22 05:34:52 : -*-Queen 
+2016-01-22 05:34:52 : -*-Poison Spells 2
+2016-01-22 05:34:54 : -*-CC Spell(Poison) 1
+2016-01-22 05:34:54 :  ====== Start Attack ====== 
+2016-01-22 05:34:56 : Sniping TH with Minion                
+2016-01-22 05:34:57 :                                       
+2016-01-22 05:34:57 :                                       
+2016-01-22 05:34:57 : Dropping Only wave of 4 Minions
+2016-01-22 05:34:58 : Deployment of 2 Minions was Successful!
+2016-01-22 05:34:58 :                                       
+2016-01-22 05:34:58 : Dropping Only wave of 4 Goblins
+2016-01-22 05:35:00 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:35:00 :                                       
+2016-01-22 05:35:00 :                                       
+2016-01-22 05:35:00 : Dropping Only wave of 4 Archers
+2016-01-22 05:35:01 : Deployment of 4 Archers was Successful!
+2016-01-22 05:35:01 :                                       
+2016-01-22 05:35:02 : Wait for 30 Second                    
+2016-01-22 05:35:32 :                                       
+2016-01-22 05:35:32 : TH Not Destroy??                      
+2016-01-22 05:35:32 : We Try Again With Smart BarchG        
+2016-01-22 05:35:33 :                                       
+2016-01-22 05:35:33 : Dropping Only wave of 4 Goblins
+2016-01-22 05:35:34 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:35:34 :                                       
+2016-01-22 05:35:34 :                                       
+2016-01-22 05:35:34 : Dropping Only wave of 4 Archers
+2016-01-22 05:35:36 : Deployment of 4 Archers was Successful!
+2016-01-22 05:35:36 :                                       
+2016-01-22 05:35:36 : Wait for 25 Second                    
+2016-01-22 05:36:01 :                                       
+2016-01-22 05:36:01 : Still Not Destroy?                    
+2016-01-22 05:36:01 : Lets Surrender                        
+2016-01-22 05:36:01 : Go Find New Base!                     
+2016-01-22 05:36:01 : Wait few sec before close attack
+2016-01-22 05:36:40 : Returning Home
+2016-01-22 05:36:44 : Loot: [G]: 0 [E]: 0 [T]: -10
+2016-01-22 05:36:44 : Stars earned: 0
+2016-01-22 05:36:52 : ***[End trying TH snipe while training army]***
+2016-01-22 05:36:52 : ====== Waiting for full army ======
+2016-01-22 05:37:06 : Training Troops & Spells
+2016-01-22 05:37:06 : Checking Army Camp...
+2016-01-22 05:37:08 : Total Army Camp capacity: 111/220 (50%)
+2016-01-22 05:37:09 :  - No. of Archers: 60
+2016-01-22 05:37:10 :  - No. of Goblins: 43
+2016-01-22 05:37:10 :  - No. of Minions: 4
+2016-01-22 05:37:10 :  - Barbarian King available
+2016-01-22 05:37:10 :  - Archer Queen available
+2016-01-22 05:37:10 : Don't waste time, go to attack
+2016-01-22 05:37:13 : Waiting for Main Screen
+2016-01-22 05:37:15 : Time Idle: 00:03:53
+2016-01-22 05:37:15 : ***[Trying TH snipe while training army]***
+2016-01-22 05:37:15 : Going to Attack...
+2016-01-22 05:37:22 : ============== Searching For Dead Base ===============
+2016-01-22 05:37:22 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:37:22 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:37:22 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:37:22 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:37:22 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:37:22 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:37:22 : ==================================================
+2016-01-22 05:37:28 :   1> [G]: 102836 [E]: 138117 [D]: 1895 [T]:35 [TH]: 9, Out
+2016-01-22 05:37:28 :       TH Outside Found! 
+2016-01-22 05:37:30 : ================ Search Complete =================
+2016-01-22 05:37:30 : Initiating attack for: TH Snipe
+2016-01-22 05:37:35 : -*-Archers 60
+2016-01-22 05:37:35 : -*-Goblins 43
+2016-01-22 05:37:35 : -*-Minions 4
+2016-01-22 05:37:35 : -*-King 
+2016-01-22 05:37:35 : -*-Queen 
+2016-01-22 05:37:35 : -*-Poison Spells 2
+2016-01-22 05:37:38 : -*-CC Spell(Poison) 1
+2016-01-22 05:37:38 :  ====== Start Attack ====== 
+2016-01-22 05:37:40 : Sniping TH with Minion                
+2016-01-22 05:37:40 :                                       
+2016-01-22 05:37:40 :                                       
+2016-01-22 05:37:40 : Dropping Only wave of 4 Minions
+2016-01-22 05:37:42 : Deployment of 4 Minions was Successful!
+2016-01-22 05:37:42 :                                       
+2016-01-22 05:37:42 : Dropping Only wave of 4 Goblins
+2016-01-22 05:37:43 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:37:43 :                                       
+2016-01-22 05:37:43 :                                       
+2016-01-22 05:37:44 : Dropping Only wave of 4 Archers
+2016-01-22 05:37:45 : Deployment of 4 Archers was Successful!
+2016-01-22 05:37:45 :                                       
+2016-01-22 05:37:45 : Wait for 30 Second                    
+2016-01-22 05:37:55 : Townhall has been destroyed!
+2016-01-22 05:37:58 :                                       
+2016-01-22 05:37:58 : Wait few sec before close attack
+2016-01-22 05:38:07 : Returning Home
+2016-01-22 05:38:12 : Loot: [G]: 12 450 [E]: 17 189 [DE]: 124 [T]: 11
+2016-01-22 05:38:12 : Bonus Percentage: 4%
+2016-01-22 05:38:12 : Bonus [G]: 104 out of 2 600 [E]: 104 out of 2 600
+2016-01-22 05:38:13 : Your league level is: Silver III
+2016-01-22 05:38:13 : Stars earned: 1
+2016-01-22 05:38:21 : ***[End trying TH snipe while training army]***
+2016-01-22 05:38:21 : ====== Waiting for full army ======
+2016-01-22 05:38:35 : Training Troops & Spells
+2016-01-22 05:38:36 : Checking Army Camp...
+2016-01-22 05:38:37 : Total Army Camp capacity: 107/220 (48%)
+2016-01-22 05:38:39 :  - No. of Archers: 62
+2016-01-22 05:38:39 :  - No. of Goblins: 43
+2016-01-22 05:38:39 :  - No. of Minions: 1
+2016-01-22 05:38:39 :  - Barbarian King available
+2016-01-22 05:38:39 :  - Archer Queen available
+2016-01-22 05:38:39 : Don't waste time, go to attack
+2016-01-22 05:38:42 : Waiting for Main Screen
+2016-01-22 05:38:44 : Time Idle: 00:04:16
+2016-01-22 05:38:44 : ***[Trying TH snipe while training army]***
+2016-01-22 05:38:44 : Going to Attack...
+2016-01-22 05:38:51 : ============== Searching For Dead Base ===============
+2016-01-22 05:38:51 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:38:51 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:38:51 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:38:51 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:38:51 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:38:51 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:38:51 : ==================================================
+2016-01-22 05:38:55 :   1> [G]:  99212 [E]:  52921 [D]:  815 [T]:36 [TH]: 9, Out
+2016-01-22 05:39:07 :   2> [G]: 385875 [E]:  87800 [D]: 2064 [T]:41 [TH]: 9, In
+2016-01-22 05:39:11 :   3> [G]:  75448 [E]:  78812 [D]:  108 [T]:42 [TH]: 8, In
+2016-01-22 05:39:18 :   4> [G]: 274117 [E]: 272908 [D]:  661 [T]:42 [TH]: 8, Out
+2016-01-22 05:39:35 :   5> [G]:  45897 [E]: 296424 [D]: 1317 [T]:42 [TH]: 9, In
+2016-01-22 05:39:43 :   6> [G]:  54150 [E]: 168854 [D]:  471 [T]:43 [TH]: 9, Out
+2016-01-22 05:39:43 :       TH Outside Found! 
+2016-01-22 05:39:45 : ================ Search Complete =================
+2016-01-22 05:39:45 : Initiating attack for: TH Snipe
+2016-01-22 05:39:50 : -*-Archers 62
+2016-01-22 05:39:50 : -*-Goblins 44
+2016-01-22 05:39:50 : -*-Minions 2
+2016-01-22 05:39:50 : -*-King 
+2016-01-22 05:39:50 : -*-Queen 
+2016-01-22 05:39:50 : -*-Poison Spells 2
+2016-01-22 05:39:53 : -*-CC Spell(Poison) 1
+2016-01-22 05:39:53 :  ====== Start Attack ====== 
+2016-01-22 05:39:55 : Sniping TH with Minion                
+2016-01-22 05:39:55 :                                       
+2016-01-22 05:39:55 :                                       
+2016-01-22 05:39:55 : Dropping Only wave of 4 Minions
+2016-01-22 05:39:56 : Deployment of 2 Minions was Successful!
+2016-01-22 05:39:57 :                                       
+2016-01-22 05:39:57 : Dropping Only wave of 4 Goblins
+2016-01-22 05:39:58 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:39:58 :                                       
+2016-01-22 05:39:58 :                                       
+2016-01-22 05:39:58 : Dropping Only wave of 4 Archers
+2016-01-22 05:40:00 : Deployment of 4 Archers was Successful!
+2016-01-22 05:40:00 :                                       
+2016-01-22 05:40:00 : Wait for 30 Second                    
+2016-01-22 05:40:23 : Townhall has been destroyed!
+2016-01-22 05:40:27 :                                       
+2016-01-22 05:40:27 : Wait few sec before close attack
+2016-01-22 05:40:33 : Returning Home
+2016-01-22 05:40:38 : Loot: [G]: 5 568 [E]: 28 266 [DE]: 61 [T]: 14
+2016-01-22 05:40:38 : Bonus Percentage: 4%
+2016-01-22 05:40:38 : Bonus [G]: 104 out of 2 600 [E]: 104 out of 2 600
+2016-01-22 05:40:39 : Your league level is: Silver III
+2016-01-22 05:40:39 : Stars earned: 1
+2016-01-22 05:40:47 : ***[End trying TH snipe while training army]***
+2016-01-22 05:40:48 : ====== Waiting for full army ======
+2016-01-22 05:41:01 : Training Troops & Spells
+2016-01-22 05:41:02 : Checking Army Camp...
+2016-01-22 05:41:03 : Total Army Camp capacity: 120/220 (54%)
+2016-01-22 05:41:05 :  - No. of Archers: 68
+2016-01-22 05:41:05 :  - No. of Goblins: 48
+2016-01-22 05:41:05 :  - No. of Minions: 2
+2016-01-22 05:41:05 :  - Barbarian King available
+2016-01-22 05:41:05 :  - Archer Queen available
+2016-01-22 05:41:05 : Don't waste time, go to attack
+2016-01-22 05:41:08 : Waiting for Main Screen
+2016-01-22 05:41:10 : Time Idle: 00:04:38
+2016-01-22 05:41:10 : ***[Trying TH snipe while training army]***
+2016-01-22 05:41:10 : Going to Attack...
+2016-01-22 05:41:17 : ============== Searching For Dead Base ===============
+2016-01-22 05:41:17 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:41:17 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:41:17 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:41:17 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:41:17 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:41:17 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:41:17 : ==================================================
+2016-01-22 05:41:19 :   1> [G]: 118502 [E]:  26562 [D]:  883 [T]:25 [TH]: 9, In
+2016-01-22 05:41:32 :   2> [G]: 169715 [E]:  41942 [D]:  225 [T]:34 [TH]: 8, Out
+2016-01-22 05:41:32 :       TH Outside Found! 
+2016-01-22 05:41:33 : ================ Search Complete =================
+2016-01-22 05:41:33 : Initiating attack for: TH Snipe
+2016-01-22 05:41:38 : -*-Archers 69
+2016-01-22 05:41:38 : -*-Goblins 49
+2016-01-22 05:41:38 : -*-Minions 2
+2016-01-22 05:41:39 : -*-King 
+2016-01-22 05:41:39 : -*-Queen 
+2016-01-22 05:41:39 : -*-Poison Spells 2
+2016-01-22 05:41:41 : -*-CC Spell(Poison) 1
+2016-01-22 05:41:41 :  ====== Start Attack ====== 
+2016-01-22 05:41:43 : Sniping TH with Minion                
+2016-01-22 05:41:44 :                                       
+2016-01-22 05:41:44 :                                       
+2016-01-22 05:41:44 : Dropping Only wave of 4 Minions
+2016-01-22 05:41:45 : Deployment of 2 Minions was Successful!
+2016-01-22 05:41:45 :                                       
+2016-01-22 05:41:45 : Dropping Only wave of 4 Goblins
+2016-01-22 05:41:47 : Deployment of 4 Goblins was Successful!
+2016-01-22 05:41:47 :                                       
+2016-01-22 05:41:47 :                                       
+2016-01-22 05:41:47 : Dropping Only wave of 4 Archers
+2016-01-22 05:41:48 : Deployment of 4 Archers was Successful!
+2016-01-22 05:41:48 :                                       
+2016-01-22 05:41:48 : Wait for 30 Second                    
+2016-01-22 05:41:59 : Townhall has been destroyed!
+2016-01-22 05:42:03 :                                       
+2016-01-22 05:42:03 : Wait few sec before close attack
+2016-01-22 05:42:10 : Returning Home
+2016-01-22 05:42:14 : Loot: [G]: 12 [E]: 3 034 [DE]: 6 [T]: 11
+2016-01-22 05:42:14 : Bonus Percentage: 6%
+2016-01-22 05:42:15 : Bonus [G]: 156 out of 2 600 [E]: 156 out of 2 600
+2016-01-22 05:42:15 : Your league level is: Silver III
+2016-01-22 05:42:15 : Stars earned: 1
+2016-01-22 05:42:24 : ***[End trying TH snipe while training army]***
+2016-01-22 05:42:24 : ====== Waiting for full army ======
+2016-01-22 05:42:37 : Training Troops & Spells
+2016-01-22 05:42:38 : Checking Army Camp...
+2016-01-22 05:42:40 : Total Army Camp capacity: 124/220 (56%)
+2016-01-22 05:42:41 :  - No. of Archers: 71
+2016-01-22 05:42:41 :  - No. of Goblins: 49
+2016-01-22 05:42:41 :  - No. of Minions: 2
+2016-01-22 05:42:41 :  - Barbarian King available
+2016-01-22 05:42:41 :  - Archer Queen available
+2016-01-22 05:42:42 : Don't waste time, go to attack
+2016-01-22 05:42:44 : Waiting for Main Screen
+2016-01-22 05:42:47 : Time Idle: 00:05:01
+2016-01-22 05:42:47 : ***[Trying TH snipe while training army]***
+2016-01-22 05:42:47 : Going to Attack...
+2016-01-22 05:42:54 : ============== Searching For Dead Base ===============
+2016-01-22 05:42:54 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-22 05:42:54 : Meet: Gold and Elixir, Trophy
+2016-01-22 05:42:54 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-22 05:42:54 : Aim: [G]:  80000 [E]:  80000 [D]:    0 [T]:99 for: Dead Base
+2016-01-22 05:42:54 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-22 05:42:54 : THSnipe Combo for Only LiveBasesAGM - Snipe v1.0
+2016-01-22 05:42:54 : ==================================================
+2016-01-22 05:42:55 :   1> [G]:  39394 [E]:  33295 [D]:    7 [T]:34 [TH]: 7, In
+2016-01-22 05:43:04 :   2> [G]:  57541 [E]:  60577 [D]:  908 [T]:37 [TH]: 9, Out

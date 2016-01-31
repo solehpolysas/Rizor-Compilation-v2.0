@@ -1,0 +1,357 @@
+2016-01-12 13:45:50 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-12 13:45:50 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-12 13:45:50 : =================== Bot Start ====================
+2016-01-12 13:45:50 : -------------------------  Current Profile: 01 --------------------------
+2016-01-12 13:45:50 : Trying to locate Main Screen
+2016-01-12 13:45:50 : Main Screen Located
+2016-01-12 13:45:52 : Detecting your Buildings..
+2016-01-12 13:45:53 : Finding your Clan Level, wait..
+2016-01-12 13:45:59 : Found Clan Level: 5
+2016-01-12 13:46:01 : Detecting your Village Theme
+2016-01-12 13:46:01 : Normal Theme detected
+2016-01-12 13:46:02 : Language setting is English: Correct.
+2016-01-12 13:46:03 : Trying to locate Main Screen
+2016-01-12 13:46:03 : Main Screen Located
+2016-01-12 13:46:06 : Village Report
+2016-01-12 13:46:07 : No. of Free/Total Builders: 0/5
+2016-01-12 13:46:07 :  [T]: 986
+2016-01-12 13:46:07 :  [G]: 2 990 136 [E]: 3 294 543 [D]: 99 439 [GEM]: 113
+2016-01-12 13:46:09 : Training Troops & Spells
+2016-01-12 13:46:10 : Checking Army Camp...
+2016-01-12 13:46:11 : Total Army Camp capacity: 176/220 (80%)
+2016-01-12 13:46:17 :  - No. of Archers: 34
+2016-01-12 13:46:17 :  - No. of Goblins: 142
+2016-01-12 13:46:17 :  - Archer Queen available
+2016-01-12 13:46:18 : Total Spell(s) Capacity: 3/9
+2016-01-12 13:46:18 :  - No. of LightningSpell: 1
+2016-01-12 13:46:18 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:46:18 : Barracks and Spell factory status: 
+2016-01-12 13:46:18 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-12 13:46:18 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2016-01-12 13:46:18 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-12 13:46:18 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-12 13:46:19 : Your Army Camps are now Full
+2016-01-12 13:46:19 : Calculating Troops before Training new Army.
+2016-01-12 13:46:56 : Already done Lightning Spell(s)
+2016-01-12 13:46:56 : Spell Factory is full ...
+2016-01-12 13:47:02 : Skipping Donate Troops
+2016-01-12 13:47:07 : Created 1  LightningSpell  Spell(s)
+2016-01-12 13:47:15 : Skipping Collect Resources
+2016-01-12 13:47:15 : Skipping Clear Tombstones
+2016-01-12 13:47:15 : Skipping ReArming Village
+2016-01-12 13:47:15 : Skipping Laboratory Upgrades
+2016-01-12 13:47:15 : Skipping Building Upgrades
+2016-01-12 13:47:15 : Skipping Upgrade Walls
+2016-01-12 13:47:15 : Going to Attack...
+2016-01-12 13:47:22 : ============== Searching For Dead Base ===============
+2016-01-12 13:47:22 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 13:47:22 : Meet: Gold or Elixir
+2016-01-12 13:47:22 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 13:47:22 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]: 0 for: Dead Base
+2016-01-12 13:47:22 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 13:47:22 : THSnipe Combo for Both Dead & LiveBasesSmartBarch-v1.0
+2016-01-12 13:47:22 : ==================================================
+2016-01-12 13:47:23 :   1> [G]:  67114 [E]:  41686 [D]:  507 [T]:34 [TH]: 8, In
+2016-01-12 13:47:34 :   2> [G]: 141877 [E]: 249893 [D]: 1301 [T]:26 [TH]: 8, In
+2016-01-12 13:47:43 :   3> [G]: 137765 [E]: 103349 [D]: 2574 [T]:20 [TH]: 9, Out
+2016-01-12 13:47:43 :       TH Outside Found! 
+2016-01-12 13:47:44 : ================ Search Complete =================
+2016-01-12 13:47:44 : Initiating attack for: TH Snipe
+2016-01-12 13:47:50 : -*-Archers 36
+2016-01-12 13:47:50 : -*-Goblins 146
+2016-01-12 13:47:50 : -*-Queen 
+2016-01-12 13:47:50 : -*-Lightning Spells 2
+2016-01-12 13:47:50 : -*-Earthquake Spells 1
+2016-01-12 13:47:50 : -*-Poison Spells 1
+2016-01-12 13:47:52 :  ====== Start Attack ====== 
+2016-01-12 13:47:54 : Sniping TH with Smartsaving Goblin    
+2016-01-12 13:47:55 : Dropping Only wave of 5 Goblins
+2016-01-12 13:47:56 : Deployment of 5 Goblins was Successful!
+2016-01-12 13:47:57 :                                       
+2016-01-12 13:47:57 :                                       
+2016-01-12 13:47:57 : Dropping Only wave of 10 Archers
+2016-01-12 13:47:59 : Deployment of 10 Archers was Successful!
+2016-01-12 13:48:00 :                                       
+2016-01-12 13:48:00 : Wait for 20 Second                    
+2016-01-12 13:48:08 : Townhall has been destroyed!
+2016-01-12 13:48:19 : Total No. of Dark Elixir Drills = 1
+2016-01-12 13:48:25 : DE from zap: 456 Total DE from smartZap: 456
+2016-01-12 13:48:33 : Total No. of Dark Elixir Drills = 1
+2016-01-12 13:48:33 : testX: -1 testY: -1
+2016-01-12 13:48:40 : DE from zap: 456 Total DE from smartZap: 912
+2016-01-12 13:48:48 : Total No. of Dark Elixir Drills = 1
+2016-01-12 13:48:48 : testX: -1 testY: -1
+2016-01-12 13:48:49 : Greedy mode: Activated
+2016-01-12 13:48:54 : Greedy mode: Not a Dead Village
+2016-01-12 13:48:57 :                                       
+2016-01-12 13:48:57 : Semi-DeadBase Gold Level  = 9
+2016-01-12 13:48:57 : Semi-DeadBase Elixir Level = 5
+2016-01-12 13:48:57 : Attacking!!.....
+2016-01-12 13:48:57 : Initiating attack for: Dead Base
+2016-01-12 13:49:02 : -*-Archers 26
+2016-01-12 13:49:02 : -*-Goblins 141
+2016-01-12 13:49:02 : -*-Queen 
+2016-01-12 13:49:02 : -*-Earthquake Spells 1
+2016-01-12 13:49:02 : -*-Poison Spells 1
+2016-01-12 13:49:05 :  ====== Start Attack ====== 
+2016-01-12 13:49:07 : Attacking four finger fight style
+2016-01-12 13:49:08 : Dropping only wave of 26 Archers
+2016-01-12 13:49:11 : Dropping first wave of 71 Goblins
+2016-01-12 13:49:15 : Dropping second wave of 71 Goblins
+2016-01-12 13:49:20 : Dropping left over troops
+2016-01-12 13:49:20 : Checking remaining unused troops for: Dead Base
+2016-01-12 13:49:25 : -*-Queen 
+2016-01-12 13:49:25 : -*-Earthquake Spells 1
+2016-01-12 13:49:25 : -*-Poison Spells 1
+2016-01-12 13:49:37 : Checking remaining unused troops for: Dead Base
+2016-01-12 13:49:42 : -*-Queen 
+2016-01-12 13:49:42 : -*-Earthquake Spells 1
+2016-01-12 13:49:42 : -*-Poison Spells 1
+2016-01-12 13:49:53 : Finished Attacking, waiting for the battle to end
+2016-01-12 13:49:54 : Checking if the battle has finished
+2016-01-12 13:49:56 : detected [G]: 104181 [E]: 11804 [DE]: 1618 |  Exit in  8 sec.
+2016-01-12 13:49:58 : detected [G]: 104181 [E]: 11804 [DE]: 1618 |  Exit in  6 sec.
+2016-01-12 13:50:00 : detected [G]: 104181 [E]: 11804 [DE]: 1618 |  Exit in  4 sec.
+2016-01-12 13:50:01 : detected [G]: 104181 [E]: 11804 [DE]: 1618 |  Exit in  2 sec.
+2016-01-12 13:50:03 : detected [G]: 104181 [E]: 11804 [DE]: 1618 |  Exit in  1 sec.
+2016-01-12 13:50:05 : detected [G]: 104181 [E]: 11804 [DE]: 1618 |  Exit in  0 sec.
+2016-01-12 13:50:05 : Gold & Elixir & DE no change detected, exit
+2016-01-12 13:50:15 : Total No. of Dark Elixir Drills = 1
+2016-01-12 13:50:15 : Returning Home
+2016-01-12 13:50:20 : Loot: [G]: 33 584 [E]: 91 545 [DE]: 956 [T]: 6
+2016-01-12 13:50:20 : Bonus Percentage: 44%
+2016-01-12 13:50:21 : Bonus [G]: 1 628 out of 3 700 [E]: 1 628 out of 3 700
+2016-01-12 13:50:22 : Your league level is: Silver II
+2016-01-12 13:50:22 : Stars earned: 1
+2016-01-12 13:50:32 : Trying to locate Main Screen
+2016-01-12 13:50:33 : Main Screen Located
+2016-01-12 13:50:36 : Village Report
+2016-01-12 13:50:36 : No. of Free/Total Builders: 0/5
+2016-01-12 13:50:36 :  [T]: 992
+2016-01-12 13:50:36 :  [G]: 3 023 098 [E]: 3 348 716 [D]: 100 395 [GEM]: 113
+2016-01-12 13:50:39 : Training Troops & Spells
+2016-01-12 13:50:39 : Checking Army Camp...
+2016-01-12 13:50:41 : Total Army Camp capacity: 25/220 (11%)
+2016-01-12 13:50:42 :  - No. of Archers: 7
+2016-01-12 13:50:42 :  - No. of Goblins: 18
+2016-01-12 13:50:42 :  - Archer Queen available
+2016-01-12 13:50:42 : Total Spell(s) Capacity: 1/9
+2016-01-12 13:50:42 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:50:58 : Already done Lightning Spell(s)
+2016-01-12 13:50:58 : Spell Factory is full ...
+2016-01-12 13:51:13 : Spell Factory Full
+2016-01-12 13:51:22 : Collecting Resources
+2016-01-12 13:51:34 : Checking if Village needs Rearming..
+2016-01-12 13:51:46 : ====== Waiting for full army ======
+2016-01-12 13:51:59 : Training Troops & Spells
+2016-01-12 13:52:00 : Checking Army Camp...
+2016-01-12 13:52:01 : Total Army Camp capacity: 36/220 (16%)
+2016-01-12 13:52:03 :  - No. of Archers: 10
+2016-01-12 13:52:03 :  - No. of Goblins: 26
+2016-01-12 13:52:03 :  - Archer Queen available
+2016-01-12 13:52:03 : Total Spell(s) Capacity: 1/9
+2016-01-12 13:52:03 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:52:18 : Already done Lightning Spell(s)
+2016-01-12 13:52:18 : Spell Factory is full ...
+2016-01-12 13:52:23 : Time Idle: 00:00:37
+2016-01-12 13:52:23 : ====== Waiting for full army ======
+2016-01-12 13:52:37 : Training Troops & Spells
+2016-01-12 13:52:38 : Checking Army Camp...
+2016-01-12 13:52:39 : Total Army Camp capacity: 42/220 (19%)
+2016-01-12 13:52:40 :  - No. of Archers: 12
+2016-01-12 13:52:41 :  - No. of Goblins: 30
+2016-01-12 13:52:41 :  - Archer Queen available
+2016-01-12 13:52:41 : Total Spell(s) Capacity: 1/9
+2016-01-12 13:52:41 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:52:55 : Already done Lightning Spell(s)
+2016-01-12 13:52:55 : Spell Factory is full ...
+2016-01-12 13:53:01 : Time Idle: 00:01:14
+2016-01-12 13:53:01 : ====== Waiting for full army ======
+2016-01-12 13:53:14 : Training Troops & Spells
+2016-01-12 13:53:15 : Checking Army Camp...
+2016-01-12 13:53:16 : Total Army Camp capacity: 47/220 (21%)
+2016-01-12 13:53:18 :  - No. of Archers: 13
+2016-01-12 13:53:18 :  - No. of Goblins: 34
+2016-01-12 13:53:18 :  - Archer Queen available
+2016-01-12 13:53:18 : Total Spell(s) Capacity: 1/9
+2016-01-12 13:53:18 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:53:33 : Already done Lightning Spell(s)
+2016-01-12 13:53:33 : Spell Factory is full ...
+2016-01-12 13:53:38 : Time Idle: 00:01:51
+2016-01-12 13:53:38 : ====== Waiting for full army ======
+2016-01-12 13:53:51 : Training Troops & Spells
+2016-01-12 13:53:52 : Checking Army Camp...
+2016-01-12 13:53:53 : Total Army Camp capacity: 52/220 (23%)
+2016-01-12 13:53:55 :  - No. of Archers: 15
+2016-01-12 13:53:55 :  - No. of Goblins: 37
+2016-01-12 13:53:55 :  - Archer Queen available
+2016-01-12 13:53:55 : Total Spell(s) Capacity: 1/9
+2016-01-12 13:53:55 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:54:10 : Already done Lightning Spell(s)
+2016-01-12 13:54:10 : Spell Factory is full ...
+2016-01-12 13:54:15 : Time Idle: 00:02:28
+2016-01-12 13:54:15 : ====== Waiting for full army ======
+2016-01-12 13:54:29 : Training Troops & Spells
+2016-01-12 13:54:29 : Checking Army Camp...
+2016-01-12 13:54:31 : Total Army Camp capacity: 57/220 (25%)
+2016-01-12 13:54:32 :  - No. of Archers: 16
+2016-01-12 13:54:32 :  - No. of Goblins: 41
+2016-01-12 13:54:32 :  - Archer Queen available
+2016-01-12 13:54:33 : Total Spell(s) Capacity: 1/9
+2016-01-12 13:54:33 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:54:47 : Already done Lightning Spell(s)
+2016-01-12 13:54:47 : Spell Factory is full ...
+2016-01-12 13:54:52 : Time Idle: 00:03:05
+2016-01-12 13:54:53 : ====== Waiting for full army ======
+2016-01-12 13:55:06 : Training Troops & Spells
+2016-01-12 13:55:06 : Checking Army Camp...
+2016-01-12 13:55:08 : Total Army Camp capacity: 63/220 (28%)
+2016-01-12 13:55:09 :  - No. of Archers: 1
+2016-01-12 13:55:09 :  - Archer Queen available
+2016-01-12 13:55:10 : Total Spell(s) Capacity: 1/9
+2016-01-12 13:55:10 :  - No. of EarthquakeSpell: 1
+2016-01-12 13:55:11 : Online too long, Take-A-Break detected. Exiting CoC
+2016-01-12 13:55:11 : Trying to locate Main Screen
+2016-01-12 13:55:14 : Waiting for Main Screen
+2016-01-12 13:55:14 : Main Screen Located
+2016-01-12 13:55:19 : Waiting 20 seconds before starting CoC
+2016-01-12 13:55:41 : Trying to locate Main Screen
+2016-01-12 13:55:44 : Please wait for CoC restart......
+2016-01-12 13:55:44 : Waiting for Main Screen
+2016-01-12 13:55:53 : Village must take a break, wait ...
+2016-01-12 13:57:55 : Village must take a break, wait ...
+2016-01-12 13:59:58 : Village must take a break, wait ...
+2016-01-12 14:02:22 : Main Screen Located
+2016-01-12 14:02:25 : Training Overview Window didn't open
+2016-01-12 14:02:26 : Trying to locate Main Screen
+2016-01-12 14:02:26 : Main Screen Located
+2016-01-12 14:02:30 : Village Report
+2016-01-12 14:02:30 : No. of Free/Total Builders: 0/5
+2016-01-12 14:02:30 :  [T]: 1 014
+2016-01-12 14:02:30 :  [G]: 3 031 144 [E]: 3 345 061 [D]: 100 430 [GEM]: 113
+2016-01-12 14:02:32 : Training Troops & Spells
+2016-01-12 14:02:33 : Checking Army Camp...
+2016-01-12 14:02:34 : Total Army Camp capacity: 116/220 (52%)
+2016-01-12 14:02:36 :  - No. of Archers: 33
+2016-01-12 14:02:36 :  - No. of Goblins: 83
+2016-01-12 14:02:36 :  - Archer Queen available
+2016-01-12 14:02:36 : Total Spell(s) Capacity: 1/9
+2016-01-12 14:02:36 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:02:54 : Already done Lightning Spell(s)
+2016-01-12 14:02:54 : Spell Factory is full ...
+2016-01-12 14:03:08 : Spell Factory Full
+2016-01-12 14:03:17 : Collecting Resources
+2016-01-12 14:03:30 : Checking if Village needs Rearming..
+2016-01-12 14:03:42 : ====== Waiting for full army ======
+2016-01-12 14:03:55 : Training Troops & Spells
+2016-01-12 14:03:56 : Checking Army Camp...
+2016-01-12 14:03:57 : Total Army Camp capacity: 128/220 (58%)
+2016-01-12 14:03:59 :  - No. of Archers: 37
+2016-01-12 14:03:59 :  - No. of Goblins: 91
+2016-01-12 14:03:59 :  - Archer Queen available
+2016-01-12 14:03:59 : Total Spell(s) Capacity: 1/9
+2016-01-12 14:03:59 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:04:14 : Already done Lightning Spell(s)
+2016-01-12 14:04:14 : Spell Factory is full ...
+2016-01-12 14:04:18 : Trophy Count : 1014
+2016-01-12 14:04:18 : Dropping Trophies to 700
+2016-01-12 14:04:20 : Going to Attack...
+2016-01-12 14:04:26 : Identification of your troops:
+2016-01-12 14:04:26 : Initiating attack for: Drop Trophy
+2016-01-12 14:04:31 : -*-Archers 38
+2016-01-12 14:04:32 : -*-Goblins 94
+2016-01-12 14:04:32 : -*-Queen 
+2016-01-12 14:04:32 : -*-Earthquake Spells 1
+2016-01-12 14:04:32 : -*-Poison Spells 1
+2016-01-12 14:04:34 : Deploying Queen
+2016-01-12 14:04:37 :  Trophy loss = 20
+2016-01-12 14:04:37 : Returning Home
+2016-01-12 14:04:46 : Trophy Count : 994
+2016-01-12 14:04:46 : Dropping Trophies to 700
+2016-01-12 14:04:48 : Going to Attack...
+2016-01-12 14:04:55 : Identification of your troops:
+2016-01-12 14:04:55 : Initiating attack for: Drop Trophy
+2016-01-12 14:05:00 : -*-Archers 38
+2016-01-12 14:05:00 : -*-Goblins 96
+2016-01-12 14:05:00 : -*-Queen 
+2016-01-12 14:05:00 : -*-Earthquake Spells 1
+2016-01-12 14:05:00 : -*-Poison Spells 1
+2016-01-12 14:05:03 : Deploying Queen
+2016-01-12 14:05:05 :  Trophy loss = 18
+2016-01-12 14:05:05 : Returning Home
+2016-01-12 14:05:14 : Trophy Count : 976
+2016-01-12 14:05:14 : Dropping Trophies to 700
+2016-01-12 14:05:16 : Going to Attack...
+2016-01-12 14:05:23 : Identification of your troops:
+2016-01-12 14:05:23 : Initiating attack for: Drop Trophy
+2016-01-12 14:05:28 : -*-Archers 39
+2016-01-12 14:05:28 : -*-Goblins 98
+2016-01-12 14:05:28 : -*-Queen 
+2016-01-12 14:05:28 : -*-Earthquake Spells 1
+2016-01-12 14:05:28 : -*-Poison Spells 1
+2016-01-12 14:05:31 : Deploying Queen
+2016-01-12 14:05:33 :  Trophy loss = 18
+2016-01-12 14:05:33 : Returning Home
+2016-01-12 14:05:42 : Trophy Count : 958
+2016-01-12 14:05:42 : Dropping Trophies to 700
+2016-01-12 14:05:44 : Going to Attack...
+2016-01-12 14:05:51 : Identification of your troops:
+2016-01-12 14:05:51 : Initiating attack for: Drop Trophy
+2016-01-12 14:05:56 : -*-Archers 40
+2016-01-12 14:05:56 : -*-Goblins 100
+2016-01-12 14:05:56 : -*-Queen 
+2016-01-12 14:05:56 : -*-Earthquake Spells 1
+2016-01-12 14:05:56 : -*-Poison Spells 1
+2016-01-12 14:05:59 : Deploying Queen
+2016-01-12 14:06:01 :  Trophy loss = 17
+2016-01-12 14:06:01 : Returning Home
+2016-01-12 14:06:10 : Trophy Count : 941
+2016-01-12 14:06:10 : Dropping Trophies to 700
+2016-01-12 14:06:12 : Going to Attack...
+2016-01-12 14:06:19 : Identification of your troops:
+2016-01-12 14:06:19 : Initiating attack for: Drop Trophy
+2016-01-12 14:06:24 : -*-Archers 41
+2016-01-12 14:06:24 : -*-Goblins 102
+2016-01-12 14:06:24 : -*-Queen 
+2016-01-12 14:06:24 : -*-Earthquake Spells 1
+2016-01-12 14:06:24 : -*-Poison Spells 1
+2016-01-12 14:06:27 : Deploying Queen
+2016-01-12 14:06:29 :  Trophy loss = 15
+2016-01-12 14:06:29 : Returning Home
+2016-01-12 14:06:39 : Trophy Count : 926
+2016-01-12 14:06:39 : Dropping Trophies to 700
+2016-01-12 14:06:41 : Going to Attack...
+2016-01-12 14:06:47 : Identification of your troops:
+2016-01-12 14:06:47 : Initiating attack for: Drop Trophy
+2016-01-12 14:06:53 : -*-Archers 42
+2016-01-12 14:06:53 : -*-Goblins 104
+2016-01-12 14:06:53 : -*-Queen 
+2016-01-12 14:06:53 : -*-Earthquake Spells 1
+2016-01-12 14:06:53 : -*-Poison Spells 1
+2016-01-12 14:06:55 : Deploying Queen
+2016-01-12 14:06:58 :  Trophy loss = 20
+2016-01-12 14:06:58 : Returning Home
+2016-01-12 14:07:07 : Trophy Count : 906
+2016-01-12 14:07:07 : Dropping Trophies to 700
+2016-01-12 14:07:09 : Going to Attack...
+2016-01-12 14:07:17 : Identification of your troops:
+2016-01-12 14:07:17 : Initiating attack for: Drop Trophy
+2016-01-12 14:07:22 : -*-Queen 
+2016-01-12 14:07:22 : -*-Earthquake Spells 1
+2016-01-12 14:07:22 : -*-Poison Spells 1
+2016-01-12 14:07:25 : Deploying Queen
+2016-01-12 14:07:27 :  Trophy loss = 13
+2016-01-12 14:07:27 : Returning Home
+2016-01-12 14:07:36 : Trophy Count : 893
+2016-01-12 14:07:36 : Dropping Trophies to 700
+2016-01-12 14:07:38 : Going to Attack...
+2016-01-12 14:07:45 : Identification of your troops:
+2016-01-12 14:07:45 : Initiating attack for: Drop Trophy
+2016-01-12 14:07:50 : -*-Archers 44
+2016-01-12 14:07:50 : -*-Goblins 109
+2016-01-12 14:07:50 : -*-Queen 
+2016-01-12 14:07:50 : -*-Earthquake Spells 1
+2016-01-12 14:07:50 : -*-Poison Spells 1
+2016-01-12 14:07:53 : Deploying Queen
+2016-01-12 14:07:55 :  Trophy loss = 14
+2016-01-12 14:07:55 : Returning Home

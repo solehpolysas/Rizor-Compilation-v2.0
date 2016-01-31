@@ -1,0 +1,117 @@
+2016-01-12 02:11:21 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-12 02:11:21 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-12 02:11:21 : =================== Bot Start ====================
+2016-01-12 02:11:21 : -------------------------  Current Profile: 01 --------------------------
+2016-01-12 02:11:21 : Trying to locate Main Screen
+2016-01-12 02:11:22 : Main Screen Located
+2016-01-12 02:11:23 : Detecting your Buildings..
+2016-01-12 02:11:24 : Finding your Clan Level, wait..
+2016-01-12 02:11:30 : Found Clan Level: 5
+2016-01-12 02:11:32 : Detecting your Village Theme
+2016-01-12 02:11:32 : Normal Theme detected
+2016-01-12 02:11:33 : Language setting is English: Correct.
+2016-01-12 02:11:34 : Trying to locate Main Screen
+2016-01-12 02:11:35 : Main Screen Located
+2016-01-12 02:11:38 : Village Report
+2016-01-12 02:11:38 : No. of Free/Total Builders: 0/5
+2016-01-12 02:11:38 :  [T]: 1 005
+2016-01-12 02:11:38 :  [G]: 871 436 [E]: 975 136 [D]: 74 190 [GEM]: 113
+2016-01-12 02:11:41 : Training Troops & Spells
+2016-01-12 02:11:41 : Checking Army Camp...
+2016-01-12 02:11:43 : Total Army Camp capacity: 148/220 (67%)
+2016-01-12 02:11:49 :  - No. of Archers: 44
+2016-01-12 02:11:49 :  - No. of Goblins: 104
+2016-01-12 02:11:49 :  - Archer Queen available
+2016-01-12 02:11:49 : Total Spell(s) Capacity: 7/9
+2016-01-12 02:11:49 :  - No. of LightningSpell: 3
+2016-01-12 02:11:49 :  - No. of EarthquakeSpell: 1
+2016-01-12 02:11:50 : Barracks and Spell factory status: 
+2016-01-12 02:11:50 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-12 02:11:50 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2016-01-12 02:11:50 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-12 02:11:50 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-12 02:12:28 : Already done Lightning Spell(s)
+2016-01-12 02:12:28 : Spell Factory is full ...
+2016-01-12 02:12:34 : Skipping Donate Troops
+2016-01-12 02:12:39 : Created 1  LightningSpell  Spell(s)
+2016-01-12 02:12:47 : Skipping Collect Resources
+2016-01-12 02:12:47 : Skipping Clear Tombstones
+2016-01-12 02:12:47 : Skipping ReArming Village
+2016-01-12 02:12:47 : Skipping Laboratory Upgrades
+2016-01-12 02:12:47 : Skipping Building Upgrades
+2016-01-12 02:12:47 : Skipping Upgrade Walls
+2016-01-12 02:12:47 : ====== Waiting for full army ======
+2016-01-12 02:13:00 : Training Troops & Spells
+2016-01-12 02:13:01 : Checking Army Camp...
+2016-01-12 02:13:02 : Total Army Camp capacity: 155/220 (70%)
+2016-01-12 02:13:04 :  - No. of Archers: 46
+2016-01-12 02:13:04 :  - No. of Goblins: 109
+2016-01-12 02:13:04 :  - Archer Queen available
+2016-01-12 02:13:04 : Total Spell(s) Capacity: 7/9
+2016-01-12 02:13:04 :  - No. of LightningSpell: 3
+2016-01-12 02:13:04 :  - No. of EarthquakeSpell: 1
+2016-01-12 02:13:19 : Already done Lightning Spell(s)
+2016-01-12 02:13:19 : Spell Factory is full ...
+2016-01-12 02:13:22 : Trophy Count : 1005
+2016-01-12 02:13:22 : Dropping Trophies to 1000
+2016-01-12 02:13:24 : Going to Attack...
+2016-01-12 02:13:31 : Identification of your troops:
+2016-01-12 02:13:31 : Initiating attack for: Drop Trophy
+2016-01-12 02:13:36 : -*-Archers 47
+2016-01-12 02:13:36 : -*-Goblins 112
+2016-01-12 02:13:36 : -*-Queen 
+2016-01-12 02:13:36 : -*-Lightning Spells 3
+2016-01-12 02:13:36 : -*-Earthquake Spells 1
+2016-01-12 02:13:36 : -*-Poison Spells 1
+2016-01-12 02:13:39 : Deploying Queen
+2016-01-12 02:13:41 :  Trophy loss = 18
+2016-01-12 02:13:41 : Returning Home
+2016-01-12 02:13:50 : Trophy Count : 987
+2016-01-12 02:13:50 : Trophy Drop Complete
+2016-01-12 02:13:52 : Time Idle: 00:01:04
+2016-01-12 02:13:52 : ***[Trying TH snipe while training army]***
+2016-01-12 02:13:52 : Going to Attack...
+2016-01-12 02:13:59 : ============== Searching For Dead Base ===============
+2016-01-12 02:13:59 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 02:13:59 : Meet: Gold or Elixir, Trophy
+2016-01-12 02:13:59 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 02:13:59 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 02:13:59 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 02:13:59 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 02:13:59 : ==================================================
+2016-01-12 02:14:01 :   1> [G]:  61946 [E]:  62140 [D]: 1142 [T]:33 [TH]: 9, Out
+2016-01-12 02:14:11 :   2> [G]: 156811 [E]: 181194 [D]: 1656 [T]:33 [TH]: 9, In
+2016-01-12 02:14:16 :   3> [G]:  15457 [E]:   8337 [D]:   26 [T]:31 [TH]: 7, Out
+2016-01-12 02:14:31 :   4> [G]: 113509 [E]: 121017 [D]:  193 [T]:26 [TH]: 9, Out
+2016-01-12 02:14:31 :       TH Outside Found! 
+2016-01-12 02:14:32 : ================ Search Complete =================
+2016-01-12 02:14:32 : Initiating attack for: TH Snipe
+2016-01-12 02:14:37 : -*-Archers 48
+2016-01-12 02:14:37 : -*-Goblins 114
+2016-01-12 02:14:38 : -*-Queen 
+2016-01-12 02:14:38 : -*-Lightning Spells 3
+2016-01-12 02:14:38 : -*-Earthquake Spells 1
+2016-01-12 02:14:38 : -*-Poison Spells 1
+2016-01-12 02:14:40 :  ====== Start Attack ====== 
+2016-01-12 02:14:42 : Sniping TH with Smartsaving Goblin    
+2016-01-12 02:14:43 : Dropping Only wave of 5 Goblins
+2016-01-12 02:14:44 : Deployment of 5 Goblins was Successful!
+2016-01-12 02:14:45 :                                       
+2016-01-12 02:14:45 :                                       
+2016-01-12 02:14:45 : Dropping Only wave of 10 Archers
+2016-01-12 02:14:47 : Deployment of 10 Archers was Successful!
+2016-01-12 02:14:47 :                                       
+2016-01-12 02:14:47 : Wait for 20 Second                    
+2016-01-12 02:14:58 : Townhall has been destroyed!
+2016-01-12 02:15:09 : Total No. of Dark Elixir Drills = 1
+2016-01-12 02:15:09 : Dark Elixir Is below minimum Value
+2016-01-12 02:15:12 :                                       
+2016-01-12 02:15:12 : Wait few sec before close attack
+2016-01-12 02:15:18 : Returning Home
+2016-01-12 02:15:22 : Loot: [G]: 8 714 [E]: 22 726 [DE]: 11 [T]: 8
+2016-01-12 02:15:22 : Bonus Percentage: 12%
+2016-01-12 02:15:23 : Bonus [G]: 444 out of 3 700 [E]: 444 out of 3 700
+2016-01-12 02:15:24 : Your league level is: Silver II
+2016-01-12 02:15:24 : Stars earned: 1
+2016-01-12 02:15:32 : ***[End trying TH snipe while training army]***
+2016-01-12 02:15:32 : ====== Waiting for full army ======

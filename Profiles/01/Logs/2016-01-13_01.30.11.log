@@ -1,0 +1,212 @@
+2016-01-13 01:30:13 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-13 01:30:13 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-13 01:30:13 : =================== Bot Start ====================
+2016-01-13 01:30:13 : -------------------------  Current Profile: 01 --------------------------
+2016-01-13 01:30:13 : Trying to locate Main Screen
+2016-01-13 01:30:14 : Main Screen Located
+2016-01-13 01:30:15 : Detecting your Buildings..
+2016-01-13 01:30:16 : Finding your Clan Level, wait..
+2016-01-13 01:30:22 : Found Clan Level: 5
+2016-01-13 01:30:24 : Detecting your Village Theme
+2016-01-13 01:30:24 : Normal Theme detected
+2016-01-13 01:30:25 : Language setting is English: Correct.
+2016-01-13 01:30:26 : Trying to locate Main Screen
+2016-01-13 01:30:26 : Main Screen Located
+2016-01-13 01:30:30 : Village Report
+2016-01-13 01:30:30 : No. of Free/Total Builders: 0/5
+2016-01-13 01:30:30 :  [T]: 1 005
+2016-01-13 01:30:30 :  [G]: 1 235 135 [E]: 4 554 611 [D]: 109 261 [GEM]: 113
+2016-01-13 01:30:32 : Training Troops & Spells
+2016-01-13 01:30:33 : Checking Army Camp...
+2016-01-13 01:30:34 : Total Army Camp capacity: 2/220 (0%)
+2016-01-13 01:30:40 :  - No. of Archers: 2
+2016-01-13 01:30:40 : Total Spell(s) Capacity: 7/9
+2016-01-13 01:30:40 :  - No. of RageSpell: 2
+2016-01-13 01:30:40 :  - No. of EarthquakeSpell: 3
+2016-01-13 01:30:41 : Barracks and Spell factory status: 
+2016-01-13 01:30:41 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-13 01:30:41 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2016-01-13 01:30:41 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-13 01:30:41 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-13 01:30:42 : Remove previous training troops and start to train
+2016-01-13 01:31:13 : Created 5 Lightning Spell(s)
+2016-01-13 01:31:13 : Spell Factory is full ...
+2016-01-13 01:31:27 : Collecting Resources
+2016-01-13 01:31:39 : Checking if Village needs Rearming..
+2016-01-13 01:32:00 : Spell Factory Full
+2016-01-13 01:32:01 : ====== Waiting for full army ======
+2016-01-13 01:32:16 : Training Troops & Spells
+2016-01-13 01:32:17 : Checking Army Camp...
+2016-01-13 01:32:19 : Total Army Camp capacity: 14/220 (6%)
+2016-01-13 01:32:20 :  - No. of Archers: 14
+2016-01-13 01:32:20 : Total Spell(s) Capacity: 8/9
+2016-01-13 01:32:20 :  - No. of EarthquakeSpell: 4
+2016-01-13 01:32:32 : Already done Lightning Spell(s)
+2016-01-13 01:32:32 : Spell Factory is full ...
+2016-01-13 01:32:35 : Trophy Count : 1005
+2016-01-13 01:32:35 : Dropping Trophies to 700
+2016-01-13 01:32:37 : Going to Attack...
+2016-01-13 01:32:44 : Identification of your troops:
+2016-01-13 01:32:44 : Initiating attack for: Drop Trophy
+2016-01-13 01:32:49 : -*-Archers 17
+2016-01-13 01:32:49 : -*-Rage Spells 2
+2016-01-13 01:32:49 : -*-Poison Spells 1
+2016-01-13 01:32:52 : Deploying 1 Archer
+2016-01-13 01:32:52 :  Trophy loss = 17
+2016-01-13 01:32:53 : Returning Home
+2016-01-13 01:33:02 : Trophy Count : 988
+2016-01-13 01:33:02 : Dropping Trophies to 700
+2016-01-13 01:33:04 : Going to Attack...
+2016-01-13 01:33:10 : Identification of your troops:
+2016-01-13 01:33:10 : Initiating attack for: Drop Trophy
+2016-01-13 01:33:15 : -*-Archers 19
+2016-01-13 01:33:15 : -*-Rage Spells 2
+2016-01-13 01:33:15 : -*-Poison Spells 1
+2016-01-13 01:33:18 : Deploying 1 Archer
+2016-01-13 01:33:18 :  Trophy loss = 15
+2016-01-13 01:33:19 : Returning Home
+2016-01-13 01:33:29 : Trophy Count : 973
+2016-01-13 01:33:29 : Dropping Trophies to 700
+2016-01-13 01:33:31 : Going to Attack...
+2016-01-13 01:33:37 : Identification of your troops:
+2016-01-13 01:33:37 : Initiating attack for: Drop Trophy
+2016-01-13 01:33:42 : -*-Archers 20
+2016-01-13 01:33:42 : -*-Rage Spells 2
+2016-01-13 01:33:42 : -*-Poison Spells 1
+2016-01-13 01:33:45 : Deploying 1 Archer
+2016-01-13 01:33:45 :  Trophy loss = 20
+2016-01-13 01:33:46 : Returning Home
+2016-01-13 01:33:56 : Trophy Count : 953
+2016-01-13 01:33:56 : Dropping Trophies to 700
+2016-01-13 01:33:58 : Going to Attack...
+2016-01-13 01:34:04 : Identification of your troops:
+2016-01-13 01:34:04 : Initiating attack for: Drop Trophy
+2016-01-13 01:34:09 : -*-Archers 19
+2016-01-13 01:34:09 : -*-Goblins 4
+2016-01-13 01:34:09 : -*-Rage Spells 2
+2016-01-13 01:34:09 : -*-Earthquake Spells 4
+2016-01-13 01:34:09 : -*-Poison Spells 1
+2016-01-13 01:34:12 : Deploying 1 Archer
+2016-01-13 01:34:12 :  Trophy loss = 25
+2016-01-13 01:34:13 : Returning Home
+2016-01-13 01:34:22 : Trophy Count : 928
+2016-01-13 01:34:22 : Dropping Trophies to 700
+2016-01-13 01:34:24 : Going to Attack...
+2016-01-13 01:34:31 : Identification of your troops:
+2016-01-13 01:34:31 : Initiating attack for: Drop Trophy
+2016-01-13 01:34:36 : -*-Archers 18
+2016-01-13 01:34:36 : -*-Goblins 6
+2016-01-13 01:34:36 : -*-Rage Spells 2
+2016-01-13 01:34:36 : -*-Earthquake Spells 4
+2016-01-13 01:34:36 : -*-Poison Spells 1
+2016-01-13 01:34:39 : Deploying 1 Archer
+2016-01-13 01:34:39 :  Trophy loss = 19
+2016-01-13 01:34:40 : Returning Home
+2016-01-13 01:34:49 : Trophy Count : 909
+2016-01-13 01:34:49 : Dropping Trophies to 700
+2016-01-13 01:34:51 : Going to Attack...
+2016-01-13 01:34:58 : Identification of your troops:
+2016-01-13 01:34:58 : Initiating attack for: Drop Trophy
+2016-01-13 01:35:03 : -*-Archers 17
+2016-01-13 01:35:03 : -*-Goblins 8
+2016-01-13 01:35:03 : -*-Rage Spells 2
+2016-01-13 01:35:03 : -*-Earthquake Spells 4
+2016-01-13 01:35:03 : -*-Poison Spells 1
+2016-01-13 01:35:06 : Deploying 1 Archer
+2016-01-13 01:35:06 :  Trophy loss = 14
+2016-01-13 01:35:07 : Returning Home
+2016-01-13 01:35:16 : Trophy Count : 895
+2016-01-13 01:35:16 : Dropping Trophies to 700
+2016-01-13 01:35:18 : Going to Attack...
+2016-01-13 01:35:27 : Identification of your troops:
+2016-01-13 01:35:27 : Initiating attack for: Drop Trophy
+2016-01-13 01:35:33 : -*-Archers 16
+2016-01-13 01:35:33 : -*-Goblins 12
+2016-01-13 01:35:33 : -*-Rage Spells 2
+2016-01-13 01:35:33 : -*-Earthquake Spells 4
+2016-01-13 01:35:33 : -*-Poison Spells 1
+2016-01-13 01:35:35 : Deploying 1 Archer
+2016-01-13 01:35:35 :  Trophy loss = 15
+2016-01-13 01:35:37 : Returning Home
+2016-01-13 01:35:46 : Trophy Count : 880
+2016-01-13 01:35:46 : Dropping Trophies to 700
+2016-01-13 01:35:48 : Going to Attack...
+2016-01-13 01:35:57 : Identification of your troops:
+2016-01-13 01:35:57 : Initiating attack for: Drop Trophy
+2016-01-13 01:36:03 : -*-Archers 15
+2016-01-13 01:36:03 : -*-Goblins 14
+2016-01-13 01:36:03 : -*-Rage Spells 2
+2016-01-13 01:36:03 : -*-Earthquake Spells 4
+2016-01-13 01:36:03 : -*-Poison Spells 1
+2016-01-13 01:36:05 : Deploying 1 Archer
+2016-01-13 01:36:05 :  Trophy loss = 15
+2016-01-13 01:36:07 : Returning Home
+2016-01-13 01:36:16 : Trophy Count : 865
+2016-01-13 01:36:16 : Dropping Trophies to 700
+2016-01-13 01:36:18 : Going to Attack...
+2016-01-13 01:36:26 : Identification of your troops:
+2016-01-13 01:36:26 : Initiating attack for: Drop Trophy
+2016-01-13 01:36:31 : -*-Archers 14
+2016-01-13 01:36:31 : -*-Goblins 17
+2016-01-13 01:36:31 : -*-Rage Spells 2
+2016-01-13 01:36:31 : -*-Earthquake Spells 4
+2016-01-13 01:36:31 : -*-Poison Spells 1
+2016-01-13 01:36:34 : Deploying 1 Archer
+2016-01-13 01:36:34 :  Trophy loss = 13
+2016-01-13 01:36:35 : Returning Home
+2016-01-13 01:36:44 : Trophy Count : 852
+2016-01-13 01:36:44 : Dropping Trophies to 700
+2016-01-13 01:36:46 : Going to Attack...
+2016-01-13 01:36:54 : Identification of your troops:
+2016-01-13 01:36:54 : Initiating attack for: Drop Trophy
+2016-01-13 01:36:59 : -*-Archers 13
+2016-01-13 01:36:59 : -*-Goblins 20
+2016-01-13 01:36:59 : -*-Queen 
+2016-01-13 01:36:59 : -*-Rage Spells 2
+2016-01-13 01:36:59 : -*-Earthquake Spells 4
+2016-01-13 01:36:59 : -*-Poison Spells 1
+2016-01-13 01:37:02 : Deploying Queen
+2016-01-13 01:37:04 :  Trophy loss = 17
+2016-01-13 01:37:04 : Returning Home
+2016-01-13 01:37:13 : Trophy Count : 835
+2016-01-13 01:37:13 : Dropping Trophies to 700
+2016-01-13 01:37:15 : Going to Attack...
+2016-01-13 01:37:22 : Identification of your troops:
+2016-01-13 01:37:22 : Initiating attack for: Drop Trophy
+2016-01-13 01:37:27 : -*-Archers 13
+2016-01-13 01:37:27 : -*-Goblins 24
+2016-01-13 01:37:27 : -*-Queen 
+2016-01-13 01:37:27 : -*-Rage Spells 2
+2016-01-13 01:37:27 : -*-Earthquake Spells 4
+2016-01-13 01:37:27 : -*-Poison Spells 1
+2016-01-13 01:37:30 : Deploying Queen
+2016-01-13 01:37:32 :  Trophy loss = 14
+2016-01-13 01:37:32 : Returning Home
+2016-01-13 01:37:41 : Trophy Count : 821
+2016-01-13 01:37:41 : Dropping Trophies to 700
+2016-01-13 01:37:43 : Going to Attack...
+2016-01-13 01:37:52 : Identification of your troops:
+2016-01-13 01:37:52 : Initiating attack for: Drop Trophy
+2016-01-13 01:37:57 : -*-Archers 13
+2016-01-13 01:37:57 : -*-Goblins 26
+2016-01-13 01:37:57 : -*-Queen 
+2016-01-13 01:37:58 : -*-Rage Spells 2
+2016-01-13 01:37:58 : -*-Earthquake Spells 4
+2016-01-13 01:37:58 : -*-Poison Spells 1
+2016-01-13 01:38:00 : Deploying Queen
+2016-01-13 01:38:02 :  Trophy loss = 17
+2016-01-13 01:38:02 : Returning Home
+2016-01-13 01:38:11 : Trophy Count : 804
+2016-01-13 01:38:11 : Dropping Trophies to 700
+2016-01-13 01:38:14 : Going to Attack...
+2016-01-13 01:38:20 : Identification of your troops:
+2016-01-13 01:38:20 : Initiating attack for: Drop Trophy
+2016-01-13 01:38:25 : -*-Archers 13
+2016-01-13 01:38:25 : -*-Goblins 29
+2016-01-13 01:38:25 : -*-Queen 
+2016-01-13 01:38:25 : -*-Rage Spells 2
+2016-01-13 01:38:25 : -*-Earthquake Spells 4
+2016-01-13 01:38:25 : -*-Poison Spells 1
+2016-01-13 01:38:28 : Deploying Queen
+2016-01-13 01:38:30 :  Trophy loss = 16
+2016-01-13 01:38:30 : Returning Home

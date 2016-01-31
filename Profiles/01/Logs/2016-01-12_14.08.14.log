@@ -1,0 +1,191 @@
+2016-01-12 14:08:16 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-12 14:08:16 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-12 14:08:16 : =================== Bot Start ====================
+2016-01-12 14:08:16 : -------------------------  Current Profile: 01 --------------------------
+2016-01-12 14:08:16 : Trying to locate Main Screen
+2016-01-12 14:08:16 : Main Screen Located
+2016-01-12 14:08:18 : Detecting your Buildings..
+2016-01-12 14:08:19 : Finding your Clan Level, wait..
+2016-01-12 14:08:21 : Found Clan Level: 5
+2016-01-12 14:08:23 : Detecting your Village Theme
+2016-01-12 14:08:23 : Normal Theme detected
+2016-01-12 14:08:24 : Language setting is English: Correct.
+2016-01-12 14:08:25 : Trying to locate Main Screen
+2016-01-12 14:08:25 : Main Screen Located
+2016-01-12 14:08:28 : Village Report
+2016-01-12 14:08:28 : No. of Free/Total Builders: 0/5
+2016-01-12 14:08:29 :  [T]: 879
+2016-01-12 14:08:29 :  [G]: 3 028 309 [E]: 3 332 294 [D]: 100 444 [GEM]: 113
+2016-01-12 14:08:31 : Training Troops & Spells
+2016-01-12 14:08:32 : Checking Army Camp...
+2016-01-12 14:08:33 : Total Army Camp capacity: 159/220 (72%)
+2016-01-12 14:08:35 :  - No. of Archers: 46
+2016-01-12 14:08:35 :  - No. of Goblins: 113
+2016-01-12 14:08:35 :  - Archer Queen available
+2016-01-12 14:08:35 : Total Spell(s) Capacity: 1/9
+2016-01-12 14:08:35 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:08:35 : Barracks and Spell factory status: 
+2016-01-12 14:08:35 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-12 14:08:35 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2016-01-12 14:08:35 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-12 14:08:35 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-12 14:08:37 : Your Army Camps are now Full
+2016-01-12 14:08:37 : Calculating Troops before Training new Army.
+2016-01-12 14:09:15 : Already done Lightning Spell(s)
+2016-01-12 14:09:15 : Spell Factory is full ...
+2016-01-12 14:09:20 : Skipping Donate Troops
+2016-01-12 14:09:25 : Created 1  LightningSpell  Spell(s)
+2016-01-12 14:09:33 : Skipping Collect Resources
+2016-01-12 14:09:33 : Skipping Clear Tombstones
+2016-01-12 14:09:33 : Skipping ReArming Village
+2016-01-12 14:09:33 : Skipping Laboratory Upgrades
+2016-01-12 14:09:33 : Skipping Building Upgrades
+2016-01-12 14:09:33 : Skipping Upgrade Walls
+2016-01-12 14:09:34 : Going to Attack...
+2016-01-12 14:09:40 : ============== Searching For Dead Base ===============
+2016-01-12 14:09:41 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 14:09:41 : Meet: Gold or Elixir
+2016-01-12 14:09:41 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 14:09:41 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]: 0 for: Dead Base
+2016-01-12 14:09:41 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 14:09:41 : THSnipe Combo for Both Dead & LiveBasesSmartBarch-v1.0
+2016-01-12 14:09:41 : ==================================================
+2016-01-12 14:09:47 :   1> [G]: 102362 [E]: 116662 [D]:  639 [T]:34 [TH]: 9, Out
+2016-01-12 14:09:47 :       TH Outside Found! 
+2016-01-12 14:09:48 : ================ Search Complete =================
+2016-01-12 14:09:48 : Initiating attack for: TH Snipe
+2016-01-12 14:09:54 : -*-Archers 48
+2016-01-12 14:09:54 : -*-Goblins 117
+2016-01-12 14:09:54 : -*-Queen 
+2016-01-12 14:09:54 : -*-Lightning Spells 1
+2016-01-12 14:09:54 : -*-Earthquake Spells 1
+2016-01-12 14:09:54 : -*-Poison Spells 1
+2016-01-12 14:09:56 :  ====== Start Attack ====== 
+2016-01-12 14:09:59 : Sniping TH with Smartsaving Goblin    
+2016-01-12 14:09:59 : Dropping Only wave of 5 Goblins
+2016-01-12 14:10:00 : Deployment of 5 Goblins was Successful!
+2016-01-12 14:10:01 :                                       
+2016-01-12 14:10:01 :                                       
+2016-01-12 14:10:01 : Dropping Only wave of 10 Archers
+2016-01-12 14:10:03 : Deployment of 10 Archers was Successful!
+2016-01-12 14:10:04 :                                       
+2016-01-12 14:10:04 : Wait for 20 Second                    
+2016-01-12 14:10:14 : Townhall has been destroyed!
+2016-01-12 14:10:24 : Total No. of Dark Elixir Drills = 2
+2016-01-12 14:10:24 : Dark Elixir Is below minimum Value
+2016-01-12 14:10:27 :                                       
+2016-01-12 14:10:27 : Semi-DeadBase Gold Level  = 6
+2016-01-12 14:10:27 : Semi-DeadBase Elixir Level = 5
+2016-01-12 14:10:28 : Attacking!!.....
+2016-01-12 14:10:28 : Initiating attack for: Dead Base
+2016-01-12 14:10:33 : -*-Archers 38
+2016-01-12 14:10:33 : -*-Goblins 112
+2016-01-12 14:10:33 : -*-Queen 
+2016-01-12 14:10:33 : -*-Lightning Spells 1
+2016-01-12 14:10:33 : -*-Earthquake Spells 1
+2016-01-12 14:10:33 : -*-Poison Spells 1
+2016-01-12 14:10:36 :  ====== Start Attack ====== 
+2016-01-12 14:10:38 : Attacking four finger fight style
+2016-01-12 14:10:39 : Dropping only wave of 38 Archers
+2016-01-12 14:10:42 : Dropping first wave of 56 Goblins
+2016-01-12 14:10:45 : Dropping second wave of 56 Goblins
+2016-01-12 14:10:50 : Dropping left over troops
+2016-01-12 14:10:50 : Checking remaining unused troops for: Dead Base
+2016-01-12 14:10:55 : -*-Queen 
+2016-01-12 14:10:55 : -*-Lightning Spells 1
+2016-01-12 14:10:55 : -*-Earthquake Spells 1
+2016-01-12 14:10:55 : -*-Poison Spells 1
+2016-01-12 14:11:06 : Checking remaining unused troops for: Dead Base
+2016-01-12 14:11:11 : -*-Queen 
+2016-01-12 14:11:11 : -*-Lightning Spells 1
+2016-01-12 14:11:11 : -*-Earthquake Spells 1
+2016-01-12 14:11:12 : -*-Poison Spells 1
+2016-01-12 14:11:23 : Finished Attacking, waiting for the battle to end
+2016-01-12 14:11:23 : Checking if the battle has finished
+2016-01-12 14:11:25 : detected [G]: 44955 [E]: 7472 [DE]: 331 |  Exit in  8 sec.
+2016-01-12 14:11:27 : detected [G]: 44955 [E]: 7472 [DE]: 331 |  Exit in  6 sec.
+2016-01-12 14:11:29 : detected [G]: 44955 [E]: 7472 [DE]: 331 |  Exit in  4 sec.
+2016-01-12 14:11:31 : detected [G]: 44955 [E]: 7472 [DE]: 331 |  Exit in  2 sec.
+2016-01-12 14:11:33 : detected [G]: 44955 [E]: 7472 [DE]: 331 |  Exit in  1 sec.
+2016-01-12 14:11:34 : detected [G]: 44955 [E]: 7472 [DE]: 331 |  Exit in  0 sec.
+2016-01-12 14:11:35 : Gold & Elixir & DE no change detected, exit
+2016-01-12 14:11:45 : Total No. of Dark Elixir Drills = 1
+2016-01-12 14:11:45 : Returning Home
+2016-01-12 14:11:50 : Loot: [G]: 57 407 [E]: 109 190 [DE]: 308 [T]: 11
+2016-01-12 14:11:50 : Bonus Percentage: 57%
+2016-01-12 14:11:51 : Bonus [G]: 1 482 out of 2 600 [E]: 1 482 out of 2 600
+2016-01-12 14:11:51 : Your league level is: Silver III
+2016-01-12 14:11:51 : Stars earned: 1
+2016-01-12 14:12:02 : Trying to locate Main Screen
+2016-01-12 14:12:02 : Main Screen Located
+2016-01-12 14:12:05 : Village Report
+2016-01-12 14:12:05 : No. of Free/Total Builders: 0/5
+2016-01-12 14:12:06 :  [T]: 890
+2016-01-12 14:12:06 :  [G]: 3 086 448 [E]: 3 415 166 [D]: 100 752 [GEM]: 113
+2016-01-12 14:12:08 : Training Troops & Spells
+2016-01-12 14:12:09 : Checking Army Camp...
+2016-01-12 14:12:10 : Total Army Camp capacity: 18/220 (8%)
+2016-01-12 14:12:12 :  - No. of Archers: 5
+2016-01-12 14:12:12 :  - No. of Goblins: 14
+2016-01-12 14:12:12 :  - Archer Queen available
+2016-01-12 14:12:12 : Total Spell(s) Capacity: 3/9
+2016-01-12 14:12:12 :  - No. of LightningSpell: 1
+2016-01-12 14:12:12 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:12:28 : Already done Lightning Spell(s)
+2016-01-12 14:12:28 : Spell Factory is full ...
+2016-01-12 14:12:42 : Spell Factory Full
+2016-01-12 14:12:51 : Collecting Resources
+2016-01-12 14:13:04 : Checking if Village needs Rearming..
+2016-01-12 14:13:16 : ====== Waiting for full army ======
+2016-01-12 14:13:29 : Training Troops & Spells
+2016-01-12 14:13:30 : Checking Army Camp...
+2016-01-12 14:13:31 : Total Army Camp capacity: 30/220 (13%)
+2016-01-12 14:13:33 :  - No. of Archers: 8
+2016-01-12 14:13:33 :  - No. of Goblins: 22
+2016-01-12 14:13:33 :  - Archer Queen available
+2016-01-12 14:13:33 : Total Spell(s) Capacity: 3/9
+2016-01-12 14:13:33 :  - No. of LightningSpell: 1
+2016-01-12 14:13:33 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:13:48 : Already done Lightning Spell(s)
+2016-01-12 14:13:48 : Spell Factory is full ...
+2016-01-12 14:13:53 : Time Idle: 00:00:37
+2016-01-12 14:13:53 : ====== Waiting for full army ======
+2016-01-12 14:14:07 : Training Troops & Spells
+2016-01-12 14:14:07 : Checking Army Camp...
+2016-01-12 14:14:09 : Total Army Camp capacity: 35/220 (15%)
+2016-01-12 14:14:10 :  - No. of Archers: 10
+2016-01-12 14:14:10 :  - No. of Goblins: 25
+2016-01-12 14:14:10 :  - Archer Queen available
+2016-01-12 14:14:10 : Total Spell(s) Capacity: 3/9
+2016-01-12 14:14:11 :  - No. of LightningSpell: 1
+2016-01-12 14:14:11 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:14:25 : Already done Lightning Spell(s)
+2016-01-12 14:14:25 : Spell Factory is full ...
+2016-01-12 14:14:30 : Time Idle: 00:01:14
+2016-01-12 14:14:31 : ====== Waiting for full army ======
+2016-01-12 14:14:44 : Training Troops & Spells
+2016-01-12 14:14:44 : Checking Army Camp...
+2016-01-12 14:14:46 : Total Army Camp capacity: 40/220 (18%)
+2016-01-12 14:14:47 :  - No. of Archers: 11
+2016-01-12 14:14:47 :  - No. of Goblins: 29
+2016-01-12 14:14:47 :  - Archer Queen available
+2016-01-12 14:14:48 : Total Spell(s) Capacity: 3/9
+2016-01-12 14:14:48 :  - No. of LightningSpell: 1
+2016-01-12 14:14:48 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:15:02 : Already done Lightning Spell(s)
+2016-01-12 14:15:02 : Spell Factory is full ...
+2016-01-12 14:15:07 : Time Idle: 00:01:51
+2016-01-12 14:15:08 : ====== Waiting for full army ======
+2016-01-12 14:15:21 : Training Troops & Spells
+2016-01-12 14:15:22 : Checking Army Camp...
+2016-01-12 14:15:23 : Total Army Camp capacity: 46/220 (20%)
+2016-01-12 14:15:24 :  - No. of Archers: 13
+2016-01-12 14:15:25 :  - No. of Goblins: 33
+2016-01-12 14:15:25 :  - Archer Queen available
+2016-01-12 14:15:25 : Total Spell(s) Capacity: 3/9
+2016-01-12 14:15:25 :  - No. of LightningSpell: 1
+2016-01-12 14:15:25 :  - No. of EarthquakeSpell: 1
+2016-01-12 14:15:39 : Already done Lightning Spell(s)
+2016-01-12 14:15:39 : Spell Factory is full ...
+2016-01-12 14:15:44 : Time Idle: 00:02:27
+2016-01-12 14:15:44 : ====== Waiting for full army ======

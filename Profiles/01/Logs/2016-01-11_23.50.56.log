@@ -1,0 +1,647 @@
+2016-01-11 23:50:57 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-11 23:50:57 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-11 23:50:57 : =================== Bot Start ====================
+2016-01-11 23:50:57 : -------------------------  Current Profile: 01 --------------------------
+2016-01-11 23:50:58 : Trying to locate Main Screen
+2016-01-11 23:50:58 : Main Screen Located
+2016-01-11 23:51:00 : Detecting your Buildings..
+2016-01-11 23:51:03 : Townhall: (388,350)
+2016-01-11 23:51:13 : Your Town Hall Level read as: 9
+2016-01-11 23:51:14 : Finding your Clan Level, wait..
+2016-01-11 23:51:15 : Found Clan Level: 5
+2016-01-11 23:51:17 : Detecting your Village Theme
+2016-01-11 23:51:17 : Normal Theme detected
+2016-01-11 23:51:24 : Verifying your Mines/Extractors/Drills ...wait ...
+2016-01-11 23:51:28 : Total No. of Gold Mines: 6
+2016-01-11 23:51:32 : Total No. of Elixir Collectors: 6
+2016-01-11 23:51:41 : Total No. of Dark Elixir Drills: 2
+2016-01-11 23:51:41 : Language setting is English: Correct.
+2016-01-11 23:51:42 : Trying to locate Main Screen
+2016-01-11 23:51:43 : Main Screen Located
+2016-01-11 23:51:46 : Village Report
+2016-01-11 23:51:46 : No. of Free/Total Builders: 0/5
+2016-01-11 23:51:46 :  [T]: 947
+2016-01-11 23:51:46 :  [G]: 634 035 [E]: 899 606 [D]: 69 395 [GEM]: 113
+2016-01-11 23:51:49 : Training Troops & Spells
+2016-01-11 23:51:49 : Checking Army Camp...
+2016-01-11 23:51:51 : Total Army Camp capacity: 0/220 (0%)
+2016-01-11 23:51:52 :  - Archer Queen available
+2016-01-11 23:51:52 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:51:53 :  - No. of LightningSpell: 4
+2016-01-11 23:51:53 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:51:53 : Barracks and Spell factory status: 
+2016-01-11 23:51:53 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-11 23:51:53 : - Dark Barracks detected: 2 | Available: 2 | Upgrading: 0
+2016-01-11 23:51:53 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-11 23:51:53 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-11 23:52:33 : Chat Request: archer
+2016-01-11 23:52:33 : Castle Capacity : 12/15
+2016-01-11 23:52:33 : Custom Donation Keyword found: archer
+2016-01-11 23:52:34 : Donating 2 Archers
+2016-01-11 23:52:42 : Could not Find the Donation Window!!
+2016-01-11 23:52:50 : Created 1  LightningSpell  Spell(s)
+2016-01-11 23:52:59 : Collecting Resources
+2016-01-11 23:53:11 : Checking if Village needs Rearming..
+2016-01-11 23:53:24 : ====== Waiting for full army ======
+2016-01-11 23:53:37 : Training Troops & Spells
+2016-01-11 23:53:38 : Checking Army Camp...
+2016-01-11 23:53:39 : Total Army Camp capacity: 10/220 (4%)
+2016-01-11 23:53:46 :  - No. of Archers: 3
+2016-01-11 23:53:46 :  - No. of Goblins: 7
+2016-01-11 23:53:46 :  - Archer Queen available
+2016-01-11 23:53:46 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:53:46 :  - No. of LightningSpell: 4
+2016-01-11 23:53:46 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:54:03 : Time Idle: 00:00:38
+2016-01-11 23:54:03 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:54:03 : ====== Waiting for full army ======
+2016-01-11 23:54:16 : Training Troops & Spells
+2016-01-11 23:54:17 : Checking Army Camp...
+2016-01-11 23:54:18 : Total Army Camp capacity: 15/220 (6%)
+2016-01-11 23:54:20 :  - No. of Archers: 4
+2016-01-11 23:54:20 :  - No. of Goblins: 11
+2016-01-11 23:54:20 :  - Archer Queen available
+2016-01-11 23:54:20 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:54:20 :  - No. of LightningSpell: 4
+2016-01-11 23:54:20 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:54:36 : Time Idle: 00:01:12
+2016-01-11 23:54:36 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:54:36 : ====== Waiting for full army ======
+2016-01-11 23:54:50 : Training Troops & Spells
+2016-01-11 23:54:51 : Checking Army Camp...
+2016-01-11 23:54:52 : Total Army Camp capacity: 20/220 (9%)
+2016-01-11 23:54:53 :  - No. of Archers: 6
+2016-01-11 23:54:54 :  - No. of Goblins: 15
+2016-01-11 23:54:54 :  - Archer Queen available
+2016-01-11 23:54:54 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:54:54 :  - No. of LightningSpell: 4
+2016-01-11 23:54:54 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:55:10 : Time Idle: 00:01:45
+2016-01-11 23:55:10 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:55:11 : ====== Waiting for full army ======
+2016-01-11 23:55:24 : Training Troops & Spells
+2016-01-11 23:55:24 : Checking Army Camp...
+2016-01-11 23:55:26 : Total Army Camp capacity: 25/220 (11%)
+2016-01-11 23:55:28 :  - No. of Archers: 7
+2016-01-11 23:55:28 :  - No. of Goblins: 18
+2016-01-11 23:55:28 :  - Archer Queen available
+2016-01-11 23:55:28 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:55:28 :  - No. of LightningSpell: 4
+2016-01-11 23:55:28 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:55:44 : Time Idle: 00:02:19
+2016-01-11 23:55:44 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:55:45 : ====== Waiting for full army ======
+2016-01-11 23:55:58 : Training Troops & Spells
+2016-01-11 23:55:59 : Checking Army Camp...
+2016-01-11 23:56:00 : Total Army Camp capacity: 29/220 (13%)
+2016-01-11 23:56:01 :  - No. of Archers: 8
+2016-01-11 23:56:02 :  - No. of Goblins: 21
+2016-01-11 23:56:02 :  - Archer Queen available
+2016-01-11 23:56:02 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:56:02 :  - No. of LightningSpell: 4
+2016-01-11 23:56:02 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:56:18 : Time Idle: 00:02:53
+2016-01-11 23:56:18 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:56:18 : ====== Waiting for full army ======
+2016-01-11 23:56:32 : Training Troops & Spells
+2016-01-11 23:56:32 : Checking Army Camp...
+2016-01-11 23:56:34 : Total Army Camp capacity: 34/220 (15%)
+2016-01-11 23:56:35 :  - No. of Archers: 10
+2016-01-11 23:56:36 :  - No. of Goblins: 24
+2016-01-11 23:56:36 :  - Archer Queen available
+2016-01-11 23:56:36 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:56:36 :  - No. of LightningSpell: 4
+2016-01-11 23:56:36 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:56:52 : Time Idle: 00:03:26
+2016-01-11 23:56:52 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:56:52 : ====== Waiting for full army ======
+2016-01-11 23:57:06 : Training Troops & Spells
+2016-01-11 23:57:07 : Checking Army Camp...
+2016-01-11 23:57:08 : Total Army Camp capacity: 39/220 (17%)
+2016-01-11 23:57:10 :  - No. of Archers: 11
+2016-01-11 23:57:10 :  - No. of Goblins: 28
+2016-01-11 23:57:10 :  - Archer Queen available
+2016-01-11 23:57:10 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:57:10 :  - No. of LightningSpell: 4
+2016-01-11 23:57:10 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:57:27 : Time Idle: 00:04:00
+2016-01-11 23:57:27 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:57:27 : ====== Waiting for full army ======
+2016-01-11 23:57:40 : Training Troops & Spells
+2016-01-11 23:57:41 : Checking Army Camp...
+2016-01-11 23:57:42 : Total Army Camp capacity: 44/220 (20%)
+2016-01-11 23:57:44 :  - No. of Archers: 12
+2016-01-11 23:57:44 :  - No. of Goblins: 32
+2016-01-11 23:57:44 :  - Archer Queen available
+2016-01-11 23:57:44 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:57:44 :  - No. of LightningSpell: 4
+2016-01-11 23:57:44 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:58:01 : Time Idle: 00:04:34
+2016-01-11 23:58:01 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:58:01 : ====== Waiting for full army ======
+2016-01-11 23:58:14 : Training Troops & Spells
+2016-01-11 23:58:15 : Checking Army Camp...
+2016-01-11 23:58:16 : Total Army Camp capacity: 49/220 (22%)
+2016-01-11 23:58:18 :  - No. of Archers: 14
+2016-01-11 23:58:18 :  - No. of Goblins: 35
+2016-01-11 23:58:18 :  - Archer Queen available
+2016-01-11 23:58:18 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:58:18 :  - No. of LightningSpell: 4
+2016-01-11 23:58:18 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:58:34 : Time Idle: 00:05:08
+2016-01-11 23:58:34 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:58:35 : ====== Waiting for full army ======
+2016-01-11 23:58:48 : Training Troops & Spells
+2016-01-11 23:58:49 : Checking Army Camp...
+2016-01-11 23:58:50 : Total Army Camp capacity: 54/220 (24%)
+2016-01-11 23:58:52 :  - No. of Archers: 15
+2016-01-11 23:58:52 :  - No. of Goblins: 39
+2016-01-11 23:58:52 :  - Archer Queen available
+2016-01-11 23:58:52 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:58:52 :  - No. of LightningSpell: 4
+2016-01-11 23:58:52 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:59:08 : Time Idle: 00:05:41
+2016-01-11 23:59:08 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:59:08 : ====== Waiting for full army ======
+2016-01-11 23:59:22 : Training Troops & Spells
+2016-01-11 23:59:22 : Checking Army Camp...
+2016-01-11 23:59:24 : Total Army Camp capacity: 58/220 (26%)
+2016-01-11 23:59:25 :  - No. of Archers: 16
+2016-01-11 23:59:25 :  - No. of Goblins: 42
+2016-01-11 23:59:25 :  - Archer Queen available
+2016-01-11 23:59:26 : Total Spell(s) Capacity: 9/9
+2016-01-11 23:59:26 :  - No. of LightningSpell: 4
+2016-01-11 23:59:26 :  - No. of EarthquakeSpell: 1
+2016-01-11 23:59:42 : Time Idle: 00:06:15
+2016-01-11 23:59:42 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-11 23:59:42 : ====== Waiting for full army ======
+2016-01-11 23:59:56 : Collecting Resources
+2016-01-12 00:00:09 : Training Troops & Spells
+2016-01-12 00:00:10 : Checking Army Camp...
+2016-01-12 00:00:11 : Total Army Camp capacity: 64/220 (29%)
+2016-01-12 00:00:12 :  - No. of Archers: 18
+2016-01-12 00:00:13 :  - No. of Goblins: 46
+2016-01-12 00:00:13 :  - Archer Queen available
+2016-01-12 00:00:13 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:00:13 :  - No. of LightningSpell: 4
+2016-01-12 00:00:13 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:00:29 : Time Idle: 00:07:01
+2016-01-12 00:00:29 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:00:29 : ====== Waiting for full army ======
+2016-01-12 00:00:43 : Training Troops & Spells
+2016-01-12 00:00:43 : Checking Army Camp...
+2016-01-12 00:00:45 : Total Army Camp capacity: 70/220 (31%)
+2016-01-12 00:00:46 :  - No. of Archers: 20
+2016-01-12 00:00:46 :  - No. of Goblins: 50
+2016-01-12 00:00:46 :  - Archer Queen available
+2016-01-12 00:00:47 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:00:47 :  - No. of LightningSpell: 4
+2016-01-12 00:00:47 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:01:03 : Time Idle: 00:07:35
+2016-01-12 00:01:03 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:01:03 : ====== Waiting for full army ======
+2016-01-12 00:01:17 : Training Troops & Spells
+2016-01-12 00:01:17 : Checking Army Camp...
+2016-01-12 00:01:19 : Total Army Camp capacity: 74/220 (33%)
+2016-01-12 00:01:20 :  - No. of Archers: 21
+2016-01-12 00:01:20 :  - No. of Goblins: 53
+2016-01-12 00:01:20 :  - Archer Queen available
+2016-01-12 00:01:21 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:01:21 :  - No. of LightningSpell: 4
+2016-01-12 00:01:21 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:01:37 : Time Idle: 00:08:09
+2016-01-12 00:01:37 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:01:37 : ====== Waiting for full army ======
+2016-01-12 00:01:50 : Training Troops & Spells
+2016-01-12 00:01:51 : Checking Army Camp...
+2016-01-12 00:01:53 : Total Army Camp capacity: 79/220 (35%)
+2016-01-12 00:01:54 :  - No. of Archers: 22
+2016-01-12 00:01:54 :  - No. of Goblins: 57
+2016-01-12 00:01:54 :  - Archer Queen available
+2016-01-12 00:01:54 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:01:55 :  - No. of LightningSpell: 4
+2016-01-12 00:01:55 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:02:11 : Time Idle: 00:08:42
+2016-01-12 00:02:11 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:02:11 : ====== Waiting for full army ======
+2016-01-12 00:02:24 : Training Troops & Spells
+2016-01-12 00:02:25 : Checking Army Camp...
+2016-01-12 00:02:26 : Total Army Camp capacity: 84/220 (38%)
+2016-01-12 00:02:28 :  - No. of Archers: 24
+2016-01-12 00:02:28 :  - No. of Goblins: 60
+2016-01-12 00:02:28 :  - Archer Queen available
+2016-01-12 00:02:28 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:02:28 :  - No. of LightningSpell: 4
+2016-01-12 00:02:28 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:02:44 : Time Idle: 00:09:15
+2016-01-12 00:02:44 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:02:44 : ====== Waiting for full army ======
+2016-01-12 00:02:57 : Training Troops & Spells
+2016-01-12 00:02:58 : Checking Army Camp...
+2016-01-12 00:03:00 : Total Army Camp capacity: 88/220 (40%)
+2016-01-12 00:03:01 :  - No. of Archers: 25
+2016-01-12 00:03:01 :  - No. of Goblins: 63
+2016-01-12 00:03:01 :  - Archer Queen available
+2016-01-12 00:03:02 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:03:02 :  - No. of LightningSpell: 4
+2016-01-12 00:03:02 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:03:18 : Time Idle: 00:09:49
+2016-01-12 00:03:18 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:03:18 : ====== Waiting for full army ======
+2016-01-12 00:03:31 : Training Troops & Spells
+2016-01-12 00:03:32 : Checking Army Camp...
+2016-01-12 00:03:33 : Total Army Camp capacity: 92/220 (41%)
+2016-01-12 00:03:35 :  - No. of Archers: 26
+2016-01-12 00:03:35 :  - No. of Goblins: 66
+2016-01-12 00:03:35 :  - Archer Queen available
+2016-01-12 00:03:35 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:03:35 :  - No. of LightningSpell: 4
+2016-01-12 00:03:35 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:03:52 : Time Idle: 00:10:22
+2016-01-12 00:03:52 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:03:52 : ====== Waiting for full army ======
+2016-01-12 00:04:05 : Training Troops & Spells
+2016-01-12 00:04:06 : Checking Army Camp...
+2016-01-12 00:04:07 : Total Army Camp capacity: 98/220 (44%)
+2016-01-12 00:04:09 :  - No. of Archers: 28
+2016-01-12 00:04:09 :  - No. of Goblins: 70
+2016-01-12 00:04:09 :  - Archer Queen available
+2016-01-12 00:04:09 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:04:09 :  - No. of LightningSpell: 4
+2016-01-12 00:04:10 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:04:26 : Time Idle: 00:10:56
+2016-01-12 00:04:26 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:04:26 : ====== Waiting for full army ======
+2016-01-12 00:04:39 : Training Troops & Spells
+2016-01-12 00:04:40 : Checking Army Camp...
+2016-01-12 00:04:41 : Total Army Camp capacity: 102/220 (46%)
+2016-01-12 00:04:43 :  - No. of Archers: 29
+2016-01-12 00:04:43 :  - No. of Goblins: 73
+2016-01-12 00:04:43 :  - Archer Queen available
+2016-01-12 00:04:43 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:04:43 :  - No. of LightningSpell: 4
+2016-01-12 00:04:43 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:04:59 : Time Idle: 00:11:29
+2016-01-12 00:04:59 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:04:59 : ====== Waiting for full army ======
+2016-01-12 00:05:12 : Training Troops & Spells
+2016-01-12 00:05:13 : Checking Army Camp...
+2016-01-12 00:05:15 : Total Army Camp capacity: 107/220 (48%)
+2016-01-12 00:05:16 :  - No. of Archers: 30
+2016-01-12 00:05:16 :  - No. of Goblins: 77
+2016-01-12 00:05:16 :  - Archer Queen available
+2016-01-12 00:05:17 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:05:17 :  - No. of LightningSpell: 4
+2016-01-12 00:05:17 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:05:33 : Time Idle: 00:12:03
+2016-01-12 00:05:33 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:05:33 : ====== Waiting for full army ======
+2016-01-12 00:05:47 : Training Troops & Spells
+2016-01-12 00:05:47 : Checking Army Camp...
+2016-01-12 00:05:49 : Total Army Camp capacity: 112/220 (50%)
+2016-01-12 00:05:50 :  - No. of Archers: 32
+2016-01-12 00:05:50 :  - No. of Goblins: 80
+2016-01-12 00:05:50 :  - Archer Queen available
+2016-01-12 00:05:50 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:05:51 :  - No. of LightningSpell: 4
+2016-01-12 00:05:51 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:06:06 : Time Idle: 00:12:36
+2016-01-12 00:06:06 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:06:07 : ====== Waiting for full army ======
+2016-01-12 00:06:20 : Collecting Resources
+2016-01-12 00:06:32 : Training Troops & Spells
+2016-01-12 00:06:33 : Checking Army Camp...
+2016-01-12 00:06:34 : Total Army Camp capacity: 118/220 (53%)
+2016-01-12 00:06:36 :  - No. of Archers: 34
+2016-01-12 00:06:36 :  - No. of Goblins: 84
+2016-01-12 00:06:36 :  - Archer Queen available
+2016-01-12 00:06:36 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:06:36 :  - No. of LightningSpell: 4
+2016-01-12 00:06:37 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:06:53 : Time Idle: 00:13:22
+2016-01-12 00:06:53 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:06:53 : ====== Waiting for full army ======
+2016-01-12 00:07:07 : Training Troops & Spells
+2016-01-12 00:07:07 : Checking Army Camp...
+2016-01-12 00:07:09 : Total Army Camp capacity: 123/220 (55%)
+2016-01-12 00:07:10 :  - No. of Archers: 35
+2016-01-12 00:07:11 :  - No. of Goblins: 88
+2016-01-12 00:07:11 :  - Archer Queen available
+2016-01-12 00:07:11 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:07:11 :  - No. of LightningSpell: 4
+2016-01-12 00:07:11 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:07:27 : Time Idle: 00:13:56
+2016-01-12 00:07:27 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:07:27 : ====== Waiting for full army ======
+2016-01-12 00:07:40 : Training Troops & Spells
+2016-01-12 00:07:41 : Checking Army Camp...
+2016-01-12 00:07:43 : Total Army Camp capacity: 127/220 (57%)
+2016-01-12 00:07:44 :  - No. of Archers: 36
+2016-01-12 00:07:45 :  - No. of Goblins: 92
+2016-01-12 00:07:45 :  - Archer Queen available
+2016-01-12 00:07:45 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:07:45 :  - No. of LightningSpell: 4
+2016-01-12 00:07:45 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:08:01 : Time Idle: 00:14:30
+2016-01-12 00:08:01 : army Capacity below 60%, not enough for Snipe While Train
+2016-01-12 00:08:01 : ====== Waiting for full army ======
+2016-01-12 00:08:14 : Training Troops & Spells
+2016-01-12 00:08:15 : Checking Army Camp...
+2016-01-12 00:08:16 : Total Army Camp capacity: 133/220 (60%)
+2016-01-12 00:08:18 :  - No. of Archers: 38
+2016-01-12 00:08:18 :  - No. of Goblins: 95
+2016-01-12 00:08:18 :  - Archer Queen available
+2016-01-12 00:08:18 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:08:18 :  - No. of LightningSpell: 4
+2016-01-12 00:08:18 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:08:34 : Time Idle: 00:15:03
+2016-01-12 00:08:34 : ***[Trying TH snipe while training army]***
+2016-01-12 00:08:34 : Going to Attack...
+2016-01-12 00:08:41 : ============== Searching For Dead Base ===============
+2016-01-12 00:08:41 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 00:08:41 : Meet: Gold and Elixir, Trophy
+2016-01-12 00:08:41 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 00:08:41 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 00:08:41 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 00:08:41 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 00:08:41 : ==================================================
+2016-01-12 00:08:43 :   1> [G]:  43455 [E]:  69031 [D]:  305 [T]:33 [TH]: 8, Out
+2016-01-12 00:08:54 :   2> [G]: 241274 [E]: 233450 [D]:   22 [T]:35 [TH]: 8, In
+2016-01-12 00:09:02 :   3> [G]:  39428 [E]: 114786 [D]:  261 [T]:40 [TH]: 8, Out
+2016-01-12 00:09:07 :   4> [G]: 121350 [E]:  59721 [D]:  949 [T]:41 [TH]: 9, Out
+2016-01-12 00:09:11 :   5> [G]: 128208 [E]: 130546 [D]:  906 [T]:30 [TH]: 9, Out
+2016-01-12 00:09:21 :   6> [G]: 146497 [E]: 273772 [D]:  598 [T]:35 [TH]: 8, In
+2016-01-12 00:09:33 :   7> [G]:  94640 [E]: 280824 [D]: 2512 [T]:40 [TH]: 9, In
+2016-01-12 00:09:39 :   8> [G]:   5903 [E]:  54449 [D]:   43 [T]:26 [TH]: 9, In
+2016-01-12 00:09:45 :   9> [G]:  62560 [E]:  22005 [D]: 1170 [T]:39 [TH]: 9, In
+2016-01-12 00:09:49 :  10> [G]:  18858 [E]:  38671 [D]:    0 [T]:38 [TH]: 7, In
+2016-01-12 00:09:55 : ***[End trying TH snipe while training army]***
+2016-01-12 00:09:56 : ====== Waiting for full army ======
+2016-01-12 00:10:11 : Training Troops & Spells
+2016-01-12 00:10:12 : Checking Army Camp...
+2016-01-12 00:10:13 : Total Army Camp capacity: 147/220 (66%)
+2016-01-12 00:10:15 :  - No. of Archers: 42
+2016-01-12 00:10:15 :  - No. of Goblins: 105
+2016-01-12 00:10:15 :  - Archer Queen available
+2016-01-12 00:10:15 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:10:16 :  - No. of LightningSpell: 4
+2016-01-12 00:10:16 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:10:32 : Time Idle: 00:15:39
+2016-01-12 00:10:32 : ***[Trying TH snipe while training army]***
+2016-01-12 00:10:32 : Going to Attack...
+2016-01-12 00:10:38 : ============== Searching For Dead Base ===============
+2016-01-12 00:10:39 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 00:10:39 : Meet: Gold and Elixir, Trophy
+2016-01-12 00:10:39 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 00:10:39 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 00:10:39 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 00:10:39 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 00:10:39 : ==================================================
+2016-01-12 00:10:40 :   1> [G]: 102546 [E]:  67123 [D]:  616 [T]:32 [TH]: 8, Out
+2016-01-12 00:10:44 :   2> [G]:  22946 [E]:  44448 [D]:  255 [T]:35 [TH]: 9, Out
+2016-01-12 00:10:54 :   3> [G]: 119143 [E]: 260553 [D]: 1331 [T]:33 [TH]: 9, In
+2016-01-12 00:11:03 :   4> [G]:  81916 [E]: 118325 [D]: 1133 [T]:24 [TH]:10, Out
+2016-01-12 00:11:12 :   5> [G]:  72964 [E]: 131241 [D]:  651 [T]:34 [TH]: 9, In
+2016-01-12 00:11:16 :   6> [G]:  62585 [E]: 111951 [D]:  848 [T]:36 [TH]: 9, Out
+2016-01-12 00:11:21 :   7> [G]:  44764 [E]:  99882 [D]:  945 [T]:36 [TH]: 9, Out
+2016-01-12 00:11:25 :   8> [G]: 130222 [E]: 146862 [D]:  716 [T]:38 [TH]: 9, Out
+2016-01-12 00:11:30 :   9> [G]:   4211 [E]:  18215 [D]:   86 [T]:21 [TH]: 7, In
+2016-01-12 00:11:34 :  10> [G]:   7381 [E]:  38639 [D]:   21 [T]:30 [TH]: 7, In
+2016-01-12 00:11:40 : ***[End trying TH snipe while training army]***
+2016-01-12 00:11:40 : ====== Waiting for full army ======
+2016-01-12 00:11:53 : Training Troops & Spells
+2016-01-12 00:11:54 : Checking Army Camp...
+2016-01-12 00:11:55 : Total Army Camp capacity: 160/220 (72%)
+2016-01-12 00:11:57 :  - No. of Archers: 46
+2016-01-12 00:11:57 :  - No. of Goblins: 114
+2016-01-12 00:11:57 :  - Archer Queen available
+2016-01-12 00:11:57 : Total Spell(s) Capacity: 9/9
+2016-01-12 00:11:57 :  - No. of LightningSpell: 4
+2016-01-12 00:11:57 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:12:14 : Time Idle: 00:16:13
+2016-01-12 00:12:14 : ***[Trying TH snipe while training army]***
+2016-01-12 00:12:14 : Going to Attack...
+2016-01-12 00:12:21 : ============== Searching For Dead Base ===============
+2016-01-12 00:12:21 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 00:12:21 : Meet: Gold and Elixir, Trophy
+2016-01-12 00:12:21 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 00:12:21 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 00:12:21 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 00:12:21 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 00:12:21 : ==================================================
+2016-01-12 00:12:27 :   1> [G]:  94201 [E]: 201746 [D]: 1887 [T]:26 [TH]: 9, Out
+2016-01-12 00:12:27 :       TH Outside Found! 
+2016-01-12 00:12:29 : ================ Search Complete =================
+2016-01-12 00:12:29 : Initiating attack for: TH Snipe
+2016-01-12 00:12:34 : -*-Archers 46
+2016-01-12 00:12:34 : -*-Goblins 116
+2016-01-12 00:12:34 : -*-Queen 
+2016-01-12 00:12:34 : -*-Lightning Spells 4
+2016-01-12 00:12:34 : -*-Earthquake Spells 1
+2016-01-12 00:12:35 : -*-Poison Spells 1
+2016-01-12 00:12:37 :  ====== Start Attack ====== 
+2016-01-12 00:12:39 : Sniping TH with Smartsaving Goblin    
+2016-01-12 00:12:40 : Dropping Only wave of 5 Goblins
+2016-01-12 00:12:41 : Deployment of 5 Goblins was Successful!
+2016-01-12 00:12:42 :                                       
+2016-01-12 00:12:42 :                                       
+2016-01-12 00:12:42 : Dropping Only wave of 10 Archers
+2016-01-12 00:12:44 : Deployment of 10 Archers was Successful!
+2016-01-12 00:12:45 :                                       
+2016-01-12 00:12:45 : Wait for 20 Second                    
+2016-01-12 00:12:54 : Townhall has been destroyed!
+2016-01-12 00:13:05 : Total No. of Dark Elixir Drills = 1
+2016-01-12 00:13:11 : DE from zap: 406 Total DE from smartZap: 406
+2016-01-12 00:13:20 : Total No. of Dark Elixir Drills = 1
+2016-01-12 00:13:20 : testX: 0 testY: 0
+2016-01-12 00:13:27 : DE from zap: 408 Total DE from smartZap: 814
+2016-01-12 00:13:35 : Total No. of Dark Elixir Drills = 1
+2016-01-12 00:13:35 : testX: -1 testY: -1
+2016-01-12 00:13:35 : Dark Elixir Is below minimum Value
+2016-01-12 00:13:39 :                                       
+2016-01-12 00:13:39 : Wait few sec before close attack
+2016-01-12 00:13:47 : Returning Home
+2016-01-12 00:13:51 : Loot: [G]: 19 487 [E]: 25 073 [DE]: 902 [T]: 8
+2016-01-12 00:13:51 : Bonus Percentage: 9%
+2016-01-12 00:13:52 : Bonus [G]: 234 out of 2 600 [E]: 234 out of 2 600
+2016-01-12 00:13:52 : Your league level is: Silver III
+2016-01-12 00:13:52 : Stars earned: 1
+2016-01-12 00:14:01 : ***[End trying TH snipe while training army]***
+2016-01-12 00:14:01 : ====== Waiting for full army ======
+2016-01-12 00:14:14 : Training Troops & Spells
+2016-01-12 00:14:14 : Checking Army Camp...
+2016-01-12 00:14:16 : Total Army Camp capacity: 162/220 (73%)
+2016-01-12 00:14:17 :  - No. of Archers: 41
+2016-01-12 00:14:17 :  - No. of Goblins: 121
+2016-01-12 00:14:17 :  - Archer Queen available
+2016-01-12 00:14:17 : Total Spell(s) Capacity: 7/9
+2016-01-12 00:14:17 :  - No. of LightningSpell: 3
+2016-01-12 00:14:18 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:14:36 : Created 2 Lightning Spell(s)
+2016-01-12 00:14:36 : Spell Factory is full ...
+2016-01-12 00:14:41 : Time Idle: 00:16:53
+2016-01-12 00:14:41 : ***[Trying TH snipe while training army]***
+2016-01-12 00:14:41 : Going to Attack...
+2016-01-12 00:14:48 : ============== Searching For Dead Base ===============
+2016-01-12 00:14:48 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 00:14:48 : Meet: Gold and Elixir, Trophy
+2016-01-12 00:14:48 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 00:14:48 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 00:14:48 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 00:14:48 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 00:14:48 : ==================================================
+2016-01-12 00:14:50 :   1> [G]:  11499 [E]:   5687 [D]:  232 [T]:37 [TH]: 8, In
+2016-01-12 00:15:00 :   2> [G]:  29115 [E]: 219576 [D]:  341 [T]:35 [TH]: 8, In
+2016-01-12 00:15:05 :   3> [G]:  79305 [E]:  41898 [D]:  533 [T]:34 [TH]: 8, Out
+2016-01-12 00:15:16 :   4> [G]: 184266 [E]: 110747 [D]: 1010 [T]:20 [TH]: 9, In
+2016-01-12 00:15:23 :   5> [G]:  12220 [E]:   6537 [D]:  108 [T]:38 [TH]: 8, In
+2016-01-12 00:15:33 :   6> [G]:  29297 [E]: 223615 [D]:  818 [T]:38 [TH]: 9, In
+2016-01-12 00:15:43 :   7> [G]: 194906 [E]: 391816 [D]: 3566 [T]:33 [TH]:11, In
+2016-01-12 00:15:55 :   8> [G]: 101986 [E]: 235562 [D]:  907 [T]:39 [TH]: 9, In
+2016-01-12 00:16:00 :   9> [G]:  42880 [E]:  66962 [D]:  382 [T]:38 [TH]: 9, Out
+2016-01-12 00:16:04 :  10> [G]: 148989 [E]:  85682 [D]: 2526 [T]:38 [TH]: 9, In
+2016-01-12 00:16:11 : ***[End trying TH snipe while training army]***
+2016-01-12 00:16:11 : ====== Waiting for full army ======
+2016-01-12 00:16:24 : Training Troops & Spells
+2016-01-12 00:16:25 : Checking Army Camp...
+2016-01-12 00:16:26 : Total Army Camp capacity: 178/220 (80%)
+2016-01-12 00:16:28 :  - No. of Archers: 45
+2016-01-12 00:16:28 :  - No. of Goblins: 133
+2016-01-12 00:16:28 :  - Archer Queen available
+2016-01-12 00:16:28 : Total Spell(s) Capacity: 7/9
+2016-01-12 00:16:28 :  - No. of LightningSpell: 3
+2016-01-12 00:16:28 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:16:44 : Already done Lightning Spell(s)
+2016-01-12 00:16:44 : Spell Factory is full ...
+2016-01-12 00:16:49 : Time Idle: 00:17:31
+2016-01-12 00:16:49 : ***[Trying TH snipe while training army]***
+2016-01-12 00:16:49 : Going to Attack...
+2016-01-12 00:16:56 : ============== Searching For Dead Base ===============
+2016-01-12 00:16:56 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 00:16:56 : Meet: Gold and Elixir, Trophy
+2016-01-12 00:16:56 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 00:16:56 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 00:16:56 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 00:16:56 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 00:16:56 : ==================================================
+2016-01-12 00:16:58 :   1> [G]:  69700 [E]:  98158 [D]:  576 [T]:32 [TH]: 9, Out
+2016-01-12 00:17:09 :   2> [G]: 292941 [E]: 251211 [D]: 2519 [T]:37 [TH]: 9, In
+2016-01-12 00:17:16 :   3> [G]:  71530 [E]:  25311 [D]:  393 [T]:41 [TH]: 8, In
+2016-01-12 00:17:20 :   4> [G]:  68726 [E]:  62562 [D]:  165 [T]:41 [TH]:10, Out
+2016-01-12 00:17:36 :   5> [G]: 356107 [E]:  88095 [D]: 2255 [T]:35 [TH]: 9, In
+2016-01-12 00:17:42 :   6> [G]: 115960 [E]:  73268 [D]: 1051 [T]:36 [TH]: 8, In
+2016-01-12 00:17:46 :   7> [G]:  60375 [E]:  46833 [D]: 1266 [T]:36 [TH]: 9, In
+2016-01-12 00:17:51 :   8> [G]: 106633 [E]:  15162 [D]:  714 [T]:39 [TH]: 9, In
+2016-01-12 00:18:03 :   9> [G]: 226569 [E]: 271169 [D]: 3746 [T]:31 [TH]:11, In
+2016-01-12 00:18:13 :  10> [G]:  32402 [E]: 399844 [D]: 1017 [T]:28 [TH]:10, In
+2016-01-12 00:18:19 : ***[End trying TH snipe while training army]***
+2016-01-12 00:18:20 : ====== Waiting for full army ======
+2016-01-12 00:18:33 : Training Troops & Spells
+2016-01-12 00:18:33 : Checking Army Camp...
+2016-01-12 00:18:35 : Total Army Camp capacity: 195/220 (88%)
+2016-01-12 00:18:36 :  - No. of Archers: 50
+2016-01-12 00:18:36 :  - No. of Goblins: 145
+2016-01-12 00:18:37 :  - Archer Queen available
+2016-01-12 00:18:37 : Total Spell(s) Capacity: 7/9
+2016-01-12 00:18:37 :  - No. of LightningSpell: 3
+2016-01-12 00:18:37 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:18:53 : Already done Lightning Spell(s)
+2016-01-12 00:18:53 : Spell Factory is full ...
+2016-01-12 00:18:58 : Time Idle: 00:18:10
+2016-01-12 00:18:58 : ***[Trying TH snipe while training army]***
+2016-01-12 00:18:58 : Going to Attack...
+2016-01-12 00:19:04 : ============== Searching For Dead Base ===============
+2016-01-12 00:19:04 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 00:19:04 : Meet: Gold and Elixir, Trophy
+2016-01-12 00:19:04 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 00:19:04 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 00:19:04 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 00:19:04 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 00:19:04 : ==================================================
+2016-01-12 00:19:06 :   1> [G]: 126404 [E]:  57436 [D]:  530 [T]:29 [TH]: 8, Out
+2016-01-12 00:19:13 :   2> [G]: 127252 [E]:  12962 [D]:  208 [T]:38 [TH]: 8, In
+2016-01-12 00:19:23 :   3> [G]: 133536 [E]: 352555 [D]: 1639 [T]:30 [TH]: 9, In
+2016-01-12 00:19:29 :   4> [G]:  18215 [E]:  52957 [D]:  805 [T]:41 [TH]: 8, In
+2016-01-12 00:19:33 :   5> [G]:  50804 [E]:  58743 [D]:  314 [T]:34 [TH]: 8, In
+2016-01-12 00:19:44 :   6> [G]: 296662 [E]: 172136 [D]: 3487 [T]:38 [TH]:10, Out
+2016-01-12 00:19:44 :       TH Outside Found! 
+2016-01-12 00:19:45 : ================ Search Complete =================
+2016-01-12 00:19:46 : Initiating attack for: TH Snipe
+2016-01-12 00:19:51 : -*-Archers 51
+2016-01-12 00:19:51 : -*-Goblins 147
+2016-01-12 00:19:51 : -*-Queen 
+2016-01-12 00:19:51 : -*-Lightning Spells 3
+2016-01-12 00:19:51 : -*-Earthquake Spells 1
+2016-01-12 00:19:51 : -*-Poison Spells 1
+2016-01-12 00:19:54 :  ====== Start Attack ====== 
+2016-01-12 00:19:57 : Sniping TH with Smartsaving Goblin    
+2016-01-12 00:19:57 : Dropping Only wave of 5 Goblins
+2016-01-12 00:19:58 : Deployment of 5 Goblins was Successful!
+2016-01-12 00:19:59 :                                       
+2016-01-12 00:19:59 :                                       
+2016-01-12 00:19:59 : Dropping Only wave of 10 Archers
+2016-01-12 00:20:01 : Deployment of 10 Archers was Successful!
+2016-01-12 00:20:02 :                                       
+2016-01-12 00:20:02 : Wait for 20 Second                    
+2016-01-12 00:20:28 :                                       
+2016-01-12 00:20:28 : TH Not Destroy??                      
+2016-01-12 00:20:28 : We Try Again                          
+2016-01-12 00:20:28 : Dropping Only wave of 5 Goblins
+2016-01-12 00:20:30 : Deployment of 5 Goblins was Successful!
+2016-01-12 00:20:30 :                                       
+2016-01-12 00:20:30 :                                       
+2016-01-12 00:20:31 : Dropping Only wave of 10 Archers
+2016-01-12 00:20:33 : Deployment of 10 Archers was Successful!
+2016-01-12 00:20:33 :                                       
+2016-01-12 00:20:33 : Wait for 10 Second                    
+2016-01-12 00:20:48 :                                       
+2016-01-12 00:20:48 : TH Not Destroy??                      
+2016-01-12 00:20:48 : We Try Again                          
+2016-01-12 00:20:49 : Dropping Only wave of 5 Goblins
+2016-01-12 00:20:50 : Deployment of 5 Goblins was Successful!
+2016-01-12 00:20:51 :                                       
+2016-01-12 00:20:51 :                                       
+2016-01-12 00:20:51 : Dropping Only wave of 15 Archers
+2016-01-12 00:20:54 : Deployment of 15 Archers was Successful!
+2016-01-12 00:20:54 :                                       
+2016-01-12 00:20:54 : Wait for 10 Second                    
+2016-01-12 00:21:00 : Townhall has been destroyed!
+2016-01-12 00:21:04 : Total No. of Dark Elixir Drills = 3
+2016-01-12 00:21:11 : DE from zap: 218 Total DE from smartZap: 1032
+2016-01-12 00:21:20 : Total No. of Dark Elixir Drills = 2
+2016-01-12 00:21:27 : DE from zap: 252 Total DE from smartZap: 1284
+2016-01-12 00:21:35 : Total No. of Dark Elixir Drills = 2
+2016-01-12 00:21:42 : DE from zap: 264 Total DE from smartZap: 1548
+2016-01-12 00:21:45 : Total No. of Dark Elixir Drills = 3
+2016-01-12 00:21:48 :                                       
+2016-01-12 00:21:48 : Wait few sec before close attack
+2016-01-12 00:21:54 : Returning Home
+2016-01-12 00:21:59 : Loot: [G]: 43 130 [E]: 16 976 [DE]: 1 049 [T]: 12
+2016-01-12 00:21:59 : Bonus Percentage: 3%
+2016-01-12 00:21:59 : Bonus [G]: 78 out of 2 600 [E]: 78 out of 2 600
+2016-01-12 00:22:00 : Your league level is: Silver III
+2016-01-12 00:22:00 : Stars earned: 1
+2016-01-12 00:22:08 : ***[End trying TH snipe while training army]***
+2016-01-12 00:22:09 : ====== Waiting for full army ======
+2016-01-12 00:22:21 : Training Troops & Spells
+2016-01-12 00:22:22 : Checking Army Camp...
+2016-01-12 00:22:24 : Total Army Camp capacity: 174/220 (79%)
+2016-01-12 00:22:25 :  - No. of Archers: 24
+2016-01-12 00:22:25 :  - No. of Goblins: 150
+2016-01-12 00:22:25 :  - Archer Queen available
+2016-01-12 00:22:25 : Total Spell(s) Capacity: 1/9
+2016-01-12 00:22:26 :  - No. of EarthquakeSpell: 1
+2016-01-12 00:22:42 : Already done Lightning Spell(s)
+2016-01-12 00:22:42 : Spell Factory is full ...
+2016-01-12 00:22:47 : Time Idle: 00:18:48
+2016-01-12 00:22:47 : ***[Trying TH snipe while training army]***
+2016-01-12 00:22:47 : Going to Attack...
+2016-01-12 00:22:54 : ============== Searching For Dead Base ===============
+2016-01-12 00:22:54 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-12 00:22:54 : Meet: Gold and Elixir, Trophy
+2016-01-12 00:22:54 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-12 00:22:54 : Aim: [G]: 250000 [E]: 250000 [D]:    0 [T]:99 for: Dead Base
+2016-01-12 00:22:54 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-12 00:22:54 : THSnipe Combo for Only LiveBasesSmartBarch-v1.0
+2016-01-12 00:22:54 : ==================================================
+2016-01-12 00:23:01 :   1> [G]: 358819 [E]: 215993 [D]: 1133 [T]:36 [TH]: 9, In

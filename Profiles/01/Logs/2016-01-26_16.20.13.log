@@ -1,0 +1,125 @@
+2016-01-26 16:20:14 : Unsupported BlueStacks screen size of 832 x 755 !
+2016-01-26 16:20:14 : BlueStacks window resized to 866 x 805
+2016-01-26 16:20:15 :  My Bot v5.0.2 860x780 (BlueStacks) Powered by MyBot.run ~
+2016-01-26 16:20:15 : MyBot.run.au3 Script running on WIN_7  X64
+2016-01-26 16:20:15 : =================== Bot Start ====================
+2016-01-26 16:20:15 : -------------------------  Current Profile: 01 --------------------------
+2016-01-26 16:20:15 :  Warning Debug Mode Enabled! Setlog: 0 OCR: 0 RedArea: 0 ImageSave: 0 BuildingPos: 1-
+2016-01-26 16:20:15 : Trying to locate Main Screen
+2016-01-26 16:20:15 : Main Screen Located
+2016-01-26 16:20:17 : Detecting your Buildings..
+2016-01-26 16:20:18 : Finding your Clan Level, wait..
+2016-01-26 16:20:25 : Found Clan Level: 5
+2016-01-26 16:20:26 : Detecting your Village Theme
+2016-01-26 16:20:26 : Normal Theme detected
+2016-01-26 16:20:28 : Language setting is English: Correct.
+2016-01-26 16:20:29 : Trying to locate Main Screen
+2016-01-26 16:20:29 : Main Screen Located
+2016-01-26 16:20:32 : Village Report
+2016-01-26 16:20:32 : No. of Free/Total Builders: 0/5
+2016-01-26 16:20:32 :  [T]: 769
+2016-01-26 16:20:33 :  [G]: 7 603 523 [E]: 6 752 843 [D]: 66 482 [GEM]: 165
+2016-01-26 16:20:35 : Training Troops & Spells
+2016-01-26 16:20:36 : Checking Army Camp...
+2016-01-26 16:20:37 : Total Army Camp capacity: 220/220 (100%)
+2016-01-26 16:20:43 :  - No. of Archers: 135
+2016-01-26 16:20:43 :  - No. of Goblins: 85
+2016-01-26 16:20:44 :  - Barbarian King available
+2016-01-26 16:20:44 : Total Spell(s) Capacity: 6/9
+2016-01-26 16:20:44 : Barracks and Spell factory status: 
+2016-01-26 16:20:44 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-26 16:20:44 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-01-26 16:20:44 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-26 16:20:44 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-26 16:20:44 : Skipping Train Army
+2016-01-26 16:20:48 : Waiting for Main Screen
+2016-01-26 16:20:58 : Skipping Collect Resources
+2016-01-26 16:20:58 : Skipping Clear Tombstones
+2016-01-26 16:20:58 : Skipping ReArming Village
+2016-01-26 16:20:58 : Skipping Laboratory Upgrades
+2016-01-26 16:20:58 : Skipping Building Upgrades
+2016-01-26 16:20:58 : Skipping Upgrade Walls
+2016-01-26 16:20:58 : Skipping Donate Troops
+2016-01-26 16:20:59 : Going to Attack...
+2016-01-26 16:21:05 : ============== Searching For Dead Base ===============
+2016-01-26 16:21:05 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-01-26 16:21:05 : Meet: Gold and Elixir
+2016-01-26 16:21:05 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-01-26 16:21:05 : Aim: [G]: 150000 [E]: 150000 [D]:    0 [T]: 0 for: Dead Base
+2016-01-26 16:21:05 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-01-26 16:21:05 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-01-26 16:21:05 : ==================================================
+2016-01-26 16:21:06 : #*# checkTownhallADV2: 
+2016-01-26 16:21:06 :   - Position (202,348)
+2016-01-26 16:21:06 :   - TownHall detected level 9
+2016-01-26 16:21:06 :   - Image Match 001T70X0Y0.bmp
+2016-01-26 16:21:06 :   - IsInsidediamond: True
+2016-01-26 16:21:06 :   - Calculated  in: 0.29 seconds 
+2016-01-26 16:21:06 :   - Images checked: 3
+2016-01-26 16:21:07 :   1> [G]:  18906 [E]: 203978 [D]:  910 [T]:24 [TH]: 9, Out
+2016-01-26 16:21:13 : #*# checkTownhallADV2: 
+2016-01-26 16:21:13 :   - Position (438,305)
+2016-01-26 16:21:13 :   - TownHall detected level 8
+2016-01-26 16:21:13 :   - Image Match 001T75X0Y0.bmp
+2016-01-26 16:21:13 :   - IsInsidediamond: True
+2016-01-26 16:21:13 :   - Calculated  in: 0.37 seconds 
+2016-01-26 16:21:13 :   - Images checked: 4
+2016-01-26 16:21:15 : #*# ZombieSearch2: 
+2016-01-26 16:21:15 :   - Position (578,291)
+2016-01-26 16:21:15 :   - Elixir Collector 100% level 11
+2016-01-26 16:21:15 :   - Image Match e11f100T65.bmp
+2016-01-26 16:21:15 :   - IsInsidediamond: True
+2016-01-26 16:21:15 :   - Calculated  in: 1.46 seconds 
+2016-01-26 16:21:15 :   - Images checked: 27
+2016-01-26 16:21:15 :  FOUND = True
+2016-01-26 16:21:15 :   2> [G]: 340446 [E]: 181986 [D]:  206 [T]:32 [TH]: 8, In
+2016-01-26 16:21:15 :       Dead Base Found! 
+2016-01-26 16:21:17 : ================ Search Complete =================
+2016-01-26 16:21:17 : Initiating attack for: Dead Base
+2016-01-26 16:21:22 : -*-Archers 135
+2016-01-26 16:21:22 : -*-Goblins 85
+2016-01-26 16:21:22 : -*-King 
+2016-01-26 16:21:22 : -*-Lightning Spells 3
+2016-01-26 16:21:22 : -*-Poison Spells 1
+2016-01-26 16:21:25 :  ====== Start Attack ====== 
+2016-01-26 16:21:27 : Attacking four finger fight style
+2016-01-26 16:21:28 : Dropping only wave of 135 Archers
+2016-01-26 16:21:32 : Dropping first wave of 43 Goblins
+2016-01-26 16:21:34 : Dropping second wave of 43 Goblins
+2016-01-26 16:21:38 : Dropping left over troops
+2016-01-26 16:21:38 : Checking remaining unused troops for: Dead Base
+2016-01-26 16:21:43 : -*-King 
+2016-01-26 16:21:43 : -*-Lightning Spells 3
+2016-01-26 16:21:43 : -*-Poison Spells 1
+2016-01-26 16:21:54 : Checking remaining unused troops for: Dead Base
+2016-01-26 16:21:59 : -*-King 
+2016-01-26 16:21:59 : -*-Lightning Spells 3
+2016-01-26 16:21:59 : -*-Poison Spells 1
+2016-01-26 16:22:12 : Finished Attacking, waiting for the battle to end
+2016-01-26 16:22:12 : Returning Home
+2016-01-26 16:22:17 : Loot: [G]: 340 446 [E]: 181 986 [DE]: 206 [T]: 32
+2016-01-26 16:22:17 : Bonus Percentage: 100%
+2016-01-26 16:22:17 : Bonus [G]: 1 300 [E]: 1 300
+2016-01-26 16:22:18 : Your league level is: Bronze I
+2016-01-26 16:22:18 : Stars earned: 3
+2016-01-26 16:22:28 : Trying to locate Main Screen
+2016-01-26 16:22:29 : Main Screen Located
+2016-01-26 16:22:32 : Village Report
+2016-01-26 16:22:32 : No. of Free/Total Builders: 0/5
+2016-01-26 16:22:32 :  [T]: 801
+2016-01-26 16:22:32 :  [G]: 7 943 769 [E]: 6 936 129 [D]: 66 688 [GEM]: 165
+2016-01-26 16:22:35 : Training Troops & Spells
+2016-01-26 16:22:36 : Checking Army Camp...
+2016-01-26 16:22:37 : Total Army Camp capacity: 8/220 (3%)
+2016-01-26 16:22:39 :  - No. of Archers: 8
+2016-01-26 16:22:39 :  - Barbarian King available
+2016-01-26 16:22:39 : Total Spell(s) Capacity: 6/9
+2016-01-26 16:22:39 : Barracks and Spell factory status: 
+2016-01-26 16:22:39 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-01-26 16:22:39 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-01-26 16:22:39 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-26 16:22:39 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-01-26 16:23:16 : Created 5 Lightning Spell(s)
+2016-01-26 16:23:16 : Spell Factory is full ...
+2016-01-26 16:23:30 : Collecting Resources
+2016-01-26 16:23:44 : Checking if Village needs Rearming..

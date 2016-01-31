@@ -1,5 +1,5 @@
 ; #FUNCTION# ====================================================================================================================
-; Name ..........: MBR GUI Control
+; Name ..........: MBR GUI Milking
 ; Description ...: This file Includes all functions to current GUI
 ; Syntax ........:
 ; Parameters ....: None

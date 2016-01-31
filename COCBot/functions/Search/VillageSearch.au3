@@ -15,6 +15,7 @@
 ; ===============================================================================================================================
 Func VillageSearch() ;Control for searching a village that meets conditions
 	Local $Result
+	Local $ResultTHsn = False ;noyax
 	Local $logwrited = False
 	$iSkipped = 0
 
@@ -22,14 +23,6 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		If DirGetSize(@ScriptDir & "\SkippedZombies\") = -1 Then DirCreate(@ScriptDir & "\SkippedZombies\")
 		If DirGetSize(@ScriptDir & "\Zombies\") = -1 Then DirCreate(@ScriptDir & "\Zombies\")
 	EndIf
-
-	If $iCmbSearchMode > 0 and ($LBAQFilter = 1 Or $LBBKFilter = 1) Then
-			If $Is_ClientSyncError = True  And $LBHeroFilter = 0 Then
-				SetLog("Client Sync error Heros already confirmed awake. Skipping Check ", $COLOR_BLUE)
-			Else
-				LiveRoyalFilter()
-		   EndIf
-	  EndIf
 
 	If $Is_ClientSyncError = False Then
 		For $i = 0 To $iModeCount - 1
@@ -97,7 +90,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		If $OptBullyMode = 1 And Not ($Is_SearchLimit) Then SetLog("THBully Combo @" & $ATBullyMode & " SearchCount, " & $YourTHText)
 
 		If $chkATH = 1 Then $chkATHText = " Attack TH Outside "
-		If $OptTrophyMode = 1 Then $OptTrophyModeText = "THSnipe Combo for " & GUICtrlRead($cmbTsSearchMode)
+		If $OptTrophyMode = 1 Then $OptTrophyModeText = "THSnipe Combo, " & $THaddtiles & " Tile(s), "
 		If ($OptTrophyMode = 1 Or $chkATH = 1) And Not ($Is_SearchLimit) Then SetLog($OptTrophyModeText & $chkATHText & $txtAttackTHType)
 	EndIf
 
@@ -164,17 +157,12 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 			$isModeActive[$LB] = True
 			$match[$LB] = CompareResources($LB)
 		ElseIf $iCmbSearchMode = 2 Then
-			For $i = 0 To $iModeCount - 2
+			For $i = 0 To $iModeCount - 1
 				$isModeActive[$i] = IsSearchModeActive($i)
 				If $isModeActive[$i] Then
 					$match[$i] = CompareResources($i)
 				EndIf
 			Next
-		EndIf
-
-		If $OptTrophyMode = 1 Then
-			$isModeActive[$TS] = True
-			$match[$TS] = CompareResources($TS)
 		EndIf
 
 		If _Sleep($iDelayRespond) Then Return
@@ -190,7 +178,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		Next
 
 		If _Sleep($iDelayRespond) Then Return
-		If $match[$DB] Or $match[$LB] Or $match[$TS] Then
+		If $match[$DB] Or $match[$LB] Then
 			$dbBase = checkDeadBase()
 		EndIf
 
@@ -207,27 +195,11 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 			EndIf
 			ExitLoop
 		ElseIf $match[$LB] And Not $dbBase Then
-	       If $iChkDeploySettings[$LB] = 5 And ($iSkipUndetectedDE > 0 Or $iSkipCentreDE > 0) Then
-			   If CheckfoundorcoreDE() = True Then
-			      SetLog($GetResourcesTXT, $COLOR_GREEN, "Lucida Console", 7.5)
-			      SetLog("      " & "DE Side Base Found!", $COLOR_GREEN, "Lucida Console", 7.5)
-			      $logwrited = True
-			      $iMatchMode = $LB
-			      $DESideFound = True
-			      ExitLoop
-		    EndIf
-		ElseIf $iChkDeploySettings[$LB] = 5 Then
-			    SetLog($GetResourcesTXT, $COLOR_GREEN, "Lucida Console", 7.5)
-				SetLog(_PadStringCenter(" DE Side Base Found! ", 50, "~"), $COLOR_GREEN, "Lucida Console", 7.5)
-				$iMatchMode = $LB
-				$DESideFound = True
-				ExitLoop
-			 Else
 			SetLog($GetResourcesTXT, $COLOR_GREEN, "Lucida Console", 7.5)
-			SetLog(_PadStringCenter(" Live Base Found! ", 50, "~"), $COLOR_GREEN, "Lucida Console", 7.5)
+			SetLog("      " & "Live Base Found!", $COLOR_GREEN, "Lucida Console", 7.5)
+			$logwrited = True
 			$iMatchMode = $LB
 			ExitLoop
-		 EndIf
 		ElseIf $match[$LB] Or $match[$DB] Then
 			If $OptBullyMode = 1 And ($SearchCount >= $ATBullyMode) Then
 				If $SearchTHLResult = 1 Then
@@ -241,8 +213,22 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 		EndIf
 
 		If _Sleep($iDelayRespond) Then Return
-		If $OptTrophyMode = 1 And $match[$TS] Then ;Enables Triple Mode Settings ;---compare resources
-			If $iCmbTSSearchMode = 2 Or ($iCmbTSSearchMode = 0 and $dbBase) OR ($iCmbTSSearchMode = 1 and Not $dbBase) Then
+		If $OptTrophyMode = 1 Then ;Enables Triple Mode Settings ;---compare resources
+;noyax top
+			$resultTHsn = False
+			Local $G = (Number($searchGold) >= Number($iMinGoldTHsn)), $E = (Number($searchElixir) >= Number($iMinElixirTHsn)), $GPE = ((Number($searchGold) + Number($searchElixir)) >= Number($iMinGoldPlusElixirTHsn))
+			If $iCmbMeetGETHsn = 0 then
+				If $G = True And $E = True Then	$resultTHsn = True
+			EndIf
+			If $iCmbMeetGETHsn = 1 then
+				If $G = True Or $E = True Then $resultTHsn = True
+			EndIf
+			If $iCmbMeetGETHsn = 2 then
+				If $GPE = True Then $resultTHsn = True
+			EndIf
+					
+			If $resultTHsn = True Then
+;noyax bottom
 				If SearchTownHallLoc() Then ; attack this base anyway because outside TH found to snipe
 					SetLog($GetResourcesTXT, $COLOR_GREEN, "Lucida Console", 7.5)
 					SetLog("      " & "TH Outside Found! ", $COLOR_GREEN, "Lucida Console", 7.5)
@@ -250,7 +236,7 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 					$iMatchMode = $TS
 					ExitLoop
 				EndIf
-			EndIf
+			EndIf ;noyax
 		EndIf
 
 		If _Sleep($iDelayRespond) Then Return
@@ -363,31 +349,30 @@ Func VillageSearch() ;Control for searching a village that meets conditions
 	PushMsg("MatchFound")
 
 	; TH Detection Check Once Conditions
-	If $iMatchMode < 2 Then ;don't bother if we are already sniping
-		If $OptBullyMode = 0 And $OptTrophyMode = 0 And $iChkMeetTH[$iMatchMode] = 0 And $iChkMeetTHO[$iMatchMode] = 0 And $chkATH = 1 Then
-			$searchTH = checkTownHallADV2()
+	If $OptBullyMode = 0 And $OptTrophyMode = 0 And $iChkMeetTH[$iMatchMode] = 0 And $iChkMeetTHO[$iMatchMode] = 0 And $chkATH = 1 Then
+		$searchTH = checkTownHallADV2()
 
-			 If $searchTH = "-" Then ; retry with autoit search after $iDelayVillageSearch5 seconds
-			   If _Sleep($iDelayVillageSearch5) Then Return
-			   SetLog("2nd attempt to detect the TownHall!", $COLOR_RED)
-			   $searchTH = checkTownhallADV2()
-			 EndIf
+		 If $searchTH = "-" Then ; retry with autoit search after $iDelayVillageSearch5 seconds
+		   If _Sleep($iDelayVillageSearch5) Then Return
+		   SetLog("2nd attempt to detect the TownHall!", $COLOR_RED)
+		   $searchTH = checkTownhallADV2()
+		 EndIf
 
-			 If $searchTH = "-" Then ; retry with c# search, matching could not have been caused by heroes that partially hid the townhall
-			   If _Sleep($iDelayVillageSearch4) Then Return
-			   If $debugImageSave = 1 Then DebugImageSave("VillageSearch_NoTHFound2try_", False)
-				THSearch()
-			EndIf
 
-			If SearchTownHallLoc() = False And $searchTH <> "-" Then
-				SetLog("Checking Townhall location: TH is inside, skip Attack TH")
-			ElseIf $searchTH <> "-" Then
-				SetLog("Checking Townhall location: TH is outside, Attacking Townhall!")
-			Else
-				SetLog("Checking Townhall location: Could not locate TH, skipping attack TH...")
-			EndIf
+		 If $searchTH = "-" Then ; retry with c# search, matching could not have been caused by heroes that partially hid the townhall
+		   If _Sleep($iDelayVillageSearch4) Then Return
+		   If $debugImageSave = 1 Then DebugImageSave("VillageSearch_NoTHFound2try_", False)
+			THSearch()
 		EndIf
-    EndIf
+
+		If SearchTownHallLoc() = False And $searchTH <> "-" Then
+			SetLog("Checking Townhall location: TH is inside, skip Attack TH")
+		ElseIf $searchTH <> "-" Then
+			SetLog("Checking Townhall location: TH is outside, Attacking Townhall!")
+		Else
+			SetLog("Checking Townhall location: Could not locate TH, skipping attack TH...")
+		EndIf
+	EndIf
 
 	$Is_ClientSyncError = False
 

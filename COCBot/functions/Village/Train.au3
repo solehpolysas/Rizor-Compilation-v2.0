@@ -107,12 +107,6 @@ Func Train()
 
 	checkArmyCamp()
 
-;Rizor Skipping Train Army
-	If $fullArmy = True Then
-		setlog("Skipping Train Army", $COLOR_RED)
-		Return True
-	EndIf
-;Rizor Skipping Train Army
 	checkAttackDisable($iTaBChkIdle) ; Check for Take-A-Break after opening train page
 
 	; CHECK IF NEED TO MAKE TROOPS
@@ -197,7 +191,7 @@ Func Train()
 		$BarrackDarkStatus[0] = False
 		$BarrackDarkStatus[1] = False
 		SetLog("Your Army Camps are now Full", $COLOR_RED)
-		If ($pEnabled = 1 or $pEnabled2 = 1) And $ichkAlertPBCampFull = 1 Then PushMsg("CampFull")
+		If $pEnabled = 1 And $ichkAlertPBCampFull = 1 Then PushMsg("CampFull")
 	EndIf
 
 	;If is fullArmy or FirstStart or we are using the Barracks modes is not necessary count the donations , the $Cur will add the correct troops to make
@@ -220,7 +214,6 @@ Func Train()
 	; ########################################  2nd Stage : Calculating of Troops to Make ##############################################
 
 	If $debugSetlog = 1 Then SetLog("Total ArmyCamp :" & $TotalCamp, $COLOR_PURPLE)
-
 	If $fullarmy = True Then
 		SetLog("Calculating Troops before Training new Army.", $COLOR_BLUE)
 		$anotherTroops = 0
@@ -523,7 +516,7 @@ Func Train()
 		While isBarrack() And $isNormalBuild
 			$brrNum += 1
 			If $debugSetlog = 1 Then SetLog("====== Checking available Barrack: " & $brrNum & " ======", $COLOR_PURPLE)
-			If ($fullarmy = True) Or $FirstStart Then
+			If ($fullarmy = True) Or $FirstStart = False Then
 				;CLICK REMOVE TROOPS
 				If _Sleep($iDelayTrain2) Then Return
 				$icount = 0
@@ -1022,6 +1015,7 @@ Func Train()
 
 	If _Sleep($iDelayTrain4) Then Return
 	BrewSpells() ; Create Spells
+
 
 	If _Sleep($iDelayTrain4) Then Return
 	ClickP($aAway, 2, $iDelayTrain5, "#0504"); Click away twice with 250ms delay

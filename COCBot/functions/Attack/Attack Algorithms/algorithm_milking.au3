@@ -1,11 +1,11 @@
 ; #FUNCTION# ====================================================================================================================
-; Name ..........: algorith_AllTroops
-; Description ...: This file contens all functions to attack algorithm will all Troops , using Barbarians, Archers, Goblins, Giants and Wallbreakers as they are available
-; Syntax ........: algorithm_AllTroops()
+; Name ..........: algorith_milking based on algorithm_AllTroops
+; Description ...: This file contens all functions to attack algorithm for milking , using max 90 Goblins
+; Syntax ........: algorithm_milking()
 ; Parameters ....: None
 ; Return values .: None
-; Author ........:
-; Modified ......: Didipe (May-2015)
+; Author ........: Noyax37 (01/2016)
+; Modified ......: 
 ; Remarks .......: This file is part of MyBot, previously known as ClashGameBot. Copyright 2015
 ;                  MyBot is distributed under the terms of the GNU GPL
 ; Related .......:
@@ -13,8 +13,8 @@
 ; Example .......: No
 ; ===============================================================================================================================
 
-Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
-	If $debugSetlog=1 Then 		Setlog("algorithm_AllTroops",$COLOR_PURPLE)
+Func algorithm_milking() ;Attack Algorithm for milking
+	If $debugSetlog=1 Then 		Setlog("algorithm_milking",$COLOR_PURPLE)
 	$King = -1
 	$Queen = -1
 	$CC = -1
@@ -131,33 +131,12 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 	; DropLSpell()
 	;########################################################################################################################
 	Local $nbSides = 0
-	Switch $iChkDeploySettings[$iMatchMode]
-		Case 0 ;Single sides ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			SetLog("Attacking on a single side", $COLOR_BLUE)
-			$nbSides = 1
-		Case 1 ;Two sides ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			SetLog("Attacking on two sides", $COLOR_BLUE)
-			$nbSides = 2
-		Case 2 ;Three sides ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			SetLog("Attacking on three sides", $COLOR_BLUE)
-			$nbSides = 3
-		Case 3 ;All sides ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			SetLog("Attacking on all sides", $COLOR_BLUE)
-			$nbSides = 4
-		Case 4 ;DE Side - Live Base only ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			SetLog("Attacking on Dark Elixir Side.", $COLOR_BLUE)
-			$nbSides = 1
-			If NOT ($iChkRedArea[$iMatchMode]) Then GetBuildingEdge($eSideBuildingDES) ; Get DE Storage side when Redline is not used.
-		Case 5 ;TH Side - Live Base only ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			SetLog("Attacking on Town Hall Side.", $COLOR_BLUE)
-			$nbSides = 1
-			If NOT ($iChkRedArea[$iMatchMode]) Then GetBuildingEdge($eSideBuildingTH) ; Get Townhall side when Redline is not used.
-	EndSwitch
-	If ($nbSides = 0) Then Return
+	SetLog("Attacking on all sides", $COLOR_BLUE)
+	$nbSides = 4
 	If _Sleep($iDelayalgorithm_AllTroops2) Then Return
 
+	If $debugSetlog =1 Then SetLog("listdeploy standard for attack", $COLOR_PURPLE)
 	; $ListInfoDeploy = [Troop, No. of Sides, $WaveNb, $MaxWaveNb, $slotsPerEdge]
-	If $iMatchMode = $LB And $iChkDeploySettings[$LB] = 4 Then   ; Customise DE side wave deployment here
 		Local $listInfoDeploy[13][5] = [[$eGiant, $nbSides, 1, 1, 2] _
 			, [$eWall, $nbSides, 1, 1, 2] _
 			, [$eBarb, $nbSides, 1, 2, 2] _
@@ -172,55 +151,12 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 			, [$eArch, $nbSides, 3, 3, 2] _
 			, [$eGobl, $nbSides, 1, 1, 1] _
 			]
-	Else
-; Noyax top
-		If $MilkAtt = 1 then
-			If $debugSetlog =1 Then SetLog("listdeploy for milking", $COLOR_PURPLE)
-			Local $listInfoDeploy[3][5] = [[$eGobl, $nbSides, 1, 1, 0] _
-				, ["CC", 1, 1, 1, 1] _
-				, ["HEROES", 1, 2, 1, 1] _
-				]
-		Else
-; Noyax bottom
-			If $debugSetlog =1 Then SetLog("listdeploy standard for attack", $COLOR_PURPLE)
-			Local $listInfoDeploy[13][5] = [[$eGiant, $nbSides, 1, 1, 2] _
-				, [$eBarb, $nbSides, 1, 2, 0] _
-				, [$eWall, $nbSides, 1, 1, 1] _
-				, [$eArch, $nbSides, 1, 2, 0] _
-				, [$eBarb, $nbSides, 2, 2, 0] _
-				, [$eGobl, $nbSides, 1, 2, 0] _
-				, ["CC", 1, 1, 1, 1] _
-				, [$eHogs, $nbSides, 1, 1, 1] _
-				, [$eWiza, $nbSides, 1, 1, 0] _
-				, [$eMini, $nbSides, 1, 1, 0] _
-				, [$eArch, $nbSides, 2, 2, 0] _
-				, [$eGobl, $nbSides, 2, 2, 0] _
-				, ["HEROES", 1, 2, 1, 1] _
-				]
-		EndIf ;Noyax
-		
-	EndIf
+
 
 	LaunchTroop2($listInfoDeploy, $CC, $King, $Queen, $Warden)
 
 	If _Sleep($iDelayalgorithm_AllTroops4) Then Return
-	If $MilkAtt = 1 then ;Noyax
-		SetLog("The End") ;Noyax
-	Else ;Noyax
-		SetLog("Dropping left over troops", $COLOR_BLUE)
-		For $x = 0 To 1
-			PrepareAttack($iMatchMode, True) ;Check remaining quantities
-			For $i = $eBarb To $eLava ; lauch all remaining troops
-				;If $i = $eBarb Or $i = $eArch Then
-				LauchTroop($i, $nbSides, 0, 1)
-				CheckHeroesHealth()
-				;Else
-				;	 LauchTroop($i, $nbSides, 0, 1, 2)
-				;EndIf
-				If _Sleep($iDelayalgorithm_AllTroops5) Then Return
-			Next
-		Next
-	EndIf ;Noyax
+
 	;Activate KQ's power
 	If ($checkKPower Or $checkQPower) And $iActivateKQCondition = "Manual" Then
 		SetLog("Waiting " & $delayActivateKQ / 1000 & " seconds before activating Hero abilities", $COLOR_BLUE)
@@ -238,5 +174,6 @@ Func algorithm_AllTroops() ;Attack Algorithm for all existing troops
 	EndIf
 
 	SetLog("Finished Attacking, waiting for the battle to end")
-EndFunc   ;==>algorithm_AllTroops
+
+EndFunc   ;==>algorithm_milking
 

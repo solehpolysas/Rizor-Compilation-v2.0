@@ -1,0 +1,323 @@
+2016-02-01 02:22:24 : Starting BlueStacks and Clash Of Clans
+2016-02-01 02:22:25 : Please wait while BS/CoC starts....
+2016-02-01 02:22:34 : BlueStacks Loaded, took 8.71 seconds to begin.
+2016-02-01 02:22:35 : Waiting for Main Screen after BS restart
+2016-02-01 02:22:55 : CoC main window took 19.92 seconds
+2016-02-01 02:22:55 :  My Bot v5.0.2  | MOD Rizor Compilation V2.2 Powered by MyBot.run 
+2016-02-01 02:22:55 : MyBot.run.au3 Script running on WIN_7  X64
+2016-02-01 02:22:55 : =================== Bot Start ====================
+2016-02-01 02:22:55 : -------------------------  Current Profile: 01 --------------------------
+2016-02-01 02:22:55 :  Warning Debug Mode Enabled! Setlog: 0 OCR: 0 RedArea: 0 ImageSave: 0 BuildingPos: 1-
+2016-02-01 02:22:56 : Trying to locate Main Screen
+2016-02-01 02:22:56 : Main Screen Located
+2016-02-01 02:22:59 : Detecting your Buildings..
+2016-02-01 02:22:59 : GetLocationItem(getLocationTownHall)
+2016-02-01 02:23:02 : #*# getLocationTownHall: 388-350calc in 3.31 seconds 
+2016-02-01 02:23:02 : Townhall: (388,350)
+2016-02-01 02:23:11 : Your Town Hall Level read as: 9
+2016-02-01 02:23:13 : Finding your Clan Level, wait..
+2016-02-01 02:23:14 : Found Clan Level: 5
+2016-02-01 02:23:16 : Detecting your Village Theme
+2016-02-01 02:23:16 : Normal Theme detected
+2016-02-01 02:23:24 : Verifying your Mines/Extractors/Drills ...wait ...
+2016-02-01 02:23:26 : #*# GetLocationMine: 207-390|231-360|321-317|410-189|459-421|630-317
+2016-02-01 02:23:26 : Total No. of Gold Mines: 6
+2016-02-01 02:23:29 : #*# GetLocationElixir: 167-352|330-193|452-480|476-511|566-212|607-242
+2016-02-01 02:23:29 : Total No. of Elixir Collectors: 6
+2016-02-01 02:23:37 : #*# GetLocationDarkElixir: 
+2016-02-01 02:23:37 : Language setting is English: Correct.
+2016-02-01 02:23:38 : Trying to locate Main Screen
+2016-02-01 02:23:39 : Main Screen Located
+2016-02-01 02:23:43 : Village Report
+2016-02-01 02:23:44 : No. of Free/Total Builders: 0/5
+2016-02-01 02:23:44 :  [T]: 1 036
+2016-02-01 02:23:44 :  [G]: 5 812 743 [E]: 7 836 744 [D]: 34 140 [GEM]: 199
+2016-02-01 02:23:47 : Training Troops & Spells
+2016-02-01 02:23:48 : Checking Army Camp...
+2016-02-01 02:23:49 : Total Army Camp capacity: 220/220 (100%)
+2016-02-01 02:23:55 :  - No. of Archers: 43
+2016-02-01 02:23:55 :  - No. of Goblins: 177
+2016-02-01 02:23:55 :  - Barbarian King available
+2016-02-01 02:23:55 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:23:55 :  - No. of LightningSpell: 4
+2016-02-01 02:23:55 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:23:56 : Barracks and Spell factory status: 
+2016-02-01 02:23:56 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-02-01 02:23:56 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-02-01 02:23:56 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:23:56 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:23:56 : Don't waste time, go to attack
+2016-02-01 02:24:00 : Waiting for Main Screen
+2016-02-01 02:24:13 : Skipping Collect Resources
+2016-02-01 02:24:13 : Skipping Clear Tombstones
+2016-02-01 02:24:13 : Skipping ReArming Village
+2016-02-01 02:24:13 : Skipping Laboratory Upgrades
+2016-02-01 02:24:13 : Skipping Building Upgrades
+2016-02-01 02:24:13 : Skipping Upgrade Walls
+2016-02-01 02:24:13 : Skipping Donate Troops
+2016-02-01 02:24:13 : Going to Attack...
+2016-02-01 02:24:20 : ============== Searching For Dead Base ===============
+2016-02-01 02:24:20 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-02-01 02:24:20 : Meet: Gold + Elixir
+2016-02-01 02:24:20 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-02-01 02:24:20 : Aim: [G+E]: 300000 [D]:    0 [T]: 0 for: Dead Base
+2016-02-01 02:24:20 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-02-01 02:24:20 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-02-01 02:24:20 : ==================================================
+2016-02-01 02:24:21 : #*# checkTownhallADV2: 
+2016-02-01 02:24:21 :   - Position (458,170)
+2016-02-01 02:24:21 :   - TownHall detected level 9
+2016-02-01 02:24:21 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:24:21 :   - IsInsidediamond: True
+2016-02-01 02:24:21 :   - Calculated  in: 0.61 seconds 
+2016-02-01 02:24:21 :   - Images checked: 9
+2016-02-01 02:24:22 :   1> [G]:  22434 [E]: 127739 [D]: 1505 [T]:27 [TH]: 9, In
+2016-02-01 02:24:31 : #*# checkTownhallADV2: 
+2016-02-01 02:24:31 :   - Position (404,326)
+2016-02-01 02:24:31 :   - TownHall detected level 9
+2016-02-01 02:24:31 :   - Image Match 020T70X0Y0.bmp
+2016-02-01 02:24:31 :   - IsInsidediamond: True
+2016-02-01 02:24:31 :   - Calculated  in: 6.05 seconds 
+2016-02-01 02:24:31 :   - Images checked: 99
+2016-02-01 02:24:31 :   2> [G]:  57456 [E]:  70839 [D]: 1176 [T]:34 [TH]: 9, In
+2016-02-01 02:24:34 : #*# checkTownhallADV2: 
+2016-02-01 02:24:34 :   - Position (145,342)
+2016-02-01 02:24:34 :   - TownHall detected level 9
+2016-02-01 02:24:35 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:24:35 :   - IsInsidediamond: True
+2016-02-01 02:24:35 :   - Calculated  in: 0.27 seconds 
+2016-02-01 02:24:35 :   - Images checked: 3
+2016-02-01 02:24:35 :   3> [G]:  35157 [E]:  34994 [D]:  230 [T]:33 [TH]: 9, Out
+2016-02-01 02:24:40 : #*# checkTownhallADV2: 
+2016-02-01 02:24:40 :   - Position (417,188)
+2016-02-01 02:24:40 :   - TownHall detected level 9
+2016-02-01 02:24:40 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:24:40 :   - IsInsidediamond: True
+2016-02-01 02:24:40 :   - Calculated  in: 0.58 seconds 
+2016-02-01 02:24:40 :   - Images checked: 9
+2016-02-01 02:24:41 :   4> [G]:  63021 [E]:  93693 [D]:  461 [T]:34 [TH]: 9, In
+2016-02-01 02:24:45 : #*# checkTownhallADV2: 
+2016-02-01 02:24:45 :   - Position (373,219)
+2016-02-01 02:24:45 :   - TownHall detected level 8
+2016-02-01 02:24:45 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:24:45 :   - IsInsidediamond: True
+2016-02-01 02:24:45 :   - Calculated  in: 0.32 seconds 
+2016-02-01 02:24:45 :   - Images checked: 4
+2016-02-01 02:24:46 :   5> [G]:  51800 [E]: 134464 [D]:   60 [T]:28 [TH]: 8, In
+2016-02-01 02:24:49 : #*# checkTownhallADV2: 
+2016-02-01 02:24:49 :   - Position (421,537)
+2016-02-01 02:24:49 :   - TownHall detected level 8
+2016-02-01 02:24:49 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:24:49 :   - IsInsidediamond: True
+2016-02-01 02:24:49 :   - Calculated  in: 0.33 seconds 
+2016-02-01 02:24:49 :   - Images checked: 4
+2016-02-01 02:24:49 :   6> [G]:  75843 [E]:  16041 [D]:   82 [T]:27 [TH]: 8, Out
+2016-02-01 02:24:54 : #*# checkTownhallADV2: 
+2016-02-01 02:24:54 :   - Position (308,176)
+2016-02-01 02:24:54 :   - TownHall detected level 8
+2016-02-01 02:24:54 :   - Image Match 004T70X0Y0.bmp
+2016-02-01 02:24:54 :   - IsInsidediamond: True
+2016-02-01 02:24:54 :   - Calculated  in: 1.36 seconds 
+2016-02-01 02:24:54 :   - Images checked: 22
+2016-02-01 02:24:54 :   7> [G]:  15481 [E]:  36680 [D]:    3 [T]:26 [TH]: 8, Out
+2016-02-01 02:24:58 : #*# checkTownhallADV2: 
+2016-02-01 02:24:58 :   - Position (417,554)
+2016-02-01 02:24:58 :   - TownHall detected level 9
+2016-02-01 02:24:58 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:24:58 :   - IsInsidediamond: True
+2016-02-01 02:24:58 :   - Calculated  in: 0.62 seconds 
+2016-02-01 02:24:58 :   - Images checked: 9
+2016-02-01 02:24:58 :   8> [G]:  75556 [E]:  58653 [D]:  386 [T]:27 [TH]: 9, Out
+2016-02-01 02:25:03 : #*# checkTownhallADV2: 
+2016-02-01 02:25:03 :   - Position (417,542)
+2016-02-01 02:25:03 :   - TownHall detected level 9
+2016-02-01 02:25:03 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:25:03 :   - IsInsidediamond: True
+2016-02-01 02:25:03 :   - Calculated  in: 0.64 seconds 
+2016-02-01 02:25:03 :   - Images checked: 9
+2016-02-01 02:25:03 :   9> [G]:  56389 [E]:  49545 [D]:  342 [T]:33 [TH]: 9, Out
+2016-02-01 02:25:07 : #*# checkTownhallADV2: 
+2016-02-01 02:25:07 :   - Position (435,307)
+2016-02-01 02:25:07 :   - TownHall detected level 10
+2016-02-01 02:25:07 :   - Image Match 003T70X0Y0.bmp
+2016-02-01 02:25:07 :   - IsInsidediamond: True
+2016-02-01 02:25:07 :   - Calculated  in: 0.9 seconds 
+2016-02-01 02:25:07 :   - Images checked: 14
+2016-02-01 02:25:11 : #*# ZombieSearch2: NONE 
+2016-02-01 02:25:11 :   - Calculated  in: 3.07 seconds 
+2016-02-01 02:25:11 :   - Images checked: 71
+2016-02-01 02:25:11 :  FOUND = False
+2016-02-01 02:25:11 :  10> [G]: 440511 [E]: 184556 [D]: 1143 [T]:33 [TH]:10, In
+2016-02-01 02:25:11 :       Not a Dead Base
+2016-02-01 02:25:18 : #*# checkTownhallADV2: 
+2016-02-01 02:25:18 :   - Position (419,371)
+2016-02-01 02:25:18 :   - TownHall detected level 9
+2016-02-01 02:25:18 :   - Image Match 015T70X0Y0.bmp
+2016-02-01 02:25:18 :   - IsInsidediamond: True
+2016-02-01 02:25:18 :   - Calculated  in: 4.48 seconds 
+2016-02-01 02:25:18 :   - Images checked: 75
+2016-02-01 02:25:21 : #*# ZombieSearch2: NONE 
+2016-02-01 02:25:21 :   - Calculated  in: 2.89 seconds 
+2016-02-01 02:25:21 :   - Images checked: 71
+2016-02-01 02:25:22 :  FOUND = False
+2016-02-01 02:25:22 :  11> [G]: 117909 [E]: 268003 [D]: 2516 [T]:22 [TH]: 9, In
+2016-02-01 02:25:22 :       Not a Dead Base
+2016-02-01 02:25:25 : #*# checkTownhallADV2: 
+2016-02-01 02:25:25 :   - Position (722,323)
+2016-02-01 02:25:25 :   - TownHall detected level 8
+2016-02-01 02:25:25 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:25:25 :   - IsInsidediamond: True
+2016-02-01 02:25:25 :   - Calculated  in: 0.32 seconds 
+2016-02-01 02:25:25 :   - Images checked: 4
+2016-02-01 02:25:25 :  12> [G]:  22980 [E]:  21529 [D]:   98 [T]:27 [TH]: 8, Out
+2016-02-01 02:25:29 : #*# checkTownhallADV2: 
+2016-02-01 02:25:29 :   - Position (617,269)
+2016-02-01 02:25:29 :   - TownHall detected level 9
+2016-02-01 02:25:29 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:25:29 :   - IsInsidediamond: True
+2016-02-01 02:25:29 :   - Calculated  in: 0.25 seconds 
+2016-02-01 02:25:29 :   - Images checked: 3
+2016-02-01 02:25:29 :  13> [G]:  98823 [E]:  76080 [D]:  639 [T]:29 [TH]: 9, In
+2016-02-01 02:25:33 : #*# checkTownhallADV2: 
+2016-02-01 02:25:33 :   - Position (297,246)
+2016-02-01 02:25:33 :   - TownHall detected level 9
+2016-02-01 02:25:33 :   - Image Match 003T80X0Y0.bmp
+2016-02-01 02:25:33 :   - IsInsidediamond: True
+2016-02-01 02:25:33 :   - Calculated  in: 0.97 seconds 
+2016-02-01 02:25:33 :   - Images checked: 15
+2016-02-01 02:25:36 : #*# ZombieSearch2: NONE 
+2016-02-01 02:25:36 :   - Calculated  in: 2.87 seconds 
+2016-02-01 02:25:36 :   - Images checked: 71
+2016-02-01 02:25:36 :  FOUND = False
+2016-02-01 02:25:37 :  14> [G]: 325429 [E]: 104373 [D]:  567 [T]:30 [TH]: 9, In
+2016-02-01 02:25:37 :       Not a Dead Base
+2016-02-01 02:25:40 : #*# checkTownhallADV2: 
+2016-02-01 02:25:40 :   - Position (755,336)
+2016-02-01 02:25:40 :   - TownHall detected level 9
+2016-02-01 02:25:40 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:25:40 :   - IsInsidediamond: True
+2016-02-01 02:25:40 :   - Calculated  in: 0.27 seconds 
+2016-02-01 02:25:40 :   - Images checked: 3
+2016-02-01 02:25:40 :  15> [G]:  34273 [E]:  29865 [D]:  192 [T]:26 [TH]: 9, Out
+2016-02-01 02:25:44 : #*# checkTownhallADV2: 
+2016-02-01 02:25:44 :   - Position (427,210)
+2016-02-01 02:25:44 :   - TownHall detected level 9
+2016-02-01 02:25:44 :   - Image Match 003T80X0Y0.bmp
+2016-02-01 02:25:44 :   - IsInsidediamond: True
+2016-02-01 02:25:44 :   - Calculated  in: 0.95 seconds 
+2016-02-01 02:25:44 :   - Images checked: 15
+2016-02-01 02:25:45 :  16> [G]:  77105 [E]:  72654 [D]:  461 [T]:32 [TH]: 9, In
+2016-02-01 02:25:53 : #*# checkTownhallADV2: 
+2016-02-01 02:25:53 :   - Position (409,317)
+2016-02-01 02:25:53 :   - TownHall detected level 9
+2016-02-01 02:25:54 :   - Image Match 019T70X0Y0.bmp
+2016-02-01 02:25:54 :   - IsInsidediamond: True
+2016-02-01 02:25:54 :   - Calculated  in: 5.44 seconds 
+2016-02-01 02:25:54 :   - Images checked: 93
+2016-02-01 02:25:54 :  17> [G]:  79635 [E]:  78742 [D]: 1785 [T]:13 [TH]: 9, In
+2016-02-01 02:25:58 : #*# checkTownhallADV2: 
+2016-02-01 02:25:58 :   - Position (755,336)
+2016-02-01 02:25:58 :   - TownHall detected level 9
+2016-02-01 02:25:58 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:25:58 :   - IsInsidediamond: True
+2016-02-01 02:25:58 :   - Calculated  in: 0.27 seconds 
+2016-02-01 02:25:58 :   - Images checked: 3
+2016-02-01 02:25:58 :  18> [G]:  36934 [E]:  35740 [D]:  305 [T]:32 [TH]: 9, Out
+2016-02-01 02:26:01 : #*# checkTownhallADV2: 
+2016-02-01 02:26:01 :   - Position (218,299)
+2016-02-01 02:26:01 :   - TownHall detected level 8
+2016-02-01 02:26:01 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:26:01 :   - IsInsidediamond: True
+2016-02-01 02:26:01 :   - Calculated  in: 0.32 seconds 
+2016-02-01 02:26:01 :   - Images checked: 4
+2016-02-01 02:26:02 :  19> [G]:  59921 [E]:  45643 [D]:  662 [T]:25 [TH]: 8, In
+2016-02-01 02:26:05 : #*# checkTownhallADV2: 
+2016-02-01 02:26:05 :   - Position (430,92)
+2016-02-01 02:26:05 :   - TownHall detected level 9
+2016-02-01 02:26:05 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:26:05 :   - IsInsidediamond: True
+2016-02-01 02:26:05 :   - Calculated  in: 0.25 seconds 
+2016-02-01 02:26:05 :   - Images checked: 3
+2016-02-01 02:26:05 :  20> [G]:  70787 [E]:  16995 [D]:  305 [T]:29 [TH]: 9, Out
+2016-02-01 02:26:10 : #*# checkTownhallADV2: 
+2016-02-01 02:26:10 :   - Position (429,567)
+2016-02-01 02:26:10 :   - TownHall detected level 8
+2016-02-01 02:26:10 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:26:10 :   - IsInsidediamond: True
+2016-02-01 02:26:10 :   - Calculated  in: 0.34 seconds 
+2016-02-01 02:26:10 :   - Images checked: 4
+2016-02-01 02:26:11 :  21> [G]: 111546 [E]:  90990 [D]:  852 [T]:24 [TH]: 8, Out
+2016-02-01 02:26:18 : #*# checkTownhallADV2: 
+2016-02-01 02:26:18 :   - Position (451,310)
+2016-02-01 02:26:18 :   - TownHall detected level 9
+2016-02-01 02:26:18 :   - Image Match 015T70X0Y0.bmp
+2016-02-01 02:26:18 :   - IsInsidediamond: True
+2016-02-01 02:26:18 :   - Calculated  in: 4.47 seconds 
+2016-02-01 02:26:18 :   - Images checked: 75
+2016-02-01 02:26:21 : #*# ZombieSearch2: NONE 
+2016-02-01 02:26:21 :   - Calculated  in: 3.06 seconds 
+2016-02-01 02:26:21 :   - Images checked: 71
+2016-02-01 02:26:22 :  FOUND = False
+2016-02-01 02:26:22 :  22> [G]: 386422 [E]: 386522 [D]: 2678 [T]:26 [TH]: 9, In
+2016-02-01 02:26:22 :       Not a Dead Base
+2016-02-01 02:26:25 : #*# checkTownhallADV2: 
+2016-02-01 02:26:25 :   - Position (429,323)
+2016-02-01 02:26:25 :   - TownHall detected level 8
+2016-02-01 02:26:25 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:26:25 :   - IsInsidediamond: True
+2016-02-01 02:26:25 :   - Calculated  in: 0.32 seconds 
+2016-02-01 02:26:25 :   - Images checked: 4
+2016-02-01 02:26:25 :  23> [G]:  29860 [E]: 122512 [D]:  606 [T]:28 [TH]: 8, In
+2016-02-01 02:26:33 : #*# checkTownhallADV2: 
+2016-02-01 02:26:33 :   - Position (427,121)
+2016-02-01 02:26:33 :   - TownHall detected level 9
+2016-02-01 02:26:33 :   - Image Match 015T70X0Y0.bmp
+2016-02-01 02:26:33 :   - IsInsidediamond: True
+2016-02-01 02:26:33 :   - Calculated  in: 4.43 seconds 
+2016-02-01 02:26:33 :   - Images checked: 75
+2016-02-01 02:26:33 :  24> [G]:  50231 [E]:  39683 [D]:  767 [T]:32 [TH]: 9, In
+2016-02-01 02:26:37 : #*# checkTownhallADV2: 
+2016-02-01 02:26:37 :   - Position (145,317)
+2016-02-01 02:26:37 :   - TownHall detected level 8
+2016-02-01 02:26:37 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:26:37 :   - IsInsidediamond: True
+2016-02-01 02:26:37 :   - Calculated  in: 0.33 seconds 
+2016-02-01 02:26:37 :   - Images checked: 4
+2016-02-01 02:26:37 :  25> [G]:  55637 [E]: 106090 [D]:  853 [T]:25 [TH]: 8, Out
+2016-02-01 02:26:40 : #*# checkTownhallADV2: 
+2016-02-01 02:26:41 :   - Position (136,323)
+2016-02-01 02:26:41 :   - TownHall detected level 8
+2016-02-01 02:26:41 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:26:41 :   - IsInsidediamond: True
+2016-02-01 02:26:41 :   - Calculated  in: 0.32 seconds 
+2016-02-01 02:26:41 :   - Images checked: 4
+2016-02-01 02:26:41 :  26> [G]:  63743 [E]:  52281 [D]:  188 [T]:23 [TH]: 8, Out
+2016-02-01 02:26:45 : #*# checkTownhallADV2: 
+2016-02-01 02:26:45 :   - Position (409,290)
+2016-02-01 02:26:45 :   - TownHall detected level 9
+2016-02-01 02:26:45 :   - Image Match 004T80X0Y0.bmp
+2016-02-01 02:26:45 :   - IsInsidediamond: True
+2016-02-01 02:26:45 :   - Calculated  in: 1.33 seconds 
+2016-02-01 02:26:45 :   - Images checked: 21
+2016-02-01 02:26:49 : #*# ZombieSearch2: NONE 
+2016-02-01 02:26:49 :   - Calculated  in: 3.13 seconds 
+2016-02-01 02:26:49 :   - Images checked: 71
+2016-02-01 02:26:49 :  FOUND = False
+2016-02-01 02:26:49 :  27> [G]: 338205 [E]:  35749 [D]: 2549 [T]:32 [TH]: 9, In
+2016-02-01 02:26:49 :       Not a Dead Base
+2016-02-01 02:26:53 : #*# checkTownhallADV2: 
+2016-02-01 02:26:53 :   - Position (427,533)
+2016-02-01 02:26:53 :   - TownHall detected level 10
+2016-02-01 02:26:53 :   - Image Match 003T70X0Y0.bmp
+2016-02-01 02:26:53 :   - IsInsidediamond: True
+2016-02-01 02:26:53 :   - Calculated  in: 0.93 seconds 
+2016-02-01 02:26:53 :   - Images checked: 14
+2016-02-01 02:26:53 :  28> [G]:  53139 [E]:  60265 [D]: 2111 [T]:35 [TH]:10, Out
+2016-02-01 02:26:56 : #*# checkTownhallADV2: 
+2016-02-01 02:26:56 :   - Position (714,317)
+2016-02-01 02:26:56 :   - TownHall detected level 8
+2016-02-01 02:26:56 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:26:57 :   - IsInsidediamond: True
+2016-02-01 02:26:57 :   - Calculated  in: 0.33 seconds 
+2016-02-01 02:26:57 :   - Images checked: 4
+2016-02-01 02:26:57 :  29> [G]:  56573 [E]:  58199 [D]:  436 [T]:21 [TH]: 8, Out

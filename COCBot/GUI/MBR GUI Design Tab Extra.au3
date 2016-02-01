@@ -16,8 +16,8 @@
 	$tabExtra = GUICtrlCreateTabItem("Extra")
 
 ;Gready SWT
-	Local $x = 30, $y = 150
-	$grpOnGready = GUICtrlCreateGroup("Greedy Option", $x - 20, $y - 20, 220, 85)
+	Local $x = 30, $y = 235
+	$grpOnGready = GUICtrlCreateGroup("Greedy Option", $x - 20, $y - 20, 220, 185)
 	$chkSWTGreedy = GUICtrlCreateCheckbox("Activate Greedy in SWT Only", $x-10, $y, -1, -1)
 		$txtTip = "Check if you want activate greedy when bot Snipe While Train."
 		GUICtrlSetTip(-1, $txtTip)
@@ -30,12 +30,7 @@
 		GUICtrlSetState(-1, $GUI_CHECKED)
 		GUICtrlCreateGroup("", -99, -99, 1, 1)
 	$y += 22
-;Gready Snipe Combo bottom
-
-; Semi-DeadBase top
-Local $x = 255, $y = 150
-		$grpOnSemiDB = GUICtrlCreateGroup("Semi-DeadBase", $x - 20, $y - 20, 225, 85)
-		$chkAttIfDB = GUICtrlCreateCheckbox("Attack if loots change <", $x -10  , $y, -1, -1)
+	$chkAttIfDB = GUICtrlCreateCheckbox("Attack if loots change <", $x -10  , $y, -1, -1)
 			$txtTip = "Attack Village if Gold change below %"
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetState(-1, $GUI_DISABLE)
@@ -51,25 +46,96 @@ Local $x = 255, $y = 150
 			GUICtrlSetState(-1, $GUI_DISABLE)
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 	$y += 22
-;Noyax
- 		$chkDBAttMilk = GUICtrlCreateCheckbox( "Milking with", $x, $y, -1, -1)
- 			$txtTip = "Use Gobelins Power to try Milking."
- 			GUICtrlSetTip(-1, $txtTip)
- 			GUICtrlSetState(-1, $GUI_CHECKED)
- 			GUICtrlSetOnEvent(-1, "chkDBAttMilk")
- 		$txtDBAttMilk = GUICtrlCreateInput("90", $x + 80, $y + 3, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
- 			$txtTip = "Number of troops used for milking attack"
- 			GUICtrlSetTip(-1, $txtTip)
- 			GUICtrlSetLimit(-1, 5)
- 			_GUICtrlEdit_SetReadOnly(-1, False)
- 		$lblDBAttMilkDB = GUICtrlCreateLabel("Gobs", $x + 108, $y + 3)
- 		$y += 15
- ;Noyax bottom
+;Gready Snipe Combo bottom
+
+; Semi-DeadBase top
+Local $x = 255, $y = 235
+		$grpMilking = GUICtrlCreateGroup("Milking Option", $x - 20, $y - 20, 225, 185)
+		$chkDBAttMilk = GUICtrlCreateCheckbox( "Milking with", $x-10, $y, -1, -1)
+;			$txtTip = "Use Gobelins Power to try Milking."
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetState(-1, $GUI_CHECKED)
+			GUICtrlSetOnEvent(-1, "chkDBAttMilk")
+		$txtDBAttMilk = GUICtrlCreateInput("90", $x + 65, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlCreateLabel("Total Army", $x + 95, $y + 3)
+			$txtTip = "Total Number of troops used for Milking Attack"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 5)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+		$y += 23
+		$lblDBAttMilkDB = GUICtrlCreateLabel("Gobs", $x +8, $y + 3)
+		$txtDBUseGobsForCollector = GUICtrlCreateInput("5", $x + 35, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = "Bot tries to use X amount of Goblins to attack each exposed collector"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 3)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+		$lblUseForColl2 = GUICtrlCreateLabel("/ Mines" , $x + 65, $y +3)
+			GUICtrlCreateLabel(" # ", $x + 100, $y + 3)
+		$txtTSGoblReserve = GUICtrlCreateInput("16", $x + 115, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = "Number goblins to reserve for TH snipes."
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 5)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+			GUICtrlCreateLabel("Reserve", $x + 145, $y + 3)
+		;noyax add Ancient begin archer milking
+		$y += 23
+;		$txtDBAttMilkArch = GUICtrlCreateInput("90", $x, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+;			$txtTip = "Number of troops used for milking attack"
+;			GUICtrlSetTip(-1, $txtTip)
+;			GUICtrlSetLimit(-1, 5)
+;			_GUICtrlEdit_SetReadOnly(-1, False)
+		$lblDBAttMilkDB = GUICtrlCreateLabel("Arch", $x +8, $y + 3)
+		$txtDBUseArchForCollector = GUICtrlCreateInput("5", $x + 35, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = "Bot tries to use X amount of Archers to attack each exposed collector"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 3)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+		$lblUseForColl2 = GUICtrlCreateLabel("/ Mines" , $x + 65, $y +3)
+			GUICtrlCreateLabel(" # ", $x + 100, $y + 3)
+		$txtTSArchReserve = GUICtrlCreateInput("16", $x + 115, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = "Number archers to reserve for TH snipes."
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 5)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+			GUICtrlCreateLabel("Reserve", $x + 145, $y + 3)
+		;noyax add Ancient begin archer milking
+		$y += 23
+		;noyax add Rizor begin barbarian milking
+;		$txtDBAttMilkBarb = GUICtrlCreateInput("90", $x, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+;			$txtTip = "Number of troops used for milking attack"
+;			GUICtrlSetTip(-1, $txtTip)
+;			GUICtrlSetLimit(-1, 5)
+;			_GUICtrlEdit_SetReadOnly(-1, False)
+		$lblDBAttMilkDB = GUICtrlCreateLabel("Barb", $x +8, $y + 3)
+		$txtDBUseBarbForCollector = GUICtrlCreateInput("5", $x + 35, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = "Bot tries to use X amount of Barbarian to attack each exposed collector"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 3)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+		$lblUseForColl2 = GUICtrlCreateLabel("/ Mines" , $x + 65, $y + 3)
+			GUICtrlCreateLabel(" # ", $x + 100, $y + 3)
+		$txtTSBarbReserve = GUICtrlCreateInput("16", $x + 115, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = "Number Barbarian to reserve for TH snipes."
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 5)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+		GUICtrlCreateLabel("Reserve", $x + 145, $y + 3)
+		;noyax add Rizor begin barbarian milking
+		$y += 30
+		$lblPixelmaxExposed = GUICtrlCreateLabel("Min Pixel to considere exposed:", $x, $y + 3)
+		$txtchkPixelmaxExposed = GUICtrlCreateInput("70", $x + 150, $y , 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = "Number Max of pixels to considere collectors exposed"
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 3)
+			_GUICtrlEdit_SetReadOnly(-1, False)
+;noyax bottom
+
+
 ; Semi-DeadBase bottom
 
 
 ;Skip Function Top
-Local $x = 30, $y = 235
+Local $x = 30, $y = 150
 	$grpSkip = GUICtrlCreateGroup("Skip Functions", $x - 20, $y - 20, 450, 75)
 	$chkSkipActive = GUICtrlCreateCheckbox("When Camps are", $x - 10, $y, -1, -1)
 	GUICtrlSetOnEvent(-1, "chkSkipActive")

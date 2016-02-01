@@ -1,0 +1,363 @@
+2016-02-01 02:27:19 :  My Bot v5.0.2  | MOD Rizor Compilation V2.2 Powered by MyBot.run 
+2016-02-01 02:27:19 : MyBot.run.au3 Script running on WIN_7  X64
+2016-02-01 02:27:19 : =================== Bot Start ====================
+2016-02-01 02:27:19 : -------------------------  Current Profile: 01 --------------------------
+2016-02-01 02:27:19 :  Warning Debug Mode Enabled! Setlog: 0 OCR: 0 RedArea: 0 ImageSave: 0 BuildingPos: 1-
+2016-02-01 02:27:19 : Trying to locate Main Screen
+2016-02-01 02:27:21 : Returning Home
+2016-02-01 02:27:32 : Waiting for Main Screen
+2016-02-01 02:27:32 : Main Screen Located
+2016-02-01 02:27:35 : Detecting your Buildings..
+2016-02-01 02:27:36 : Finding your Clan Level, wait..
+2016-02-01 02:27:37 : Found Clan Level: 5
+2016-02-01 02:27:39 : Detecting your Village Theme
+2016-02-01 02:27:39 : Normal Theme detected
+2016-02-01 02:27:40 : Language setting is English: Correct.
+2016-02-01 02:27:41 : Trying to locate Main Screen
+2016-02-01 02:27:42 : Main Screen Located
+2016-02-01 02:27:46 : Village Report
+2016-02-01 02:27:46 : No. of Free/Total Builders: 0/5
+2016-02-01 02:27:46 :  [T]: 1 036
+2016-02-01 02:27:47 :  [G]: 5 790 243 [E]: 7 836 744 [D]: 34 140 [GEM]: 199
+2016-02-01 02:27:50 : Training Troops & Spells
+2016-02-01 02:27:51 : Checking Army Camp...
+2016-02-01 02:27:52 : Total Army Camp capacity: 220/220 (100%)
+2016-02-01 02:27:53 :  - No. of Archers: 43
+2016-02-01 02:27:54 :  - No. of Goblins: 177
+2016-02-01 02:27:54 :  - Barbarian King available
+2016-02-01 02:27:54 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:27:54 :  - No. of LightningSpell: 4
+2016-02-01 02:27:54 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:27:54 : Barracks and Spell factory status: 
+2016-02-01 02:27:54 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-02-01 02:27:54 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-02-01 02:27:54 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:27:54 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:27:54 : Don't waste time, go to attack
+2016-02-01 02:27:58 : Waiting for Main Screen
+2016-02-01 02:28:12 : Skipping Collect Resources
+2016-02-01 02:28:12 : Skipping Clear Tombstones
+2016-02-01 02:28:12 : Skipping ReArming Village
+2016-02-01 02:28:12 : Skipping Laboratory Upgrades
+2016-02-01 02:28:12 : Skipping Building Upgrades
+2016-02-01 02:28:12 : Skipping Upgrade Walls
+2016-02-01 02:28:12 : Skipping Donate Troops
+2016-02-01 02:28:12 : Going to Attack...
+2016-02-01 02:28:19 : ============== Searching For Dead Base ===============
+2016-02-01 02:28:19 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-02-01 02:28:19 : Meet: Gold + Elixir
+2016-02-01 02:28:19 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-02-01 02:28:19 : Aim: [G+E]: 200000 [D]:    0 [T]: 0 for: Dead Base
+2016-02-01 02:28:19 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-02-01 02:28:19 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-02-01 02:28:19 : ==================================================
+2016-02-01 02:28:20 : #*# checkTownhallADV2: 
+2016-02-01 02:28:20 :   - Position (136,323)
+2016-02-01 02:28:20 :   - TownHall detected level 8
+2016-02-01 02:28:20 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:28:20 :   - IsInsidediamond: True
+2016-02-01 02:28:20 :   - Calculated  in: 0.32 seconds 
+2016-02-01 02:28:20 :   - Images checked: 4
+2016-02-01 02:28:20 :   1> [G]:  31589 [E]:  80605 [D]:  263 [T]:27 [TH]: 8, Out
+2016-02-01 02:28:24 : #*# checkTownhallADV2: 
+2016-02-01 02:28:24 :   - Position (417,542)
+2016-02-01 02:28:25 :   - TownHall detected level 9
+2016-02-01 02:28:25 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:28:25 :   - IsInsidediamond: True
+2016-02-01 02:28:25 :   - Calculated  in: 0.65 seconds 
+2016-02-01 02:28:25 :   - Images checked: 9
+2016-02-01 02:28:28 : #*# ZombieSearch2: NONE 
+2016-02-01 02:28:28 :   - Calculated  in: 2.98 seconds 
+2016-02-01 02:28:28 :   - Images checked: 71
+2016-02-01 02:28:28 :  FOUND = False
+2016-02-01 02:28:28 :   2> [G]: 191034 [E]: 137933 [D]:  762 [T]:18 [TH]: 9, Out
+2016-02-01 02:28:28 :       TH Outside Found! 
+2016-02-01 02:28:30 : ================ Search Complete =================
+2016-02-01 02:28:30 : Initiating attack for: TH Snipe
+2016-02-01 02:28:35 : -*-Archers 43
+2016-02-01 02:28:35 : -*-Goblins 177
+2016-02-01 02:28:35 : -*-King 
+2016-02-01 02:28:35 : -*-Lightning Spells 4
+2016-02-01 02:28:35 : -*-Earthquake Spells 1
+2016-02-01 02:28:35 : -*-Poison Spells 1
+2016-02-01 02:28:38 :  ====== Start Attack ====== 
+2016-02-01 02:28:40 : Type attack = TS
+2016-02-01 02:28:40 : Sniping TH with AGM Rizor             
+2016-02-01 02:28:40 :                                       
+2016-02-01 02:28:40 :                                       
+2016-02-01 02:28:40 :                                       
+2016-02-01 02:28:40 : Dropping Only wave of 8 Goblins
+2016-02-01 02:28:42 : Deployment of 8 Goblins was Successful!
+2016-02-01 02:28:42 :                                       
+2016-02-01 02:28:43 :                                       
+2016-02-01 02:28:43 : Dropping Only wave of 8 Archers
+2016-02-01 02:28:45 : Deployment of 8 Archers was Successful!
+2016-02-01 02:28:45 :                                       
+2016-02-01 02:28:45 : Wait for 30 Second                    
+2016-02-01 02:29:04 : Townhall has been destroyed!
+2016-02-01 02:29:06 :                                       
+2016-02-01 02:29:06 : Semi-DeadBase Gold Level  = 17
+2016-02-01 02:29:06 : Semi-DeadBase Elixir Level = 18
+2016-02-01 02:29:06 : Wait few sec before close attack
+2016-02-01 02:29:10 : Returning Home
+2016-02-01 02:29:14 : Loot: [G]: 32 422 [E]: 24 907 [DE]: 65 [T]: 6
+2016-02-01 02:29:15 : Bonus Percentage: 6%
+2016-02-01 02:29:15 : Bonus [G]: 222 out of 3 700 [E]: 222 out of 3 700
+2016-02-01 02:29:16 : Your league level is: Silver II
+2016-02-01 02:29:16 : Stars earned: 1
+2016-02-01 02:29:21 : Cannot return home.
+2016-02-01 02:29:21 : Trying to locate Main Screen
+2016-02-01 02:29:22 : Bot was Paused!
+2016-02-01 02:29:41 : Bot was Resumed.
+2016-02-01 02:29:43 : Please wait for CoC restart......
+2016-02-01 02:29:43 : Waiting for Main Screen
+2016-02-01 02:29:45 : Main Screen Located
+2016-02-01 02:29:50 : Trying to locate Main Screen
+2016-02-01 02:29:50 : Main Screen Located
+2016-02-01 02:29:55 : Village Report
+2016-02-01 02:29:55 : No. of Free/Total Builders: 0/5
+2016-02-01 02:29:55 :  [T]: 1 042
+2016-02-01 02:29:55 :  [G]: 5 821 387 [E]: 7 861 873 [D]: 34 205 [GEM]: 199
+2016-02-01 02:29:58 : Training Troops & Spells
+2016-02-01 02:29:59 : Checking Army Camp...
+2016-02-01 02:30:00 : Total Army Camp capacity: 220/220 (100%)
+2016-02-01 02:30:02 :  - No. of Archers: 39
+2016-02-01 02:30:02 :  - No. of Goblins: 181
+2016-02-01 02:30:02 :  - Barbarian King available
+2016-02-01 02:30:02 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:30:02 :  - No. of LightningSpell: 4
+2016-02-01 02:30:02 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:30:02 : Barracks and Spell factory status: 
+2016-02-01 02:30:03 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-02-01 02:30:03 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-02-01 02:30:03 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:30:03 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:30:03 : Don't waste time, go to attack
+2016-02-01 02:30:06 : Waiting for Main Screen
+2016-02-01 02:30:20 : Skipping Collect Resources
+2016-02-01 02:30:20 : Skipping Clear Tombstones
+2016-02-01 02:30:20 : Skipping ReArming Village
+2016-02-01 02:30:20 : Skipping Laboratory Upgrades
+2016-02-01 02:30:20 : Skipping Building Upgrades
+2016-02-01 02:30:20 : Skipping Upgrade Walls
+2016-02-01 02:30:20 : Skipping Donate Troops
+2016-02-01 02:30:20 : Going to Attack...
+2016-02-01 02:30:27 : ============== Searching For Dead Base ===============
+2016-02-01 02:30:27 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-02-01 02:30:27 : Meet: Gold + Elixir
+2016-02-01 02:30:27 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-02-01 02:30:27 : Aim: [G+E]: 200000 [D]:    0 [T]: 0 for: Dead Base
+2016-02-01 02:30:27 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-02-01 02:30:27 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-02-01 02:30:27 : ==================================================
+2016-02-01 02:30:28 : #*# checkTownhallADV2: 
+2016-02-01 02:30:28 :   - Position (755,336)
+2016-02-01 02:30:28 :   - TownHall detected level 9
+2016-02-01 02:30:28 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:30:28 :   - IsInsidediamond: True
+2016-02-01 02:30:28 :   - Calculated  in: 0.27 seconds 
+2016-02-01 02:30:28 :   - Images checked: 3
+2016-02-01 02:30:28 :   1> [G]:  75941 [E]:  77800 [D]:  188 [T]:33 [TH]: 9, Out
+2016-02-01 02:30:35 : #*# checkTownhallADV2: 
+2016-02-01 02:30:35 :   - Position (391,214)
+2016-02-01 02:30:35 :   - TownHall detected level 9
+2016-02-01 02:30:35 :   - Image Match 011T70X0Y0.bmp
+2016-02-01 02:30:35 :   - IsInsidediamond: True
+2016-02-01 02:30:35 :   - Calculated  in: 3.39 seconds 
+2016-02-01 02:30:35 :   - Images checked: 57
+2016-02-01 02:30:35 :   2> [G]: 139308 [E]:  52258 [D]:   76 [T]:29 [TH]: 9, In
+2016-02-01 02:30:43 : #*# checkTownhallADV2: 
+2016-02-01 02:30:43 :   - Position (191,359)
+2016-02-01 02:30:43 :   - TownHall detected level 9
+2016-02-01 02:30:43 :   - Image Match 015T70X0Y0.bmp
+2016-02-01 02:30:43 :   - IsInsidediamond: True
+2016-02-01 02:30:43 :   - Calculated  in: 4.55 seconds 
+2016-02-01 02:30:43 :   - Images checked: 75
+2016-02-01 02:30:44 :   3> [G]:  84791 [E]:  32904 [D]:  180 [T]:27 [TH]: 9, Out
+2016-02-01 02:30:49 : #*# checkTownhallADV2: 
+2016-02-01 02:30:49 :   - Position (429,323)
+2016-02-01 02:30:49 :   - TownHall detected level 8
+2016-02-01 02:30:49 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:30:49 :   - IsInsidediamond: True
+2016-02-01 02:30:49 :   - Calculated  in: 0.36 seconds 
+2016-02-01 02:30:49 :   - Images checked: 4
+2016-02-01 02:30:49 :   4> [G]:  80421 [E]:  28251 [D]:  114 [T]:26 [TH]: 8, In
+2016-02-01 02:30:53 : #*# checkTownhallADV2: 
+2016-02-01 02:30:53 :   - Position (360,485)
+2016-02-01 02:30:53 :   - TownHall detected level 9
+2016-02-01 02:30:53 :   - Image Match 004T80X0Y0.bmp
+2016-02-01 02:30:53 :   - IsInsidediamond: True
+2016-02-01 02:30:53 :   - Calculated  in: 1.41 seconds 
+2016-02-01 02:30:53 :   - Images checked: 21
+2016-02-01 02:30:54 :   5> [G]:  65247 [E]:  40538 [D]:  772 [T]:34 [TH]: 9, Out
+2016-02-01 02:30:57 : #*# checkTownhallADV2: 
+2016-02-01 02:30:57 :   - Position (173,371)
+2016-02-01 02:30:57 :   - TownHall detected level 9
+2016-02-01 02:30:57 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:30:58 :   - IsInsidediamond: True
+2016-02-01 02:30:58 :   - Calculated  in: 0.63 seconds 
+2016-02-01 02:30:58 :   - Images checked: 9
+2016-02-01 02:30:58 :   6> [G]:  28258 [E]:  32980 [D]:  228 [T]:33 [TH]: 9, Out
+2016-02-01 02:31:01 : #*# checkTownhallADV2: 
+2016-02-01 02:31:01 :   - Position (145,317)
+2016-02-01 02:31:01 :   - TownHall detected level 8
+2016-02-01 02:31:01 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:31:01 :   - IsInsidediamond: True
+2016-02-01 02:31:01 :   - Calculated  in: 0.36 seconds 
+2016-02-01 02:31:01 :   - Images checked: 4
+2016-02-01 02:31:02 :   7> [G]:  43632 [E]:  43704 [D]:  195 [T]:28 [TH]: 8, Out
+2016-02-01 02:31:05 : #*# checkTownhallADV2: 
+2016-02-01 02:31:05 :   - Position (373,512)
+2016-02-01 02:31:05 :   - TownHall detected level 8
+2016-02-01 02:31:05 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:31:05 :   - IsInsidediamond: True
+2016-02-01 02:31:05 :   - Calculated  in: 0.37 seconds 
+2016-02-01 02:31:05 :   - Images checked: 4
+2016-02-01 02:31:06 :   8> [G]:  36818 [E]:  56420 [D]:  184 [T]:30 [TH]: 8, Out
+2016-02-01 02:31:11 : #*# checkTownhallADV2: 
+2016-02-01 02:31:11 :   - Position (145,317)
+2016-02-01 02:31:11 :   - TownHall detected level 8
+2016-02-01 02:31:11 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:31:11 :   - IsInsidediamond: True
+2016-02-01 02:31:11 :   - Calculated  in: 0.35 seconds 
+2016-02-01 02:31:11 :   - Images checked: 4
+2016-02-01 02:31:12 :   9> [G]:  35986 [E]:  29078 [D]:   28 [T]:28 [TH]: 8, Out
+2016-02-01 02:31:15 : #*# checkTownhallADV2: 
+2016-02-01 02:31:15 :   - Position (417,554)
+2016-02-01 02:31:15 :   - TownHall detected level 9
+2016-02-01 02:31:15 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:31:15 :   - IsInsidediamond: True
+2016-02-01 02:31:15 :   - Calculated  in: 0.69 seconds 
+2016-02-01 02:31:15 :   - Images checked: 9
+2016-02-01 02:31:16 :  10> [G]:  90131 [E]:  36755 [D]:  154 [T]:31 [TH]: 9, Out
+2016-02-01 02:31:19 : #*# checkTownhallADV2: 
+2016-02-01 02:31:19 :   - Position (136,323)
+2016-02-01 02:31:19 :   - TownHall detected level 8
+2016-02-01 02:31:19 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:31:19 :   - IsInsidediamond: True
+2016-02-01 02:31:19 :   - Calculated  in: 0.38 seconds 
+2016-02-01 02:31:19 :   - Images checked: 4
+2016-02-01 02:31:19 :  11> [G]:  88004 [E]:  86195 [D]:  311 [T]:24 [TH]: 8, Out
+2016-02-01 02:31:23 : #*# checkTownhallADV2: 
+2016-02-01 02:31:23 :   - Position (637,329)
+2016-02-01 02:31:23 :   - TownHall detected level 9
+2016-02-01 02:31:23 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:31:23 :   - IsInsidediamond: True
+2016-02-01 02:31:23 :   - Calculated  in: 0.65 seconds 
+2016-02-01 02:31:23 :   - Images checked: 9
+2016-02-01 02:31:26 : #*# ZombieSearch2: NONE 
+2016-02-01 02:31:26 :   - Calculated  in: 2.99 seconds 
+2016-02-01 02:31:26 :   - Images checked: 71
+2016-02-01 02:31:26 :  FOUND = False
+2016-02-01 02:31:27 :  12> [G]: 108181 [E]: 144510 [D]:  653 [T]:33 [TH]: 9, In
+2016-02-01 02:31:27 :       Not a Dead Base
+2016-02-01 02:31:31 : #*# checkTownhallADV2: 
+2016-02-01 02:31:31 :   - Position (425,324)
+2016-02-01 02:31:31 :   - TownHall detected level 10
+2016-02-01 02:31:31 :   - Image Match 001T80X0Y0.bmp
+2016-02-01 02:31:31 :   - IsInsidediamond: True
+2016-02-01 02:31:31 :   - Calculated  in: 0.24 seconds 
+2016-02-01 02:31:31 :   - Images checked: 2
+2016-02-01 02:31:34 : #*# ZombieSearch2: NONE 
+2016-02-01 02:31:34 :   - Calculated  in: 3.07 seconds 
+2016-02-01 02:31:34 :   - Images checked: 71
+2016-02-01 02:31:34 :  FOUND = False
+2016-02-01 02:31:34 :  13> [G]: 174314 [E]: 283310 [D]: 1457 [T]:34 [TH]:10, In
+2016-02-01 02:31:34 :       Not a Dead Base
+2016-02-01 02:31:38 : #*# checkTownhallADV2: 
+2016-02-01 02:31:38 :   - Position (430,103)
+2016-02-01 02:31:38 :   - TownHall detected level 8
+2016-02-01 02:31:38 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:31:38 :   - IsInsidediamond: True
+2016-02-01 02:31:38 :   - Calculated  in: 0.36 seconds 
+2016-02-01 02:31:38 :   - Images checked: 4
+2016-02-01 02:31:38 :  14> [G]:  54349 [E]:  23950 [D]:   35 [T]:30 [TH]: 8, Out
+2016-02-01 02:31:43 : #*# checkTownhallADV2: 
+2016-02-01 02:31:43 :   - Position (430,487)
+2016-02-01 02:31:43 :   - TownHall detected level 8
+2016-02-01 02:31:43 :   - Image Match 004T70X0Y0.bmp
+2016-02-01 02:31:43 :   - IsInsidediamond: True
+2016-02-01 02:31:43 :   - Calculated  in: 1.46 seconds 
+2016-02-01 02:31:43 :   - Images checked: 22
+2016-02-01 02:31:43 :  15> [G]:  43776 [E]:  29037 [D]:  100 [T]:31 [TH]: 8, Out
+2016-02-01 02:31:47 : #*# checkTownhallADV2: 
+2016-02-01 02:31:47 :   - Position (158,313)
+2016-02-01 02:31:47 :   - TownHall detected level 9
+2016-02-01 02:31:47 :   - Image Match 003T80X0Y0.bmp
+2016-02-01 02:31:47 :   - IsInsidediamond: True
+2016-02-01 02:31:47 :   - Calculated  in: 1.04 seconds 
+2016-02-01 02:31:47 :   - Images checked: 15
+2016-02-01 02:31:48 :  16> [G]: 112115 [E]:  53947 [D]:  173 [T]:20 [TH]: 9, Out
+2016-02-01 02:31:51 : #*# checkTownhallADV2: 
+2016-02-01 02:31:52 :   - Position (417,542)
+2016-02-01 02:31:52 :   - TownHall detected level 9
+2016-02-01 02:31:52 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:31:52 :   - IsInsidediamond: True
+2016-02-01 02:31:52 :   - Calculated  in: 0.66 seconds 
+2016-02-01 02:31:52 :   - Images checked: 9
+2016-02-01 02:31:52 :  17> [G]:  44971 [E]:  82451 [D]:  645 [T]:33 [TH]: 9, Out
+2016-02-01 02:32:06 : #*# checkTownhallADV2: 
+2016-02-01 02:32:06 :   - Position (470,295)
+2016-02-01 02:32:06 :   - TownHall detected level 9
+2016-02-01 02:32:06 :   - Image Match ALL_035T80X0Y0.bmp
+2016-02-01 02:32:06 :   - IsInsidediamond: True
+2016-02-01 02:32:06 :   - Calculated  in: 10.41 seconds 
+2016-02-01 02:32:06 :   - Images checked: 171
+2016-02-01 02:32:06 :  18> [G]:  14307 [E]: 148843 [D]:  778 [T]:31 [TH]: 9, In
+2016-02-01 02:32:09 : #*# checkTownhallADV2: 
+2016-02-01 02:32:10 :   - Position (633,317)
+2016-02-01 02:32:10 :   - TownHall detected level 8
+2016-02-01 02:32:10 :   - Image Match 001T75X0Y0.bmp
+2016-02-01 02:32:10 :   - IsInsidediamond: True
+2016-02-01 02:32:10 :   - Calculated  in: 0.36 seconds 
+2016-02-01 02:32:10 :   - Images checked: 4
+2016-02-01 02:32:10 :  19> [G]:  27617 [E]:  29873 [D]:  279 [T]:32 [TH]: 8, In
+2016-02-01 02:32:13 : #*# checkTownhallADV2: 
+2016-02-01 02:32:13 :   - Position (137,336)
+2016-02-01 02:32:13 :   - TownHall detected level 9
+2016-02-01 02:32:13 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:32:13 :   - IsInsidediamond: True
+2016-02-01 02:32:13 :   - Calculated  in: 0.3 seconds 
+2016-02-01 02:32:13 :   - Images checked: 3
+2016-02-01 02:32:16 : #*# ZombieSearch2: 
+2016-02-01 02:32:16 :   - Position (283,279)
+2016-02-01 02:32:16 :   - Elixir Collector 100% level 12
+2016-02-01 02:32:16 :   - Image Match e12f65t70.bmp
+2016-02-01 02:32:16 :   - IsInsidediamond: True
+2016-02-01 02:32:16 :   - Calculated  in: 2.92 seconds 
+2016-02-01 02:32:17 :   - Images checked: 61
+2016-02-01 02:32:17 :  FOUND = True
+2016-02-01 02:32:17 :  20> [G]: 104585 [E]: 118026 [D]: 1094 [T]:15 [TH]: 9, Out
+2016-02-01 02:32:17 :       Dead Base Found! 
+2016-02-01 02:32:18 : ================ Search Complete =================
+2016-02-01 02:32:18 : Initiating attack for: Dead Base
+2016-02-01 02:32:23 : -*-Archers 39
+2016-02-01 02:32:23 : -*-Goblins 181
+2016-02-01 02:32:23 : -*-King 
+2016-02-01 02:32:23 : -*-Lightning Spells 4
+2016-02-01 02:32:23 : -*-Earthquake Spells 1
+2016-02-01 02:32:24 : -*-Poison Spells 1
+2016-02-01 02:32:26 :  ====== Start Attack ====== 
+2016-02-01 02:32:28 : Type attack = DB
+2016-02-01 02:32:28 : Attacking on all sides
+2016-02-01 02:32:29 : Dropping only wave of 181 Goblins
+2016-02-01 02:32:35 : Dropping only wave of 39 Archers
+2016-02-01 02:32:41 : The End
+2016-02-01 02:32:42 : Finished Attacking, waiting for the battle to end
+2016-02-01 02:32:42 : Checking if the battle has finished
+2016-02-01 02:32:44 : detected [G]: 5088 [E]: 5326 [DE]: 770 |  Exit in 18 sec.
+2016-02-01 02:32:46 : detected [G]: 5088 [E]: 0 [DE]: 770 |  Exit in 16 sec.
+2016-02-01 02:32:46 : Loot: Gold 0 Elixir -5326
+2016-02-01 02:32:46 : Gold & Elixir & DE change detected, waiting...
+2016-02-01 02:32:49 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in 18 sec.
+2016-02-01 02:32:51 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in 16 sec.
+2016-02-01 02:32:53 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in 14 sec.
+2016-02-01 02:32:55 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in 12 sec.
+2016-02-01 02:32:57 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in 10 sec.
+2016-02-01 02:32:59 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in  9 sec.
+2016-02-01 02:33:00 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in  7 sec.
+2016-02-01 02:33:02 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in  5 sec.
+2016-02-01 02:33:04 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in  3 sec.
+2016-02-01 02:33:06 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in  1 sec.
+2016-02-01 02:33:08 : detected [G]: 3392 [E]: 0 [DE]: 770 |  Exit in  0 sec.
+2016-02-01 02:33:08 : Gold & Elixir & DE no change detected, exit

@@ -43,14 +43,16 @@
 #include <IE.au3>
 #include <Process.au3>
 
-Global Const $DEFAULT_HEIGHT = 780
+Global Const $DEFAULT_HEIGHT = 732
 Global Const $DEFAULT_WIDTH = 860
-Global Const $midOffsetY = ($DEFAULT_HEIGHT - 720) / 2
-Global Const $bottomOffsetY = $DEFAULT_HEIGHT - 720
+Global Const $midOffsetY = 30
+Global Const $bottomOffsetY = 60
+;~ Global Const $midOffsetY = ($DEFAULT_HEIGHT - 732) / 2
+;~ Global Const $bottomOffsetY = $DEFAULT_HEIGHT - 732
 Global $bMonitorHeight800orBelow = False
 
 ;debugging
-Global $debugSearchArea = 0, $debugOcr = 1, $debugRedArea = 0, $debugSetlog = 0, $debugDeadBaseImage = 0, $debugImageSave = 0, $debugWalls = 0, $debugBuildingPos= 1, $debugVillageSearchImages = 0
+Global $debugSearchArea = 0, $debugOcr = 0, $debugRedArea = 0, $debugSetlog = 0, $debugDeadBaseImage = 0, $debugImageSave = 0, $debugWalls = 0, $debugBuildingPos= 1, $debugVillageSearchImages = 0
 
 Global Const $COLOR_ORANGE = 0xFF7700
 Global Const $bCapturePixel = True, $bNoCapturePixel = False
@@ -109,7 +111,7 @@ Global $sTemplates = @ScriptDir & "\Templates"
 Global $aTxtLogInitText[0][6] = [[]]
 
 Global $iMoveMouseOutBS = 0 ; If enabled moves mouse out of Android window when bot is running
-Global $DevMode = 0
+Global $DevMode = 1
 If FileExists(@ScriptDir & "\EnableMBRDebug.txt") Then $DevMode = 1
 
 ; Special Android Emulator variables
@@ -180,9 +182,9 @@ Global $ScreenshotLootInfo = False
 Global $AlertSearch = True
 Global $iChkAttackNow, $iAttackNowDelay, $bBtnAttackNowPressed = False
 Global $PushToken = ""
-
+Global $PushToken2 = ""
 Global Enum $DB, $LB, $TS, $TB, $DT
-Global $iModeCount = 2
+Global $iModeCount = 3
 Global $iMatchMode ; 0 Dead / 1 Live / 2 TH Snipe / 3 TH Bully / 4 Drop Trophy
 Global $sModeText[5]
 $sModeText[$DB] = "Dead Base"
@@ -190,14 +192,19 @@ $sModeText[$LB] = "Live Base"
 $sModeText[$TS] = "TH Snipe"
 $sModeText[$TB] = "TH Bully"
 $sModeText[$DT] = "Drop Trophy"
-Global $TypeAtt = "" ; Noyax to put in stat the type of attack
+
 ;PushBullet---------------------------------------------------------------
 Global $PBRemoteControlInterval = 60000 ; 60 secs
 Global $PBDeleteOldPushesInterval = 1800000 ; 30 mins
+global $access_token2
+Global $first = 0
+global $chat_id2 = 0
+Global $lastremote = 0
 Global $iOrigPushB
 Global $iLastAttack
 Global $iAlertPBVillage
 Global $pEnabled
+Global $pEnabled2
 Global $pRemote
 Global $pMatchFound
 Global $pLastRaidImg
@@ -220,12 +227,17 @@ Global $ichkAlertPBCampFullTest = 0
 Global $cmbTroopComp ;For Event change on ComboBox Troop Compositions
 Global $iCollectCounter = 0 ; Collect counter, when reaches $COLLECTATCOUNT, it will collect
 Global $COLLECTATCOUNT = 10 ; Run Collect() after this amount of times before actually collect
+Global $ichkAlertBuilderIdle
+Global $iReportIdleBuilder = 0
+
 
 ;---------------------------------------------------------------------------------------------------
 Global $BSpos[2] ; Inside Android window positions relative to the screen, [x,y]
 Global $BSrpos[2] ; Inside Android window positions relative to the window, [x,y]
 ;---------------------------------------------------------------------------------------------------
 ;Stats
+Global $GoldCount, $ElixirCount, $DarkCount, $TrophyCount
+;Global $GoldCount = 0, $ElixirCount = 0, $DarkCount = 0, $TrophyCount = 0
 Global $iFreeBuilderCount, $iTotalBuilderCount, $iGemAmount ; builder and gem amounts
 Global $iGoldStart, $iElixirStart, $iDarkStart, $iTrophyStart ; stats at the start
 Global $iGoldTotal, $iElixirTotal, $iDarkTotal, $iTrophyTotal ; total stats
@@ -253,7 +265,7 @@ Global $bSearchMode = False
 Global $Is_ClientSyncError = False ;If true means while searching Client Out Of Sync error occurred.
 Global $searchGold, $searchElixir, $searchDark, $searchTrophy, $searchTH ;Resources of bases when searching
 Global $SearchGold2 = 0, $SearchElixir2 = 0, $iStuck = 0, $iNext = 0
-Global $iCmbSearchMode
+Global $iCmbSearchMode, $iCmbTsSearchMode
 Global $iMinGold[$iModeCount], $iMinElixir[$iModeCount], $iMinGoldPlusElixir[$iModeCount], $iMinDark[$iModeCount], $iMinTrophy[$iModeCount], $iMaxTH[$iModeCount], $iEnableAfterCount[$iModeCount], $iCmbWeakMortar[$iModeCount], $iCmbWeakWizTower[$iModeCount] ; Minimum Resources conditions
 Global $iAimGold[$iModeCount], $iAimElixir[$iModeCount], $iAimGoldPlusElixir[$iModeCount], $iAimDark[$iModeCount], $iAimTrophy[$iModeCount], $iAimTHtext[$iModeCount] ; Aiming Resource values
 Global $iChkSearchReduction
@@ -274,6 +286,12 @@ $THText[2] = "8"
 $THText[3] = "9"
 $THText[4] = "10"
 $THText[5] = "11"
+Global $DefText[5] ; Text of Defense Type
+$DefText[0] = "Inferno Tower"
+$DefText[1] = "Hidden Tesla"
+$DefText[2] = "Mortar"
+$DefText[3] = "Wizard Tower"
+$DefText[4] = "Air Defense"
 Global $THImages0,$THImages1,$THImages2,$THImages3,$THImages4, $THImages5
 Global $THImagesStat0,$THImagesStat1,$THImagesStat2,$THImagesStat3,$THImagesStat4, $THImagesStat5
 Global $SearchCount = 0 ;Number of searches
@@ -287,7 +305,6 @@ Global $chkTrophyMode
 Global $ATBullyMode
 Global $YourTH
 Global $iTHBullyAttackMode
-;~ Global $icmbAttackTHType
 Global $scmbAttackTHType = "Bam"
 Global $txtAttackTHType
 Global $iNbOfSpots
@@ -300,6 +317,7 @@ Global $CheckHeroes
 Global $KingSlotTH
 Global $QueenSlotTH
 ; Attack TH snipe
+Global $iAttackTHType
 Global $icmbDeployBtmTHType
 Global $ichkUseKingTH = 0
 Global $ichkUseQueenTH = 0
@@ -322,10 +340,23 @@ Global $iTSArchReserve = 0 ;noyax add Ancient, number of archers to reserve for 
 Global $iTSBarbReserve = 0 ;noyax add Rizor, number of Barbarian to reserve for TH snipes
 Global $skipStartTime ;noyax add Ancient used to prevent infinate skips
 
+
+Global $ichkSmartLightSpell
+global $ichkTrainLightSpell
+Global $iDrills[4][4] = [[-1, -1, -1, -1], [-1, -1, -1, -1], [-1, -1, -1, -1], [-1, -1, -1, -1]] ; [LocX, LocY, BldgLvl, Quantity=filled by other functions]
+Global $smartZapGain = 0
+Global $NumLTSpellsUsed = 0
+Global $ichkDrillZapTH
+Global $itxtMinDark
+Global $txtMinDark
+Global $iLTSpellCost, $LTSCost , $LTSpellCost
+
 Global $TrainSpecial = 1 ;0=Only trains after atk. Setting is automatic
 Global $cBarbarian = 0, $cArcher = 0, $cGoblin = 0, $cGiant = 0, $cWallbreaker = 0, $cWizard = 0, $cBalloon = 0, $cDragon = 0, $cPekka = 0, $cMinion = 0, $cHogs = 0, $cValkyrie = 0, $cGolem = 0, $cWitch = 0, $cLavaHound = 0
 ;Troop types
-Global Enum $eBarb, $eArch, $eGiant, $eGobl, $eWall, $eBall, $eWiza, $eHeal, $eDrag, $ePekk, $eMini, $eHogs, $eValk, $eGole, $eWitc, $eLava, $eKing, $eQueen, $eWarden, $eCastle, $eLSpell, $eHSpell, $eRSpell, $eJSpell, $eFSpell, $ePSpell, $eESpell, $eHaSpell
+Global Enum $eBarb, $eArch, $eGiant, $eGobl, $eWall, $eBall, $eWiza, $eHeal, $eDrag, $ePekk, $eMini, $eHogs, $eValk, $eGole, $eWitc, $eLava, $eKing, $eQueen, $eWarden, $eCastle, $eLSpell, $eHSpell, $eRSpell, $eJSpell, $eFSpell, $ePSpell, $eESpell, $eHaSpell, $eCCSpell
+Global $lastDarkSpell = -1
+Global $CCSpellType
 ;wall
 Global $WallCost
 Global $WallX = 0, $WallY = 0
@@ -382,7 +413,6 @@ $troopsToBeUsed[8] = $useBarcherGobGiant
 $troopsToBeUsed[9] = $useBarcherHog
 $troopsToBeUsed[10] = $useBarcherMinion
 
-
 Global $countFindPixCloser = 0 ;Noyax count collector exposed
 Global $countCollectorexposed = 0 ;Noyax count collector exposed
 Global $MilkAtt, $NbTrpMilk, $PercentExposed, $DBUseGobsForCollector, $NbPercentExposed, $NbPixelmaxExposed, $AttackAnyway, $ToAttackAnyway[16] ;Noyax for milking
@@ -415,11 +445,6 @@ Global $iUnbreakableMode = 0
 Global $iUnbreakableWait, $iUnBrkMinGold, $iUnBrkMinElixir, $iUnBrkMaxGold, $iUnBrkMaxElixir, $iUnBrkMinDark, $iUnBrkMaxDark
 Global $OutOfGold = 0 ; Flag for out of gold to search for attack
 Global $OutOfElixir = 0 ; Flag for out of elixir to train troops
-
-;noyax top
-;TH snipe settings
-Global 	$iMinGoldTHsn, $iMinElixirTHsn, $iMinGoldPlusElixirTHsn, $iMinDarkElixirTHSn, $iCmbMeetGETHsn
-;noyac bottom
 
 ;Zoom/scroll variables for TH snipe, bottom corner
 Global $zoomedin = False, $zCount = 0, $sCount = 0
@@ -486,7 +511,7 @@ Global $T[1] = [97]
 Global $ArmyComp
 
 ;Spell Settings
-Global $LightningSpellComp = 0 , $HealSpellComp = 0 , $RageSpellComp = 0 , $PoisonSpellComp = 0 , $HasteSpellComp = 0
+Global $LightningSpellComp = 0 , $HealSpellComp = 0 , $RageSpellComp = 0 , $PoisonSpellComp = 0 , $EarthSpellComp = 0
 Global $CurLightningSpell = 0  , $CurHealSpell = 0  , $CurRageSpell = 0  , $CurJumpSpell = 0 , $CurFreezeSpell = 0 ,  $CurPoisonSpell = 0  , $CurHasteSpell = 0 , $CurEarthSpell = 0
 Global $iTotalCountSpell = 0
 Global $TotalSFactory = 0
@@ -744,6 +769,7 @@ Global $dLastShareDate = _DateAdd("n", -60, _Date_Time_SystemTimeToDateTimeStr($
 
 Global $iScreenshotType = 0
 Global $ichkScreenshotHideName = 1
+Global $ichkScreenshotQuadrants = 0
 
 Global $ichkTotalCampForced = 0
 Global $iValueTotalCampForced = 200
@@ -784,6 +810,9 @@ Global $League[22][4] = [ _
 
 Global $iTaBChkAttack = 0x01
 Global $iTaBChkIdle = 0x02 ; Define global variables for Take a Break early detection types
+Global $upTrophy = 0,$endbattle = false,$useFFBarchST,$percentCollectors
+Global $itxtMinDark
+Global $txtMinDark
 
 ;Building Side (DES/TH) Switch and DESide End Early
 Global Enum $eSideBuildingDES, $eSideBuildingTH
@@ -794,7 +823,8 @@ Global $saveiChkTimeStopAtk, $saveiChkTimeStopAtk2, $saveichkEndOneStar, $saveic
 Global $DarkLow
 Global $DESideEB, $DELowEndMin, $DisableOtherEBO
 Global $DEEndAq, $DEEndBk, $DEEndOneStar
-Global $SpellDP[2] = [0, 0]; Spell drop point for DE attack
+Global $DeDeployType[24],$DeDeployPosition[24]
+Global $DeDeployEmptyString = "--------------------" ;20 -'s
 
 ;Snipe While Train
 Global $isSnipeWhileTrain = False
@@ -811,6 +841,22 @@ Global $Is_SearchLimit = False
 
 Global $canRequestCC = True
 
+; Skip when Camps x% full top
+Global $ichkSkipActive
+Global $itxtSkipHowMuch
+Global $ichkSkipLab
+Global $ichkSkipDonate
+Global $ichkSkipTombstones
+Global $ichkSkipCollect
+Global $ichkSkipRearm
+Global $ichkSkipWall
+Global $ichkSkipBuilding
+; Skip when Camps x% full top
+
+;Greedy Mode Top
+Global $greedOneTime = 0, $Greedy
+Global $ichkGreedy, $ichkSWTGreedy
+;Greedy Mode Bottom
 
 ; Heroes upgrade
 Global $ichkUpgradeKing = 0
@@ -839,3 +885,36 @@ Global $aLanguage[1][1] ;undimmed language array
 Global $iDetectedImageType = 0
 Global $iDeadBase75percent = 0
 Global $iDeadBase75percentStartLevel = 0
+
+
+;Profile Switch
+Global $ichkGoldSwitchMax, $itxtMaxGoldAmount, $icmbGoldMaxProfile, $ichkGoldSwitchMin, $itxtMinGoldAmount, $icmbGoldMinProfile
+Global $ichkElixirSwitchMax, $itxtMaxElixirAmount, $icmbElixirMaxProfile, $ichkElixirSwitchMin, $itxtMinElixirAmount, $icmbElixirMinProfile
+Global $ichkDESwitchMax, $itxtMaxDEAmount, $icmbDEMaxProfile, $ichkDESwitchMin, $itxtMinDEAmount, $icmbDEMinProfile
+Global $ichkTrophySwitchMax, $itxtMaxTrophyAmount, $icmbTrophyMaxProfile, $ichkTrophySwitchMin, $itxtMinTrophyAmount, $icmbTrophyMinProfile
+
+
+;Hero Healing Filter
+Global $LBsave[17], $LBHeroFilter, $LBAQFilter, $LBBKFilter, $iSkipCentreDE, $iSkipUndetectedDE, $DECorepix = 15
+Global $LBBKEQFilter
+Global 	$iCmbMeetGEHero, $iChkMeetDEHero, $iChkMeetTrophyHero, $iChkMeetTHHero, $iChkMeetTHOHero, $iChkWeakBaseHero, $iChkMeetOneHero, $iEnableAfterCountHero, $iMinGoldHero
+Global $iMinElixirHero, $iMinGoldPlusElixirHero,$iMinDarkHero, $iMinTrophyHero, $iCmbTHHero, $iCmbWeakMortarHero, $iCmbWeakWizTowerHero, $iMaxTHHero
+Global $THString
+
+;SwitchSetting
+Global $icmbRecSetting
+Global $cmbRecSetting
+Global $cmbSearchMode
+Global $cmbDBMeetGE
+Global $cmbABMeetGE
+Global $cmbABMeetGEHero
+Global $cmbAttackTHType
+Global $cmbTHSpellType
+Global $cmbAttackbottomType
+Global $cmbDetectTrapedTH
+Global $cmbTroopComp
+
+; CoCStats
+Global $ichkCoCStats = 0
+Global $stxtAPIKey = ""
+Global $MyApiKey = ""

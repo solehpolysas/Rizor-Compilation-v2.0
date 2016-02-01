@@ -47,101 +47,94 @@
 	$grpTHSnipeWhileTrainOptions = GUICtrlCreateGroup(GetTranslated(4,13, "TH Snipe"), $x - 20, $y - 20, 225, 375)
 
 		$y -=5
-		$ChkSnipeWhileTrain = GUICtrlCreateCheckbox(GetTranslated(4,14, "Snipe While Train"), $x-10, $y, -1, -1)
-			$txtTip = GetTranslated(4,15, "Check this if you want the bot search TH outsite while train troops.")
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetOnEvent(-1, "chkSnipeWhileTrain")
-		$lblSWTTiles = GUICtrlCreateLabel(GetTranslated(4,16, "Add Tiles") & ":", $x + 67, $y + 4, 100, -1, $SS_RIGHT)
-			$txtTip = GetTranslated(4,17, "Add number of tiles from Base Edges")
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-		$txtSWTTiles = GUICtrlCreateInput("1", $x + 170, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 2)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-		$y +=22
-		$lblSearchlimit = GUICtrlCreateLabel(GetTranslated(4,18, "Search limit") & ":", $x + 95, $y + 4, 72, -1, $SS_RIGHT)
-			$txtTip = GetTranslated(4,19, "Maximum searches first to return to home.")
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-		$txtSearchlimit = GUICtrlCreateInput("15", $x + 170, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 3)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-		$y +=22
-		$lblminArmyCapacityTHSnipe = GUICtrlCreateLabel(GetTranslated(4,20, "Min Army Capacity % to start Snipe") & ":", $x - 10, $y + 4, 177, -1, $SS_RIGHT)
-			$txtTip = GetTranslated(4,21, "Minimum Army Capacity to start Snipe.")
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-		$txtminArmyCapacityTHSnipe = GUICtrlCreateInput("35", $x + 170, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 2)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-		$y +=22
 		$chkTrophyMode = GUICtrlCreateCheckbox(GetTranslated(4,23, "Snipe Combo"), $x-10, $y, -1, -1)
 			$txtTip = GetTranslated(4,24, "Adds the TH Snipe combination to the current search settings. (Example: Deadbase OR TH Snipe)")
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetOnEvent(-1, "chkSnipeMode")
-		;noyax add Ancient begin snipe live/dead filter
-		$cmbTSSearchMode = GUICtrlCreateCombo("", $x+70 , $y, 130, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
-			$txtTip = GetTranslated(2,5, "Only Deadbases: full collectors. Most loot outside of village.") & @CRLF & GetTranslated(2,6,"Only LiveBases: full storages. Most loot inside of village.") & @CRLF & GetTranslated(2,7,"Dual Mode: Search for both, whatever comes first is attacked.")
-			GUICtrlSetData(-1, GetTranslated(2,2, "Only DeadBases") & "|" & GetTranslated(2,3, "Only LiveBases") & "|" & GetTranslated(2,4, "Both DeadBases and LiveBases") , GetTranslated(2,2, "Only DeadBases"))
-			GUICtrlSetTip(-1, $txtTip)
-		;noyax add Ancient end snipe live/dead filter
-		$y+= 25
-		$lblTHadd = GUICtrlCreateLabel(GetTranslated(4,25, "Add") & ":", $x -10, $y+5, -1, 17, $SS_RIGHT)
-		    $txtTip = GetTranslated(4,26, "Enter how many 'Grass' 1x1 tiles the TH may be from the Base edges to be seen as a TH Outside.") & @CRLF & GetTranslated(4,27, "Ex: (0) tiles; TH must be exactly at the edge. (4) tiles: TH may be 4 tiles farther from edges and closer to the center of the village.") & @CRLF & GetTranslated(4,28, "If the TH is farther away then the No. of tiles set, the base will be skipped.")
-			GUICtrlSetTip(-1, $txtTip)
-		$lblTHaddtiles = GUICtrlCreateLabel(GetTranslated(4,29, "tile(s) from Base Edges"), $x + 57, $y+5, -1, 17)
+		$txtTip = GetTranslated(4,26, "Enter how many 'Grass' 1x1 tiles the TH may be from the Base edges to be seen as a TH Outside.") & @CRLF & GetTranslated(4,27, "Ex: (0) tiles; TH must be exactly at the edge. (4) tiles: TH may be 4 tiles farther from edges and closer to the center of the village.") & @CRLF & GetTranslated(4,28, "If the TH is farther away then the No. of tiles set, the base will be skipped.")
+		$lblTHaddtiles = GUICtrlCreateLabel(GetTranslated(4,29, "tile(s) from Edges"), $x + 107, $y+5, -1, 17)
 		    GUICtrlSetTip(-1, $txtTip)
-		$txtTHaddtiles = GUICtrlCreateInput("2", $x + 26, $y + 1, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+		$txtTHaddtiles = GUICtrlCreateInput("2", $x + 76, $y + 1, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetLimit(-1, 1)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-;noyax top
-		$y += 21
-		$cmbTHsnMeetGE = GUICtrlCreateCombo("", $x , $y + 10, 65, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+			;GUICtrlSetState(-1, $GUI_DISABLE)
+
+		$y+= 19
+  	$grpTsSearchMode = GUICtrlCreateGroup("Search Mode", $x - 15, $y , 215, 130)
+
+		$lblTsSearchMode = GUICtrlCreateLabel("Search Mode:", $x - 10, $y+20, -1, 17)
+			$txtTip = "Only Deadbases: full collectors. Most loot outside of village." & @CRLF & _
+					  "Only LiveBases: full storages. Most loot inside of village." & @CRLF & "Dual Mode: Search for both, whatever comes first is attacked."
+		    GUICtrlSetTip(-1, $txtTip)
+		$cmbTsSearchMode = GUICtrlCreateCombo("", $x + 60 , $y+16, 135, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
+			GUICtrlSetData(-1, "Only DeadBases|Only LiveBases|Both Dead & LiveBases", "Only DeadBases")
+			GUICtrlSetTip(-1, $txtTip)
+;	GUICtrlCreateGroup("", -99, -99, 1, 1)
+	GUICtrlCreateGroup("", -99, -99, 1, 1)
+
+
+
+		$y+= 40
+
+		$cmbTSMeetGE = GUICtrlCreateCombo("", $x , $y + 10, 65, -1, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 			$txtTip = GetTranslated(2,19, -1) & @CRLF & GetTranslated(2,20, -1) & @CRLF & GetTranslated(2,21, -1) & @CRLF & GetTranslated(2,22, -1)
 			GUICtrlSetData(-1, GetTranslated(2,23, -1) & "|" & GetTranslated(2,24, -1) & "|" & GetTranslated(2,25, -1), GetTranslated(2,25, -1))
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetOnEvent(-1, "cmbTHsnGoldElixir")
-		$txtTHsnMinGold = GUICtrlCreateInput("80000", $x + 80, $y, 50, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetOnEvent(-1, "cmbTSMeetGE")
+		$txtTSMinGold = GUICtrlCreateInput("80000", $x + 80, $y, 50, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
 			$txtTip = GetTranslated(2,26, -1)
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetLimit(-1, 6)
 			GUICtrlSetState (-1, $GUI_HIDE)
-		$picTHsnMinGold = GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 131, $y, 16, 16)
+		$picTSMinGold = GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 131, $y, 16, 16)
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetState (-1, $GUI_HIDE)
 		$y += 21
-		$txtTHsnMinElixir = GUICtrlCreateInput("80000", $x + 80, $y, 50, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+		$txtTSMinElixir = GUICtrlCreateInput("80000", $x + 80, $y, 50, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
 			$txtTip = GetTranslated(2,27, -1)
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetLimit(-1, 6)
 			GUICtrlSetState (-1, $GUI_HIDE)
-		$picTHsnMinElixir = GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 131, $y, 16, 16)
+		$picTSMinElixir = GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 131, $y, 16, 16)
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetState (-1, $GUI_HIDE)
 		$y -= 11
-		$txtTHsnMinGoldPlusElixir = GUICtrlCreateInput("160000", $x + 80, $y, 50, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+		$txtTSMinGoldPlusElixir = GUICtrlCreateInput("160000", $x + 80, $y, 50, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
 			$txtTip = GetTranslated(2,28, -1)
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetLimit(-1, 6)
-		$picTHsnMinGPEGold = GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 131, $y + 1, 16, 16)
+		$picTSMinGPEGold = GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 131, $y + 1, 16, 16)
 			GUICtrlSetTip(-1, $txtTip)
-		$lblTHsnMinGPE = GUICtrlCreateLabel("+", $x + 147, $y + 1, -1, -1)
+		$lblTSMinGPE = GUICtrlCreateLabel("+", $x + 147, $y + 1, -1, -1)
 			GUICtrlSetTip(-1, $txtTip)
-		$picTHsnMinGPEElixir = GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 153, $y + 1, 16, 16)
+		$picTSMinGPEElixir = GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 153, $y + 1, 16, 16)
 			GUICtrlSetTip(-1, $txtTip)
-		$txtTHSnMinDarkElixir = GUICtrlCreateInput("0", $x + 80, $y + 31, 50, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = GetTranslated(2,31, "Set the Min. amount of Dark Elixir to search for on a village to attack.")
+		$y += 31
+		$chkTSMeetDE = GUICtrlCreateCheckbox(GetTranslated(2,29, -1), $x , $y, -1, -1)
+			$txtTip = GetTranslated(2,30, -1)
+			GUICtrlSetOnEvent(-1, "chkTSMeetDE")
+			GUICtrlSetTip(-1, $txtTip)
+		$txtTSMinDarkElixir = GUICtrlCreateInput("0", $x + 80, $y, 50, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$txtTip = GetTranslated(2,31, -1)
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetLimit(-1, 5)
-		$lblTHsnMinDarkElixir = GUICtrlCreateLabel("Dark Elixir", $x , $y + 31, -1, -1)
+			_GUICtrlEdit_SetReadOnly(-1, True)
+		$picTSMinDarkElixir = GUICtrlCreateIcon($pIconLib, $eIcnDark, $x + 131, $y, 16, 16)
+			GUICtrlSetTip(-1, $txtTip)
+		$y += 21
+		$chkTSMeetOne = GUICtrlCreateCheckbox(GetTranslated(2,44, "Meet One Then Attack"), $x, $y, -1, -1)
+			$txtTip = GetTranslated(2,45, "Just meet only ONE of the above conditions, then Attack.")
 			GUICtrlSetTip(-1, $txtTip)
 
-;noyax bottom
-		$y+= 50
+
+
+
+
+
+
+
+
+		$y+= 34
 ;~ 		$lblAttackTHType = GUICtrlCreateLabel(GetTranslated(4,30, "Attack TH Type") & ":", $x - 8 , $y + 5 , -1, 17, $SS_RIGHT)
 ;~ 		$cmbAttackTHType = GUICtrlCreateCombo("",  $x + 80, $y, 120, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
 ;~ 			GUICtrlSetData(-1, GetTranslated(4,31, "Attack: SmartBarch") & "|" & GetTranslated(4,32, "Attack: Bam") & "|" & GetTranslated(4,33, "Attack: eXtreme") & "|" & GetTranslated(4,34, "Attack: GBarch") & "|" & GetTranslated(4,35, "Attack: Custom"), GetTranslated(4,34, -1))
@@ -159,21 +152,18 @@
             $txtTip = GetTranslated(4,98, "You can add/edit attack editing csv settings files in THSnipe folder")
 
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_DISABLE)
+			;GUICtrlSetState(-1, $GUI_DISABLE)
 			GUICtrlSetOnEvent(-1, "cmbAttackTHType")
 			LoadThSnipeAttacks()
 
         $y +=25
 		$lblAttackBottomType = GUICtrlCreateLabel(GetTranslated(4,41, "If TH is at bottom") & ":", $x -15 , $y + 5, 90, -1, $SS_RIGHT)
 		$cmbAttackbottomType = GUICtrlCreateCombo("",  $x + 80, $y, 120, 21, BitOR($CBS_DROPDOWNLIST, $CBS_AUTOHSCROLL))
-;			GUICtrlSetData(-1, GetTranslated(4,42, "Deploy: Zoomed In")&"|" & GetTranslated(4,43, "Deploy: On Sides"), GetTranslated(4,43, -1)); noyax for add Ancient
-			;noyax addAncient begin snipe deploy bottom
-			GUICtrlSetData(-1, GetTranslated(4,42, "Deploy: Zoomed In")&"|" & GetTranslated(4,43, "Deploy: On Sides")&"|" & "Deploy: Normal", GetTranslated(4,43, -1))
-			;noyax addAncient end snipe deploy bottom
+			GUICtrlSetData(-1, GetTranslated(4,42, "Deploy: Zoomed In")&"|" & GetTranslated(4,43, "Deploy: On Sides"), GetTranslated(4,43, -1))
 			$txtTip = GetTranslated(4,44, "Select your strategy to deploy troops when the TH is detected on the Bottom of the screen!") & @CRLF & GetTranslated(4,45, "Zoomed in • Zoom in first, then Attack from bottom.") & @CRLF & GetTranslated(4,46, "On Sides • Try to get the TH from the left and right without zooming in, your troops may pick another target!")
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-		$y += 30
+			;GUICtrlSetState(-1, $GUI_DISABLE)
+		$y += 27
 		GUICtrlCreateIcon($pIconLib, $eIcnKing, $x - 16 , $y, 24, 24)
 		$chkUseKingTH = GUICtrlCreateCheckbox(GetTranslated(4,47, "Use King"), $x + 12 , $y+1, -1, -1)
 			$txtTip = GetTranslated(4,48, "Use King when Attacking TH Snipe") & @CRLF & GetTranslated(4,49, "Will be deployed in First wave")
@@ -209,32 +199,14 @@
 			GUICtrlSetTip(-1, $txtTip)
 			GUICtrlSetState(-1, $GUI_DISABLE)
 
-
-		$y+= 30
-; Noyax top
-		$chkAttIfDB = GUICtrlCreateCheckbox("Attack if loots <", $x  , $y, -1, -1)
-			$txtTip = "Attack if TH Snipe found dead base"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-			;Ancient begin greed filter filter with DB
-			GUICtrlSetOnEvent(-1, "chkAttIfDB")
-			;Ancient end greed filter filter with DB
-		$lblAttIfDB = GUICtrlCreateLabel("% of total loots", $x + 125, $y+5, -1, 17)
-		    GUICtrlSetTip(-1, $txtTip)
-		$txtAttIfDB = GUICtrlCreateInput("10", $x + 95, $y + 1, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 2)
-			GUICtrlSetState(-1, $GUI_DISABLE)
+	    $y += 27
+		GUICtrlCreateIcon($pIconLib, $eIcnDrill, $x - 16, $y, 24, 24)
+		$chkDrillZapTH = GUICtrlCreateCheckbox("Drill Zap On TH Snipe", $x + 12, $y+1, -1, -1)
+		$txtTip = "Use This If You Want To Zap Drill When TH Snipping"
+		GUICtrlSetTip(-1, $txtTip)
+		GUICtrlSetState(-1, $GUI_DISABLE)
 
 
-;Noyax bottom
-;noyax add Ancient begin greed filter filter with DB
-		$y+=20
-		$chkAttIfDBMeetGE = GUICtrlCreateCheckbox("AND meets dead base search criteria", $x  , $y, -1, -1)
-			$txtTip = "Attack if TH Snipe found dead base AND meets dead base search criteria"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_DISABLE)
-;noyax add Ancient end greed filter filter with DB
 
 ;~ 		$btnTestTHcsv = GUICtrlCreateButton("Test TH attack in log", $x , $y + 45, -1, -1)
 ;~ 			$txtTip = "Click here to parse crv attack and show results in log"
@@ -242,6 +214,37 @@
 ;~ 			GUICtrlSetOnEvent(-1, "btnTestTHcsv")
 ;~ 			IF $btnColor then GUICtrlSetBkColor(-1, 0x5CAD85)
 
+		$y +=24
+		$ChkSnipeWhileTrain = GUICtrlCreateCheckbox(GetTranslated(4,14, "Snipe While Train"), $x-10, $y, -1, -1)
+			$txtTip = GetTranslated(4,15, "Check this if you want the bot search TH outsite while train troops.")
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetOnEvent(-1, "chkSnipeWhileTrain")
+		$lblminArmyCapacityTHSnipe = GUICtrlCreateLabel("% to start:", $x +110, $y + 4, 177, -1, -1)
+			$txtTip = GetTranslated(4,21, "Minimum Army Capacity to start Snipe.")
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		$txtminArmyCapacityTHSnipe = GUICtrlCreateInput("35", $x + 170, $y +4, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 2)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+
+		$lblSWTTiles = GUICtrlCreateLabel(GetTranslated(4,16, "Add Tiles") & ":", $x - 60, $y + 25, 100, -1, $SS_RIGHT)
+			$txtTip = GetTranslated(4,17, "Add number of tiles from Base Edges")
+			GUICtrlSetTip(-1, $txtTip)
+			;GUICtrlSetState(-1, $GUI_DISABLE)
+		$txtSWTTiles = GUICtrlCreateInput("1", $x + 45, $y + 23, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 2)
+			;GUICtrlSetState(-1, $GUI_DISABLE)
+		$lblSearchlimit = GUICtrlCreateLabel(GetTranslated(4,18, "Search limit") & ":", $x + 95, $y + 25, 72, -1, $SS_RIGHT)
+			$txtTip = GetTranslated(4,19, "Maximum searches first to return to home.")
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		$txtSearchlimit = GUICtrlCreateInput("15", $x + 170, $y+25, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, $txtTip)
+			GUICtrlSetLimit(-1, 3)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		$y +=22
 
 
     GUICtrlCreateGroup("", -99, -99, 1, 1)
@@ -280,151 +283,55 @@
 	GUICtrlCreateGroup("", -99, -99, 1, 1)
 
 	Local $x = 30, $y = 355
-;noyax top re use groupe defense farming
-	;	$grpDefenseFarming = GUICtrlCreateGroup(GetTranslated(4,78, "Defense Farming"), $x - 20, $y - 20, 220, 170)
-;		$chkUnbreakable = GUICtrlCreateCheckbox(GetTranslated(4,79, "Enable Unbreakable Mode"), $x, $y, -1, -1)
-;			$TxtTip = GetTranslated(4,80, "Enable farming Defense Wins for Unbreakable achievement.") ;& @CRLF & "TIP: Set your trophy range on the Misc Tab to '600 - 800' for best results. WARNING: Doing so will DROP you Trophies!"
-;			GUICtrlSetTip(-1, $TxtTip)
-;			GUICtrlSetOnEvent(-1, "chkUnbreakable")
-;		$y += 23
-;		$lblUnbreakable1 = GUICtrlCreateLabel(GetTranslated(4,81, "Wait Time") & ":", $x - 10, $y + 3, 86, -1, $SS_RIGHT)
-;		$txtUnbreakable = GUICtrlCreateInput("5", $x + 80, $y, 30, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			$TxtTip = GetTranslated(4,82, "Set the amount of time to stop CoC and wait for enemy attacks to gain defense wins. (1-99 minutes)")
-;			GUICtrlSetTip(-1, $txtTip)
-;			GUICtrlSetLimit(-1, 2)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		$lblUnbreakable2 = GUICtrlCreateLabel(GetTranslated(4,83, "Minutes"), $x + 113, $y+3, -1, -1)
-;		$y += 28
-;		$lblUnBreakableFarm = GUICtrlCreateLabel(GetTranslated(4,84, "Farm Min."), $x + 25 , $y, -1, -1)
-;		$lblUnBreakableSave = GUICtrlCreateLabel(GetTranslated(4,85, "Save Min."), $x + 115 , $y, -1, -1)
-;		$y += 16
-;		$txtUnBrkMinGold = GUICtrlCreateInput("50000", $x + 20, $y, 58, 21, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			GUICtrlSetTip(-1, GetTranslated(4,86, "Amount of Gold that stops Defense farming, switches to normal farming if below.") & @CRLF & GetTranslated(4,87, "Set this value to amount of Gold you need for searching or upgrades."))
-;			GUICtrlSetLimit(-1, 7)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 80, $y + 2, 16, 16)
-;		$txtUnBrkMaxGold = GUICtrlCreateInput("600000", $x + 110, $y, 58, 21, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			GUICtrlSetTip(-1, GetTranslated(4,88, "Amount of Gold in Storage Required to Enable Defense Farming.") & @CRLF & GetTranslated(4,89, "Input amount of Gold you need to attract enemy or for upgrades."))
-;			GUICtrlSetLimit(-1, 7)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 170, $y + 2, 16, 16)
-;		$y += 26
-;		$txtUnBrkMinElixir = GUICtrlCreateInput("50000", $x + 20, $y, 58, 21, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			GUICtrlSetTip(-1, GetTranslated(4,90, "Amount of Elixir that stops Defense farming, switches to normal farming if below.") & @CRLF & GetTranslated(4,91, "Set this value to amount of Elixir you need for making troops or upgrades."))
-;			GUICtrlSetLimit(-1, 7)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 80, $y, 16, 16)
-;		$txtUnBrkMaxElixir = GUICtrlCreateInput("600000", $x + 110, $y, 58, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			GUICtrlSetTip(-1, GetTranslated(4,92, "Amount of Elixir in Storage Required to Enable Defense Farming.") & @CRLF & GetTranslated(4,93, "Input amount of Elixir you need to attract enemy or for upgrades."))
-;			GUICtrlSetLimit(-1, 7)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 170, $y, 16, 16)
-;		$y += 24
-;		$txtUnBrkMinDark = GUICtrlCreateInput("5000", $x + 20, $y, 58, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			GUICtrlSetTip(-1, GetTranslated(4,94, "Amount of Dark Elixir that stops Defense farming, switches to normal farming if below.") & @CRLF & GetTranslated(4,95, "Set this value to amount of Dark Elixir you need for making troops or upgrades."))
-;			GUICtrlSetLimit(-1, 6)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		GUICtrlCreateIcon($pIconLib, $eIcnDark, $x + 80, $y, 16, 16)
-;		$txtUnBrkMaxDark = GUICtrlCreateInput("6000", $x + 110, $y, 58, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			GUICtrlSetTip(-1, GetTranslated(4,96, "Amount of Dark Elixir in Storage Required to Enable Defense Farming.") & @CRLF & GetTranslated(4,97, "Input amount of Dark Elixir you need to attract enemy or for upgrades."))
-;			GUICtrlSetLimit(-1, 6)
-;			GUICtrlSetState(-1, $GUI_DISABLE)
-;		GUICtrlCreateIcon($pIconLib, $eIcnDark, $x + 170, $y, 16, 16)
-;noyax bottom
-; noyax top
-	$grpDefenseFarming = GUICtrlCreateGroup("Milking", $x - 20, $y - 20, 220, 170)
-	$y -= 5
-	$x -= 10
-		$chkDBAttMilk = GUICtrlCreateCheckbox( "Milking with", $x, $y, -1, -1)
-			$txtTip = "Use Gobelins Power to try Milking."
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetState(-1, $GUI_CHECKED)
-			GUICtrlSetOnEvent(-1, "chkDBAttMilk")
+	$grpDefenseFarming = GUICtrlCreateGroup(GetTranslated(4,78, "Defense Farming"), $x - 20, $y - 20, 220, 170)
+		$chkUnbreakable = GUICtrlCreateCheckbox(GetTranslated(4,79, "Enable Unbreakable Mode"), $x, $y, -1, -1)
+			$TxtTip = GetTranslated(4,80, "Enable farming Defense Wins for Unbreakable achievement.") ;& @CRLF & "TIP: Set your trophy range on the Misc Tab to '600 - 800' for best results. WARNING: Doing so will DROP you Trophies!"
+			GUICtrlSetTip(-1, $TxtTip)
+			GUICtrlSetOnEvent(-1, "chkUnbreakable")
 		$y += 23
-		$txtDBAttMilk = GUICtrlCreateInput("90", $x, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Number of troops used for milking attack"
+		$lblUnbreakable1 = GUICtrlCreateLabel(GetTranslated(4,81, "Wait Time") & ":", $x - 10, $y + 3, 86, -1, $SS_RIGHT)
+		$txtUnbreakable = GUICtrlCreateInput("5", $x + 80, $y, 30, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			$TxtTip = GetTranslated(4,82, "Set the amount of time to stop CoC and wait for enemy attacks to gain defense wins. (1-99 minutes)")
 			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 5)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-		$lblDBAttMilkDB = GUICtrlCreateLabel("Gobs", $x + 28, $y + 3)
-		$txtDBUseGobsForCollector = GUICtrlCreateInput("5", $x + 58, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Bot tries to use X amount of Goblins to attack each exposed collector"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 3)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-		$lblUseForColl2 = GUICtrlCreateLabel("/ Mines" , $x + 85, $y +3)
-		$lblTSGoblReserve = GUICtrlCreateLabel(" # ", $x + 120, $y + 3)
-		$txtTSGoblReserve = GUICtrlCreateInput("16", $x + 135, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Number goblins to reserve for TH snipes."
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 5)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-			GUICtrlCreateLabel("Reserve", $x + 165, $y + 3)
-		;noyax add Ancient begin archer milking
-		$y += 23
-		$txtDBAttMilkArch = GUICtrlCreateInput("90", $x, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Number of troops used for milking attack"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 5)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-		$lblDBAttMilkDB = GUICtrlCreateLabel("Arch", $x + 28, $y + 3)
-		$txtDBUseArchForCollector = GUICtrlCreateInput("5", $x + 58, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Bot tries to use X amount of Archers to attack each exposed collector"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 3)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-		$lblUseForColl2 = GUICtrlCreateLabel("/ Mines" , $x + 85, $y +3)
-		$lblTSArchReserve = GUICtrlCreateLabel(" # ", $x + 120, $y + 3)
-		$txtTSArchReserve = GUICtrlCreateInput("16", $x + 135, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Number archers to reserve for TH snipes."
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 5)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-			GUICtrlCreateLabel("Reserve", $x + 165, $y + 3)
-		;noyax add Ancient begin archer milking
-		$y += 23
-		;noyax add Rizor begin barbarian milking
-		$txtDBAttMilkBarb = GUICtrlCreateInput("90", $x, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Number of troops used for milking attack"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 5)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-		$lblDBAttMilkDB = GUICtrlCreateLabel("Barb", $x + 28, $y + 3)
-		$txtDBUseBarbForCollector = GUICtrlCreateInput("5", $x + 58, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Bot tries to use X amount of Barbarian to attack each exposed collector"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 3)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-		$lblUseForColl2 = GUICtrlCreateLabel("/ Mines" , $x + 85, $y + 3)
-		$lblTSBarbReserve = GUICtrlCreateLabel(" # ", $x + 120, $y + 3)
-		$txtTSBarbReserve = GUICtrlCreateInput("16", $x + 135, $y, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Number Barbarian to reserve for TH snipes."
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 5)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-		GUICtrlCreateLabel("Reserve", $x + 165, $y + 3)
-		;noyax add Rizor begin barbarian milking
-
-;		$y += 23
-;		$chkPercentExposed = GUICtrlCreateCheckbox( "Skip if exposed <", $x - 10, $y, -1, -1)
-;			$txtTip = "If not more of nb tot of collectors and mines."
-;			GUICtrlSetTip(-1, $txtTip)
-;			GUICtrlSetState(-1, $GUI_CHECKED)
-;			GUICtrlSetOnEvent(-1, "chkPercentExposed")
-;		$txtchkPercentExposed = GUICtrlCreateInput("80", $x + 100, $y + 3, 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-;			$txtTip = "Number min of exposed collectors to attack"
-;			GUICtrlSetTip(-1, $txtTip)
-;			GUICtrlSetLimit(-1, 5)
-;			_GUICtrlEdit_SetReadOnly(-1, False)
-;		$lblPercentExposed = GUICtrlCreateLabel("%", $x + 128, $y + 3)
-		$y += 30
-		$lblPixelmaxExposed = GUICtrlCreateLabel("Min Pixel to considere exposed:", $x, $y + 3)
-		$txtchkPixelmaxExposed = GUICtrlCreateInput("70", $x + 150, $y , 25, 18, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
-			$txtTip = "Number Max of pixels to considere collectors exposed"
-			GUICtrlSetTip(-1, $txtTip)
-			GUICtrlSetLimit(-1, 3)
-			_GUICtrlEdit_SetReadOnly(-1, False)
-;noyax bottom
+			GUICtrlSetLimit(-1, 2)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		$lblUnbreakable2 = GUICtrlCreateLabel(GetTranslated(4,83, "Minutes"), $x + 113, $y+3, -1, -1)
+		$y += 28
+		$lblUnBreakableFarm = GUICtrlCreateLabel(GetTranslated(4,84, "Farm Min."), $x + 25 , $y, -1, -1)
+		$lblUnBreakableSave = GUICtrlCreateLabel(GetTranslated(4,85, "Save Min."), $x + 115 , $y, -1, -1)
+		$y += 16
+		$txtUnBrkMinGold = GUICtrlCreateInput("50000", $x + 20, $y, 58, 21, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, GetTranslated(4,86, "Amount of Gold that stops Defense farming, switches to normal farming if below.") & @CRLF & GetTranslated(4,87, "Set this value to amount of Gold you need for searching or upgrades."))
+			GUICtrlSetLimit(-1, 7)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 80, $y + 2, 16, 16)
+		$txtUnBrkMaxGold = GUICtrlCreateInput("600000", $x + 110, $y, 58, 21, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, GetTranslated(4,88, "Amount of Gold in Storage Required to Enable Defense Farming.") & @CRLF & GetTranslated(4,89, "Input amount of Gold you need to attract enemy or for upgrades."))
+			GUICtrlSetLimit(-1, 7)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		GUICtrlCreateIcon($pIconLib, $eIcnGold, $x + 170, $y + 2, 16, 16)
+		$y += 26
+		$txtUnBrkMinElixir = GUICtrlCreateInput("50000", $x + 20, $y, 58, 21, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, GetTranslated(4,90, "Amount of Elixir that stops Defense farming, switches to normal farming if below.") & @CRLF & GetTranslated(4,91, "Set this value to amount of Elixir you need for making troops or upgrades."))
+			GUICtrlSetLimit(-1, 7)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 80, $y, 16, 16)
+		$txtUnBrkMaxElixir = GUICtrlCreateInput("600000", $x + 110, $y, 58, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, GetTranslated(4,92, "Amount of Elixir in Storage Required to Enable Defense Farming.") & @CRLF & GetTranslated(4,93, "Input amount of Elixir you need to attract enemy or for upgrades."))
+			GUICtrlSetLimit(-1, 7)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		GUICtrlCreateIcon($pIconLib, $eIcnElixir, $x + 170, $y, 16, 16)
+		$y += 24
+		$txtUnBrkMinDark = GUICtrlCreateInput("5000", $x + 20, $y, 58, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, GetTranslated(4,94, "Amount of Dark Elixir that stops Defense farming, switches to normal farming if below.") & @CRLF & GetTranslated(4,95, "Set this value to amount of Dark Elixir you need for making troops or upgrades."))
+			GUICtrlSetLimit(-1, 6)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		GUICtrlCreateIcon($pIconLib, $eIcnDark, $x + 80, $y, 16, 16)
+		$txtUnBrkMaxDark = GUICtrlCreateInput("6000", $x + 110, $y, 58, 20, BitOR($GUI_SS_DEFAULT_INPUT, $ES_CENTER, $ES_NUMBER))
+			GUICtrlSetTip(-1, GetTranslated(4,96, "Amount of Dark Elixir in Storage Required to Enable Defense Farming.") & @CRLF & GetTranslated(4,97, "Input amount of Dark Elixir you need to attract enemy or for upgrades."))
+			GUICtrlSetLimit(-1, 6)
+			GUICtrlSetState(-1, $GUI_DISABLE)
+		GUICtrlCreateIcon($pIconLib, $eIcnDark, $x + 170, $y, 16, 16)
     GUICtrlCreateGroup("", -99, -99, 1, 1)
 
 GUICtrlCreateTabItem("")

@@ -95,9 +95,9 @@ Func checkArmyCamp()
 
 ; Noyax, train only nb troops needed for milking
 ;	If ($CurCamp >= ($TotalCamp * $fulltroop / 100)) And $CommandStop = -1 Then
-;	If (($CurCamp >= ($TotalCamp * $fulltroop / 100)) Or ($CurCamp >= $NbTrpMilk And $MilkAtt = 1)) And $CommandStop = -1 Then ;Noyax
+	If (($CurCamp >= ($TotalCamp * $fulltroop / 100)) Or ($CurCamp >= $NbTrpMilk And $MilkAtt = 1)) And $CommandStop = -1 Then ;Noyax
 	;Ancient begin archer milking
-	If (($CurCamp >= ($TotalCamp * $fulltroop / 100)) Or ($CurCamp >= ($NbTrpMilk + $NbTrpMilkArch) And $MilkAtt = 1)) And $CommandStop = -1 Then ;Noyax
+;	If (($CurCamp >= ($TotalCamp * $fulltroop / 100)) Or ($CurCamp >= ($NbTrpMilk + $NbTrpMilkArch) And $MilkAtt = 1)) And $CommandStop = -1 Then ;Noyax
 	;Ancient end archer milking
 		$fullArmy = True
 	EndIf

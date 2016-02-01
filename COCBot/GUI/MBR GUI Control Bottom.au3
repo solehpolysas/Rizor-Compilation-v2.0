@@ -25,7 +25,8 @@ Func Initiate()
 			SetLog(_PadStringCenter(" Search Mode Start ", 50, "="), $COLOR_GREEN)
 		EndIf
 		SetLog(_PadStringCenter("  Current Profile: " & $sCurrProfile & " ", 73, "-"), $COLOR_BLUE)
-		If $DebugSetlog = 1 Or $DebugOcr = 1 Or $debugRedArea = 1 Or $DevMode = 1 or $debugImageSave = 1 or $debugBuildingPos = 1 Then
+		;If $DebugSetlog = 1 Or $DebugOcr = 1 Or $debugRedArea = 1 Or $DevMode = 1 or $debugImageSave = 1 or $debugBuildingPos = 1 Then
+		If $DebugSetlog = 1 Or $DebugOcr = 1 Or $debugRedArea = 1 Or $debugImageSave = 1 Or $debugBuildingPos = 1 Then
 			SetLog(_PadStringCenter(" Warning Debug Mode Enabled! Setlog: " & $DebugSetlog &" OCR: "& $DebugOcr & " RedArea: " & $debugRedArea & " ImageSave: " & $debugImageSave & " BuildingPos: " & $debugBuildingPos, 55, "-"), $COLOR_RED)
 		EndIf
 
@@ -44,14 +45,14 @@ Func Initiate()
 
 ;		$RunState = True
 		For $i = $FirstControlToHide To $LastControlToHide ; Save state of all controls on tabs
-			If $i = $tabGeneral Or $i = $tabSearch Or $i = $tabAttack Or $i = $tabAttackAdv Or $i = $tabDonate Or $i = $tabTroops Or $i = $tabMisc Or $i = $tabNotify Or $i = $tabUpgrades Or $i = $tabEndBattle Or $i = $tabExpert Then ContinueLoop ; exclude tabs
+			If $i = $tabGeneral Or $i = $tabSearch Or $i = $tabAttack Or $i = $tabAttackAdv Or $i = $tabDonate Or $i = $tabTroops Or $i = $tabMisc Or $i = $tabProfiles Or $i = $tabNotify Or $i = $tabUpgrades Or $i = $tabOptions Or $i = $tabEndBattle Or $i = $tabExpert Then ContinueLoop ; exclude tabs
 			If $pEnabled And $i = $btnDeletePBmessages Then ContinueLoop ; exclude the DeleteAllMesages button when PushBullet is enabled
 			If $i = $btnMakeScreenshot Then ContinueLoop ; exclude
 			If $i = $divider Then ContinueLoop ; exclude divider
 			$iPrevState[$i] = GUICtrlGetState($i)
 		Next
 		For $i = $FirstControlToHide To $LastControlToHide ; Disable all controls in 1 go on all tabs
-			If $i = $tabGeneral Or $i = $tabSearch Or $i = $tabAttack Or $i = $tabAttackAdv Or $i = $tabDonate Or $i = $tabTroops Or $i = $tabMisc Or $i = $tabNotify Or $i = $tabUpgrades Or $i = $tabEndBattle Or $i = $tabExpert Then ContinueLoop ; exclude tabs
+			If $i = $tabGeneral Or $i = $tabSearch Or $i = $tabAttack Or $i = $tabAttackAdv Or $i = $tabDonate Or $i = $tabTroops Or $i = $tabMisc Or $i = $tabProfiles Or $i = $tabNotify Or $i = $tabUpgrades Or $i = $tabOptions Or $i = $tabEndBattle Or $i = $tabExpert Then ContinueLoop ; exclude tabs Or $i = $tabOptions
 			If $pEnabled And $i = $btnDeletePBmessages Then ContinueLoop ; exclude the DeleteAllMesages button when PushBullet is enabled
 			If $i = $btnMakeScreenshot Then ContinueLoop ; exclude
 			If $i = $divider Then ContinueLoop ; exclude divider

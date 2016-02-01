@@ -24,7 +24,7 @@
 #pragma compile(LegalCopyright, © https://mybot.run)
 
 Global $sBotDll = @ScriptDir & "\MBRPlugin.dll"
-Local $MilkVer = "V1.7.2 with contributing of @ancient" ;Noyax
+Local $MilkVer = "V2.2" ;Noyax
 If @AutoItX64 = 1 Then
 	MsgBox(0, "", "Don't Run/Compile the Script as (x64)! try to Run/Compile the Script as (x86) to get the bot to work." & @CRLF & _
 			"If this message still appears, try to re-install AutoIt.")
@@ -48,7 +48,8 @@ If $CmdLine[0] < 2 Then
    If Not $FoundRunningAndroid Then DetectInstalledAndroid()
 EndIf
 ; Update Bot title
-$sBotTitle = $sBotTitle & " | MOD Milking " & $MilkVer ; Noyax
+$sBotTitle = $sBotTitle & " | MOD Rizor Compilation " & $MilkVer ; Noyax
+
 Local $cmdLineHelp = "Please specify as first command line parameter a different Profile (01-06). With second a different Android Emulator and with third an Android Instance. Supported Emulators are BlueStacks, BlueStacks2 and Droid4X. Only Droid4X supports running different instances at the same time."
 If _Singleton($sBotTitle, 1) = 0 Then
 	MsgBox(0, $sBotTitle, "Bot for " & $Android & ($AndroidInstance <> "" ? " (instance " & $AndroidInstance & ")" : "") & " is already running." & @CRLF & @CRLF & $cmdLineHelp)
@@ -127,6 +128,7 @@ WEnd
 Func runBot() ;Bot that runs everything in order
 	$TotalTrainedTroops = 0
 	While 1
+;		$greedOneTime = 0
 		$Restart = False
 		$fullArmy = False
 		$CommandStop = -1
@@ -148,6 +150,7 @@ Func runBot() ;Bot that runs everything in order
 			If $RequestScreenshot = 1 Then PushMsg("RequestScreenshot")
 			If _Sleep($iDelayRunBot3) Then Return
 			VillageReport()
+			ProfileSwitch()
 			If $OutOfGold = 1 And ($iGoldCurrent >= $itxtRestartGold) Then ; check if enough gold to begin searching again
 				$OutOfGold = 0 ; reset out of gold flag
 				Setlog("Switching back to normal after no gold to search ...", $COLOR_RED)
@@ -162,26 +165,151 @@ Func runBot() ;Bot that runs everything in order
 				$icmbBotCond = _GUICtrlComboBox_GetCurSel($cmbBotCond)  ; Restore User GUI halt condition after modification for out of elixir
 				ContinueLoop ; Restart bot loop to reset $CommandStop
 			EndIf
-			If _Sleep($iDelayRunBot5) Then Return
+
+
+
+			If _Sleep($iDelayRunBot5) Then Return ;change delay from 5 to 1
 			checkMainScreen(False)
 			If $Restart = True Then ContinueLoop
-;Noyax top - this for don't waste time if full army in milking mode
-			ReplayShare($iShareAttackNow) ; moved to replay share if wanted before exit loop
-			If _Sleep($iDelayRunBot3) Then Return
-			If $Restart = True Then ContinueLoop
+
 			Train()
 			If _Sleep($iDelayRunBot1) Then Return
 			checkMainScreen(False)
-;			If $fullArmy = True And $MilkAtt = 1 Then
-;				If $debugsetlog = 1 Then Setlog("don't waste time with many functions before attacking")
+			If $Restart = True Then ContinueLoop
+
+;			Train()
+;			If _Sleep($iDelayRunBot1) Then Return
+;			checkMainScreen(False)
+;			If $Restart = True Then ContinueLoop
+;			Collect()
+;			If _Sleep($iDelayRunBot1) Then Return
+;			If $Restart = True Then ContinueLoop
+;			CheckTombs()
+;			If _Sleep($iDelayRunBot3) Then Return
+;			If $Restart = True Then ContinueLoop
+;			ReArm()
+;			If _Sleep($iDelayRunBot3) Then Return
+;			If $Restart = True Then ContinueLoop
+
+			ReplayShare($iShareAttackNow)
+			If _Sleep($iDelayRunBot3) Then Return
+			If $Restart = True Then ContinueLoop
+			ReportPushBullet()
+			If _Sleep($iDelayRunBot3) Then Return
+			If $Restart = True Then ContinueLoop
+
+;			DonateCC()
+;			If _Sleep($iDelayRunBot3) Then Return
+;			If $Restart = True Then ContinueLoop
+
+;			If $ichkSkipActive = 1 And $CurCamp >= ($TotalCamp * $itxtSkipHowMuch / 100) And $ichkSkipDonate = 1 Then
+;
+;				Setlog("Skipping Donate Troops")
 ;			Else
-	;Ancient begin skip check
-			If $fullArmy = True And $chkDBAttMilk = True Then
-				If $debugsetlog = 1 Then Setlog("don't waste time with many functions before attacking")
+;				If $fullArmy = False Then
+;					DonateCC()
+;					If _Sleep($iDelayRunBot1) Then Return
+;					checkMainScreen(False)
+;					If $Restart = True Then ContinueLoop
+;				Else
+;					If $icmbBotCond = 14 Or $icmbBotCond = 15 And $ichkBotStop = 1 Then
+;						DonateCC()
+;						If _Sleep($iDelayRunBot1) Then Return
+;						checkMainScreen(False)
+;						If $Restart = True Then ContinueLoop
+;					EndIf
+;				EndIf
+;			EndIf
+
+;			If _Sleep($iDelayRunBot1) Then Return
+;			checkMainScreen(False) ; required here due to many possible exits
+;			If $Restart = True Then ContinueLoop
+;			Train()
+			If _Sleep($iDelayRunBot1) Then Return
+			checkMainScreen(False)
+			If $Restart = True Then ContinueLoop
+			BoostBarracks()
+			If $Restart = True Then ContinueLoop
+			BoostSpellFactory()
+			If $Restart = True Then ContinueLoop
+			BoostDarkSpellFactory()
+			If $Restart = True Then ContinueLoop
+			BoostKing()
+			If $Restart = True Then ContinueLoop
+			BoostQueen()
+			If $Restart = True Then ContinueLoop
+			BoostWarden()
+			If $Restart = True Then ContinueLoop
+			RequestCC()
+			If _Sleep($iDelayRunBot1) Then Return
+			checkMainScreen(False) ; required here due to many possible exits
+			If $Restart = True Then ContinueLoop
+			If $iUnbreakableMode >= 1 Then
+				If Unbreakable() = True Then ContinueLoop
+			EndIf
+
+
+
+
+			If $ichkSkipActive = 1 And $CurCamp >= ($TotalCamp * $itxtSkipHowMuch / 100) Then
+				If $ichkSkipCollect = 1 Then
+					Setlog("Skipping Collect Resources")
+				Else
+					Collect()
+					If _Sleep($iDelayRunBot1) Then Return
+					If $Restart = True Then ContinueLoop
+				EndIf
+
+				If $ichkSkipTombstones = 1 Then
+					Setlog("Skipping Clear Tombstones")
+				Else
+					CheckTombs()
+					If _Sleep($iDelayRunBot3) Then Return
+					If $Restart = True Then ContinueLoop
+				EndIf
+
+				If $ichkSkipRearm = 1 Then
+					Setlog("Skipping ReArming Village")
+				Else
+					ReArm()
+					If _Sleep($iDelayRunBot5) Then Return
+					If $Restart = True Then ContinueLoop
+				EndIf
+
+				If $ichkSkipLab = 1 Then
+					Setlog("Skipping Laboratory Upgrades")
+				Else
+					Laboratory()
+					If _Sleep($iDelayRunBot3) Then Return
+					checkMainScreen(False) ; required here due to many possible exits
+					If $Restart = True Then ContinueLoop
+				EndIf
+
+				If $ichkSkipBuilding = 1 Then
+					Setlog("Skipping Building Upgrades")
+				Else
+					UpgradeBuilding()
+					If _Sleep($iDelayRunBot3) Then Return
+					If $Restart = True Then ContinueLoop
+				EndIf
+
+				If $ichkSkipWall = 1 Then
+					Setlog("Skipping Upgrade Walls")
+				Else
+					UpgradeWall()
+					If _Sleep($iDelayRunBot3) Then Return
+					If $Restart = True Then ContinueLoop
+				EndIf
+				If $ichkSkipDonate = 1 Then
+					Setlog("Skipping Donate Troops")
+				Else
+					DonateCC()
+					If _Sleep($iDelayRunBot1) Then Return
+					checkMainScreen(False)
+					If $Restart = True Then ContinueLoop
+				EndIf
 			Else
-				If $Restart = True Then ContinueLoop
-	;Ancient end skip check
-;Noyax bottom
+
 				Collect()
 				If _Sleep($iDelayRunBot1) Then Return
 				If $Restart = True Then ContinueLoop
@@ -189,47 +317,11 @@ Func runBot() ;Bot that runs everything in order
 				If _Sleep($iDelayRunBot3) Then Return
 				If $Restart = True Then ContinueLoop
 				ReArm()
-				If _Sleep($iDelayRunBot3) Then Return
+				If _Sleep($iDelayRunBot5) Then Return
 				If $Restart = True Then ContinueLoop
-	; noyax			ReplayShare($iShareAttackNow)
-	; noyax			If _Sleep($iDelayRunBot3) Then Return
-	; noyax			If $Restart = True Then ContinueLoop
-				ReportPushBullet()
-				If _Sleep($iDelayRunBot3) Then Return
-				If $Restart = True Then ContinueLoop
-				DonateCC()
-				If _Sleep($iDelayRunBot1) Then Return
-				checkMainScreen(False) ; required here due to many possible exits
-				If $Restart = True Then ContinueLoop
-	;Noyax			Train()
-	;Noyax			If _Sleep($iDelayRunBot1) Then Return
-	;Noyax			checkMainScreen(False)
-	;Noyax			If $Restart = True Then ContinueLoop
-				BoostBarracks()
-				If $Restart = True Then ContinueLoop
-				BoostSpellFactory()
-				If $Restart = True Then ContinueLoop
-				BoostDarkSpellFactory()
-				If $Restart = True Then ContinueLoop
-				BoostKing()
-				If $Restart = True Then ContinueLoop
-				BoostQueen()
-				If $Restart = True Then ContinueLoop
-				BoostWarden()
-				If $Restart = True Then ContinueLoop
-				RequestCC()
-				If _Sleep($iDelayRunBot1) Then Return
-				checkMainScreen(False) ; required here due to many possible exits
-				If $Restart = True Then ContinueLoop
-				If $iUnbreakableMode >= 1 Then
-					If Unbreakable() = True Then ContinueLoop
-				EndIf
 				Laboratory()
 				If _Sleep($iDelayRunBot3) Then Return
 				checkMainScreen(False) ; required here due to many possible exits
-				If $Restart = True Then ContinueLoop
-				UpgradeHeroes()
-				If _Sleep($iDelayRunBot3) Then Return
 				If $Restart = True Then ContinueLoop
 				UpgradeBuilding()
 				If _Sleep($iDelayRunBot3) Then Return
@@ -237,7 +329,18 @@ Func runBot() ;Bot that runs everything in order
 				UpgradeWall()
 				If _Sleep($iDelayRunBot3) Then Return
 				If $Restart = True Then ContinueLoop
-			EndIf ;Noyax
+				UpgradeHeroes()
+				If _Sleep($iDelayRunBot3) Then Return
+				If $Restart = True Then ContinueLoop
+				DonateCC()
+				If _Sleep($iDelayRunBot1) Then Return
+				checkMainScreen(False) ; required here due to many possible exits
+				If $Restart = True Then ContinueLoop
+				PushMsg("CheckBuilderIdle")
+				If $ichkTrainLightSpell = 1 Then DrillZapSpell() ; Drill Zap
+
+			EndIf
+
 			Idle()
 			If _Sleep($iDelayRunBot3) Then Return
 			If $Restart = True Then ContinueLoop
@@ -276,9 +379,8 @@ Func runBot() ;Bot that runs everything in order
 				if not (  int($CurCamp) = int($TotalCamp) ) Then
 					checkArmyCamp()
 					if int($CurCamp) = int($TotalCamp) then
-;					if int($CurCamp) = int($TotalCamp) and $MilkAtt = 0 then ; Noyax don't spend time in milkink mode
 							;now army camps full.. train for next raid
-							Train()
+							train()
 							ContinueLoop
 					EndIf
 				Else
@@ -311,8 +413,7 @@ EndFunc   ;==>runBot
 Func Idle() ;Sequence that runs until Full Army
 	Local $TimeIdle = 0 ;In Seconds
 	If $debugSetlog = 1 Then SetLog("Func Idle ", $COLOR_PURPLE)
-; Noyax	If $iTrophyCurrent >= ($itxtMaxTrophy + 100) And $CommandStop = -1 Then DropTrophy()
-	If $iTrophyCurrent >= $itxtMaxTrophy And $CommandStop = -1 Then DropTrophy() ;noyax: correction to drop trophy
+	If $iTrophyCurrent >= ($itxtMaxTrophy + 100) And $CommandStop = -1 Then DropTrophy()
 	While $fullArmy = False
 		If $RequestScreenshot = 1 Then PushMsg("RequestScreenshot")
 		If _Sleep($iDelayIdle1) Then Return

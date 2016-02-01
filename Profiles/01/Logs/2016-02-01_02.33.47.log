@@ -1,0 +1,558 @@
+2016-02-01 02:33:49 :  My Bot v5.0.2  | MOD Rizor Compilation V2.2 Powered by MyBot.run 
+2016-02-01 02:33:49 : MyBot.run.au3 Script running on WIN_7  X64
+2016-02-01 02:33:49 : =================== Bot Start ====================
+2016-02-01 02:33:49 : -------------------------  Current Profile: 01 --------------------------
+2016-02-01 02:33:49 :  Warning Debug Mode Enabled! Setlog: 0 OCR: 0 RedArea: 0 ImageSave: 0 BuildingPos: 1-
+2016-02-01 02:33:49 : Trying to locate Main Screen
+2016-02-01 02:33:51 : Returning Home
+2016-02-01 02:33:57 : Waiting for Main Screen
+2016-02-01 02:33:57 : Main Screen Located
+2016-02-01 02:33:59 : Detecting your Buildings..
+2016-02-01 02:34:00 : Finding your Clan Level, wait..
+2016-02-01 02:34:02 : Found Clan Level: 5
+2016-02-01 02:34:03 : Detecting your Village Theme
+2016-02-01 02:34:04 : Normal Theme detected
+2016-02-01 02:34:05 : Language setting is English: Correct.
+2016-02-01 02:34:06 : Trying to locate Main Screen
+2016-02-01 02:34:07 : Main Screen Located
+2016-02-01 02:34:11 : Village Report
+2016-02-01 02:34:11 : No. of Free/Total Builders: 0/5
+2016-02-01 02:34:11 :  [T]: 1 047
+2016-02-01 02:34:11 :  [G]: 5 908 801 [E]: 7 981 120 [D]: 34 529 [GEM]: 199
+2016-02-01 02:34:14 : Training Troops & Spells
+2016-02-01 02:34:15 : Checking Army Camp...
+2016-02-01 02:34:17 : Total Army Camp capacity: 36/220 (16%)
+2016-02-01 02:34:18 :  - No. of Archers: 10
+2016-02-01 02:34:18 :  - No. of Goblins: 27
+2016-02-01 02:34:18 :  - Barbarian King available
+2016-02-01 02:34:18 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:34:19 :  - No. of LightningSpell: 4
+2016-02-01 02:34:19 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:34:19 : Barracks and Spell factory status: 
+2016-02-01 02:34:19 : - Barracks detected: 4 | Available: 4 | Upgrading: 0
+2016-02-01 02:34:19 : - Dark Barracks detected: 2 | Available: 1 | Upgrading: 1
+2016-02-01 02:34:19 : - Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:34:19 : - Dark Spell factory detected: 1 | Available: 1 | Upgrading: 0
+2016-02-01 02:34:54 : Collecting Resources
+2016-02-01 02:35:08 : Checking if Village needs Rearming..
+2016-02-01 02:35:13 : Rearmed Trap(s)
+2016-02-01 02:35:15 : Reloaded Xbow(s)
+2016-02-01 02:35:38 : Spell Factory not found...
+2016-02-01 02:35:39 : ====== Waiting for full army ======
+2016-02-01 02:35:53 : Training Troops & Spells
+2016-02-01 02:35:54 : Checking Army Camp...
+2016-02-01 02:35:55 : Total Army Camp capacity: 49/220 (22%)
+2016-02-01 02:35:57 :  - No. of Archers: 13
+2016-02-01 02:35:57 :  - No. of Goblins: 36
+2016-02-01 02:35:57 :  - Barbarian King available
+2016-02-01 02:35:57 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:35:57 :  - No. of LightningSpell: 4
+2016-02-01 02:35:57 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:36:15 : Time Idle: 00:00:35
+2016-02-01 02:36:16 : ====== Waiting for full army ======
+2016-02-01 02:36:29 : Training Troops & Spells
+2016-02-01 02:36:30 : Checking Army Camp...
+2016-02-01 02:36:31 : Total Army Camp capacity: 54/220 (24%)
+2016-02-01 02:36:33 :  - No. of Archers: 15
+2016-02-01 02:36:33 :  - No. of Goblins: 39
+2016-02-01 02:36:33 :  - Barbarian King available
+2016-02-01 02:36:33 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:36:33 :  - No. of LightningSpell: 4
+2016-02-01 02:36:33 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:36:51 : Time Idle: 00:01:10
+2016-02-01 02:36:51 : ====== Waiting for full army ======
+2016-02-01 02:37:05 : Training Troops & Spells
+2016-02-01 02:37:05 : Checking Army Camp...
+2016-02-01 02:37:07 : Total Army Camp capacity: 58/220 (26%)
+2016-02-01 02:37:08 :  - No. of Archers: 16
+2016-02-01 02:37:08 :  - No. of Goblins: 42
+2016-02-01 02:37:09 :  - Barbarian King available
+2016-02-01 02:37:09 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:37:09 :  - No. of LightningSpell: 4
+2016-02-01 02:37:09 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:37:26 : Time Idle: 00:01:46
+2016-02-01 02:37:27 : ====== Waiting for full army ======
+2016-02-01 02:37:40 : Training Troops & Spells
+2016-02-01 02:37:41 : Checking Army Camp...
+2016-02-01 02:37:43 : Total Army Camp capacity: 63/220 (28%)
+2016-02-01 02:37:44 :  - No. of Archers: 18
+2016-02-01 02:37:44 :  - No. of Goblins: 45
+2016-02-01 02:37:44 :  - Barbarian King available
+2016-02-01 02:37:44 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:37:44 :  - No. of LightningSpell: 4
+2016-02-01 02:37:44 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:38:02 : Time Idle: 00:02:21
+2016-02-01 02:38:02 : ====== Waiting for full army ======
+2016-02-01 02:38:16 : Training Troops & Spells
+2016-02-01 02:38:17 : Checking Army Camp...
+2016-02-01 02:38:18 : Total Army Camp capacity: 70/220 (31%)
+2016-02-01 02:38:20 :  - No. of Archers: 19
+2016-02-01 02:38:20 :  - No. of Goblins: 51
+2016-02-01 02:38:20 :  - Barbarian King available
+2016-02-01 02:38:20 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:38:20 :  - No. of LightningSpell: 4
+2016-02-01 02:38:20 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:38:38 : Time Idle: 00:02:57
+2016-02-01 02:38:38 : ====== Waiting for full army ======
+2016-02-01 02:38:52 : Training Troops & Spells
+2016-02-01 02:38:53 : Checking Army Camp...
+2016-02-01 02:38:54 : Total Army Camp capacity: 75/220 (34%)
+2016-02-01 02:38:55 :  - No. of Archers: 21
+2016-02-01 02:38:56 :  - No. of Goblins: 54
+2016-02-01 02:38:56 :  - Barbarian King available
+2016-02-01 02:38:56 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:38:56 :  - No. of LightningSpell: 4
+2016-02-01 02:38:56 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:39:13 : Time Idle: 00:03:32
+2016-02-01 02:39:13 : ====== Waiting for full army ======
+2016-02-01 02:39:27 : Training Troops & Spells
+2016-02-01 02:39:28 : Checking Army Camp...
+2016-02-01 02:39:29 : Total Army Camp capacity: 79/220 (35%)
+2016-02-01 02:39:31 :  - No. of Archers: 22
+2016-02-01 02:39:31 :  - No. of Goblins: 57
+2016-02-01 02:39:31 :  - Barbarian King available
+2016-02-01 02:39:31 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:39:31 :  - No. of LightningSpell: 4
+2016-02-01 02:39:31 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:39:48 : Time Idle: 00:04:07
+2016-02-01 02:39:49 : ====== Waiting for full army ======
+2016-02-01 02:40:02 : Training Troops & Spells
+2016-02-01 02:40:03 : Checking Army Camp...
+2016-02-01 02:40:05 : Total Army Camp capacity: 83/220 (37%)
+2016-02-01 02:40:06 :  - No. of Archers: 23
+2016-02-01 02:40:06 :  - No. of Goblins: 60
+2016-02-01 02:40:06 :  - Barbarian King available
+2016-02-01 02:40:06 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:40:06 :  - No. of LightningSpell: 4
+2016-02-01 02:40:06 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:40:24 : Time Idle: 00:04:42
+2016-02-01 02:40:24 : ====== Waiting for full army ======
+2016-02-01 02:40:38 : Training Troops & Spells
+2016-02-01 02:40:39 : Checking Army Camp...
+2016-02-01 02:40:40 : Total Army Camp capacity: 88/220 (40%)
+2016-02-01 02:40:42 :  - No. of Archers: 25
+2016-02-01 02:40:42 :  - No. of Goblins: 63
+2016-02-01 02:40:42 :  - Barbarian King available
+2016-02-01 02:40:42 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:40:42 :  - No. of LightningSpell: 4
+2016-02-01 02:40:42 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:41:00 : Time Idle: 00:05:18
+2016-02-01 02:41:00 : ====== Waiting for full army ======
+2016-02-01 02:41:14 : Training Troops & Spells
+2016-02-01 02:41:15 : Checking Army Camp...
+2016-02-01 02:41:16 : Total Army Camp capacity: 95/220 (43%)
+2016-02-01 02:41:18 :  - No. of Archers: 26
+2016-02-01 02:41:18 :  - No. of Goblins: 69
+2016-02-01 02:41:18 :  - Barbarian King available
+2016-02-01 02:41:18 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:41:18 :  - No. of LightningSpell: 4
+2016-02-01 02:41:18 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:41:35 : Time Idle: 00:05:53
+2016-02-01 02:41:36 : ====== Waiting for full army ======
+2016-02-01 02:41:49 : Training Troops & Spells
+2016-02-01 02:41:50 : Checking Army Camp...
+2016-02-01 02:41:52 : Total Army Camp capacity: 100/220 (45%)
+2016-02-01 02:41:53 :  - No. of Archers: 28
+2016-02-01 02:41:53 :  - No. of Goblins: 72
+2016-02-01 02:41:53 :  - Barbarian King available
+2016-02-01 02:41:54 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:41:54 :  - No. of LightningSpell: 4
+2016-02-01 02:41:54 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:42:11 : Time Idle: 00:06:28
+2016-02-01 02:42:11 : ====== Waiting for full army ======
+2016-02-01 02:42:25 : Collecting Resources
+2016-02-01 02:42:36 : Training Troops & Spells
+2016-02-01 02:42:37 : Checking Army Camp...
+2016-02-01 02:42:39 : Total Army Camp capacity: 105/220 (47%)
+2016-02-01 02:42:40 :  - No. of Archers: 30
+2016-02-01 02:42:40 :  - No. of Goblins: 75
+2016-02-01 02:42:40 :  - Barbarian King available
+2016-02-01 02:42:40 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:42:40 :  - No. of LightningSpell: 4
+2016-02-01 02:42:41 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:42:58 : Time Idle: 00:07:15
+2016-02-01 02:42:58 : ====== Waiting for full army ======
+2016-02-01 02:43:12 : Training Troops & Spells
+2016-02-01 02:43:13 : Checking Army Camp...
+2016-02-01 02:43:14 : Total Army Camp capacity: 109/220 (49%)
+2016-02-01 02:43:16 :  - No. of Archers: 31
+2016-02-01 02:43:16 :  - No. of Goblins: 78
+2016-02-01 02:43:16 :  - Barbarian King available
+2016-02-01 02:43:16 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:43:16 :  - No. of LightningSpell: 4
+2016-02-01 02:43:16 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:43:33 : Time Idle: 00:07:50
+2016-02-01 02:43:34 : ====== Waiting for full army ======
+2016-02-01 02:43:47 : Training Troops & Spells
+2016-02-01 02:43:48 : Checking Army Camp...
+2016-02-01 02:43:50 : Total Army Camp capacity: 116/220 (52%)
+2016-02-01 02:43:51 :  - No. of Archers: 32
+2016-02-01 02:43:51 :  - No. of Goblins: 84
+2016-02-01 02:43:51 :  - Barbarian King available
+2016-02-01 02:43:51 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:43:51 :  - No. of LightningSpell: 4
+2016-02-01 02:43:52 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:44:09 : Time Idle: 00:08:25
+2016-02-01 02:44:09 : ====== Waiting for full army ======
+2016-02-01 02:44:23 : Training Troops & Spells
+2016-02-01 02:44:24 : Checking Army Camp...
+2016-02-01 02:44:25 : Total Army Camp capacity: 121/220 (55%)
+2016-02-01 02:44:27 :  - No. of Archers: 34
+2016-02-01 02:44:27 :  - No. of Goblins: 87
+2016-02-01 02:44:27 :  - Barbarian King available
+2016-02-01 02:44:27 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:44:27 :  - No. of LightningSpell: 4
+2016-02-01 02:44:27 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:44:44 : Time Idle: 00:09:00
+2016-02-01 02:44:45 : ====== Waiting for full army ======
+2016-02-01 02:44:58 : Training Troops & Spells
+2016-02-01 02:44:59 : Checking Army Camp...
+2016-02-01 02:45:01 : Total Army Camp capacity: 125/220 (56%)
+2016-02-01 02:45:02 :  - No. of Archers: 35
+2016-02-01 02:45:02 :  - No. of Goblins: 90
+2016-02-01 02:45:02 :  - Barbarian King available
+2016-02-01 02:45:02 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:45:02 :  - No. of LightningSpell: 4
+2016-02-01 02:45:03 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:45:20 : Time Idle: 00:09:35
+2016-02-01 02:45:20 : ====== Waiting for full army ======
+2016-02-01 02:45:34 : Training Troops & Spells
+2016-02-01 02:45:35 : Checking Army Camp...
+2016-02-01 02:45:36 : Total Army Camp capacity: 130/220 (59%)
+2016-02-01 02:45:38 :  - No. of Archers: 37
+2016-02-01 02:45:38 :  - No. of Goblins: 93
+2016-02-01 02:45:38 :  - Barbarian King available
+2016-02-01 02:45:38 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:45:38 :  - No. of LightningSpell: 4
+2016-02-01 02:45:38 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:45:56 : Time Idle: 00:10:11
+2016-02-01 02:45:56 : ====== Waiting for full army ======
+2016-02-01 02:46:10 : Training Troops & Spells
+2016-02-01 02:46:11 : Checking Army Camp...
+2016-02-01 02:46:12 : Total Army Camp capacity: 134/220 (60%)
+2016-02-01 02:46:13 :  - No. of Archers: 38
+2016-02-01 02:46:14 :  - No. of Goblins: 96
+2016-02-01 02:46:14 :  - Barbarian King available
+2016-02-01 02:46:14 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:46:14 :  - No. of LightningSpell: 4
+2016-02-01 02:46:14 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:46:31 : Time Idle: 00:10:46
+2016-02-01 02:46:31 : ====== Waiting for full army ======
+2016-02-01 02:46:45 : Training Troops & Spells
+2016-02-01 02:46:46 : Checking Army Camp...
+2016-02-01 02:46:47 : Total Army Camp capacity: 141/220 (64%)
+2016-02-01 02:46:49 :  - No. of Archers: 39
+2016-02-01 02:46:49 :  - No. of Goblins: 102
+2016-02-01 02:46:49 :  - Barbarian King available
+2016-02-01 02:46:49 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:46:49 :  - No. of LightningSpell: 4
+2016-02-01 02:46:49 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:47:07 : Time Idle: 00:11:21
+2016-02-01 02:47:07 : ====== Waiting for full army ======
+2016-02-01 02:47:21 : Training Troops & Spells
+2016-02-01 02:47:21 : Checking Army Camp...
+2016-02-01 02:47:23 : Total Army Camp capacity: 146/220 (66%)
+2016-02-01 02:47:24 :  - No. of Archers: 41
+2016-02-01 02:47:24 :  - No. of Goblins: 105
+2016-02-01 02:47:24 :  - Barbarian King available
+2016-02-01 02:47:25 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:47:25 :  - No. of LightningSpell: 4
+2016-02-01 02:47:25 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:47:42 : Time Idle: 00:11:56
+2016-02-01 02:47:42 : ====== Waiting for full army ======
+2016-02-01 02:47:56 : Training Troops & Spells
+2016-02-01 02:47:57 : Checking Army Camp...
+2016-02-01 02:47:58 : Total Army Camp capacity: 150/220 (68%)
+2016-02-01 02:48:00 :  - No. of Archers: 42
+2016-02-01 02:48:00 :  - No. of Goblins: 108
+2016-02-01 02:48:00 :  - Barbarian King available
+2016-02-01 02:48:00 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:48:00 :  - No. of LightningSpell: 4
+2016-02-01 02:48:00 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:48:18 : Time Idle: 00:12:32
+2016-02-01 02:48:18 : ====== Waiting for full army ======
+2016-02-01 02:48:32 : Training Troops & Spells
+2016-02-01 02:48:33 : Checking Army Camp...
+2016-02-01 02:48:34 : Total Army Camp capacity: 155/220 (70%)
+2016-02-01 02:48:36 :  - No. of Archers: 44
+2016-02-01 02:48:36 :  - No. of Goblins: 111
+2016-02-01 02:48:36 :  - Barbarian King available
+2016-02-01 02:48:36 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:48:36 :  - No. of LightningSpell: 4
+2016-02-01 02:48:36 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:48:54 : Time Idle: 00:13:07
+2016-02-01 02:48:54 : ====== Waiting for full army ======
+2016-02-01 02:49:08 : Collecting Resources
+2016-02-01 02:49:19 : Training Troops & Spells
+2016-02-01 02:49:20 : Checking Army Camp...
+2016-02-01 02:49:21 : Total Army Camp capacity: 163/220 (74%)
+2016-02-01 02:49:23 :  - No. of Archers: 46
+2016-02-01 02:49:23 :  - No. of Goblins: 117
+2016-02-01 02:49:23 :  - Barbarian King available
+2016-02-01 02:49:23 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:49:23 :  - No. of LightningSpell: 4
+2016-02-01 02:49:23 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:49:41 : Time Idle: 00:13:54
+2016-02-01 02:49:41 : ====== Waiting for full army ======
+2016-02-01 02:49:55 : Training Troops & Spells
+2016-02-01 02:49:55 : Checking Army Camp...
+2016-02-01 02:49:57 : Total Army Camp capacity: 167/220 (75%)
+2016-02-01 02:49:58 :  - No. of Archers: 47
+2016-02-01 02:49:58 :  - No. of Goblins: 120
+2016-02-01 02:49:59 :  - Barbarian King available
+2016-02-01 02:49:59 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:49:59 :  - No. of LightningSpell: 4
+2016-02-01 02:49:59 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:50:16 : Time Idle: 00:14:29
+2016-02-01 02:50:17 : ====== Waiting for full army ======
+2016-02-01 02:50:30 : Training Troops & Spells
+2016-02-01 02:50:31 : Checking Army Camp...
+2016-02-01 02:50:32 : Total Army Camp capacity: 171/220 (77%)
+2016-02-01 02:50:34 :  - No. of Archers: 48
+2016-02-01 02:50:34 :  - No. of Goblins: 123
+2016-02-01 02:50:34 :  - Barbarian King available
+2016-02-01 02:50:34 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:50:34 :  - No. of LightningSpell: 4
+2016-02-01 02:50:34 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:50:35 : Don't waste time, go to attack
+2016-02-01 02:50:37 : Waiting for Main Screen
+2016-02-01 02:50:39 : Going to Attack...
+2016-02-01 02:50:46 : ============== Searching For Dead Base ===============
+2016-02-01 02:50:46 : ~~~~~~~~~~~~~~~ SEARCH CONDITIONS ~~~~~~~~~~~~~~~~
+2016-02-01 02:50:46 : Meet: Gold + Elixir
+2016-02-01 02:50:46 : ~~~~~~~~~~~~~~ RESOURCE CONDITIONS ~~~~~~~~~~~~~~~
+2016-02-01 02:50:46 : Aim: [G+E]: 200000 [D]:    0 [T]: 0 for: Dead Base
+2016-02-01 02:50:46 : ~~~~~~~~~~~~~~~ ADVANCED SETTINGS ~~~~~~~~~~~~~~~~
+2016-02-01 02:50:46 : THSnipe Combo for Both Dead & LiveBasesAGM - Snipe v1.0
+2016-02-01 02:50:46 : ==================================================
+2016-02-01 02:50:51 : #*# checkTownhallADV2: 
+2016-02-01 02:50:51 :   - Position (427,365)
+2016-02-01 02:50:51 :   - TownHall detected level 9
+2016-02-01 02:50:51 :   - Image Match 015T70X0Y0.bmp
+2016-02-01 02:50:51 :   - IsInsidediamond: True
+2016-02-01 02:50:52 :   - Calculated  in: 4.38 seconds 
+2016-02-01 02:50:52 :   - Images checked: 75
+2016-02-01 02:50:55 : #*# ZombieSearch2: NONE 
+2016-02-01 02:50:55 :   - Calculated  in: 2.93 seconds 
+2016-02-01 02:50:55 :   - Images checked: 71
+2016-02-01 02:50:55 :  FOUND = False
+2016-02-01 02:50:55 :   1> [G]: 127834 [E]: 437736 [D]: 3071 [T]:32 [TH]: 9, In
+2016-02-01 02:50:55 :       Not a Dead Base
+2016-02-01 02:50:58 : #*# checkTownhallADV2: 
+2016-02-01 02:50:58 :   - Position (137,336)
+2016-02-01 02:50:58 :   - TownHall detected level 9
+2016-02-01 02:50:58 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:50:58 :   - IsInsidediamond: True
+2016-02-01 02:50:58 :   - Calculated  in: 0.29 seconds 
+2016-02-01 02:50:58 :   - Images checked: 3
+2016-02-01 02:50:59 :   2> [G]:  70419 [E]:  44910 [D]:  356 [T]:26 [TH]: 9, Out
+2016-02-01 02:51:02 : #*# checkTownhallADV2: 
+2016-02-01 02:51:02 :   - Position (710,335)
+2016-02-01 02:51:02 :   - TownHall detected level 9
+2016-02-01 02:51:02 :   - Image Match 002T70X0Y0.bmp
+2016-02-01 02:51:02 :   - IsInsidediamond: True
+2016-02-01 02:51:02 :   - Calculated  in: 0.63 seconds 
+2016-02-01 02:51:02 :   - Images checked: 9
+2016-02-01 02:51:03 :   3> [G]:  69568 [E]:  52632 [D]:  222 [T]:21 [TH]: 9, Out
+2016-02-01 02:51:10 : #*# checkTownhallADV2: 
+2016-02-01 02:51:10 :   - Position (687,292)
+2016-02-01 02:51:10 :   - TownHall detected level 9
+2016-02-01 02:51:10 :   - Image Match 015T70X0Y0.bmp
+2016-02-01 02:51:10 :   - IsInsidediamond: True
+2016-02-01 02:51:10 :   - Calculated  in: 4.44 seconds 
+2016-02-01 02:51:10 :   - Images checked: 75
+2016-02-01 02:51:10 :   4> [G]:  50720 [E]:  41615 [D]:  437 [T]:30 [TH]: 9, Out
+2016-02-01 02:51:14 : #*# checkTownhallADV2: 
+2016-02-01 02:51:14 :   - Position (755,336)
+2016-02-01 02:51:14 :   - TownHall detected level 9
+2016-02-01 02:51:14 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:51:14 :   - IsInsidediamond: True
+2016-02-01 02:51:14 :   - Calculated  in: 0.3 seconds 
+2016-02-01 02:51:14 :   - Images checked: 3
+2016-02-01 02:51:15 :   5> [G]:  65984 [E]:  60400 [D]:  298 [T]:30 [TH]: 9, Out
+2016-02-01 02:51:27 : #*# checkTownhallADV2: 
+2016-02-01 02:51:27 :   - Position (429,301)
+2016-02-01 02:51:27 :   - TownHall detected level 9
+2016-02-01 02:51:27 :   - Image Match ALL_035T80X0Y0.bmp
+2016-02-01 02:51:27 :   - IsInsidediamond: True
+2016-02-01 02:51:27 :   - Calculated  in: 9.69 seconds 
+2016-02-01 02:51:27 :   - Images checked: 171
+2016-02-01 02:51:30 : #*# ZombieSearch2: NONE 
+2016-02-01 02:51:30 :   - Calculated  in: 2.84 seconds 
+2016-02-01 02:51:31 :   - Images checked: 71
+2016-02-01 02:51:31 :  FOUND = False
+2016-02-01 02:51:31 :   6> [G]: 235656 [E]: 174488 [D]: 1185 [T]:24 [TH]: 9, In
+2016-02-01 02:51:31 :       Not a Dead Base
+2016-02-01 02:51:35 : #*# checkTownhallADV2: 
+2016-02-01 02:51:35 :   - Position (474,351)
+2016-02-01 02:51:35 :   - TownHall detected level 9
+2016-02-01 02:51:35 :   - Image Match 004T80X0Y0.bmp
+2016-02-01 02:51:35 :   - IsInsidediamond: True
+2016-02-01 02:51:35 :   - Calculated  in: 1.35 seconds 
+2016-02-01 02:51:35 :   - Images checked: 21
+2016-02-01 02:51:36 :   7> [G]:  10574 [E]:  32676 [D]:   59 [T]:34 [TH]: 9, In
+2016-02-01 02:51:39 : #*# checkTownhallADV2: 
+2016-02-01 02:51:39 :   - Position (137,336)
+2016-02-01 02:51:39 :   - TownHall detected level 9
+2016-02-01 02:51:39 :   - Image Match 001T70X0Y0.bmp
+2016-02-01 02:51:39 :   - IsInsidediamond: True
+2016-02-01 02:51:39 :   - Calculated  in: 0.3 seconds 
+2016-02-01 02:51:39 :   - Images checked: 3
+2016-02-01 02:51:42 : #*# ZombieSearch2: NONE 
+2016-02-01 02:51:42 :   - Calculated  in: 2.88 seconds 
+2016-02-01 02:51:42 :   - Images checked: 71
+2016-02-01 02:51:42 :  FOUND = False
+2016-02-01 02:51:42 :   8> [G]: 119437 [E]: 130301 [D]:  898 [T]:13 [TH]: 9, Out
+2016-02-01 02:51:42 :       TH Outside Found! 
+2016-02-01 02:51:44 : ================ Search Complete =================
+2016-02-01 02:51:44 : Initiating attack for: TH Snipe
+2016-02-01 02:51:49 : -*-Archers 49
+2016-02-01 02:51:49 : -*-Goblins 123
+2016-02-01 02:51:49 : -*-King 
+2016-02-01 02:51:49 : -*-Lightning Spells 4
+2016-02-01 02:51:49 : -*-Earthquake Spells 1
+2016-02-01 02:51:49 : -*-Poison Spells 1
+2016-02-01 02:51:52 :  ====== Start Attack ====== 
+2016-02-01 02:51:54 : Calculating Smart Attack Strategy
+2016-02-01 02:51:55 : Calculated  (in 1.23 seconds) :
+2016-02-01 02:51:55 : Locating Mines, Collectors & Drills
+2016-02-01 02:51:55 : Get Location of Mines...
+2016-02-01 02:51:57 : #*# GetLocationMine: 500-195|540-225|581-256|621-286|638-360|662-317
+2016-02-01 02:51:58 : Distance = 24; Collector (500,195); RedLine Pixel Closer (515,176)
+2016-02-01 02:51:58 : Distance = 24; Collector (540,225); RedLine Pixel Closer (554,205)
+2016-02-01 02:51:58 : Distance = 24; Collector (581,256); RedLine Pixel Closer (594,235)
+2016-02-01 02:51:58 : Distance = 24; Collector (621,286); RedLine Pixel Closer (635,266)
+2016-02-01 02:51:58 : Distance = 32; Collector (638,360); RedLine Pixel Closer (670,357)
+2016-02-01 02:51:58 : Distance = 24; Collector (662,317); RedLine Pixel Closer (675,296)
+2016-02-01 02:51:58 : Get Location of Elixir Collectors...
+2016-02-01 02:52:00 : #*# GetLocationElixir: 249-266|289-236|330-206|371-175|411-145|460-157
+2016-02-01 02:52:00 : Distance = 44; Collector (249,266); RedLine Pixel Closer (222,231)
+2016-02-01 02:52:01 : Distance = 44; Collector (289,236); RedLine Pixel Closer (263,200)
+2016-02-01 02:52:01 : Distance = 45; Collector (330,206); RedLine Pixel Closer (303,170)
+2016-02-01 02:52:01 : Distance = 44; Collector (371,175); RedLine Pixel Closer (346,138)
+2016-02-01 02:52:01 : Distance = 21; Collector (411,145); RedLine Pixel Closer (430,136)
+2016-02-01 02:52:01 : Distance = 16; Collector (460,157); RedLine Pixel Closer (446,148)
+2016-02-01 02:52:01 : Get Location of Dark Elixir Drills...
+2016-02-01 02:52:08 : #*# GetLocationDarkElixir: 261-353
+2016-02-01 02:52:08 : Distance = 65; Collector (261,353); RedLine Pixel Closer (221,405)
+2016-02-01 02:52:08 : Located  (in 12.81 seconds) :
+2016-02-01 02:52:08 : [6] Gold Mines
+2016-02-01 02:52:08 : [6] Elixir Collectors
+2016-02-01 02:52:08 : [1] Dark Elixir Drill/s
+2016-02-01 02:52:08 : Type attack = TS
+2016-02-01 02:52:08 : Sniping TH with AGM Rizor             
+2016-02-01 02:52:08 :                                       
+2016-02-01 02:52:08 :                                       
+2016-02-01 02:52:09 :                                       
+2016-02-01 02:52:09 : Dropping Only wave of 8 Goblins
+2016-02-01 02:52:11 : Deployment of 8 Goblins was Successful!
+2016-02-01 02:52:11 :                                       
+2016-02-01 02:52:11 :                                       
+2016-02-01 02:52:11 : Dropping Only wave of 8 Archers
+2016-02-01 02:52:13 : Deployment of 8 Archers was Successful!
+2016-02-01 02:52:13 :                                       
+2016-02-01 02:52:13 : Wait for 30 Second                    
+2016-02-01 02:52:21 : Townhall has been destroyed!
+2016-02-01 02:52:24 :                                       
+2016-02-01 02:52:24 : Semi-DeadBase Gold Level  = 3
+2016-02-01 02:52:24 : Semi-DeadBase Elixir Level = 2
+2016-02-01 02:52:24 : Attacking!!.....
+2016-02-01 02:52:24 : Initiating attack for: Dead Base
+2016-02-01 02:52:29 : -*-Archers 41
+2016-02-01 02:52:29 : -*-Goblins 115
+2016-02-01 02:52:29 : -*-King 
+2016-02-01 02:52:29 : -*-Lightning Spells 4
+2016-02-01 02:52:29 : -*-Earthquake Spells 1
+2016-02-01 02:52:29 : -*-Poison Spells 1
+2016-02-01 02:52:32 : Attacking on all sides
+2016-02-01 02:52:33 : Use only 91 Goblins for attack 13 collectors
+2016-02-01 02:52:34 : Dropping first wave of Goblins 91
+2016-02-01 02:52:39 : Dropping first wave of Archers 41
+2016-02-01 02:52:54 : The End
+2016-02-01 02:52:54 : Finished Attacking, waiting for the battle to end
+2016-02-01 02:52:54 : Checking if the battle has finished
+2016-02-01 02:52:56 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in 18 sec.
+2016-02-01 02:52:58 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in 16 sec.
+2016-02-01 02:53:00 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in 14 sec.
+2016-02-01 02:53:02 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in 12 sec.
+2016-02-01 02:53:04 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in 10 sec.
+2016-02-01 02:53:06 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in  9 sec.
+2016-02-01 02:53:07 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in  7 sec.
+2016-02-01 02:53:09 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in  5 sec.
+2016-02-01 02:53:11 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in  3 sec.
+2016-02-01 02:53:13 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in  1 sec.
+2016-02-01 02:53:15 : detected [G]: 14608 [E]: 11747 [DE]: 881 |  Exit in  0 sec.
+2016-02-01 02:53:15 : Gold & Elixir & DE no change detected, exit
+2016-02-01 02:53:24 : Total No. of Dark Elixir Drills = 1
+2016-02-01 02:53:24 : Dark Elixir Is below minimum Value
+2016-02-01 02:53:33 : Total No. of Dark Elixir Drills = 1
+2016-02-01 02:53:33 : Dark Elixir Is below minimum Value
+2016-02-01 02:53:33 : Returning Home
+2016-02-01 02:53:39 : Loot: [G]: 104 829 [E]: 118 554 [DE]: 17 [T]: 4
+2016-02-01 02:53:39 : Bonus Percentage: 49%
+2016-02-01 02:53:39 : Bonus [G]: 1 813 out of 3 700 [E]: 1 813 out of 3 700
+2016-02-01 02:53:40 : Your league level is: Silver II
+2016-02-01 02:53:40 : Stars earned: 1
+2016-02-01 02:53:48 : Trying to locate Main Screen
+2016-02-01 02:53:49 : Main Screen Located
+2016-02-01 02:53:53 : Village Report
+2016-02-01 02:53:53 : No. of Free/Total Builders: 0/5
+2016-02-01 02:53:53 :  [T]: 1 051
+2016-02-01 02:53:54 :  [G]: 6 011 248 [E]: 8 000 000 [D]: 34 587 [GEM]: 199
+2016-02-01 02:53:57 : Training Troops & Spells
+2016-02-01 02:53:58 : Checking Army Camp...
+2016-02-01 02:53:59 : Total Army Camp capacity: 27/220 (12%)
+2016-02-01 02:54:01 :  - No. of Archers: 9
+2016-02-01 02:54:01 :  - No. of Goblins: 18
+2016-02-01 02:54:01 :  - Barbarian King available
+2016-02-01 02:54:01 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:54:01 :  - No. of LightningSpell: 4
+2016-02-01 02:54:01 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:54:31 : Collecting Resources
+2016-02-01 02:54:46 : Checking if Village needs Rearming..
+2016-02-01 02:55:15 : Spell Factory not found...
+2016-02-01 02:55:16 : ====== Waiting for full army ======
+2016-02-01 02:55:30 : Training Troops & Spells
+2016-02-01 02:55:30 : Checking Army Camp...
+2016-02-01 02:55:32 : Total Army Camp capacity: 40/220 (18%)
+2016-02-01 02:55:33 :  - No. of Archers: 13
+2016-02-01 02:55:33 :  - No. of Goblins: 27
+2016-02-01 02:55:34 :  - Barbarian King available
+2016-02-01 02:55:34 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:55:34 :  - No. of LightningSpell: 4
+2016-02-01 02:55:34 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:55:51 : Time Idle: 00:00:35
+2016-02-01 02:55:52 : ====== Waiting for full army ======
+2016-02-01 02:56:06 : Training Troops & Spells
+2016-02-01 02:56:06 : Checking Army Camp...
+2016-02-01 02:56:08 : Total Army Camp capacity: 47/220 (21%)
+2016-02-01 02:56:09 :  - No. of Archers: 14
+2016-02-01 02:56:09 :  - No. of Goblins: 33
+2016-02-01 02:56:09 :  - Barbarian King available
+2016-02-01 02:56:10 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:56:10 :  - No. of LightningSpell: 4
+2016-02-01 02:56:10 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:56:27 : Time Idle: 00:01:11
+2016-02-01 02:56:27 : ====== Waiting for full army ======
+2016-02-01 02:56:41 : Training Troops & Spells
+2016-02-01 02:56:42 : Checking Army Camp...
+2016-02-01 02:56:43 : Total Army Camp capacity: 52/220 (23%)
+2016-02-01 02:56:45 :  - No. of Archers: 16
+2016-02-01 02:56:45 :  - No. of Goblins: 36
+2016-02-01 02:56:45 :  - Barbarian King available
+2016-02-01 02:56:45 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:56:45 :  - No. of LightningSpell: 4
+2016-02-01 02:56:45 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:57:03 : Time Idle: 00:01:46
+2016-02-01 02:57:03 : ====== Waiting for full army ======
+2016-02-01 02:57:16 : Training Troops & Spells
+2016-02-01 02:57:17 : Checking Army Camp...
+2016-02-01 02:57:18 : Total Army Camp capacity: 56/220 (25%)
+2016-02-01 02:57:20 :  - No. of Archers: 17
+2016-02-01 02:57:20 :  - No. of Goblins: 39
+2016-02-01 02:57:20 :  - Barbarian King available
+2016-02-01 02:57:20 : Total Spell(s) Capacity: 9/9
+2016-02-01 02:57:20 :  - No. of LightningSpell: 4
+2016-02-01 02:57:20 :  - No. of EarthquakeSpell: 1
+2016-02-01 02:57:37 : Time Idle: 00:02:20
+2016-02-01 02:57:38 : ====== Waiting for full army ======
